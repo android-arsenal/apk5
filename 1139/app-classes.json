@@ -1,0 +1,4 @@
+{
+  "com.premnirmal.Magnet" : [ "BuildConfig", "FlingListener", "IconCallback", "Magnet", "Magnet$Builder", "Magnet$MagnetBuilder", "Magnet$MoveAnimator", "R", "R$anim", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "RemoveView", "RemoveView$1", "SimpleAnimator" ],
+  "com.premnirmal.Magnet.app" : [ "BuildConfig", "MyService", "MyService$IconService", "MyService$ServiceBinder", "MyService$ServiceBinder$1", "ParanormalActivity", "ParanormalActivity$1", "ParanormalActivity$2", "ParanormalActivity$3", "ParanormalActivity$4", "R", "R$anim", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style" ]
+}

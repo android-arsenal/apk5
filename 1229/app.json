@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.commonsware.cwac.merge.demo",
+    "label" : "CWAC: MergeAdapter",
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "4",
+    "targetSdkVersion" : "14",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : true,
+    "normalScreens" : true,
+    "largeScreens" : true,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 18,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.commonsware.cwac.merge.demo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"4\" android:targetSdkVersion=\"14\" />\n\t<supports-screens android:smallScreens=\"true\" android:normalScreens=\"true\" android:largeScreens=\"true\" />\n\t<application android:label=\"CWAC: MergeAdapter\">\n\t\t<activity android:label=\"CWAC: MergeAdapter\" android:name=\"com.commonsware.cwac.merge.demo.MergeAdapterDemo\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 10059,
+  "crc32" : 3675662531,
+  "sha256" : "ec6c1af92054faf2dd8c05e55661f070974b79486f30d5077b162e60ab272216",
+  "buildTime" : 1526975797000
+}

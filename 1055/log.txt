@@ -1,0 +1,222 @@
+2018-04-08 06:03:57,619 INFO  DownloadService - Downloading "https://github.com/percolate/caffeine/archive/master.zip", attempt 3
+2018-04-08 06:04:58,256 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 06:04:58,941 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 06:04:58,941 INFO  DownloadService - Downloading "https://github.com/percolate/caffeine/archive/master.zip", attempt 3
+2018-04-08 06:06:00,262 DEBUG FullProcessService - Repository https://github.com/percolate/caffeine available: true
+2018-04-08 06:06:00,262 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 06:06:00,262 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/percolate/caffeine, /tmp/rdisk/1055/src]
+2018-04-08 06:06:03,376 INFO  SysUtils - 
+2018-04-08 06:06:03,380 INFO  GitService - Deleted "/tmp/rdisk/1055/src/.git": true
+2018-04-08 06:06:03,383 INFO  FullProcessService - Size of directory with sources: 446 KB
+2018-04-08 06:06:03,383 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1055/src]
+2018-04-08 06:06:03,387 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1055/src/.git/
+
+2018-04-08 06:06:03,390 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1055/src/gradlew
+2018-04-08 06:06:03,393 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1055/src/caffeine/build.gradle /tmp/rdisk/1055/src/tests/build.gradle /tmp/rdisk/1055/src/build.gradle
+2018-04-08 06:06:03,395 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1055/src/tests/build.gradle /tmp/rdisk/1055/src/settings.gradle /tmp/rdisk/1055/src/caffeine/build.gradle /tmp/rdisk/1055/src/build.gradle
+2018-04-08 06:06:03,396 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 06:06:03,396 INFO  ProjectFixService - Fixing project...
+2018-04-08 06:06:03,402 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1055/src/caffeine/local.properties
+2018-04-08 06:06:03,402 INFO  ProjectFixService - Build info for "/tmp/rdisk/1055/src/caffeine/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 06:06:03,403 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1055/src/tests/local.properties
+2018-04-08 06:06:03,403 INFO  ProjectFixService - Build info for "/tmp/rdisk/1055/src/tests/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 06:06:03,403 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1055/src/local.properties
+2018-04-08 06:06:03,403 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-08 06:06:03,403 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-08 06:06:03,404 INFO  ProjectFixService - Build info for "/tmp/rdisk/1055/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 06:06:03,404 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 06:06:03,404 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 06:06:03,404 INFO  SysUtils - Execute command: [/tmp/rdisk/1055/src/gradlew, -b, /tmp/rdisk/1055/src/caffeine/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 06:06:11,296 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 06:06:11,296 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 06:06:11,296 INFO  SysUtils - Execute command: [/tmp/rdisk/1055/src/gradlew, -b, /tmp/rdisk/1055/src/caffeine/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 06:06:20,390 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:caffeine:preBuild UP-TO-DATE
+:caffeine:preDebugBuild UP-TO-DATE
+:caffeine:checkDebugManifest
+:caffeine:prepareDebugDependencies
+:caffeine:compileDebugAidl
+:caffeine:compileDebugNdk UP-TO-DATE
+:caffeine:compileLint
+:caffeine:copyDebugLint UP-TO-DATE
+:caffeine:mergeDebugShaders
+:caffeine:compileDebugShaders
+:caffeine:generateDebugAssets
+:caffeine:mergeDebugAssets
+:caffeine:mergeDebugProguardFiles
+:caffeine:packageDebugRenderscript UP-TO-DATE
+:caffeine:compileDebugRenderscript
+:caffeine:generateDebugResValues
+:caffeine:generateDebugResources
+:caffeine:packageDebugResources
+:caffeine:processDebugManifest
+:caffeine:generateDebugBuildConfig
+:caffeine:processDebugResources
+:caffeine:generateDebugSources
+:caffeine:incrementalDebugJavaCompilationSafeguard
+:caffeine:javaPreCompileDebug
+:caffeine:compileDebugJavaWithJavac
+:caffeine:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:caffeine:processDebugJavaRes UP-TO-DATE
+:caffeine:transformResourcesWithMergeJavaResForDebug
+:caffeine:transformClassesAndResourcesWithSyncLibJarsForDebug
+:caffeine:mergeDebugJniLibFolders
+:caffeine:transformNativeLibsWithMergeJniLibsForDebug
+:caffeine:transformNativeLibsWithStripDebugSymbolForDebug
+:caffeine:transformNativeLibsWithSyncJniLibsForDebug
+:caffeine:bundleDebug
+:caffeine:compileDebugSources
+:caffeine:assembleDebug
+:caffeine:preReleaseBuild UP-TO-DATE
+:caffeine:checkReleaseManifest
+:caffeine:prepareReleaseDependencies
+:caffeine:compileReleaseAidl
+:caffeine:compileReleaseNdk UP-TO-DATE
+:caffeine:copyReleaseLint UP-TO-DATE
+:caffeine:mergeReleaseShaders
+:caffeine:compileReleaseShaders
+:caffeine:generateReleaseAssets
+:caffeine:mergeReleaseAssets
+:caffeine:mergeReleaseProguardFiles
+:caffeine:packageReleaseRenderscript UP-TO-DATE
+:caffeine:compileReleaseRenderscript
+:caffeine:generateReleaseResValues
+:caffeine:generateReleaseResources
+:caffeine:packageReleaseResources
+:caffeine:processReleaseManifest
+:caffeine:generateReleaseBuildConfig
+:caffeine:processReleaseResources
+:caffeine:generateReleaseSources
+:caffeine:incrementalReleaseJavaCompilationSafeguard
+:caffeine:javaPreCompileRelease
+:caffeine:compileReleaseJavaWithJavac
+:caffeine:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:caffeine:processReleaseJavaRes UP-TO-DATE
+:caffeine:transformResourcesWithMergeJavaResForRelease
+:caffeine:transformClassesAndResourcesWithSyncLibJarsForRelease
+:caffeine:mergeReleaseJniLibFolders
+:caffeine:transformNativeLibsWithMergeJniLibsForRelease
+:caffeine:transformNativeLibsWithStripDebugSymbolForRelease
+:caffeine:transformNativeLibsWithSyncJniLibsForRelease
+:caffeine:bundleRelease
+:caffeine:compileReleaseSources
+:caffeine:assembleRelease
+:caffeine:assemble
+:caffeine:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.618 secs
+
+2018-04-08 06:06:20,398 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 06:06:20,398 INFO  SysUtils - Execute command: [/tmp/rdisk/1055/src/gradlew, -b, /tmp/rdisk/1055/src/tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 06:06:27,887 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 06:06:27,887 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 06:06:27,888 INFO  SysUtils - Execute command: [/tmp/rdisk/1055/src/gradlew, -b, /tmp/rdisk/1055/src/tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 06:06:40,454 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:caffeine:preBuild UP-TO-DATE
+:caffeine:preReleaseBuild UP-TO-DATE
+:caffeine:checkReleaseManifest
+:caffeine:prepareReleaseDependencies
+:caffeine:compileReleaseAidl UP-TO-DATE
+:caffeine:compileReleaseNdk UP-TO-DATE
+:caffeine:compileLint UP-TO-DATE
+:caffeine:copyReleaseLint UP-TO-DATE
+:caffeine:mergeReleaseShaders UP-TO-DATE
+:caffeine:compileReleaseShaders UP-TO-DATE
+:caffeine:generateReleaseAssets UP-TO-DATE
+:caffeine:mergeReleaseAssets UP-TO-DATE
+:caffeine:mergeReleaseProguardFiles UP-TO-DATE
+:caffeine:packageReleaseRenderscript UP-TO-DATE
+:caffeine:compileReleaseRenderscript UP-TO-DATE
+:caffeine:generateReleaseResValues UP-TO-DATE
+:caffeine:generateReleaseResources UP-TO-DATE
+:caffeine:packageReleaseResources UP-TO-DATE
+:caffeine:processReleaseManifest UP-TO-DATE
+:caffeine:generateReleaseBuildConfig UP-TO-DATE
+:caffeine:processReleaseResources UP-TO-DATE
+:caffeine:generateReleaseSources UP-TO-DATE
+:caffeine:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:caffeine:javaPreCompileRelease
+:caffeine:compileReleaseJavaWithJavac UP-TO-DATE
+:caffeine:processReleaseJavaRes UP-TO-DATE
+:caffeine:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:caffeine:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:caffeine:mergeReleaseJniLibFolders UP-TO-DATE
+:caffeine:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:caffeine:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:caffeine:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:caffeine:bundleRelease UP-TO-DATE
+:tests:preBuild UP-TO-DATE
+:tests:preDebugBuild UP-TO-DATE
+:tests:checkDebugManifest
+:tests:prepareDebugDependencies
+:tests:compileDebugAidl
+:tests:compileDebugRenderscript
+:tests:generateDebugBuildConfig
+:tests:generateDebugResValues
+:tests:generateDebugResources
+:tests:mergeDebugResources
+:tests:processDebugManifest
+:tests:processDebugResources
+:tests:generateDebugSources
+:tests:incrementalDebugJavaCompilationSafeguard
+:tests:javaPreCompileDebug
+:tests:compileDebugJavaWithJavac
+:tests:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:tests:compileDebugNdk UP-TO-DATE
+:tests:compileDebugSources
+:tests:mergeDebugShaders
+:tests:compileDebugShaders
+:tests:generateDebugAssets
+:tests:mergeDebugAssets
+:tests:transformClassesWithDexForDebug
+:tests:mergeDebugJniLibFolders
+:tests:transformNativeLibsWithMergeJniLibsForDebug
+:tests:transformNativeLibsWithStripDebugSymbolForDebug
+:tests:processDebugJavaRes UP-TO-DATE
+:tests:transformResourcesWithMergeJavaResForDebug
+:tests:validateSigningDebug
+:tests:packageDebug
+:tests:assembleDebug
+:tests:preReleaseBuild UP-TO-DATE
+:tests:checkReleaseManifest
+:tests:prepareReleaseDependencies
+:tests:compileReleaseAidl
+:tests:compileReleaseRenderscript
+:tests:generateReleaseBuildConfig
+:tests:generateReleaseResValues
+:tests:generateReleaseResources
+:tests:mergeReleaseResources
+:tests:processReleaseManifest
+:tests:processReleaseResources
+:tests:generateReleaseSources
+:tests:incrementalReleaseJavaCompilationSafeguard
+:tests:javaPreCompileRelease
+:tests:compileReleaseJavaWithJavac
+:tests:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:tests:compileReleaseNdk UP-TO-DATE
+:tests:compileReleaseSources
+:tests:lintVitalRelease
+:tests:mergeReleaseShaders
+:tests:compileReleaseShaders
+:tests:generateReleaseAssets
+:tests:mergeReleaseAssets
+:tests:transformClassesWithDexForRelease
+:tests:mergeReleaseJniLibFolders
+:tests:transformNativeLibsWithMergeJniLibsForRelease
+:tests:transformNativeLibsWithStripDebugSymbolForRelease
+:tests:processReleaseJavaRes UP-TO-DATE
+:tests:transformResourcesWithMergeJavaResForRelease
+:tests:packageRelease
+:tests:assembleRelease
+:tests:assemble
+:tests:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.014 secs
+
+2018-04-08 06:06:40,469 INFO  FullProcessService - Found APK file: /tmp/rdisk/1055/src/tests/build/outputs/apk/tests-release-unsigned.apk

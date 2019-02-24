@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "jp.yokomark.widget.account.autocomp.accountautocompleteedittext.sample",
+    "label" : "AccountAutoCompleteEditText",
+    "icon" : "res/drawable-ldpi-v4/app_icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.GET_ACCOUNTS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/app_icon.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAVFBMVEUAAAB9zvR9zvR9zvR9zvR9zvR9zvR9zvR9zvR9zvR9zvR9zvR9zvSN1PXW8Pz////3/P7O7fuF0fWV1/bn9v3f8/ye2ve+5/p9zvTG6vrv+f59zvQFWs8LAAAAHHRSTlMAQFCAcGCv/+/P3yAw//////////////+f//+/mgFLKAAAASBJREFUOMuNlOG2giAQhBERSEwhyuz6/u95dxFNYKnmh0fkO+MAyzKWqOGtEKJrWFWdVLu05DRyUYl6USAmQ1ByyGwUpb5LGK1onZJxVdWxTpPPXMdpsu4WlmkilGf2dkLdA3WphH5Mm1wYCdLoCvN2xMe2r6TRDPNP5eC5jXEflhzymOdpD2gBqFy2jZnGOIZzLxgXGevjB1NGQga97jsDoVqCccrP/v1JMEExqXInilFt6uTwzIqVpL9DH68IqEmYx4soFyhQffahGDw8ecrjqbqT7NhyYP5msjhDoffhtZInlko8GDrPbsTYGiBHM2us8QEXWGH08Plq/nzxkrbBySuss9ZiViLzULaezEx3ZIfiy9cmtu0GNENoiNl//gEIXyEpWShj8QAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 861,
+  "locales" : [ "", "sl", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "pt", "ar", "ru", "fa", "sk", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "es", "hy_AM", "tr", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "fr", "ja", "lo_LA", "iw", "de", "en_IN", "es_US", "nb", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"jp.yokomark.widget.account.autocomp.accountautocompleteedittext.sample\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"AccountAutoCompleteEditText\" android:icon=\"res/drawable-ldpi-v4/app_icon.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"AccountAutoCompleteEditText\" android:name=\"jp.yokomark.widget.account.autocomp.accountautocompleteedittext.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 831493,
+  "crc32" : 2189369911,
+  "sha256" : "237a90d27816317078b7e7622f83dd3d16954f68ef8f2b19111016f5b5416dc2",
+  "buildTime" : 1526975733000
+}

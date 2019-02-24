@@ -1,0 +1,91 @@
+2018-05-15 04:12:35,744 INFO  DownloadService - Downloading "https://github.com/badoo/android-weak-handler/archive/master.zip", attempt 3
+2018-05-15 04:12:36,314 INFO  DownloadService - Downloaded https://github.com/badoo/android-weak-handler/archive/master.zip, attempt 3
+2018-05-15 04:12:36,314 INFO  DownloadService - Size of file "/tmp/rdisk/1152/master.zip": 90 KB
+2018-05-15 04:12:36,314 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:12:36,315 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1152/master.zip: true
+2018-05-15 04:12:36,315 DEBUG ZipUtil - Extracting '/tmp/rdisk/1152/master.zip' into '/tmp/rdisk/1152/src'.
+2018-05-15 04:12:36,319 INFO  FullProcessService - Size of directory with sources: 123 KB
+2018-05-15 04:12:36,319 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1152/src]
+2018-05-15 04:12:36,324 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1152/src/.git/
+
+2018-05-15 04:12:36,326 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1152/src/android-weak-handler-master/gradlew
+2018-05-15 04:12:36,327 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1152/src/android-weak-handler-master/build.gradle
+2018-05-15 04:12:36,329 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1152/src/android-weak-handler-master/mvn-local-support.gradle /tmp/rdisk/1152/src/android-weak-handler-master/build.gradle
+2018-05-15 04:12:36,329 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:12:36,329 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:12:36,333 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1152/src/android-weak-handler-master/local.properties
+2018-05-15 04:12:36,334 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-15 04:12:36,336 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-15 04:12:36,336 INFO  ProjectFixService - Build info for "/tmp/rdisk/1152/src/android-weak-handler-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-05-15 04:12:36,336 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:12:36,337 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:12:36,338 INFO  SysUtils - Execute command: [/tmp/rdisk/1152/src/android-weak-handler-master/gradlew, -b, /tmp/rdisk/1152/src/android-weak-handler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:12:46,781 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-05-15 04:12:46,782 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2018-05-15 04:12:46,782 INFO  SysUtils - Execute command: [/tmp/rdisk/1152/src/android-weak-handler-master/gradlew, -b, /tmp/rdisk/1152/src/android-weak-handler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2018-05-15 04:12:55,044 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileLint
+:copyDebugLint UP-TO-DATE
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:checkDebugManifest
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:processDebugJavaRes UP-TO-DATE
+:compileDebugJava
+:extractDebugAnnotations
+:mergeDebugProguardFiles
+:packageDebugJar
+:compileDebugNdk UP-TO-DATE
+:packageDebugJniLibs UP-TO-DATE
+:packageDebugLocalJar UP-TO-DATE
+:packageDebugRenderscript UP-TO-DATE
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:copyReleaseLint UP-TO-DATE
+:preReleaseBuild UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:generateReleaseAssets UP-TO-DATE
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:processReleaseJavaRes UP-TO-DATE
+:compileReleaseJava
+:extractReleaseAnnotations
+:mergeReleaseProguardFiles
+:packageReleaseJar
+:compileReleaseNdk UP-TO-DATE
+:packageReleaseJniLibs UP-TO-DATE
+:packageReleaseLocalJar UP-TO-DATE
+:packageReleaseRenderscript UP-TO-DATE
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.792 secs
+
+2018-05-15 04:12:55,049 ERROR FullProcessService - Project build has not produced APK file
+2018-05-15 04:12:55,053 ERROR FullProcessService - Could not find generated or existed APK file

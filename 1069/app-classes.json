@@ -1,0 +1,18 @@
+{
+  "android.a.a" : [ "a", "b", "c", "d", "e", "f" ],
+  "android.support.a.a" : [ "a" ],
+  "android.support.a.b" : [ "a" ],
+  "android.support.a.c" : [ "a", "a$1", "b", "c", "d", "d$a", "d$b", "d$c", "d$d", "d$e", "e", "e$a", "e$b", "f" ],
+  "android.support.a.d" : [ "a", "a$1", "a$2", "b", "b$a", "b$a$1", "b$b", "b$b$1", "c", "d", "e", "f", "g", "h", "i", "j", "k", "k$a", "k$b", "k$c", "k$d", "k$e", "k$f", "k$f$1", "k$g", "k$h", "k$i", "k$j", "l", "m", "m$1", "m$2", "m$3", "m$4", "m$a", "m$b", "m$c", "m$d", "m$e", "m$f", "m$g", "m$h", "m$i", "m$i$1", "m$j", "n", "n$a", "n$b", "n$c", "o" ],
+  "android.support.a.d.a" : [ "a", "b", "b$a", "b$b", "c", "c$a", "c$b" ],
+  "android.support.a.e" : [ "a", "a$a", "a$b" ],
+  "android.support.annotation" : [ "Keep" ],
+  "android.support.v7.a" : [ "a", "a$a", "a$b" ],
+  "android.support.v7.widget" : [ "GridLayoutManager", "GridLayoutManager$a", "GridLayoutManager$b", "GridLayoutManager$c", "LinearLayoutManager", "LinearLayoutManager$a", "LinearLayoutManager$b", "LinearLayoutManager$c", "LinearLayoutManager$d", "LinearLayoutManager$d$1", "StaggeredGridLayoutManager", "StaggeredGridLayoutManager$1", "StaggeredGridLayoutManager$a", "StaggeredGridLayoutManager$b", "StaggeredGridLayoutManager$c", "StaggeredGridLayoutManager$c$a", "StaggeredGridLayoutManager$c$a$1", "StaggeredGridLayoutManager$d", "StaggeredGridLayoutManager$d$1", "StaggeredGridLayoutManager$e", "a", "a$a", "a$b", "b", "b$a", "b$b", "c", "c$1", "c$2", "c$3", "c$4", "c$5", "c$6", "c$7", "c$8", "c$a", "c$b", "d", "d$1", "d$2", "d$a", "d$b", "e", "e$1", "e$a", "e$b", "f", "g", "g$a", "h", "h$1", "h$2", "i", "i$1", "i$2", "i$3", "i$4", "i$5", "i$6", "i$a", "i$b", "i$c", "i$d", "i$e", "i$e$a", "i$e$b", "i$e$c", "i$f", "i$g", "i$h", "i$h$1", "i$h$2", "i$h$a", "i$h$b", "i$i", "i$j", "i$k", "i$l", "i$m", "i$n", "i$n$a", "i$o", "i$p", "i$q", "i$r", "i$r$1", "i$s", "i$s$a", "i$t", "i$u", "i$v", "i$w", "j", "j$a", "k", "l", "m", "m$a", "m$b", "n", "n$a", "n$b" ],
+  "com.skocken.efficientadapter.a.a" : [ "a", "b", "b$a", "b$b", "c", "d" ],
+  "com.skocken.efficientadapter.a.b" : [ "a", "b" ],
+  "com.skocken.efficientadapter.a.c" : [ "a", "a$a", "a$b" ],
+  "com.skocken.efficientadapter.example.a" : [ "a", "b", "c", "d" ],
+  "com.skocken.efficientadapter.example.activities" : [ "HeterogeneousListActivity", "HeterogeneousListActivity$1", "HeterogeneousListActivity$a", "HeterogeneousListActivity$a$a", "MainActivity", "SimpleListActivity", "SimpleListActivity$1", "SimpleListActivity$2", "ViewPagerActivity", "ViewPagerActivity$1" ],
+  "com.skocken.efficientadapter.example.b" : [ "a", "b" ]
+}

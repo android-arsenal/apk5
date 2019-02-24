@@ -1,0 +1,174 @@
+2018-05-11 15:31:17,199 INFO  DownloadService - Downloading "https://github.com/AndrewReitz/shillelagh/archive/master.zip", attempt 3
+2018-05-11 15:31:17,689 INFO  DownloadService - Downloaded https://github.com/AndrewReitz/shillelagh/archive/master.zip, attempt 3
+2018-05-11 15:31:17,689 INFO  DownloadService - Size of file "/tmp/rdisk/1026/master.zip": 281 KB
+2018-05-11 15:31:17,689 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 15:31:17,690 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1026/master.zip: true
+2018-05-11 15:31:17,690 DEBUG ZipUtil - Extracting '/tmp/rdisk/1026/master.zip' into '/tmp/rdisk/1026/src'.
+2018-05-11 15:31:17,706 INFO  FullProcessService - Size of directory with sources: 438 KB
+2018-05-11 15:31:17,706 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1026/src]
+2018-05-11 15:31:17,711 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1026/src/.git/
+
+2018-05-11 15:31:17,715 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1026/src/shillelagh-master/gradlew
+2018-05-11 15:31:17,718 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1026/src/shillelagh-master/build.gradle
+2018-05-11 15:31:17,722 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1026/src/shillelagh-master/shillelagh/shillelagh.gradle /tmp/rdisk/1026/src/shillelagh-master/shillelagh-tests/shillelagh-tests.gradle /tmp/rdisk/1026/src/shillelagh-master/shillelagh-sample/shillelagh-sample.gradle /tmp/rdisk/1026/src/shillelagh-master/shillelagh-processor/shillelagh-processor.gradle /tmp/rdisk/1026/src/shillelagh-master/settings.gradle /tmp/rdisk/1026/src/shillelagh-master/gradle/javaDoc.gradle /tmp/rdisk/1026/src/shillelagh-master/gradle/dependencies.gradle /tmp/rdisk/1026/src/shillelagh-master/gradle/credentials.gradle /tmp/rdisk/1026/src/shillelagh-master/gradle/bintray.gradle /tmp/rdisk/1026/src/shillelagh-master/gradle/artifactory.gradle /tmp/rdisk/1026/src/shillelagh-master/build.gradle
+2018-05-11 15:31:17,723 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 15:31:17,723 INFO  ProjectFixService - Fixing project...
+2018-05-11 15:31:17,734 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1026/src/shillelagh-master/local.properties
+2018-05-11 15:31:17,735 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-11 15:31:17,735 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-11 15:31:17,738 INFO  ProjectFixService - Build info for "/tmp/rdisk/1026/src/shillelagh-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=22]
+2018-05-11 15:31:17,738 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1026/src/shillelagh-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=22]
+2018-05-11 15:31:17,739 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 15:31:17,739 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:31:17,739 INFO  SysUtils - Execute command: [/tmp/rdisk/1026/src/shillelagh-master/gradlew, -b, /tmp/rdisk/1026/src/shillelagh-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:31:27,726 INFO  ProjectTaskService - Detected possible tasks: 87
+2018-05-11 15:31:27,727 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-05-11 15:31:27,727 INFO  SysUtils - Execute command: [/tmp/rdisk/1026/src/shillelagh-master/gradlew, -b, /tmp/rdisk/1026/src/shillelagh-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-05-11 15:31:57,242 INFO  SysUtils - Configuration on demand is an incubating feature.
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+:shillelagh:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:shillelagh:compileGroovy UP-TO-DATE
+:shillelagh:processResources UP-TO-DATE
+:shillelagh:classes
+:shillelagh:jar
+:shillelagh:jarjar
+:shillelagh:assemble
+:shillelagh:build
+:shillelagh-processor:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:shillelagh-processor:processResources
+:shillelagh-processor:classes
+:shillelagh-processor:jar
+:shillelagh-processor:assemble
+:shillelagh-processor:build
+:shillelagh-sample:preBuild UP-TO-DATE
+:shillelagh-sample:preDebugBuild UP-TO-DATE
+:shillelagh-sample:checkDebugManifest
+:shillelagh-sample:prepareDebugDependencies
+:shillelagh-sample:compileDebugAidl
+:shillelagh-sample:compileDebugRenderscript
+:shillelagh-sample:generateDebugBuildConfig
+:shillelagh-sample:generateDebugAssets UP-TO-DATE
+:shillelagh-sample:mergeDebugAssets
+:shillelagh-sample:generateDebugResValues
+:shillelagh-sample:generateDebugResources
+:shillelagh-sample:mergeDebugResources
+:shillelagh-sample:processDebugManifest
+:shillelagh-sample:processDebugResources
+:shillelagh-sample:generateDebugSources
+:shillelagh-sample:processDebugJavaRes UP-TO-DATE
+:shillelagh-sample:compileDebugJava
+:shillelagh-sample:compileDebugNdk UP-TO-DATE
+:shillelagh-sample:compileDebugSources
+:shillelagh-sample:proguardDebug
+Warning: org.objenesis.instantiator.sun.UnsafeFactoryInstantiator: can't find referenced class sun.misc.Unsafe
+Warning: org.objenesis.instantiator.sun.UnsafeFactoryInstantiator: can't find referenced class sun.misc.Unsafe
+Warning: org.objenesis.instantiator.sun.UnsafeFactoryInstantiator: can't find referenced class sun.misc.Unsafe
+Warning: there were 3 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Warning: can't write resource [META-INF/INDEX.LIST] (Duplicate zip entry [shillelagh-1.0.0-SNAPSHOT.jar:META-INF/INDEX.LIST])
+Warning: can't write resource [META-INF/LICENSE] (Duplicate zip entry [shillelagh-1.0.0-SNAPSHOT.jar:META-INF/LICENSE])
+Warning: can't write resource [META-INF/NOTICE] (Duplicate zip entry [shillelagh-1.0.0-SNAPSHOT.jar:META-INF/NOTICE])
+:shillelagh-sample:dexDebug
+:shillelagh-sample:validateDebugSigning
+:shillelagh-sample:packageDebug
+:shillelagh-sample:zipalignDebug
+:shillelagh-sample:assembleDebug
+:shillelagh-sample:preReleaseBuild UP-TO-DATE
+:shillelagh-sample:checkReleaseManifest
+:shillelagh-sample:prepareReleaseDependencies
+:shillelagh-sample:compileReleaseAidl
+:shillelagh-sample:compileReleaseRenderscript
+:shillelagh-sample:generateReleaseBuildConfig
+:shillelagh-sample:generateReleaseAssets UP-TO-DATE
+:shillelagh-sample:mergeReleaseAssets
+:shillelagh-sample:generateReleaseResValues
+:shillelagh-sample:generateReleaseResources
+:shillelagh-sample:mergeReleaseResources
+:shillelagh-sample:processReleaseManifest
+:shillelagh-sample:processReleaseResources
+:shillelagh-sample:generateReleaseSources
+:shillelagh-sample:processReleaseJavaRes UP-TO-DATE
+:shillelagh-sample:compileReleaseJava
+:shillelagh-sample:compileReleaseNdk UP-TO-DATE
+:shillelagh-sample:compileReleaseSources
+:shillelagh-sample:lintVitalRelease
+:shillelagh-sample:proguardRelease
+Warning: org.objenesis.instantiator.sun.UnsafeFactoryInstantiator: can't find referenced class sun.misc.Unsafe
+Warning: org.objenesis.instantiator.sun.UnsafeFactoryInstantiator: can't find referenced class sun.misc.Unsafe
+Warning: org.objenesis.instantiator.sun.UnsafeFactoryInstantiator: can't find referenced class sun.misc.Unsafe
+Warning: there were 3 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Warning: can't write resource [META-INF/INDEX.LIST] (Duplicate zip entry [shillelagh-1.0.0-SNAPSHOT.jar:META-INF/INDEX.LIST])
+Warning: can't write resource [META-INF/LICENSE] (Duplicate zip entry [shillelagh-1.0.0-SNAPSHOT.jar:META-INF/LICENSE])
+Warning: can't write resource [META-INF/NOTICE] (Duplicate zip entry [shillelagh-1.0.0-SNAPSHOT.jar:META-INF/NOTICE])
+:shillelagh-sample:dexRelease
+:shillelagh-sample:packageRelease
+:shillelagh-sample:assembleRelease
+:shillelagh-sample:assemble
+:shillelagh-sample:build
+:shillelagh-tests:preBuild UP-TO-DATE
+:shillelagh-tests:preDebugBuild UP-TO-DATE
+:shillelagh-tests:checkDebugManifest
+:shillelagh-tests:prepareDebugDependencies
+:shillelagh-tests:compileDebugAidl
+:shillelagh-tests:compileDebugRenderscript
+:shillelagh-tests:generateDebugBuildConfig
+:shillelagh-tests:generateDebugAssets UP-TO-DATE
+:shillelagh-tests:mergeDebugAssets
+:shillelagh-tests:generateDebugResValues
+:shillelagh-tests:generateDebugResources
+:shillelagh-tests:mergeDebugResources
+:shillelagh-tests:processDebugManifest
+:shillelagh-tests:processDebugResources
+:shillelagh-tests:generateDebugSources
+:shillelagh-tests:processDebugJavaRes UP-TO-DATE
+:shillelagh-tests:compileDebugJava
+:shillelagh-tests:compileDebugNdk UP-TO-DATE
+:shillelagh-tests:compileDebugSources
+:shillelagh-tests:preDexDebug
+:shillelagh-tests:dexDebug
+:shillelagh-tests:validateDebugSigning
+:shillelagh-tests:packageDebug
+:shillelagh-tests:zipalignDebug
+:shillelagh-tests:assembleDebug
+:shillelagh-tests:preReleaseBuild UP-TO-DATE
+:shillelagh-tests:checkReleaseManifest
+:shillelagh-tests:prepareReleaseDependencies
+:shillelagh-tests:compileReleaseAidl
+:shillelagh-tests:compileReleaseRenderscript
+:shillelagh-tests:generateReleaseBuildConfig
+:shillelagh-tests:generateReleaseAssets UP-TO-DATE
+:shillelagh-tests:mergeReleaseAssets
+:shillelagh-tests:generateReleaseResValues
+:shillelagh-tests:generateReleaseResources
+:shillelagh-tests:mergeReleaseResources
+:shillelagh-tests:processReleaseManifest
+:shillelagh-tests:processReleaseResources
+:shillelagh-tests:generateReleaseSources
+:shillelagh-tests:processReleaseJavaRes UP-TO-DATE
+:shillelagh-tests:compileReleaseJava
+:shillelagh-tests:compileReleaseNdk UP-TO-DATE
+:shillelagh-tests:compileReleaseSources
+:shillelagh-tests:lintVitalRelease
+:shillelagh-tests:preDexRelease
+:shillelagh-tests:dexRelease
+:shillelagh-tests:packageRelease
+:shillelagh-tests:assembleRelease
+:shillelagh-tests:assemble
+:shillelagh-tests:build
+
+BUILD SUCCESSFUL
+
+Total time: 29.018 secs
+
+2018-05-11 15:31:57,258 INFO  FullProcessService - Found APK file: /tmp/rdisk/1026/src/shillelagh-master/shillelagh-tests/build/outputs/apk/shillelagh-tests-release-unsigned.apk

@@ -1,0 +1,4 @@
+{
+  "com.devpaul.analogstick" : [ "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style", "R$styleable" ],
+  "com.devpaul.analogsticklib" : [ "AnalogStick", "BuildConfig", "OnAnalogMoveListener", "Quadrant", "R", "R$attr", "R$drawable", "R$string", "R$styleable" ]
+}

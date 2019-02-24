@@ -1,0 +1,363 @@
+2018-04-07 21:28:15,895 INFO  DownloadService - Downloading "https://github.com/fengdai/FragmentMaster/archive/master.zip", attempt 3
+2018-04-07 21:29:15,896 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-07 21:29:16,564 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-07 21:29:16,564 INFO  DownloadService - Downloading "https://github.com/fengdai/FragmentMaster/archive/master.zip", attempt 3
+2018-04-07 21:30:17,346 DEBUG FullProcessService - Repository https://github.com/fengdai/FragmentMaster available: true
+2018-04-07 21:30:17,346 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-07 21:30:17,346 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/fengdai/FragmentMaster, /tmp/rdisk/1182/src]
+2018-04-07 21:30:19,035 INFO  SysUtils - 
+2018-04-07 21:30:19,040 INFO  GitService - Deleted "/tmp/rdisk/1182/src/.git": true
+2018-04-07 21:30:19,043 INFO  FullProcessService - Size of directory with sources: 353 KB
+2018-04-07 21:30:19,043 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1182/src]
+2018-04-07 21:30:19,047 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1182/src/.git/
+
+2018-04-07 21:30:19,050 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1182/src/gradlew
+2018-04-07 21:30:19,053 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1182/src/fragmentmaster-appcompat/build.gradle /tmp/rdisk/1182/src/fragmentmaster-samples/build.gradle /tmp/rdisk/1182/src/fragmentmaster/build.gradle /tmp/rdisk/1182/src/build.gradle
+2018-04-07 21:30:19,055 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1182/src/settings.gradle /tmp/rdisk/1182/src/fragmentmaster/build.gradle /tmp/rdisk/1182/src/fragmentmaster-samples/build.gradle /tmp/rdisk/1182/src/fragmentmaster-appcompat/build.gradle /tmp/rdisk/1182/src/build.gradle
+2018-04-07 21:30:19,055 INFO  ProjectBuildService - Remote scripts: none
+2018-04-07 21:30:19,055 INFO  ProjectFixService - Fixing project...
+2018-04-07 21:30:19,061 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1182/src/fragmentmaster-appcompat/local.properties
+2018-04-07 21:30:19,061 INFO  ProjectFixService - Build info for "/tmp/rdisk/1182/src/fragmentmaster-appcompat/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-07 21:30:19,061 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1182/src/fragmentmaster-samples/local.properties
+2018-04-07 21:30:19,062 INFO  ProjectFixService - Build info for "/tmp/rdisk/1182/src/fragmentmaster-samples/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-07 21:30:19,062 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1182/src/fragmentmaster/local.properties
+2018-04-07 21:30:19,062 INFO  ProjectFixService - Build info for "/tmp/rdisk/1182/src/fragmentmaster/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-07 21:30:19,062 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1182/src/local.properties
+2018-04-07 21:30:19,063 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-07 21:30:19,063 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-07 21:30:19,064 INFO  ProjectFixService - Build info for "/tmp/rdisk/1182/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-07 21:30:19,064 INFO  ProjectFixService - Project was maybe fixed
+2018-04-07 21:30:19,064 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:30:19,064 INFO  SysUtils - Execute command: [/tmp/rdisk/1182/src/gradlew, -b, /tmp/rdisk/1182/src/fragmentmaster-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:30:26,743 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:30:26,743 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:30:26,743 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:30:26,744 INFO  SysUtils - Execute command: [/tmp/rdisk/1182/src/gradlew, -b, /tmp/rdisk/1182/src/fragmentmaster-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:30:50,283 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:fragmentmaster-appcompat:preBuild UP-TO-DATE
+:fragmentmaster-appcompat:preDebugBuild UP-TO-DATE
+:fragmentmaster-appcompat:compileDebugNdk UP-TO-DATE
+:fragmentmaster-appcompat:compileLint
+:fragmentmaster-appcompat:copyDebugLint UP-TO-DATE
+:fragmentmaster:preBuild UP-TO-DATE
+:fragmentmaster:preReleaseBuild UP-TO-DATE
+:fragmentmaster:compileReleaseNdk UP-TO-DATE
+:fragmentmaster:compileLint
+:fragmentmaster:copyReleaseLint UP-TO-DATE
+:fragmentmaster:checkReleaseManifest
+:fragmentmaster:preDebugAndroidTestBuild UP-TO-DATE
+:fragmentmaster:preDebugBuild UP-TO-DATE
+:fragmentmaster:preDebugUnitTestBuild UP-TO-DATE
+:fragmentmaster:preReleaseUnitTestBuild UP-TO-DATE
+:fragmentmaster:prepareComAndroidSupportSupportV42400Library
+:fragmentmaster:prepareReleaseDependencies
+:fragmentmaster:compileReleaseAidl
+:fragmentmaster:compileReleaseRenderscript
+:fragmentmaster:generateReleaseBuildConfig
+:fragmentmaster:mergeReleaseShaders
+:fragmentmaster:compileReleaseShaders
+:fragmentmaster:generateReleaseAssets
+:fragmentmaster:mergeReleaseAssets
+:fragmentmaster:generateReleaseResValues
+:fragmentmaster:generateReleaseResources
+:fragmentmaster:mergeReleaseResources
+:fragmentmaster:processReleaseManifest
+:fragmentmaster:processReleaseResources
+:fragmentmaster:generateReleaseSources
+:fragmentmaster:incrementalReleaseJavaCompilationSafeguard
+:fragmentmaster:compileReleaseJavaWithJavac
+:fragmentmaster:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1182/src/fragmentmaster/src/main/java/com/fragmentmaster/app/FragmentContext.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:fragmentmaster:extractReleaseAnnotations
+:fragmentmaster:mergeReleaseProguardFiles
+:fragmentmaster:packageReleaseRenderscript UP-TO-DATE
+:fragmentmaster:packageReleaseResources
+:fragmentmaster:processReleaseJavaRes UP-TO-DATE
+:fragmentmaster:transformResourcesWithMergeJavaResForRelease
+:fragmentmaster:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fragmentmaster:mergeReleaseJniLibFolders
+:fragmentmaster:transformNative_libsWithMergeJniLibsForRelease
+:fragmentmaster:transformNative_libsWithSyncJniLibsForRelease
+:fragmentmaster:bundleRelease
+:fragmentmaster-appcompat:checkDebugManifest
+:fragmentmaster-appcompat:preDebugAndroidTestBuild UP-TO-DATE
+:fragmentmaster-appcompat:preDebugUnitTestBuild UP-TO-DATE
+:fragmentmaster-appcompat:preReleaseBuild UP-TO-DATE
+:fragmentmaster-appcompat:preReleaseUnitTestBuild UP-TO-DATE
+:fragmentmaster-appcompat:prepareComAndroidSupportAnimatedVectorDrawable2400Library
+:fragmentmaster-appcompat:prepareComAndroidSupportAppcompatV72400Library
+:fragmentmaster-appcompat:prepareComAndroidSupportSupportV42400Library
+:fragmentmaster-appcompat:prepareComAndroidSupportSupportVectorDrawable2400Library
+:fragmentmaster-appcompat:prepareSrcFragmentmasterUnspecifiedLibrary
+:fragmentmaster-appcompat:prepareDebugDependencies
+:fragmentmaster-appcompat:compileDebugAidl
+:fragmentmaster-appcompat:compileDebugRenderscript
+:fragmentmaster-appcompat:generateDebugBuildConfig
+:fragmentmaster-appcompat:mergeDebugShaders
+:fragmentmaster-appcompat:compileDebugShaders
+:fragmentmaster-appcompat:generateDebugAssets
+:fragmentmaster-appcompat:mergeDebugAssets
+:fragmentmaster-appcompat:generateDebugResValues
+:fragmentmaster-appcompat:generateDebugResources
+:fragmentmaster-appcompat:mergeDebugResources
+:fragmentmaster-appcompat:processDebugManifest
+:fragmentmaster-appcompat:processDebugResources
+:fragmentmaster-appcompat:generateDebugSources
+:fragmentmaster-appcompat:incrementalDebugJavaCompilationSafeguard
+:fragmentmaster-appcompat:compileDebugJavaWithJavac
+:fragmentmaster-appcompat:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1182/src/fragmentmaster-appcompat/src/main/java/com/fragmentmaster/app/MasterActionBarActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:fragmentmaster-appcompat:extractDebugAnnotations
+:fragmentmaster-appcompat:mergeDebugProguardFiles
+:fragmentmaster-appcompat:packageDebugRenderscript UP-TO-DATE
+:fragmentmaster-appcompat:packageDebugResources
+:fragmentmaster-appcompat:processDebugJavaRes UP-TO-DATE
+:fragmentmaster-appcompat:transformResourcesWithMergeJavaResForDebug
+:fragmentmaster-appcompat:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fragmentmaster-appcompat:mergeDebugJniLibFolders
+:fragmentmaster-appcompat:transformNative_libsWithMergeJniLibsForDebug
+:fragmentmaster-appcompat:transformNative_libsWithSyncJniLibsForDebug
+:fragmentmaster-appcompat:bundleDebug
+:fragmentmaster-appcompat:compileDebugSources
+:fragmentmaster-appcompat:assembleDebug
+:fragmentmaster-appcompat:compileReleaseNdk UP-TO-DATE
+:fragmentmaster-appcompat:copyReleaseLint UP-TO-DATE
+:fragmentmaster-appcompat:checkReleaseManifest
+:fragmentmaster-appcompat:prepareReleaseDependencies
+:fragmentmaster-appcompat:compileReleaseAidl
+:fragmentmaster-appcompat:compileReleaseRenderscript
+:fragmentmaster-appcompat:generateReleaseBuildConfig
+:fragmentmaster-appcompat:mergeReleaseShaders
+:fragmentmaster-appcompat:compileReleaseShaders
+:fragmentmaster-appcompat:generateReleaseAssets
+:fragmentmaster-appcompat:mergeReleaseAssets
+:fragmentmaster-appcompat:generateReleaseResValues
+:fragmentmaster-appcompat:generateReleaseResources
+:fragmentmaster-appcompat:mergeReleaseResources
+:fragmentmaster-appcompat:processReleaseManifest
+:fragmentmaster-appcompat:processReleaseResources
+:fragmentmaster-appcompat:generateReleaseSources
+:fragmentmaster-appcompat:incrementalReleaseJavaCompilationSafeguard
+:fragmentmaster-appcompat:compileReleaseJavaWithJavac
+:fragmentmaster-appcompat:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1182/src/fragmentmaster-appcompat/src/main/java/com/fragmentmaster/app/MasterActionBarActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:fragmentmaster-appcompat:extractReleaseAnnotations
+:fragmentmaster-appcompat:mergeReleaseProguardFiles
+:fragmentmaster-appcompat:packageReleaseRenderscript UP-TO-DATE
+:fragmentmaster-appcompat:packageReleaseResources
+:fragmentmaster-appcompat:processReleaseJavaRes UP-TO-DATE
+:fragmentmaster-appcompat:transformResourcesWithMergeJavaResForRelease
+:fragmentmaster-appcompat:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fragmentmaster-appcompat:mergeReleaseJniLibFolders
+:fragmentmaster-appcompat:transformNative_libsWithMergeJniLibsForRelease
+:fragmentmaster-appcompat:transformNative_libsWithSyncJniLibsForRelease
+:fragmentmaster-appcompat:bundleRelease
+:fragmentmaster-appcompat:compileReleaseSources
+:fragmentmaster-appcompat:assembleRelease
+:fragmentmaster-appcompat:assemble
+:fragmentmaster-appcompat:lint
+Ran lint on variant release: 2 issues found
+Ran lint on variant debug: 2 issues found
+Wrote HTML report to file:///tmp/rdisk/1182/src/fragmentmaster-appcompat/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/1182/src/fragmentmaster-appcompat/build/outputs/lint-results-debug.xml
+:fragmentmaster-appcompat:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:fragmentmaster-appcompat:prepareDebugUnitTestDependencies
+:fragmentmaster-appcompat:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:fragmentmaster-appcompat:processDebugUnitTestJavaRes UP-TO-DATE
+:fragmentmaster-appcompat:compileDebugUnitTestSources UP-TO-DATE
+:fragmentmaster-appcompat:mockableAndroidJar
+:fragmentmaster-appcompat:assembleDebugUnitTest
+:fragmentmaster-appcompat:testDebugUnitTest
+:fragmentmaster-appcompat:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:fragmentmaster-appcompat:prepareReleaseUnitTestDependencies
+:fragmentmaster-appcompat:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:fragmentmaster-appcompat:processReleaseUnitTestJavaRes UP-TO-DATE
+:fragmentmaster-appcompat:compileReleaseUnitTestSources UP-TO-DATE
+:fragmentmaster-appcompat:assembleReleaseUnitTest
+:fragmentmaster-appcompat:testReleaseUnitTest
+:fragmentmaster-appcompat:test
+:fragmentmaster-appcompat:check
+:fragmentmaster-appcompat:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.087 secs
+
+2018-04-07 21:30:50,329 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:30:50,329 INFO  SysUtils - Execute command: [/tmp/rdisk/1182/src/gradlew, -b, /tmp/rdisk/1182/src/fragmentmaster-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:30:57,172 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-04-07 21:30:57,172 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-07 21:30:57,172 INFO  SysUtils - Execute command: [/tmp/rdisk/1182/src/gradlew, -b, /tmp/rdisk/1182/src/fragmentmaster-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-07 21:31:24,342 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:fragmentmaster:preBuild UP-TO-DATE
+:fragmentmaster:preReleaseBuild UP-TO-DATE
+:fragmentmaster:compileReleaseNdk UP-TO-DATE
+:fragmentmaster:compileLint
+:fragmentmaster:copyReleaseLint UP-TO-DATE
+:fragmentmaster:checkReleaseManifest
+:fragmentmaster:preDebugAndroidTestBuild UP-TO-DATE
+:fragmentmaster:preDebugBuild UP-TO-DATE
+:fragmentmaster:preDebugUnitTestBuild UP-TO-DATE
+:fragmentmaster:preReleaseUnitTestBuild UP-TO-DATE
+:fragmentmaster:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:fragmentmaster:prepareReleaseDependencies
+:fragmentmaster:compileReleaseAidl UP-TO-DATE
+:fragmentmaster:compileReleaseRenderscript UP-TO-DATE
+:fragmentmaster:generateReleaseBuildConfig UP-TO-DATE
+:fragmentmaster:mergeReleaseShaders UP-TO-DATE
+:fragmentmaster:compileReleaseShaders UP-TO-DATE
+:fragmentmaster:generateReleaseAssets UP-TO-DATE
+:fragmentmaster:mergeReleaseAssets UP-TO-DATE
+:fragmentmaster:generateReleaseResValues UP-TO-DATE
+:fragmentmaster:generateReleaseResources UP-TO-DATE
+:fragmentmaster:mergeReleaseResources UP-TO-DATE
+:fragmentmaster:processReleaseManifest UP-TO-DATE
+:fragmentmaster:processReleaseResources UP-TO-DATE
+:fragmentmaster:generateReleaseSources UP-TO-DATE
+:fragmentmaster:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:fragmentmaster:compileReleaseJavaWithJavac UP-TO-DATE
+:fragmentmaster:extractReleaseAnnotations UP-TO-DATE
+:fragmentmaster:mergeReleaseProguardFiles UP-TO-DATE
+:fragmentmaster:packageReleaseRenderscript UP-TO-DATE
+:fragmentmaster:packageReleaseResources UP-TO-DATE
+:fragmentmaster:processReleaseJavaRes UP-TO-DATE
+:fragmentmaster:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:fragmentmaster:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:fragmentmaster:mergeReleaseJniLibFolders UP-TO-DATE
+:fragmentmaster:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:fragmentmaster:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:fragmentmaster:bundleRelease UP-TO-DATE
+:fragmentmaster-appcompat:preBuild UP-TO-DATE
+:fragmentmaster-appcompat:preReleaseBuild UP-TO-DATE
+:fragmentmaster-appcompat:compileReleaseNdk UP-TO-DATE
+:fragmentmaster-appcompat:compileLint
+:fragmentmaster-appcompat:copyReleaseLint UP-TO-DATE
+:fragmentmaster-appcompat:checkReleaseManifest
+:fragmentmaster-appcompat:preDebugAndroidTestBuild UP-TO-DATE
+:fragmentmaster-appcompat:preDebugBuild UP-TO-DATE
+:fragmentmaster-appcompat:preDebugUnitTestBuild UP-TO-DATE
+:fragmentmaster-appcompat:preReleaseUnitTestBuild UP-TO-DATE
+:fragmentmaster-appcompat:prepareComAndroidSupportAnimatedVectorDrawable2400Library UP-TO-DATE
+:fragmentmaster-appcompat:prepareComAndroidSupportAppcompatV72400Library UP-TO-DATE
+:fragmentmaster-appcompat:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:fragmentmaster-appcompat:prepareComAndroidSupportSupportVectorDrawable2400Library UP-TO-DATE
+:fragmentmaster-appcompat:prepareSrcFragmentmasterUnspecifiedLibrary UP-TO-DATE
+:fragmentmaster-appcompat:prepareReleaseDependencies
+:fragmentmaster-appcompat:compileReleaseAidl UP-TO-DATE
+:fragmentmaster-appcompat:compileReleaseRenderscript UP-TO-DATE
+:fragmentmaster-appcompat:generateReleaseBuildConfig UP-TO-DATE
+:fragmentmaster-appcompat:mergeReleaseShaders UP-TO-DATE
+:fragmentmaster-appcompat:compileReleaseShaders UP-TO-DATE
+:fragmentmaster-appcompat:generateReleaseAssets UP-TO-DATE
+:fragmentmaster-appcompat:mergeReleaseAssets UP-TO-DATE
+:fragmentmaster-appcompat:generateReleaseResValues UP-TO-DATE
+:fragmentmaster-appcompat:generateReleaseResources UP-TO-DATE
+:fragmentmaster-appcompat:mergeReleaseResources UP-TO-DATE
+:fragmentmaster-appcompat:processReleaseManifest UP-TO-DATE
+:fragmentmaster-appcompat:processReleaseResources UP-TO-DATE
+:fragmentmaster-appcompat:generateReleaseSources UP-TO-DATE
+:fragmentmaster-appcompat:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:fragmentmaster-appcompat:compileReleaseJavaWithJavac UP-TO-DATE
+:fragmentmaster-appcompat:extractReleaseAnnotations UP-TO-DATE
+:fragmentmaster-appcompat:mergeReleaseProguardFiles UP-TO-DATE
+:fragmentmaster-appcompat:packageReleaseRenderscript UP-TO-DATE
+:fragmentmaster-appcompat:packageReleaseResources UP-TO-DATE
+:fragmentmaster-appcompat:processReleaseJavaRes UP-TO-DATE
+:fragmentmaster-appcompat:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:fragmentmaster-appcompat:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:fragmentmaster-appcompat:mergeReleaseJniLibFolders UP-TO-DATE
+:fragmentmaster-appcompat:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:fragmentmaster-appcompat:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:fragmentmaster-appcompat:bundleRelease UP-TO-DATE
+:fragmentmaster-samples:preBuild UP-TO-DATE
+:fragmentmaster-samples:preDebugBuild UP-TO-DATE
+:fragmentmaster-samples:checkDebugManifest
+:fragmentmaster-samples:preReleaseBuild UP-TO-DATE
+:fragmentmaster-samples:prepareComAndroidSupportAnimatedVectorDrawable2400Library
+:fragmentmaster-samples:prepareComAndroidSupportAppcompatV72400Library
+:fragmentmaster-samples:prepareComAndroidSupportSupportV42400Library
+:fragmentmaster-samples:prepareComAndroidSupportSupportVectorDrawable2400Library
+:fragmentmaster-samples:prepareSrcFragmentmasterAppcompatUnspecifiedLibrary
+:fragmentmaster-samples:prepareSrcFragmentmasterUnspecifiedLibrary
+:fragmentmaster-samples:prepareDebugDependencies
+:fragmentmaster-samples:compileDebugAidl
+:fragmentmaster-samples:compileDebugRenderscript
+:fragmentmaster-samples:generateDebugBuildConfig
+:fragmentmaster-samples:mergeDebugShaders
+:fragmentmaster-samples:compileDebugShaders
+:fragmentmaster-samples:generateDebugAssets
+:fragmentmaster-samples:mergeDebugAssets
+:fragmentmaster-samples:generateDebugResValues
+:fragmentmaster-samples:generateDebugResources
+:fragmentmaster-samples:mergeDebugResources
+:fragmentmaster-samples:processDebugManifest
+:fragmentmaster-samples:processDebugResources
+:fragmentmaster-samples:generateDebugSources
+:fragmentmaster-samples:incrementalDebugJavaCompilationSafeguard
+:fragmentmaster-samples:compileDebugJavaWithJavac
+:fragmentmaster-samples:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1182/src/fragmentmaster-samples/src/main/java/com/fragmentmaster/sample/Slideable.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:fragmentmaster-samples:compileDebugNdk UP-TO-DATE
+:fragmentmaster-samples:compileDebugSources
+:fragmentmaster-samples:prePackageMarkerForDebug
+:fragmentmaster-samples:transformClassesWithDexForDebug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 1623 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:fragmentmaster-samples:mergeDebugJniLibFolders
+:fragmentmaster-samples:transformNative_libsWithMergeJniLibsForDebug
+:fragmentmaster-samples:processDebugJavaRes UP-TO-DATE
+:fragmentmaster-samples:transformResourcesWithMergeJavaResForDebug
+:fragmentmaster-samples:validateDebugSigning
+:fragmentmaster-samples:packageDebug
+:fragmentmaster-samples:zipalignDebug
+:fragmentmaster-samples:assembleDebug
+:fragmentmaster-samples:checkReleaseManifest
+:fragmentmaster-samples:prepareReleaseDependencies
+:fragmentmaster-samples:compileReleaseAidl
+:fragmentmaster-samples:compileReleaseRenderscript
+:fragmentmaster-samples:generateReleaseBuildConfig
+:fragmentmaster-samples:mergeReleaseShaders
+:fragmentmaster-samples:compileReleaseShaders
+:fragmentmaster-samples:generateReleaseAssets
+:fragmentmaster-samples:mergeReleaseAssets
+:fragmentmaster-samples:generateReleaseResValues
+:fragmentmaster-samples:generateReleaseResources
+:fragmentmaster-samples:mergeReleaseResources
+:fragmentmaster-samples:processReleaseManifest
+:fragmentmaster-samples:processReleaseResources
+:fragmentmaster-samples:generateReleaseSources
+:fragmentmaster-samples:incrementalReleaseJavaCompilationSafeguard
+:fragmentmaster-samples:compileReleaseJavaWithJavac
+:fragmentmaster-samples:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1182/src/fragmentmaster-samples/src/main/java/com/fragmentmaster/sample/Slideable.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:fragmentmaster-samples:compileReleaseNdk UP-TO-DATE
+:fragmentmaster-samples:compileReleaseSources
+:fragmentmaster-samples:lintVitalRelease
+:fragmentmaster-samples:prePackageMarkerForRelease
+:fragmentmaster-samples:transformClassesWithDexForRelease
+:fragmentmaster-samples:mergeReleaseJniLibFolders
+:fragmentmaster-samples:transformNative_libsWithMergeJniLibsForRelease
+:fragmentmaster-samples:processReleaseJavaRes UP-TO-DATE
+:fragmentmaster-samples:transformResourcesWithMergeJavaResForRelease
+:fragmentmaster-samples:packageRelease
+:fragmentmaster-samples:assembleRelease
+:fragmentmaster-samples:assemble
+:fragmentmaster-samples:build
+
+BUILD SUCCESSFUL
+
+Total time: 26.732 secs
+
+2018-04-07 21:31:24,431 INFO  FullProcessService - Found APK file: /tmp/rdisk/1182/src/fragmentmaster-samples/build/outputs/apk/fragmentmaster-samples-release-unsigned.apk

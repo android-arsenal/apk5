@@ -1,0 +1,10 @@
+2018-05-21 02:51:02,392 INFO  DownloadService - Downloading "https://github.com/fredericojssilva/TextViewWithLinks/archive/master.zip", attempt 3
+2018-05-21 02:51:03,698 INFO  DownloadService - Downloaded https://github.com/fredericojssilva/TextViewWithLinks/archive/master.zip, attempt 3
+2018-05-21 02:51:03,698 INFO  DownloadService - Size of file "/tmp/rdisk/1241/master.zip": 441 KB
+2018-05-21 02:51:03,698 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-21 02:51:03,698 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1241/master.zip: false
+2018-05-21 02:51:03,698 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-05-21 02:51:03,698 ERROR FullProcessService - Could not find directory with sources
+2018-05-21 02:51:03,698 ERROR FullProcessService - Project will not be processed
+2018-05-21 02:51:03,698 ERROR FullProcessService - Project build has not produced APK file
+2018-05-21 02:51:03,698 ERROR FullProcessService - Could not find generated or existed APK file

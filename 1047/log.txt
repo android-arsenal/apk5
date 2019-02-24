@@ -1,0 +1,21 @@
+2018-04-08 06:23:12,197 INFO  DownloadService - Downloading "https://github.com/PGSSoft/scrollscreenshot/archive/master.zip", attempt 3
+2018-04-08 06:24:12,699 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 06:24:13,341 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 06:24:13,341 INFO  DownloadService - Downloading "https://github.com/PGSSoft/scrollscreenshot/archive/master.zip", attempt 3
+2018-04-08 06:25:14,657 DEBUG FullProcessService - Repository https://github.com/PGSSoft/scrollscreenshot available: true
+2018-04-08 06:25:14,657 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 06:25:14,657 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/PGSSoft/scrollscreenshot, /tmp/rdisk/1047/src]
+2018-04-08 06:25:26,268 INFO  SysUtils - 
+2018-04-08 06:25:26,274 INFO  GitService - Deleted "/tmp/rdisk/1047/src/.git": true
+2018-04-08 06:25:26,275 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-04-08 06:25:26,275 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1047/src]
+2018-04-08 06:25:26,279 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1047/src/.git/
+
+2018-04-08 06:25:26,280 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 06:25:26,280 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 06:25:26,281 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 06:25:26,282 INFO  ProjectBuildService - All script(s): none
+2018-04-08 06:25:26,282 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 06:25:26,282 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 06:25:26,282 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 06:25:26,283 ERROR FullProcessService - Could not find generated or existed APK file

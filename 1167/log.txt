@@ -1,0 +1,21 @@
+2018-04-08 01:17:14,257 INFO  DownloadService - Downloading "https://github.com/shazam/gwen/archive/master.zip", attempt 3
+2018-04-08 01:18:14,696 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:18:15,372 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:18:15,372 INFO  DownloadService - Downloading "https://github.com/shazam/gwen/archive/master.zip", attempt 3
+2018-04-08 01:19:16,671 DEBUG FullProcessService - Repository https://github.com/shazam/gwen available: true
+2018-04-08 01:19:16,671 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:19:16,671 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/shazam/gwen, /tmp/rdisk/1167/src]
+2018-04-08 01:19:17,939 INFO  SysUtils - 
+2018-04-08 01:19:17,946 INFO  GitService - Deleted "/tmp/rdisk/1167/src/.git": true
+2018-04-08 01:19:17,947 INFO  FullProcessService - Size of directory with sources: 14 KB
+2018-04-08 01:19:17,947 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1167/src]
+2018-04-08 01:19:17,959 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1167/src/.git/
+
+2018-04-08 01:19:17,961 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 01:19:17,961 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 01:19:17,963 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 01:19:17,964 INFO  ProjectBuildService - All script(s): none
+2018-04-08 01:19:17,964 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:19:17,964 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 01:19:17,964 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 01:19:17,965 ERROR FullProcessService - Could not find generated or existed APK file

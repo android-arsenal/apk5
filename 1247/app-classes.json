@@ -1,0 +1,5 @@
+{
+  "com.commonsware.cwac.layouts" : [ "AspectLockedFrameLayout", "AspectLockedFrameLayout$AspectRatioSource", "AspectLockedFrameLayout$ViewAspectRatioSource", "BuildConfig", "Mirror", "MirrorSink", "MirroringFrameLayout", "R" ],
+  "com.commonsware.cwac.preso" : [ "BuildConfig", "MirrorPresentationFragment", "MirroringFragment", "MirroringWebViewFragment", "PresentationFragment", "PresentationHelper", "PresentationHelper$Listener", "PresentationService", "PresentationService$1", "R", "WebPresentationFragment" ],
+  "com.commonsware.cwac.preso.demo" : [ "BuildConfig", "MainActivity", "MirrorFragmentActivity", "MirrorPresentationActivity", "NestedFragmentActivity", "NestedPresentationFragment", "NestedPresentationFragment$1", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style", "SamplePresentationFragment" ]
+}

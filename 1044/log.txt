@@ -1,0 +1,449 @@
+2018-04-08 06:30:49,026 INFO  DownloadService - Downloading "https://github.com/soarcn/BottomSheet/archive/master.zip", attempt 3
+2018-04-08 06:31:49,473 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 06:31:50,170 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 06:31:50,170 INFO  DownloadService - Downloading "https://github.com/soarcn/BottomSheet/archive/master.zip", attempt 3
+2018-04-08 06:32:51,481 DEBUG FullProcessService - Repository https://github.com/soarcn/BottomSheet available: true
+2018-04-08 06:32:51,481 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 06:32:51,481 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/soarcn/BottomSheet, /tmp/rdisk/1044/src]
+2018-04-08 06:32:53,790 INFO  SysUtils - 
+2018-04-08 06:32:53,795 INFO  GitService - Deleted "/tmp/rdisk/1044/src/.git": true
+2018-04-08 06:32:53,800 INFO  FullProcessService - Size of directory with sources: 387 KB
+2018-04-08 06:32:53,800 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1044/src]
+2018-04-08 06:32:53,805 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1044/src/.git/
+
+2018-04-08 06:32:53,809 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1044/src/gradlew
+2018-04-08 06:32:53,812 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1044/src/example/build.gradle /tmp/rdisk/1044/src/build.gradle /tmp/rdisk/1044/src/library/build.gradle
+2018-04-08 06:32:53,816 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1044/src/settings.gradle /tmp/rdisk/1044/src/library/build.gradle /tmp/rdisk/1044/src/example/build.gradle /tmp/rdisk/1044/src/build.gradle
+2018-04-08 06:32:53,816 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/soarcn/gradle/master/android-library.gradle", attempt 3
+2018-04-08 06:32:54,223 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/soarcn/gradle/master/android-library.gradle, attempt 3
+2018-04-08 06:32:54,223 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/soarcn/gradle/master/maven_push.gradle", attempt 3
+2018-04-08 06:32:54,388 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/soarcn/gradle/master/maven_push.gradle, attempt 3
+2018-04-08 06:32:54,388 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/soarcn/gradle/master/android-library.gradle https://raw.githubusercontent.com/soarcn/gradle/master/maven_push.gradle
+2018-04-08 06:32:54,388 INFO  ProjectFixService - Fixing project...
+2018-04-08 06:32:54,408 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1044/src/example/local.properties
+2018-04-08 06:32:54,424 INFO  ProjectFixService - Build info for "/tmp/rdisk/1044/src/example/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-04-08 06:32:54,424 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1044/src/example/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-08 06:32:54,425 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1044/src/local.properties
+2018-04-08 06:32:54,425 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-04-08 06:32:54,425 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-04-08 06:32:54,426 INFO  ProjectFixService - Build info for "/tmp/rdisk/1044/src/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-04-08 06:32:54,426 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1044/src/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-08 06:32:54,441 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1044/src/library/local.properties
+2018-04-08 06:32:54,442 INFO  ProjectFixService - Build info for "/tmp/rdisk/1044/src/library/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-04-08 06:32:54,442 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1044/src/library/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-08 06:32:54,442 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 06:32:54,442 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 06:32:54,442 INFO  SysUtils - Execute command: [/tmp/rdisk/1044/src/gradlew, -b, /tmp/rdisk/1044/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 06:33:02,204 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-04-08 06:33:02,204 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 06:33:02,204 INFO  SysUtils - Execute command: [/tmp/rdisk/1044/src/gradlew, -b, /tmp/rdisk/1044/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 06:33:09,181 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 06:33:09,181 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':example' is deprecated. Use 'implementation' instead.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':example'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':example'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:58)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2018-04-08 06:33:09,181 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-04-08 06:33:09,181 INFO  SysUtils - Execute command: [/tmp/rdisk/1044/src/gradlew, -b, /tmp/rdisk/1044/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-08 06:34:13,578 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':example' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
+:example:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:example:preDebugBuild
+:library:compileDebugAidl
+:example:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:generateDebugResValues
+:example:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:processDebugJavaRes NO-SOURCE
+:example:compileDebugNdk NO-SOURCE
+:example:mergeDebugShaders
+:library:processDebugResources
+:example:processDebugResources
+:example:generateDebugSources
+:library:generateDebugSources
+:library:compileDebugJavaWithJavacNote: /tmp/rdisk/1044/src/library/src/main/java/com/cocosw/bottomsheet/BottomSheet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugSources
+:example:compileDebugShaders
+:example:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:extractProguardFiles
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:example:preReleaseBuild
+:library:compileReleaseAidl
+:example:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:library:processReleaseResources
+:example:processReleaseResources
+:example:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavacNote: /tmp/rdisk/1044/src/library/src/main/java/com/cocosw/bottomsheet/BottomSheet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:example:mergeReleaseAssets
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:library:mergeReleaseConsumerProguardFiles
+:example:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/query-0.2.2.aar/d74e53a76232a8892f319fbc322349fa/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/8520429b6a36c44a36647959045ed1e6/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/9f283457d9ceabfb6ed7b31e1194b674/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/5151bd19e35091ab8248fddf3f7bf25e/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/9333620822c7739e1913f6637967601d/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/06da88a8b311ff694fa8bd3f3b75dceb/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/c44adf09d5c4cc29ae7d60ef5d00476f/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/10751f913bc18c824d7778c6ee3dad40/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/0a21de102d526da14bf56e18d7c02c09/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/b519b740b12dfd1aac94f3aa1d17c5cb/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/cdf4dd6432bf374b6da79673a283346e/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/7f4f1fe12960865c5a526dcc6c87a69e/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/994a101f243f54e2153b2585ae65b72d/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.0/a7782471b2a0de8fec071b8094a8aaf61c46ab70/support-annotations-27.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/09c12b3d93f70354459cfd521819a118/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/tmp/rdisk/1044/src/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/tmp/rdisk/1044/src/example/build/intermediates/classes/release] (filtered)
+Reading program jar [/tmp/rdisk/1044/src/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Note: android.support.transition.GhostViewApi21: can't find dynamically referenced class android.view.GhostView
+Note: android.support.v4.graphics.TypefaceCompatApi24Impl: can't find dynamically referenced class android.graphics.FontFamily
+Note: android.support.v4.graphics.TypefaceCompatApi26Impl: can't find dynamically referenced class android.graphics.FontFamily
+Note: android.support.v4.media.ParceledListSliceAdapterApi21: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.text.ICUCompat: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v4.text.ICUCompat: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v7.app.ResourcesFlusher: can't find dynamically referenced class android.content.res.ThemedResourceCache
+Note: android.support.v7.widget.DrawableUtils: can't find dynamically referenced class android.graphics.Insets
+Note: com.cocosw.bottomsheet.TranslucentHelper: can't find dynamically referenced class android.os.SystemProperties
+Note: the configuration keeps the entry point 'android.support.design.internal.BottomNavigationMenuView { void setPresenter(android.support.design.internal.BottomNavigationPresenter); }', but not the descriptor class 'android.support.design.internal.BottomNavigationPresenter'
+Note: the configuration keeps the entry point 'android.support.design.widget.BottomNavigationView { void setOnNavigationItemSelectedListener(android.support.design.widget.BottomNavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'android.support.design.widget.BottomNavigationView$OnNavigationItemSelectedListener'
+Note: the configuration keeps the entry point 'android.support.design.widget.BottomNavigationView { void setOnNavigationItemReselectedListener(android.support.design.widget.BottomNavigationView$OnNavigationItemReselectedListener); }', but not the descriptor class 'android.support.design.widget.BottomNavigationView$OnNavigationItemReselectedListener'
+Note: the configuration keeps the entry point 'android.support.design.widget.NavigationView { void setNavigationItemSelectedListener(android.support.design.widget.NavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'android.support.design.widget.NavigationView$OnNavigationItemSelectedListener'
+Note: the configuration keeps the entry point 'android.support.design.widget.TabLayout { void setOnTabSelectedListener(android.support.design.widget.TabLayout$OnTabSelectedListener); }', but not the descriptor class 'android.support.design.widget.TabLayout$OnTabSelectedListener'
+Note: the configuration keeps the entry point 'android.support.design.widget.TabLayout { void setTabsFromPagerAdapter(android.support.v4.view.PagerAdapter); }', but not the descriptor class 'android.support.v4.view.PagerAdapter'
+Note: the configuration keeps the entry point 'android.support.graphics.drawable.VectorDrawableCompat$VPath { void setPathData(android.support.v4.graphics.PathParser$PathDataNode[]); }', but not the descriptor class 'android.support.v4.graphics.PathParser$PathDataNode'
+Note: the configuration keeps the entry point 'android.support.v4.app.FragmentTabHost { void setup(android.content.Context,android.support.v4.app.FragmentManager); }', but not the descriptor class 'android.support.v4.app.FragmentManager'
+Note: the configuration keeps the entry point 'android.support.v4.app.FragmentTabHost { void setup(android.content.Context,android.support.v4.app.FragmentManager,int); }', but not the descriptor class 'android.support.v4.app.FragmentManager'
+Note: the configuration keeps the entry point 'android.support.v4.view.ViewPager { void setAdapter(android.support.v4.view.PagerAdapter); }', but not the descriptor class 'android.support.v4.view.PagerAdapter'
+Note: the configuration keeps the entry point 'android.support.v4.view.ViewPager { void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener); }', but not the descriptor class 'android.support.v4.view.ViewPager$OnPageChangeListener'
+Note: the configuration keeps the entry point 'android.support.v4.view.ViewPager { void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer); }', but not the descriptor class 'android.support.v4.view.ViewPager$PageTransformer'
+Note: the configuration keeps the entry point 'android.support.v4.view.ViewPager { void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer,int); }', but not the descriptor class 'android.support.v4.view.ViewPager$PageTransformer'
+Note: the configuration keeps the entry point 'android.support.v4.widget.DrawerLayout { void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener); }', but not the descriptor class 'android.support.v4.widget.DrawerLayout$DrawerListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.NestedScrollView { void setOnScrollChangeListener(android.support.v4.widget.NestedScrollView$OnScrollChangeListener); }', but not the descriptor class 'android.support.v4.widget.NestedScrollView$OnScrollChangeListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.SlidingPaneLayout { void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener); }', but not the descriptor class 'android.support.v4.widget.SlidingPaneLayout$PanelSlideListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.SwipeRefreshLayout { void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener); }', but not the descriptor class 'android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.SwipeRefreshLayout { void setOnChildScrollUpCallback(android.support.v4.widget.SwipeRefreshLayout$OnChildScrollUpCallback); }', but not the descriptor class 'android.support.v4.widget.SwipeRefreshLayout$OnChildScrollUpCallback'
+Note: the configuration keeps the entry point 'android.support.v7.view.menu.ActionMenuItemView { void setItemInvoker(android.support.v7.view.menu.MenuBuilder$ItemInvoker); }', but not the descriptor class 'android.support.v7.view.menu.MenuBuilder$ItemInvoker'
+Note: the configuration keeps the entry point 'android.support.v7.view.menu.ActionMenuItemView { void setPopupCallback(android.support.v7.view.menu.ActionMenuItemView$PopupCallback); }', but not the descriptor class 'android.support.v7.view.menu.ActionMenuItemView$PopupCallback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActionBarOverlayLayout { void setActionBarVisibilityCallback(android.support.v7.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback); }', but not the descriptor class 'android.support.v7.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActionBarOverlayLayout { void setMenu(android.view.Menu,android.support.v7.view.menu.MenuPresenter$Callback); }', but not the descriptor class 'android.support.v7.view.menu.MenuPresenter$Callback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActionMenuView { void setPresenter(android.support.v7.widget.ActionMenuPresenter); }', but not the descriptor class 'android.support.v7.widget.ActionMenuPresenter'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActionMenuView { void setOnMenuItemClickListener(android.support.v7.widget.ActionMenuView$OnMenuItemClickListener); }', but not the descriptor class 'android.support.v7.widget.ActionMenuView$OnMenuItemClickListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActionMenuView { void setMenuCallbacks(android.support.v7.view.menu.MenuPresenter$Callback,android.support.v7.view.menu.MenuBuilder$Callback); }', but not the descriptor class 'android.support.v7.view.menu.MenuPresenter$Callback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActionMenuView { void setMenuCallbacks(android.support.v7.view.menu.MenuPresenter$Callback,android.support.v7.view.menu.MenuBuilder$Callback); }', but not the descriptor class 'android.support.v7.view.menu.MenuBuilder$Callback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActivityChooserView { void setActivityChooserModel(android.support.v7.widget.ActivityChooserModel); }', but not the descriptor class 'android.support.v7.widget.ActivityChooserModel'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ActivityChooserView { void setProvider(android.support.v4.view.ActionProvider); }', but not the descriptor class 'android.support.v4.view.ActionProvider'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ContentFrameLayout { void setAttachListener(android.support.v7.widget.ContentFrameLayout$OnAttachListener); }', but not the descriptor class 'android.support.v7.widget.ContentFrameLayout$OnAttachListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.FitWindowsFrameLayout { void setOnFitSystemWindowsListener(android.support.v7.widget.FitWindowsViewGroup$OnFitSystemWindowsListener); }', but not the descriptor class 'android.support.v7.widget.FitWindowsViewGroup$OnFitSystemWindowsListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.FitWindowsLinearLayout { void setOnFitSystemWindowsListener(android.support.v7.widget.FitWindowsViewGroup$OnFitSystemWindowsListener); }', but not the descriptor class 'android.support.v7.widget.FitWindowsViewGroup$OnFitSystemWindowsListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.MenuPopupWindow$MenuDropDownListView { void setHoverListener(android.support.v7.widget.MenuItemHoverListener); }', but not the descriptor class 'android.support.v7.widget.MenuItemHoverListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setAccessibilityDelegateCompat(android.support.v7.widget.RecyclerViewAccessibilityDelegate); }', but not the descriptor class 'android.support.v7.widget.RecyclerViewAccessibilityDelegate'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setAdapter(android.support.v7.widget.RecyclerView$Adapter); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$Adapter'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setRecyclerListener(android.support.v7.widget.RecyclerView$RecyclerListener); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$RecyclerListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setLayoutManager(android.support.v7.widget.RecyclerView$LayoutManager); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$LayoutManager'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setOnFlingListener(android.support.v7.widget.RecyclerView$OnFlingListener); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$OnFlingListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setRecycledViewPool(android.support.v7.widget.RecyclerView$RecycledViewPool); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$RecycledViewPool'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setViewCacheExtension(android.support.v7.widget.RecyclerView$ViewCacheExtension); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$ViewCacheExtension'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setChildDrawingOrderCallback(android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setOnScrollListener(android.support.v7.widget.RecyclerView$OnScrollListener); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$OnScrollListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.RecyclerView { void setItemAnimator(android.support.v7.widget.RecyclerView$ItemAnimator); }', but not the descriptor class 'android.support.v7.widget.RecyclerView$ItemAnimator'
+Note: the configuration keeps the entry point 'android.support.v7.widget.SearchView { void setOnQueryTextListener(android.support.v7.widget.SearchView$OnQueryTextListener); }', but not the descriptor class 'android.support.v7.widget.SearchView$OnQueryTextListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.SearchView { void setOnCloseListener(android.support.v7.widget.SearchView$OnCloseListener); }', but not the descriptor class 'android.support.v7.widget.SearchView$OnCloseListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.SearchView { void setOnSuggestionListener(android.support.v7.widget.SearchView$OnSuggestionListener); }', but not the descriptor class 'android.support.v7.widget.SearchView$OnSuggestionListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.SearchView { void setSuggestionsAdapter(android.support.v4.widget.CursorAdapter); }', but not the descriptor class 'android.support.v4.widget.CursorAdapter'
+Note: the configuration keeps the entry point 'android.support.v7.widget.Toolbar { void setMenu(android.support.v7.view.menu.MenuBuilder,android.support.v7.widget.ActionMenuPresenter); }', but not the descriptor class 'android.support.v7.view.menu.MenuBuilder'
+Note: the configuration keeps the entry point 'android.support.v7.widget.Toolbar { void setMenu(android.support.v7.view.menu.MenuBuilder,android.support.v7.widget.ActionMenuPresenter); }', but not the descriptor class 'android.support.v7.widget.ActionMenuPresenter'
+Note: the configuration keeps the entry point 'android.support.v7.widget.Toolbar { void setOnMenuItemClickListener(android.support.v7.widget.Toolbar$OnMenuItemClickListener); }', but not the descriptor class 'android.support.v7.widget.Toolbar$OnMenuItemClickListener'
+Note: the configuration keeps the entry point 'android.support.v7.widget.Toolbar { void setMenuCallbacks(android.support.v7.view.menu.MenuPresenter$Callback,android.support.v7.view.menu.MenuBuilder$Callback); }', but not the descriptor class 'android.support.v7.view.menu.MenuPresenter$Callback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.Toolbar { void setMenuCallbacks(android.support.v7.view.menu.MenuPresenter$Callback,android.support.v7.view.menu.MenuBuilder$Callback); }', but not the descriptor class 'android.support.v7.view.menu.MenuBuilder$Callback'
+Note: the configuration keeps the entry point 'android.support.v7.widget.ViewStubCompat { void setOnInflateListener(android.support.v7.widget.ViewStubCompat$OnInflateListener); }', but not the descriptor class 'android.support.v7.widget.ViewStubCompat$OnInflateListener'
+Note: there were 52 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 9 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: you're ignoring all warnings!
+Preparing output jar [/tmp/rdisk/1044/src/example/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/query-0.2.2.aar/d74e53a76232a8892f319fbc322349fa/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/8520429b6a36c44a36647959045ed1e6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/9f283457d9ceabfb6ed7b31e1194b674/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/5151bd19e35091ab8248fddf3f7bf25e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/9333620822c7739e1913f6637967601d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/06da88a8b311ff694fa8bd3f3b75dceb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/c44adf09d5c4cc29ae7d60ef5d00476f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/10751f913bc18c824d7778c6ee3dad40/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/0a21de102d526da14bf56e18d7c02c09/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/b519b740b12dfd1aac94f3aa1d17c5cb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/cdf4dd6432bf374b6da79673a283346e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/7f4f1fe12960865c5a526dcc6c87a69e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/994a101f243f54e2153b2585ae65b72d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.0/a7782471b2a0de8fec071b8094a8aaf61c46ab70/support-annotations-27.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/09c12b3d93f70354459cfd521819a118/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1044/src/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/1044/src/example/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1044/src/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+:example:transformClassesWithDexForRelease
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(android.support.transition.y) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(com.cocosw.bottomsheet.d) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+:example:transformClassesWithShrinkResForRelease
+Removed unused resources: Binary resource data reduced from 587KB to 565KB: Removed 3%
+:example:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:packageRelease
+:example:lintVitalRelease SKIPPED
+:example:assembleRelease
+:example:assemble
+:example:lint
+Ran lint on variant debug: 18 issues found
+Ran lint on variant release: 18 issues found
+Wrote HTML report to file:///tmp/rdisk/1044/src/example/build/reports/lint-results.html
+Wrote XML report to file:///tmp/rdisk/1044/src/example/build/reports/lint-results.xml
+:example:preDebugUnitTestBuild UP-TO-DATE
+:example:javaPreCompileDebugUnitTest
+:example:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:example:mockableAndroidJar
+:example:processDebugUnitTestJavaRes NO-SOURCE
+:example:testDebugUnitTest NO-SOURCE
+:example:preReleaseUnitTestBuild
+:example:javaPreCompileReleaseUnitTest
+:example:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:example:processReleaseUnitTestJavaRes NO-SOURCE
+:example:testReleaseUnitTest NO-SOURCE
+:example:test UP-TO-DATE
+:example:check
+:example:build
+
+BUILD SUCCESSFUL in 1m 3s
+94 actionable tasks: 94 executed
+
+2018-04-08 06:34:13,646 INFO  FullProcessService - Found APK file: /tmp/rdisk/1044/src/example/build/outputs/apk/release/example-release-unsigned.apk

@@ -1,0 +1,372 @@
+2018-04-08 03:43:35,921 INFO  DownloadService - Downloading "https://github.com/AndroidAlliance/EdgeEffectOverride/archive/master.zip", attempt 3
+2018-04-08 03:44:36,429 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 03:44:37,150 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 03:44:37,150 INFO  DownloadService - Downloading "https://github.com/AndroidAlliance/EdgeEffectOverride/archive/master.zip", attempt 3
+2018-04-08 03:45:38,457 DEBUG FullProcessService - Repository https://github.com/AndroidAlliance/EdgeEffectOverride available: true
+2018-04-08 03:45:38,457 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 03:45:38,457 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AndroidAlliance/EdgeEffectOverride, /tmp/rdisk/1111/src]
+2018-04-08 03:45:40,124 INFO  SysUtils - 
+2018-04-08 03:45:40,129 INFO  GitService - Deleted "/tmp/rdisk/1111/src/.git": true
+2018-04-08 03:45:40,131 INFO  FullProcessService - Size of directory with sources: 527 KB
+2018-04-08 03:45:40,132 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1111/src]
+2018-04-08 03:45:40,145 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1111/src/.git/
+
+2018-04-08 03:45:40,147 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1111/src/gradlew
+2018-04-08 03:45:40,154 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1111/src/EdgeEffectOverride/build.gradle /tmp/rdisk/1111/src/EdgeEffectOverrideSample/build.gradle /tmp/rdisk/1111/src/build.gradle
+2018-04-08 03:45:40,161 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1111/src/settings.gradle /tmp/rdisk/1111/src/maven_push.gradle /tmp/rdisk/1111/src/build.gradle /tmp/rdisk/1111/src/EdgeEffectOverrideSample/build.gradle /tmp/rdisk/1111/src/EdgeEffectOverride/build.gradle
+2018-04-08 03:45:40,161 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-08 03:45:40,831 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-04-08 03:45:40,832 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-04-08 03:45:40,832 INFO  ProjectFixService - Fixing project...
+2018-04-08 03:45:40,840 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1111/src/EdgeEffectOverride/local.properties
+2018-04-08 03:45:40,840 INFO  ProjectFixService - Build info for "/tmp/rdisk/1111/src/EdgeEffectOverride/build.gradle": [buildToolsVersion=21.0.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=16]
+2018-04-08 03:45:40,840 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1111/src/EdgeEffectOverride/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=16]
+2018-04-08 03:45:40,841 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1111/src/EdgeEffectOverrideSample/local.properties
+2018-04-08 03:45:40,841 INFO  ProjectFixService - Build info for "/tmp/rdisk/1111/src/EdgeEffectOverrideSample/build.gradle": [buildToolsVersion=21.0.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=16]
+2018-04-08 03:45:40,841 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1111/src/EdgeEffectOverrideSample/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=16]
+2018-04-08 03:45:40,842 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1111/src/local.properties
+2018-04-08 03:45:40,842 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.1-all.zip
+2018-04-08 03:45:40,842 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.1-bin.zip)
+2018-04-08 03:45:40,844 INFO  ProjectFixService - Build info for "/tmp/rdisk/1111/src/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=16]
+2018-04-08 03:45:40,844 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 03:45:40,844 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 03:45:40,844 INFO  SysUtils - Execute command: [/tmp/rdisk/1111/src/gradlew, -b, /tmp/rdisk/1111/src/EdgeEffectOverride/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 03:45:53,020 INFO  ProjectTaskService - Detected possible tasks: 55
+2018-04-08 03:45:53,021 INFO  ProjectTaskService - Excluded tasks (11): lintDebug androidJavadocs deviceCheck lint androidSourcesJar connectedCheck uninstallAll androidJavadocsJar check connectedAndroidTest lintRelease
+2018-04-08 03:45:53,021 INFO  SysUtils - Execute command: [/tmp/rdisk/1111/src/gradlew, -b, /tmp/rdisk/1111/src/EdgeEffectOverride/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 03:45:59,131 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 03:45:59,131 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':EdgeEffectOverride'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':EdgeEffectOverride'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:71)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:45)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.ProjectEvaluatingAction.configure(ProjectEvaluatingAction.java:52)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.select(DefaultBuildExecuter.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:142)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+BUILD FAILED
+
+Total time: 5.686 secs
+
+2018-04-08 03:45:59,131 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-04-08 03:45:59,131 INFO  SysUtils - Execute command: [/tmp/rdisk/1111/src/gradlew, -b, /tmp/rdisk/1111/src/EdgeEffectOverride/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-08 03:46:09,207 INFO  SysUtils - Configuration on demand is an incubating feature.
+:EdgeEffectOverride:compileLint
+:EdgeEffectOverride:copyDebugLint UP-TO-DATE
+:EdgeEffectOverride:mergeDebugProguardFiles
+:EdgeEffectOverride:preBuild
+:EdgeEffectOverride:preDebugBuild
+:EdgeEffectOverride:checkDebugManifest
+:EdgeEffectOverride:prepareDebugDependencies
+:EdgeEffectOverride:compileDebugAidl
+:EdgeEffectOverride:compileDebugRenderscript
+:EdgeEffectOverride:generateDebugBuildConfig
+:EdgeEffectOverride:generateDebugAssets UP-TO-DATE
+:EdgeEffectOverride:mergeDebugAssets
+:EdgeEffectOverride:generateDebugResValues
+:EdgeEffectOverride:generateDebugResources
+:EdgeEffectOverride:packageDebugResources
+:EdgeEffectOverride:processDebugManifest
+:EdgeEffectOverride:processDebugResources
+:EdgeEffectOverride:generateDebugSources
+:EdgeEffectOverride:compileDebugJava
+:EdgeEffectOverride:processDebugJavaRes UP-TO-DATE
+:EdgeEffectOverride:packageDebugJar
+:EdgeEffectOverride:compileDebugNdk
+:EdgeEffectOverride:packageDebugJniLibs UP-TO-DATE
+:EdgeEffectOverride:packageDebugLocalJar UP-TO-DATE
+:EdgeEffectOverride:packageDebugRenderscript UP-TO-DATE
+:EdgeEffectOverride:bundleDebug
+:EdgeEffectOverride:assembleDebug
+:EdgeEffectOverride:copyReleaseLint UP-TO-DATE
+:EdgeEffectOverride:mergeReleaseProguardFiles
+:EdgeEffectOverride:preReleaseBuild
+:EdgeEffectOverride:checkReleaseManifest
+:EdgeEffectOverride:prepareReleaseDependencies
+:EdgeEffectOverride:compileReleaseAidl
+:EdgeEffectOverride:compileReleaseRenderscript
+:EdgeEffectOverride:generateReleaseBuildConfig
+:EdgeEffectOverride:generateReleaseAssets UP-TO-DATE
+:EdgeEffectOverride:mergeReleaseAssets
+:EdgeEffectOverride:generateReleaseResValues
+:EdgeEffectOverride:generateReleaseResources
+:EdgeEffectOverride:packageReleaseResources
+:EdgeEffectOverride:processReleaseManifest
+:EdgeEffectOverride:processReleaseResources
+:EdgeEffectOverride:generateReleaseSources
+:EdgeEffectOverride:compileReleaseJava
+:EdgeEffectOverride:processReleaseJavaRes UP-TO-DATE
+:EdgeEffectOverride:packageReleaseJar
+:EdgeEffectOverride:compileReleaseNdk
+:EdgeEffectOverride:packageReleaseJniLibs UP-TO-DATE
+:EdgeEffectOverride:packageReleaseLocalJar UP-TO-DATE
+:EdgeEffectOverride:packageReleaseRenderscript UP-TO-DATE
+:EdgeEffectOverride:bundleRelease
+:EdgeEffectOverride:assembleRelease
+:EdgeEffectOverride:assemble
+:EdgeEffectOverride:lint
+Ran lint on variant release: 12 issues found
+Ran lint on variant debug: 12 issues found
+Wrote HTML report to file:/tmp/rdisk/1111/src/EdgeEffectOverride/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1111/src/EdgeEffectOverride/build/outputs/lint-results.xml
+:EdgeEffectOverride:check
+:EdgeEffectOverride:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.584 secs
+
+2018-04-08 03:46:09,215 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 03:46:09,215 INFO  SysUtils - Execute command: [/tmp/rdisk/1111/src/gradlew, -b, /tmp/rdisk/1111/src/EdgeEffectOverrideSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 03:46:15,865 INFO  ProjectTaskService - Detected possible tasks: 57
+2018-04-08 03:46:15,866 INFO  ProjectTaskService - Excluded tasks (14): lintDebug androidJavadocs deviceCheck lint androidSourcesJar uninstallRelease connectedCheck uninstallAll androidJavadocsJar check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 03:46:15,866 INFO  SysUtils - Execute command: [/tmp/rdisk/1111/src/gradlew, -b, /tmp/rdisk/1111/src/EdgeEffectOverrideSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 03:46:21,900 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 03:46:21,900 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':EdgeEffectOverrideSample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':EdgeEffectOverrideSample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:71)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:45)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.ProjectEvaluatingAction.configure(ProjectEvaluatingAction.java:52)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.select(DefaultBuildExecuter.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:142)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+BUILD FAILED
+
+Total time: 5.593 secs
+
+2018-04-08 03:46:21,900 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-04-08 03:46:21,900 INFO  SysUtils - Execute command: [/tmp/rdisk/1111/src/gradlew, -b, /tmp/rdisk/1111/src/EdgeEffectOverrideSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-08 03:46:37,755 INFO  SysUtils - Configuration on demand is an incubating feature.
+:EdgeEffectOverrideSample:preBuild
+:EdgeEffectOverrideSample:compileDebugNdk
+:EdgeEffectOverride:compileLint
+:EdgeEffectOverride:copyReleaseLint UP-TO-DATE
+:EdgeEffectOverride:mergeReleaseProguardFiles UP-TO-DATE
+:EdgeEffectOverride:preBuild
+:EdgeEffectOverride:preReleaseBuild
+:EdgeEffectOverride:checkReleaseManifest
+:EdgeEffectOverride:prepareReleaseDependencies
+:EdgeEffectOverride:compileReleaseAidl UP-TO-DATE
+:EdgeEffectOverride:compileReleaseRenderscript UP-TO-DATE
+:EdgeEffectOverride:generateReleaseBuildConfig UP-TO-DATE
+:EdgeEffectOverride:generateReleaseAssets UP-TO-DATE
+:EdgeEffectOverride:mergeReleaseAssets UP-TO-DATE
+:EdgeEffectOverride:generateReleaseResValues UP-TO-DATE
+:EdgeEffectOverride:generateReleaseResources UP-TO-DATE
+:EdgeEffectOverride:packageReleaseResources UP-TO-DATE
+:EdgeEffectOverride:processReleaseManifest UP-TO-DATE
+:EdgeEffectOverride:processReleaseResources UP-TO-DATE
+:EdgeEffectOverride:generateReleaseSources UP-TO-DATE
+:EdgeEffectOverride:compileReleaseJava UP-TO-DATE
+:EdgeEffectOverride:processReleaseJavaRes UP-TO-DATE
+:EdgeEffectOverride:packageReleaseJar UP-TO-DATE
+:EdgeEffectOverride:compileReleaseNdk UP-TO-DATE
+:EdgeEffectOverride:packageReleaseJniLibs UP-TO-DATE
+:EdgeEffectOverride:packageReleaseLocalJar UP-TO-DATE
+:EdgeEffectOverride:packageReleaseRenderscript UP-TO-DATE
+:EdgeEffectOverride:bundleRelease UP-TO-DATE
+:EdgeEffectOverrideSample:preDebugBuild
+:EdgeEffectOverrideSample:checkDebugManifest
+:EdgeEffectOverrideSample:preReleaseBuild
+:EdgeEffectOverrideSample:prepareUkCoAndroidallianceEdgeEffectOverride102Library
+:EdgeEffectOverrideSample:prepareDebugDependencies
+:EdgeEffectOverrideSample:compileDebugAidl
+:EdgeEffectOverrideSample:compileDebugRenderscript
+:EdgeEffectOverrideSample:generateDebugBuildConfig
+:EdgeEffectOverrideSample:generateDebugAssets UP-TO-DATE
+:EdgeEffectOverrideSample:mergeDebugAssets
+:EdgeEffectOverrideSample:generateDebugResValues
+:EdgeEffectOverrideSample:generateDebugResources
+:EdgeEffectOverrideSample:mergeDebugResources
+:EdgeEffectOverrideSample:processDebugManifest
+:EdgeEffectOverrideSample:processDebugResources
+:EdgeEffectOverrideSample:generateDebugSources
+:EdgeEffectOverrideSample:compileDebugJavaNote: /tmp/rdisk/1111/src/EdgeEffectOverrideSample/src/main/java/uk/co/androidalliance/edgeeffectoverride/sample/WebViewActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:EdgeEffectOverrideSample:preDexDebug
+:EdgeEffectOverrideSample:dexDebug
+:EdgeEffectOverrideSample:processDebugJavaRes UP-TO-DATE
+:EdgeEffectOverrideSample:validateDebugSigning
+:EdgeEffectOverrideSample:packageDebug
+:EdgeEffectOverrideSample:zipalignDebug
+:EdgeEffectOverrideSample:assembleDebug
+:EdgeEffectOverrideSample:checkReleaseManifest
+:EdgeEffectOverrideSample:prepareReleaseDependencies
+:EdgeEffectOverrideSample:compileReleaseAidl
+:EdgeEffectOverrideSample:compileReleaseRenderscript
+:EdgeEffectOverrideSample:generateReleaseBuildConfig
+:EdgeEffectOverrideSample:generateReleaseAssets UP-TO-DATE
+:EdgeEffectOverrideSample:mergeReleaseAssets
+:EdgeEffectOverrideSample:generateReleaseResValues
+:EdgeEffectOverrideSample:generateReleaseResources
+:EdgeEffectOverrideSample:mergeReleaseResources
+:EdgeEffectOverrideSample:processReleaseManifest
+:EdgeEffectOverrideSample:processReleaseResources
+:EdgeEffectOverrideSample:generateReleaseSources
+:EdgeEffectOverrideSample:compileReleaseJavaNote: /tmp/rdisk/1111/src/EdgeEffectOverrideSample/src/main/java/uk/co/androidalliance/edgeeffectoverride/sample/WebViewActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:EdgeEffectOverrideSample:lintVitalRelease SKIPPED
+:EdgeEffectOverrideSample:compileReleaseNdk
+:EdgeEffectOverrideSample:preDexRelease
+:EdgeEffectOverrideSample:dexRelease
+:EdgeEffectOverrideSample:processReleaseJavaRes UP-TO-DATE
+:EdgeEffectOverrideSample:packageRelease
+:EdgeEffectOverrideSample:assembleRelease
+:EdgeEffectOverrideSample:assemble
+:EdgeEffectOverrideSample:compileLint
+:EdgeEffectOverrideSample:lint
+Ran lint on variant debug: 8 issues found
+Ran lint on variant release: 8 issues found
+Wrote HTML report to file:/tmp/rdisk/1111/src/EdgeEffectOverrideSample/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1111/src/EdgeEffectOverrideSample/build/outputs/lint-results.xml
+:EdgeEffectOverrideSample:check
+:EdgeEffectOverrideSample:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.377 secs
+
+2018-04-08 03:46:37,769 INFO  FullProcessService - Found APK file: /tmp/rdisk/1111/src/EdgeEffectOverrideSample/build/outputs/apk/EdgeEffectOverrideSample-release-unsigned.apk

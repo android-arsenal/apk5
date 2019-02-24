@@ -1,0 +1,951 @@
+2018-05-22 08:49:55,386 INFO  DownloadService - Downloading "https://github.com/mikepenz/Android-Iconics/archive/master.zip", attempt 3
+2018-05-22 08:50:55,387 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 08:50:56,243 INFO  GithubDownloadService - Default branch of this repository: develop
+2018-05-22 08:50:56,243 INFO  DownloadService - Downloading "https://github.com/mikepenz/Android-Iconics/archive/develop.zip", attempt 3
+2018-05-22 08:51:57,066 DEBUG FullProcessService - Repository https://github.com/mikepenz/Android-Iconics available: true
+2018-05-22 08:51:57,066 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 08:51:57,067 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mikepenz/Android-Iconics, /tmp/rdisk/1164/src]
+2018-05-22 08:52:02,340 INFO  SysUtils - 
+2018-05-22 08:52:02,351 INFO  GitService - Deleted "/tmp/rdisk/1164/src/.git": true
+2018-05-22 08:52:02,364 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-05-22 08:52:02,364 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1164/src]
+2018-05-22 08:52:02,368 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1164/src/.git/
+
+2018-05-22 08:52:02,379 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1164/src/gradlew
+2018-05-22 08:52:02,394 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1164/src/app/build.gradle /tmp/rdisk/1164/src/community-material-typeface-library/build.gradle /tmp/rdisk/1164/src/devicon-typeface-library/build.gradle /tmp/rdisk/1164/src/entypo-typeface-library/build.gradle /tmp/rdisk/1164/src/fontawesome-typeface-library/build.gradle /tmp/rdisk/1164/src/foundation-icons-typeface-library/build.gradle /tmp/rdisk/1164/src/google-material-typeface-library/build.gradle /tmp/rdisk/1164/src/iconics-view-library/build.gradle /tmp/rdisk/1164/src/ionicons-typeface-library/build.gradle /tmp/rdisk/1164/src/library-core/build.gradle /tmp/rdisk/1164/src/material-design-iconic-typeface-library/build.gradle /tmp/rdisk/1164/src/meteocons-typeface-library/build.gradle /tmp/rdisk/1164/src/octicons-typeface-library/build.gradle /tmp/rdisk/1164/src/pixeden-7-stroke-typeface-library/build.gradle /tmp/rdisk/1164/src/typeicons-typeface-library/build.gradle /tmp/rdisk/1164/src/weather-icons-typeface-library/build.gradle /tmp/rdisk/1164/src/build.gradle
+2018-05-22 08:52:02,404 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1164/src/weather-icons-typeface-library/build.gradle /tmp/rdisk/1164/src/typeicons-typeface-library/build.gradle /tmp/rdisk/1164/src/settings.gradle /tmp/rdisk/1164/src/pixeden-7-stroke-typeface-library/build.gradle /tmp/rdisk/1164/src/octicons-typeface-library/build.gradle /tmp/rdisk/1164/src/meteocons-typeface-library/build.gradle /tmp/rdisk/1164/src/material-design-iconic-typeface-library/build.gradle /tmp/rdisk/1164/src/library-core/build.gradle /tmp/rdisk/1164/src/ionicons-typeface-library/build.gradle /tmp/rdisk/1164/src/iconics-view-library/build.gradle /tmp/rdisk/1164/src/gradle-mvn-push.gradle /tmp/rdisk/1164/src/gradle-jcenter-push.gradle /tmp/rdisk/1164/src/google-material-typeface-library/build.gradle /tmp/rdisk/1164/src/foundation-icons-typeface-library/build.gradle /tmp/rdisk/1164/src/fontawesome-typeface-library/build.gradle /tmp/rdisk/1164/src/entypo-typeface-library/build.gradle /tmp/rdisk/1164/src/devicon-typeface-library/build.gradle /tmp/rdisk/1164/src/community-material-typeface-library/build.gradle /tmp/rdisk/1164/src/build.gradle /tmp/rdisk/1164/src/app/build.gradle
+2018-05-22 08:52:02,406 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 08:52:02,406 INFO  ProjectFixService - Fixing project...
+2018-05-22 08:52:02,448 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/app/local.properties
+2018-05-22 08:52:02,461 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/app/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,462 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/community-material-typeface-library/local.properties
+2018-05-22 08:52:02,473 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/community-material-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,476 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/devicon-typeface-library/local.properties
+2018-05-22 08:52:02,487 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/devicon-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,487 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/entypo-typeface-library/local.properties
+2018-05-22 08:52:02,498 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/entypo-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,499 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/fontawesome-typeface-library/local.properties
+2018-05-22 08:52:02,518 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/fontawesome-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,519 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/foundation-icons-typeface-library/local.properties
+2018-05-22 08:52:02,530 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/foundation-icons-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,531 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/google-material-typeface-library/local.properties
+2018-05-22 08:52:02,542 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/google-material-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,543 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/iconics-view-library/local.properties
+2018-05-22 08:52:02,554 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/iconics-view-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,555 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/ionicons-typeface-library/local.properties
+2018-05-22 08:52:02,565 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/ionicons-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,566 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/library-core/local.properties
+2018-05-22 08:52:02,577 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/library-core/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,577 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/material-design-iconic-typeface-library/local.properties
+2018-05-22 08:52:02,588 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/material-design-iconic-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,588 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/meteocons-typeface-library/local.properties
+2018-05-22 08:52:02,599 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/meteocons-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,600 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/octicons-typeface-library/local.properties
+2018-05-22 08:52:02,611 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/octicons-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,611 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/pixeden-7-stroke-typeface-library/local.properties
+2018-05-22 08:52:02,622 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/pixeden-7-stroke-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,622 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/typeicons-typeface-library/local.properties
+2018-05-22 08:52:02,634 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/typeicons-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,634 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/weather-icons-typeface-library/local.properties
+2018-05-22 08:52:02,644 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/weather-icons-typeface-library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,645 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1164/src/local.properties
+2018-05-22 08:52:02,647 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-05-22 08:52:02,647 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-05-22 08:52:02,648 INFO  ProjectFixService - Build info for "/tmp/rdisk/1164/src/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 08:52:02,648 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 08:52:02,648 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 08:52:02,648 INFO  SysUtils - Execute command: [/tmp/rdisk/1164/src/gradlew, -b, /tmp/rdisk/1164/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 08:52:10,914 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-22 08:52:10,914 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-22 08:52:10,914 INFO  SysUtils - Execute command: [/tmp/rdisk/1164/src/gradlew, -b, /tmp/rdisk/1164/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-22 08:53:28,472 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:community-material-typeface-library:preBuild UP-TO-DATE
+:community-material-typeface-library:preDebugBuild UP-TO-DATE
+:community-material-typeface-library:checkDebugManifest
+:community-material-typeface-library:processDebugManifest
+:devicon-typeface-library:preBuild UP-TO-DATE
+:devicon-typeface-library:preDebugBuild UP-TO-DATE
+:devicon-typeface-library:checkDebugManifest
+:devicon-typeface-library:processDebugManifest
+:entypo-typeface-library:preBuild UP-TO-DATE
+:entypo-typeface-library:preDebugBuild UP-TO-DATE
+:entypo-typeface-library:checkDebugManifest
+:entypo-typeface-library:processDebugManifest
+:fontawesome-typeface-library:preBuild UP-TO-DATE
+:fontawesome-typeface-library:preDebugBuild UP-TO-DATE
+:fontawesome-typeface-library:checkDebugManifest
+:fontawesome-typeface-library:processDebugManifest
+:foundation-icons-typeface-library:preBuild UP-TO-DATE
+:foundation-icons-typeface-library:preDebugBuild UP-TO-DATE
+:foundation-icons-typeface-library:checkDebugManifest
+:foundation-icons-typeface-library:processDebugManifest
+:google-material-typeface-library:preBuild UP-TO-DATE
+:google-material-typeface-library:preDebugBuild UP-TO-DATE
+:google-material-typeface-library:checkDebugManifest
+:google-material-typeface-library:processDebugManifest
+:iconics-view-library:preBuild UP-TO-DATE
+:iconics-view-library:preDebugBuild UP-TO-DATE
+:iconics-view-library:checkDebugManifest
+:iconics-view-library:processDebugManifest
+:ionicons-typeface-library:preBuild UP-TO-DATE
+:ionicons-typeface-library:preDebugBuild UP-TO-DATE
+:ionicons-typeface-library:checkDebugManifest
+:ionicons-typeface-library:processDebugManifest
+:library-core:preBuild UP-TO-DATE
+:library-core:preDebugBuild UP-TO-DATE
+:library-core:checkDebugManifest
+:library-core:processDebugManifest
+:material-design-iconic-typeface-library:preBuild UP-TO-DATE
+:material-design-iconic-typeface-library:preDebugBuild UP-TO-DATE
+:material-design-iconic-typeface-library:checkDebugManifest
+:material-design-iconic-typeface-library:processDebugManifest
+:meteocons-typeface-library:preBuild UP-TO-DATE
+:meteocons-typeface-library:preDebugBuild UP-TO-DATE
+:meteocons-typeface-library:checkDebugManifest
+:meteocons-typeface-library:processDebugManifest
+:octicons-typeface-library:preBuild UP-TO-DATE
+:octicons-typeface-library:preDebugBuild UP-TO-DATE
+:octicons-typeface-library:checkDebugManifest
+:octicons-typeface-library:processDebugManifest
+:pixeden-7-stroke-typeface-library:preBuild UP-TO-DATE
+:pixeden-7-stroke-typeface-library:preDebugBuild UP-TO-DATE
+:pixeden-7-stroke-typeface-library:checkDebugManifest
+:pixeden-7-stroke-typeface-library:processDebugManifest
+:typeicons-typeface-library:preBuild UP-TO-DATE
+:typeicons-typeface-library:preDebugBuild UP-TO-DATE
+:typeicons-typeface-library:checkDebugManifest
+:typeicons-typeface-library:processDebugManifest
+:weather-icons-typeface-library:preBuild UP-TO-DATE
+:weather-icons-typeface-library:preDebugBuild UP-TO-DATE
+:weather-icons-typeface-library:checkDebugManifest
+:weather-icons-typeface-library:processDebugManifest
+:app:preDebugBuild
+:library-core:compileDebugAidl
+:community-material-typeface-library:compileDebugAidl
+:devicon-typeface-library:compileDebugAidl
+:entypo-typeface-library:compileDebugAidl
+:fontawesome-typeface-library:compileDebugAidl
+:foundation-icons-typeface-library:compileDebugAidl
+:google-material-typeface-library:compileDebugAidl
+:iconics-view-library:compileDebugAidl
+:ionicons-typeface-library:compileDebugAidl
+:material-design-iconic-typeface-library:compileDebugAidl
+:meteocons-typeface-library:compileDebugAidl
+:octicons-typeface-library:compileDebugAidl
+:pixeden-7-stroke-typeface-library:compileDebugAidl
+:typeicons-typeface-library:compileDebugAidl
+:weather-icons-typeface-library:compileDebugAidl
+:app:compileDebugAidl
+:community-material-typeface-library:packageDebugRenderscript NO-SOURCE
+:devicon-typeface-library:packageDebugRenderscript NO-SOURCE
+:entypo-typeface-library:packageDebugRenderscript NO-SOURCE
+:fontawesome-typeface-library:packageDebugRenderscript NO-SOURCE
+:foundation-icons-typeface-library:packageDebugRenderscript NO-SOURCE
+:google-material-typeface-library:packageDebugRenderscript NO-SOURCE
+:iconics-view-library:packageDebugRenderscript NO-SOURCE
+:ionicons-typeface-library:packageDebugRenderscript NO-SOURCE
+:library-core:packageDebugRenderscript NO-SOURCE
+:material-design-iconic-typeface-library:packageDebugRenderscript NO-SOURCE
+:meteocons-typeface-library:packageDebugRenderscript NO-SOURCE
+:octicons-typeface-library:packageDebugRenderscript NO-SOURCE
+:pixeden-7-stroke-typeface-library:packageDebugRenderscript NO-SOURCE
+:typeicons-typeface-library:packageDebugRenderscript NO-SOURCE
+:weather-icons-typeface-library:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:community-material-typeface-library:compileDebugRenderscript
+:community-material-typeface-library:generateDebugResValues
+:community-material-typeface-library:generateDebugResources
+:community-material-typeface-library:packageDebugResources
+:devicon-typeface-library:compileDebugRenderscript
+:devicon-typeface-library:generateDebugResValues
+:devicon-typeface-library:generateDebugResources
+:devicon-typeface-library:packageDebugResources
+:entypo-typeface-library:compileDebugRenderscript
+:entypo-typeface-library:generateDebugResValues
+:entypo-typeface-library:generateDebugResources
+:entypo-typeface-library:packageDebugResources
+:fontawesome-typeface-library:compileDebugRenderscript
+:fontawesome-typeface-library:generateDebugResValues
+:fontawesome-typeface-library:generateDebugResources
+:fontawesome-typeface-library:packageDebugResources
+:foundation-icons-typeface-library:compileDebugRenderscript
+:foundation-icons-typeface-library:generateDebugResValues
+:foundation-icons-typeface-library:generateDebugResources
+:foundation-icons-typeface-library:packageDebugResources
+:google-material-typeface-library:compileDebugRenderscript
+:google-material-typeface-library:generateDebugResValues
+:google-material-typeface-library:generateDebugResources
+:google-material-typeface-library:packageDebugResources
+:iconics-view-library:compileDebugRenderscript
+:iconics-view-library:generateDebugResValues
+:iconics-view-library:generateDebugResources
+:iconics-view-library:packageDebugResources
+:ionicons-typeface-library:compileDebugRenderscript
+:ionicons-typeface-library:generateDebugResValues
+:ionicons-typeface-library:generateDebugResources
+:ionicons-typeface-library:packageDebugResources
+:library-core:compileDebugRenderscript
+:library-core:generateDebugResValues
+:library-core:generateDebugResources
+:library-core:packageDebugResources
+:material-design-iconic-typeface-library:compileDebugRenderscript
+:material-design-iconic-typeface-library:generateDebugResValues
+:material-design-iconic-typeface-library:generateDebugResources
+:material-design-iconic-typeface-library:packageDebugResources
+:meteocons-typeface-library:compileDebugRenderscript
+:meteocons-typeface-library:generateDebugResValues
+:meteocons-typeface-library:generateDebugResources
+:meteocons-typeface-library:packageDebugResources
+:octicons-typeface-library:compileDebugRenderscript
+:octicons-typeface-library:generateDebugResValues
+:octicons-typeface-library:generateDebugResources
+:octicons-typeface-library:packageDebugResources
+:pixeden-7-stroke-typeface-library:compileDebugRenderscript
+:pixeden-7-stroke-typeface-library:generateDebugResValues
+:pixeden-7-stroke-typeface-library:generateDebugResources
+:pixeden-7-stroke-typeface-library:packageDebugResources
+:typeicons-typeface-library:compileDebugRenderscript
+:typeicons-typeface-library:generateDebugResValues
+:typeicons-typeface-library:generateDebugResources
+:typeicons-typeface-library:packageDebugResources
+:weather-icons-typeface-library:compileDebugRenderscript
+:weather-icons-typeface-library:generateDebugResValues
+:weather-icons-typeface-library:generateDebugResources
+:weather-icons-typeface-library:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:community-material-typeface-library:platformAttrExtractor
+:library-core:platformAttrExtractor
+:devicon-typeface-library:platformAttrExtractor
+:entypo-typeface-library:platformAttrExtractor
+:fontawesome-typeface-library:platformAttrExtractor
+:foundation-icons-typeface-library:platformAttrExtractor
+:library-core:processDebugResources
+:community-material-typeface-library:processDebugResources
+:devicon-typeface-library:processDebugResources
+:fontawesome-typeface-library:processDebugResources
+:google-material-typeface-library:platformAttrExtractor
+:entypo-typeface-library:processDebugResources
+:foundation-icons-typeface-library:processDebugResources
+:iconics-view-library:platformAttrExtractor
+:ionicons-typeface-library:platformAttrExtractor
+:material-design-iconic-typeface-library:platformAttrExtractor
+:google-material-typeface-library:processDebugResources
+:meteocons-typeface-library:platformAttrExtractor
+:material-design-iconic-typeface-library:processDebugResources
+:octicons-typeface-library:platformAttrExtractor
+:meteocons-typeface-library:processDebugResources
+:pixeden-7-stroke-typeface-library:platformAttrExtractor
+:iconics-view-library:processDebugResources
+:typeicons-typeface-library:platformAttrExtractor
+:typeicons-typeface-library:processDebugResources
+:weather-icons-typeface-library:platformAttrExtractor
+:weather-icons-typeface-library:processDebugResources
+:community-material-typeface-library:generateDebugBuildConfig
+:community-material-typeface-library:prepareLintJar
+:community-material-typeface-library:generateDebugSources
+:library-core:generateDebugBuildConfig
+:library-core:prepareLintJar
+:library-core:generateDebugSources
+:library-core:javaPreCompileDebug
+:library-core:compileDebugJavaWithJavacNote: /tmp/rdisk/1164/src/library-core/src/main/java/com/mikepenz/iconics/context/IconicsLayoutInflater.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library-core:processDebugJavaRes NO-SOURCE
+:pixeden-7-stroke-typeface-library:processDebugResources
+:library-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:community-material-typeface-library:javaPreCompileDebug
+:community-material-typeface-library:compileDebugJavaWithJavac
+:community-material-typeface-library:processDebugJavaRes NO-SOURCE
+:community-material-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:devicon-typeface-library:generateDebugBuildConfig
+:devicon-typeface-library:prepareLintJar
+:devicon-typeface-library:generateDebugSources
+:devicon-typeface-library:javaPreCompileDebug
+:devicon-typeface-library:compileDebugJavaWithJavac
+:devicon-typeface-library:processDebugJavaRes NO-SOURCE
+:ionicons-typeface-library:processDebugResources
+:devicon-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:octicons-typeface-library:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:entypo-typeface-library:generateDebugBuildConfig
+:entypo-typeface-library:prepareLintJar
+:entypo-typeface-library:generateDebugSources
+:entypo-typeface-library:javaPreCompileDebug
+:entypo-typeface-library:compileDebugJavaWithJavac
+:entypo-typeface-library:processDebugJavaRes NO-SOURCE
+:entypo-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:fontawesome-typeface-library:generateDebugBuildConfig
+:fontawesome-typeface-library:prepareLintJar
+:fontawesome-typeface-library:generateDebugSources
+:fontawesome-typeface-library:javaPreCompileDebug
+:fontawesome-typeface-library:compileDebugJavaWithJavac
+:fontawesome-typeface-library:processDebugJavaRes NO-SOURCE
+:fontawesome-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:foundation-icons-typeface-library:generateDebugBuildConfig
+:foundation-icons-typeface-library:prepareLintJar
+:foundation-icons-typeface-library:generateDebugSources
+:foundation-icons-typeface-library:javaPreCompileDebug
+:foundation-icons-typeface-library:compileDebugJavaWithJavac
+:foundation-icons-typeface-library:processDebugJavaRes NO-SOURCE
+:foundation-icons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:google-material-typeface-library:generateDebugBuildConfig
+:google-material-typeface-library:prepareLintJar
+:google-material-typeface-library:generateDebugSources
+:google-material-typeface-library:javaPreCompileDebug
+:google-material-typeface-library:compileDebugJavaWithJavac
+:google-material-typeface-library:processDebugJavaRes NO-SOURCE
+:google-material-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:iconics-view-library:generateDebugBuildConfig
+:iconics-view-library:prepareLintJar
+:iconics-view-library:generateDebugSources
+:iconics-view-library:javaPreCompileDebug
+:iconics-view-library:compileDebugJavaWithJavac
+:iconics-view-library:processDebugJavaRes NO-SOURCE
+:iconics-view-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:ionicons-typeface-library:generateDebugBuildConfig
+:ionicons-typeface-library:prepareLintJar
+:ionicons-typeface-library:generateDebugSources
+:ionicons-typeface-library:javaPreCompileDebug
+:ionicons-typeface-library:compileDebugJavaWithJavac
+:ionicons-typeface-library:processDebugJavaRes NO-SOURCE
+:ionicons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:material-design-iconic-typeface-library:generateDebugBuildConfig
+:material-design-iconic-typeface-library:prepareLintJar
+:material-design-iconic-typeface-library:generateDebugSources
+:material-design-iconic-typeface-library:javaPreCompileDebug
+:material-design-iconic-typeface-library:compileDebugJavaWithJavac
+:material-design-iconic-typeface-library:processDebugJavaRes NO-SOURCE
+:material-design-iconic-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:meteocons-typeface-library:generateDebugBuildConfig
+:meteocons-typeface-library:prepareLintJar
+:meteocons-typeface-library:generateDebugSources
+:meteocons-typeface-library:javaPreCompileDebug
+:meteocons-typeface-library:compileDebugJavaWithJavac
+:meteocons-typeface-library:processDebugJavaRes NO-SOURCE
+:meteocons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:octicons-typeface-library:generateDebugBuildConfig
+:octicons-typeface-library:prepareLintJar
+:octicons-typeface-library:generateDebugSources
+:octicons-typeface-library:javaPreCompileDebug
+:octicons-typeface-library:compileDebugJavaWithJavac
+:octicons-typeface-library:processDebugJavaRes NO-SOURCE
+:octicons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:pixeden-7-stroke-typeface-library:generateDebugBuildConfig
+:pixeden-7-stroke-typeface-library:prepareLintJar
+:pixeden-7-stroke-typeface-library:generateDebugSources
+:pixeden-7-stroke-typeface-library:javaPreCompileDebug
+:pixeden-7-stroke-typeface-library:compileDebugJavaWithJavac
+:pixeden-7-stroke-typeface-library:processDebugJavaRes NO-SOURCE
+:pixeden-7-stroke-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:typeicons-typeface-library:generateDebugBuildConfig
+:typeicons-typeface-library:prepareLintJar
+:typeicons-typeface-library:generateDebugSources
+:typeicons-typeface-library:javaPreCompileDebug
+:typeicons-typeface-library:compileDebugJavaWithJavac
+:typeicons-typeface-library:processDebugJavaRes NO-SOURCE
+:typeicons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:weather-icons-typeface-library:generateDebugBuildConfig
+:weather-icons-typeface-library:prepareLintJar
+:weather-icons-typeface-library:generateDebugSources
+:weather-icons-typeface-library:javaPreCompileDebug
+:weather-icons-typeface-library:compileDebugJavaWithJavac
+:weather-icons-typeface-library:processDebugJavaRes NO-SOURCE
+:weather-icons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /tmp/rdisk/1164/src/app/src/main/java/com/mikepenz/iconics/sample/item/IconItem.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:community-material-typeface-library:mergeDebugShaders
+:community-material-typeface-library:compileDebugShaders
+:community-material-typeface-library:generateDebugAssets
+:community-material-typeface-library:mergeDebugAssets
+:devicon-typeface-library:mergeDebugShaders
+:devicon-typeface-library:compileDebugShaders
+:devicon-typeface-library:generateDebugAssets
+:devicon-typeface-library:mergeDebugAssets
+:entypo-typeface-library:mergeDebugShaders
+:entypo-typeface-library:compileDebugShaders
+:entypo-typeface-library:generateDebugAssets
+:entypo-typeface-library:mergeDebugAssets
+:fontawesome-typeface-library:mergeDebugShaders
+:fontawesome-typeface-library:compileDebugShaders
+:fontawesome-typeface-library:generateDebugAssets
+:fontawesome-typeface-library:mergeDebugAssets
+:foundation-icons-typeface-library:mergeDebugShaders
+:foundation-icons-typeface-library:compileDebugShaders
+:foundation-icons-typeface-library:generateDebugAssets
+:foundation-icons-typeface-library:mergeDebugAssets
+:google-material-typeface-library:mergeDebugShaders
+:google-material-typeface-library:compileDebugShaders
+:google-material-typeface-library:generateDebugAssets
+:google-material-typeface-library:mergeDebugAssets
+:iconics-view-library:mergeDebugShaders
+:iconics-view-library:compileDebugShaders
+:iconics-view-library:generateDebugAssets
+:iconics-view-library:mergeDebugAssets
+:ionicons-typeface-library:mergeDebugShaders
+:ionicons-typeface-library:compileDebugShaders
+:ionicons-typeface-library:generateDebugAssets
+:ionicons-typeface-library:mergeDebugAssets
+:library-core:mergeDebugShaders
+:library-core:compileDebugShaders
+:library-core:generateDebugAssets
+:library-core:mergeDebugAssets
+:material-design-iconic-typeface-library:mergeDebugShaders
+:material-design-iconic-typeface-library:compileDebugShaders
+:material-design-iconic-typeface-library:generateDebugAssets
+:material-design-iconic-typeface-library:mergeDebugAssets
+:meteocons-typeface-library:mergeDebugShaders
+:meteocons-typeface-library:compileDebugShaders
+:meteocons-typeface-library:generateDebugAssets
+:meteocons-typeface-library:mergeDebugAssets
+:octicons-typeface-library:mergeDebugShaders
+:octicons-typeface-library:compileDebugShaders
+:octicons-typeface-library:generateDebugAssets
+:octicons-typeface-library:mergeDebugAssets
+:pixeden-7-stroke-typeface-library:mergeDebugShaders
+:pixeden-7-stroke-typeface-library:compileDebugShaders
+:pixeden-7-stroke-typeface-library:generateDebugAssets
+:pixeden-7-stroke-typeface-library:mergeDebugAssets
+:typeicons-typeface-library:mergeDebugShaders
+:typeicons-typeface-library:compileDebugShaders
+:typeicons-typeface-library:generateDebugAssets
+:typeicons-typeface-library:mergeDebugAssets
+:weather-icons-typeface-library:mergeDebugShaders
+:weather-icons-typeface-library:compileDebugShaders
+:weather-icons-typeface-library:generateDebugAssets
+:weather-icons-typeface-library:mergeDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:community-material-typeface-library:compileDebugNdk NO-SOURCE
+:community-material-typeface-library:mergeDebugJniLibFolders
+:community-material-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:community-material-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:community-material-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:devicon-typeface-library:compileDebugNdk NO-SOURCE
+:devicon-typeface-library:mergeDebugJniLibFolders
+:devicon-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:devicon-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:devicon-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:entypo-typeface-library:compileDebugNdk NO-SOURCE
+:entypo-typeface-library:mergeDebugJniLibFolders
+:entypo-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:entypo-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:entypo-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:fontawesome-typeface-library:compileDebugNdk NO-SOURCE
+:fontawesome-typeface-library:mergeDebugJniLibFolders
+:fontawesome-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:fontawesome-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:fontawesome-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:foundation-icons-typeface-library:compileDebugNdk NO-SOURCE
+:foundation-icons-typeface-library:mergeDebugJniLibFolders
+:foundation-icons-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:foundation-icons-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:foundation-icons-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:google-material-typeface-library:compileDebugNdk NO-SOURCE
+:google-material-typeface-library:mergeDebugJniLibFolders
+:google-material-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:google-material-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:google-material-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:iconics-view-library:compileDebugNdk NO-SOURCE
+:iconics-view-library:mergeDebugJniLibFolders
+:iconics-view-library:transformNativeLibsWithMergeJniLibsForDebug
+:iconics-view-library:transformNativeLibsWithStripDebugSymbolForDebug
+:iconics-view-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:ionicons-typeface-library:compileDebugNdk NO-SOURCE
+:ionicons-typeface-library:mergeDebugJniLibFolders
+:ionicons-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:ionicons-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:ionicons-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-core:compileDebugNdk NO-SOURCE
+:library-core:mergeDebugJniLibFolders
+:library-core:transformNativeLibsWithMergeJniLibsForDebug
+:library-core:transformNativeLibsWithStripDebugSymbolForDebug
+:library-core:transformNativeLibsWithIntermediateJniLibsForDebug
+:material-design-iconic-typeface-library:compileDebugNdk NO-SOURCE
+:material-design-iconic-typeface-library:mergeDebugJniLibFolders
+:material-design-iconic-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:material-design-iconic-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:material-design-iconic-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:meteocons-typeface-library:compileDebugNdk NO-SOURCE
+:meteocons-typeface-library:mergeDebugJniLibFolders
+:meteocons-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:meteocons-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:meteocons-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:octicons-typeface-library:compileDebugNdk NO-SOURCE
+:octicons-typeface-library:mergeDebugJniLibFolders
+:octicons-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:octicons-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:octicons-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:pixeden-7-stroke-typeface-library:compileDebugNdk NO-SOURCE
+:pixeden-7-stroke-typeface-library:mergeDebugJniLibFolders
+:pixeden-7-stroke-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:pixeden-7-stroke-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:pixeden-7-stroke-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:typeicons-typeface-library:compileDebugNdk NO-SOURCE
+:typeicons-typeface-library:mergeDebugJniLibFolders
+:typeicons-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:typeicons-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:typeicons-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:weather-icons-typeface-library:compileDebugNdk NO-SOURCE
+:weather-icons-typeface-library:mergeDebugJniLibFolders
+:weather-icons-typeface-library:transformNativeLibsWithMergeJniLibsForDebug
+:weather-icons-typeface-library:transformNativeLibsWithStripDebugSymbolForDebug
+:weather-icons-typeface-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:community-material-typeface-library:preReleaseBuild UP-TO-DATE
+:community-material-typeface-library:checkReleaseManifest
+:community-material-typeface-library:processReleaseManifest
+:devicon-typeface-library:preReleaseBuild UP-TO-DATE
+:devicon-typeface-library:checkReleaseManifest
+:devicon-typeface-library:processReleaseManifest
+:entypo-typeface-library:preReleaseBuild UP-TO-DATE
+:entypo-typeface-library:checkReleaseManifest
+:entypo-typeface-library:processReleaseManifest
+:fontawesome-typeface-library:preReleaseBuild UP-TO-DATE
+:fontawesome-typeface-library:checkReleaseManifest
+:fontawesome-typeface-library:processReleaseManifest
+:foundation-icons-typeface-library:preReleaseBuild UP-TO-DATE
+:foundation-icons-typeface-library:checkReleaseManifest
+:foundation-icons-typeface-library:processReleaseManifest
+:google-material-typeface-library:preReleaseBuild UP-TO-DATE
+:google-material-typeface-library:checkReleaseManifest
+:google-material-typeface-library:processReleaseManifest
+:iconics-view-library:preReleaseBuild UP-TO-DATE
+:iconics-view-library:checkReleaseManifest
+:iconics-view-library:processReleaseManifest
+:ionicons-typeface-library:preReleaseBuild UP-TO-DATE
+:ionicons-typeface-library:checkReleaseManifest
+:ionicons-typeface-library:processReleaseManifest
+:library-core:preReleaseBuild UP-TO-DATE
+:library-core:checkReleaseManifest
+:library-core:processReleaseManifest
+:material-design-iconic-typeface-library:preReleaseBuild UP-TO-DATE
+:material-design-iconic-typeface-library:checkReleaseManifest
+:material-design-iconic-typeface-library:processReleaseManifest
+:meteocons-typeface-library:preReleaseBuild UP-TO-DATE
+:meteocons-typeface-library:checkReleaseManifest
+:meteocons-typeface-library:processReleaseManifest
+:octicons-typeface-library:preReleaseBuild UP-TO-DATE
+:octicons-typeface-library:checkReleaseManifest
+:octicons-typeface-library:processReleaseManifest
+:pixeden-7-stroke-typeface-library:preReleaseBuild UP-TO-DATE
+:pixeden-7-stroke-typeface-library:checkReleaseManifest
+:pixeden-7-stroke-typeface-library:processReleaseManifest
+:typeicons-typeface-library:preReleaseBuild UP-TO-DATE
+:typeicons-typeface-library:checkReleaseManifest
+:typeicons-typeface-library:processReleaseManifest
+:weather-icons-typeface-library:preReleaseBuild UP-TO-DATE
+:weather-icons-typeface-library:checkReleaseManifest
+:weather-icons-typeface-library:processReleaseManifest
+:app:preReleaseBuild
+:library-core:compileReleaseAidl
+:community-material-typeface-library:compileReleaseAidl
+:devicon-typeface-library:compileReleaseAidl
+:entypo-typeface-library:compileReleaseAidl
+:fontawesome-typeface-library:compileReleaseAidl
+:foundation-icons-typeface-library:compileReleaseAidl
+:google-material-typeface-library:compileReleaseAidl
+:iconics-view-library:compileReleaseAidl
+:ionicons-typeface-library:compileReleaseAidl
+:material-design-iconic-typeface-library:compileReleaseAidl
+:meteocons-typeface-library:compileReleaseAidl
+:octicons-typeface-library:compileReleaseAidl
+:pixeden-7-stroke-typeface-library:compileReleaseAidl
+:typeicons-typeface-library:compileReleaseAidl
+:weather-icons-typeface-library:compileReleaseAidl
+:app:compileReleaseAidl
+:community-material-typeface-library:packageReleaseRenderscript NO-SOURCE
+:devicon-typeface-library:packageReleaseRenderscript NO-SOURCE
+:entypo-typeface-library:packageReleaseRenderscript NO-SOURCE
+:fontawesome-typeface-library:packageReleaseRenderscript NO-SOURCE
+:foundation-icons-typeface-library:packageReleaseRenderscript NO-SOURCE
+:google-material-typeface-library:packageReleaseRenderscript NO-SOURCE
+:iconics-view-library:packageReleaseRenderscript NO-SOURCE
+:ionicons-typeface-library:packageReleaseRenderscript NO-SOURCE
+:library-core:packageReleaseRenderscript NO-SOURCE
+:material-design-iconic-typeface-library:packageReleaseRenderscript NO-SOURCE
+:meteocons-typeface-library:packageReleaseRenderscript NO-SOURCE
+:octicons-typeface-library:packageReleaseRenderscript NO-SOURCE
+:pixeden-7-stroke-typeface-library:packageReleaseRenderscript NO-SOURCE
+:typeicons-typeface-library:packageReleaseRenderscript NO-SOURCE
+:weather-icons-typeface-library:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:community-material-typeface-library:compileReleaseRenderscript
+:community-material-typeface-library:generateReleaseResValues
+:community-material-typeface-library:generateReleaseResources
+:community-material-typeface-library:packageReleaseResources
+:devicon-typeface-library:compileReleaseRenderscript
+:devicon-typeface-library:generateReleaseResValues
+:devicon-typeface-library:generateReleaseResources
+:devicon-typeface-library:packageReleaseResources
+:entypo-typeface-library:compileReleaseRenderscript
+:entypo-typeface-library:generateReleaseResValues
+:entypo-typeface-library:generateReleaseResources
+:entypo-typeface-library:packageReleaseResources
+:fontawesome-typeface-library:compileReleaseRenderscript
+:fontawesome-typeface-library:generateReleaseResValues
+:fontawesome-typeface-library:generateReleaseResources
+:fontawesome-typeface-library:packageReleaseResources
+:foundation-icons-typeface-library:compileReleaseRenderscript
+:foundation-icons-typeface-library:generateReleaseResValues
+:foundation-icons-typeface-library:generateReleaseResources
+:foundation-icons-typeface-library:packageReleaseResources
+:google-material-typeface-library:compileReleaseRenderscript
+:google-material-typeface-library:generateReleaseResValues
+:google-material-typeface-library:generateReleaseResources
+:google-material-typeface-library:packageReleaseResources
+:iconics-view-library:compileReleaseRenderscript
+:iconics-view-library:generateReleaseResValues
+:iconics-view-library:generateReleaseResources
+:iconics-view-library:packageReleaseResources
+:ionicons-typeface-library:compileReleaseRenderscript
+:ionicons-typeface-library:generateReleaseResValues
+:ionicons-typeface-library:generateReleaseResources
+:ionicons-typeface-library:packageReleaseResources
+:library-core:compileReleaseRenderscript
+:library-core:generateReleaseResValues
+:library-core:generateReleaseResources
+:library-core:packageReleaseResources
+:material-design-iconic-typeface-library:compileReleaseRenderscript
+:material-design-iconic-typeface-library:generateReleaseResValues
+:material-design-iconic-typeface-library:generateReleaseResources
+:material-design-iconic-typeface-library:packageReleaseResources
+:meteocons-typeface-library:compileReleaseRenderscript
+:meteocons-typeface-library:generateReleaseResValues
+:meteocons-typeface-library:generateReleaseResources
+:meteocons-typeface-library:packageReleaseResources
+:octicons-typeface-library:compileReleaseRenderscript
+:octicons-typeface-library:generateReleaseResValues
+:octicons-typeface-library:generateReleaseResources
+:octicons-typeface-library:packageReleaseResources
+:pixeden-7-stroke-typeface-library:compileReleaseRenderscript
+:pixeden-7-stroke-typeface-library:generateReleaseResValues
+:pixeden-7-stroke-typeface-library:generateReleaseResources
+:pixeden-7-stroke-typeface-library:packageReleaseResources
+:typeicons-typeface-library:compileReleaseRenderscript
+:typeicons-typeface-library:generateReleaseResValues
+:typeicons-typeface-library:generateReleaseResources
+:typeicons-typeface-library:packageReleaseResources
+:weather-icons-typeface-library:compileReleaseRenderscript
+:weather-icons-typeface-library:generateReleaseResValues
+:weather-icons-typeface-library:generateReleaseResources
+:weather-icons-typeface-library:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:library-core:processReleaseResources
+:community-material-typeface-library:processReleaseResources
+:devicon-typeface-library:processReleaseResources
+:entypo-typeface-library:processReleaseResources
+:fontawesome-typeface-library:processReleaseResources
+:foundation-icons-typeface-library:processReleaseResources
+:google-material-typeface-library:processReleaseResources
+:iconics-view-library:processReleaseResources
+:ionicons-typeface-library:processReleaseResources
+:material-design-iconic-typeface-library:processReleaseResources
+:meteocons-typeface-library:processReleaseResources
+:octicons-typeface-library:processReleaseResources
+:pixeden-7-stroke-typeface-library:processReleaseResources
+:typeicons-typeface-library:processReleaseResources
+:weather-icons-typeface-library:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:community-material-typeface-library:generateReleaseBuildConfig
+:community-material-typeface-library:generateReleaseSources
+:library-core:generateReleaseBuildConfig
+:library-core:generateReleaseSources
+:library-core:javaPreCompileRelease
+:library-core:compileReleaseJavaWithJavacNote: /tmp/rdisk/1164/src/library-core/src/main/java/com/mikepenz/iconics/context/IconicsLayoutInflater.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library-core:processReleaseJavaRes NO-SOURCE
+:library-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:community-material-typeface-library:javaPreCompileRelease
+:community-material-typeface-library:compileReleaseJavaWithJavac
+:community-material-typeface-library:processReleaseJavaRes NO-SOURCE
+:community-material-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:devicon-typeface-library:generateReleaseBuildConfig
+:devicon-typeface-library:generateReleaseSources
+:devicon-typeface-library:javaPreCompileRelease
+:devicon-typeface-library:compileReleaseJavaWithJavac
+:devicon-typeface-library:processReleaseJavaRes NO-SOURCE
+:devicon-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:entypo-typeface-library:generateReleaseBuildConfig
+:entypo-typeface-library:generateReleaseSources
+:entypo-typeface-library:javaPreCompileRelease
+:entypo-typeface-library:compileReleaseJavaWithJavac
+:entypo-typeface-library:processReleaseJavaRes NO-SOURCE
+:entypo-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:fontawesome-typeface-library:generateReleaseBuildConfig
+:fontawesome-typeface-library:generateReleaseSources
+:fontawesome-typeface-library:javaPreCompileRelease
+:fontawesome-typeface-library:compileReleaseJavaWithJavac
+:fontawesome-typeface-library:processReleaseJavaRes NO-SOURCE
+:fontawesome-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:foundation-icons-typeface-library:generateReleaseBuildConfig
+:foundation-icons-typeface-library:generateReleaseSources
+:foundation-icons-typeface-library:javaPreCompileRelease
+:foundation-icons-typeface-library:compileReleaseJavaWithJavac
+:foundation-icons-typeface-library:processReleaseJavaRes NO-SOURCE
+:foundation-icons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:google-material-typeface-library:generateReleaseBuildConfig
+:google-material-typeface-library:generateReleaseSources
+:google-material-typeface-library:javaPreCompileRelease
+:google-material-typeface-library:compileReleaseJavaWithJavac
+:google-material-typeface-library:processReleaseJavaRes NO-SOURCE
+:google-material-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:iconics-view-library:generateReleaseBuildConfig
+:iconics-view-library:generateReleaseSources
+:iconics-view-library:javaPreCompileRelease
+:iconics-view-library:compileReleaseJavaWithJavac
+:iconics-view-library:processReleaseJavaRes NO-SOURCE
+:iconics-view-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:ionicons-typeface-library:generateReleaseBuildConfig
+:ionicons-typeface-library:generateReleaseSources
+:ionicons-typeface-library:javaPreCompileRelease
+:ionicons-typeface-library:compileReleaseJavaWithJavac
+:ionicons-typeface-library:processReleaseJavaRes NO-SOURCE
+:ionicons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:material-design-iconic-typeface-library:generateReleaseBuildConfig
+:material-design-iconic-typeface-library:generateReleaseSources
+:material-design-iconic-typeface-library:javaPreCompileRelease
+:material-design-iconic-typeface-library:compileReleaseJavaWithJavac
+:material-design-iconic-typeface-library:processReleaseJavaRes NO-SOURCE
+:material-design-iconic-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:meteocons-typeface-library:generateReleaseBuildConfig
+:meteocons-typeface-library:generateReleaseSources
+:meteocons-typeface-library:javaPreCompileRelease
+:meteocons-typeface-library:compileReleaseJavaWithJavac
+:meteocons-typeface-library:processReleaseJavaRes NO-SOURCE
+:meteocons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:octicons-typeface-library:generateReleaseBuildConfig
+:octicons-typeface-library:generateReleaseSources
+:octicons-typeface-library:javaPreCompileRelease
+:octicons-typeface-library:compileReleaseJavaWithJavac
+:octicons-typeface-library:processReleaseJavaRes NO-SOURCE
+:octicons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:pixeden-7-stroke-typeface-library:generateReleaseBuildConfig
+:pixeden-7-stroke-typeface-library:generateReleaseSources
+:pixeden-7-stroke-typeface-library:javaPreCompileRelease
+:pixeden-7-stroke-typeface-library:compileReleaseJavaWithJavac
+:pixeden-7-stroke-typeface-library:processReleaseJavaRes NO-SOURCE
+:pixeden-7-stroke-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:typeicons-typeface-library:generateReleaseBuildConfig
+:typeicons-typeface-library:generateReleaseSources
+:typeicons-typeface-library:javaPreCompileRelease
+:typeicons-typeface-library:compileReleaseJavaWithJavac
+:typeicons-typeface-library:processReleaseJavaRes NO-SOURCE
+:typeicons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:weather-icons-typeface-library:generateReleaseBuildConfig
+:weather-icons-typeface-library:generateReleaseSources
+:weather-icons-typeface-library:javaPreCompileRelease
+:weather-icons-typeface-library:compileReleaseJavaWithJavac
+:weather-icons-typeface-library:processReleaseJavaRes NO-SOURCE
+:weather-icons-typeface-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /tmp/rdisk/1164/src/app/src/main/java/com/mikepenz/iconics/sample/item/IconItem.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:community-material-typeface-library:mergeReleaseShaders
+:community-material-typeface-library:compileReleaseShaders
+:community-material-typeface-library:generateReleaseAssets
+:community-material-typeface-library:mergeReleaseAssets
+:devicon-typeface-library:mergeReleaseShaders
+:devicon-typeface-library:compileReleaseShaders
+:devicon-typeface-library:generateReleaseAssets
+:devicon-typeface-library:mergeReleaseAssets
+:entypo-typeface-library:mergeReleaseShaders
+:entypo-typeface-library:compileReleaseShaders
+:entypo-typeface-library:generateReleaseAssets
+:entypo-typeface-library:mergeReleaseAssets
+:fontawesome-typeface-library:mergeReleaseShaders
+:fontawesome-typeface-library:compileReleaseShaders
+:fontawesome-typeface-library:generateReleaseAssets
+:fontawesome-typeface-library:mergeReleaseAssets
+:foundation-icons-typeface-library:mergeReleaseShaders
+:foundation-icons-typeface-library:compileReleaseShaders
+:foundation-icons-typeface-library:generateReleaseAssets
+:foundation-icons-typeface-library:mergeReleaseAssets
+:google-material-typeface-library:mergeReleaseShaders
+:google-material-typeface-library:compileReleaseShaders
+:google-material-typeface-library:generateReleaseAssets
+:google-material-typeface-library:mergeReleaseAssets
+:iconics-view-library:mergeReleaseShaders
+:iconics-view-library:compileReleaseShaders
+:iconics-view-library:generateReleaseAssets
+:iconics-view-library:mergeReleaseAssets
+:ionicons-typeface-library:mergeReleaseShaders
+:ionicons-typeface-library:compileReleaseShaders
+:ionicons-typeface-library:generateReleaseAssets
+:ionicons-typeface-library:mergeReleaseAssets
+:library-core:mergeReleaseShaders
+:library-core:compileReleaseShaders
+:library-core:generateReleaseAssets
+:library-core:mergeReleaseAssets
+:material-design-iconic-typeface-library:mergeReleaseShaders
+:material-design-iconic-typeface-library:compileReleaseShaders
+:material-design-iconic-typeface-library:generateReleaseAssets
+:material-design-iconic-typeface-library:mergeReleaseAssets
+:meteocons-typeface-library:mergeReleaseShaders
+:meteocons-typeface-library:compileReleaseShaders
+:meteocons-typeface-library:generateReleaseAssets
+:meteocons-typeface-library:mergeReleaseAssets
+:octicons-typeface-library:mergeReleaseShaders
+:octicons-typeface-library:compileReleaseShaders
+:octicons-typeface-library:generateReleaseAssets
+:octicons-typeface-library:mergeReleaseAssets
+:pixeden-7-stroke-typeface-library:mergeReleaseShaders
+:pixeden-7-stroke-typeface-library:compileReleaseShaders
+:pixeden-7-stroke-typeface-library:generateReleaseAssets
+:pixeden-7-stroke-typeface-library:mergeReleaseAssets
+:typeicons-typeface-library:mergeReleaseShaders
+:typeicons-typeface-library:compileReleaseShaders
+:typeicons-typeface-library:generateReleaseAssets
+:typeicons-typeface-library:mergeReleaseAssets
+:weather-icons-typeface-library:mergeReleaseShaders
+:weather-icons-typeface-library:compileReleaseShaders
+:weather-icons-typeface-library:generateReleaseAssets
+:weather-icons-typeface-library:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:community-material-typeface-library:compileReleaseNdk NO-SOURCE
+:community-material-typeface-library:mergeReleaseJniLibFolders
+:community-material-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:community-material-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:community-material-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:devicon-typeface-library:compileReleaseNdk NO-SOURCE
+:devicon-typeface-library:mergeReleaseJniLibFolders
+:devicon-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:devicon-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:devicon-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:entypo-typeface-library:compileReleaseNdk NO-SOURCE
+:entypo-typeface-library:mergeReleaseJniLibFolders
+:entypo-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:entypo-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:entypo-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:fontawesome-typeface-library:compileReleaseNdk NO-SOURCE
+:fontawesome-typeface-library:mergeReleaseJniLibFolders
+:fontawesome-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:fontawesome-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:fontawesome-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:foundation-icons-typeface-library:compileReleaseNdk NO-SOURCE
+:foundation-icons-typeface-library:mergeReleaseJniLibFolders
+:foundation-icons-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:foundation-icons-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:foundation-icons-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:google-material-typeface-library:compileReleaseNdk NO-SOURCE
+:google-material-typeface-library:mergeReleaseJniLibFolders
+:google-material-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:google-material-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:google-material-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:iconics-view-library:compileReleaseNdk NO-SOURCE
+:iconics-view-library:mergeReleaseJniLibFolders
+:iconics-view-library:transformNativeLibsWithMergeJniLibsForRelease
+:iconics-view-library:transformNativeLibsWithStripDebugSymbolForRelease
+:iconics-view-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:ionicons-typeface-library:compileReleaseNdk NO-SOURCE
+:ionicons-typeface-library:mergeReleaseJniLibFolders
+:ionicons-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:ionicons-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:ionicons-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-core:compileReleaseNdk NO-SOURCE
+:library-core:mergeReleaseJniLibFolders
+:library-core:transformNativeLibsWithMergeJniLibsForRelease
+:library-core:transformNativeLibsWithStripDebugSymbolForRelease
+:library-core:transformNativeLibsWithIntermediateJniLibsForRelease
+:material-design-iconic-typeface-library:compileReleaseNdk NO-SOURCE
+:material-design-iconic-typeface-library:mergeReleaseJniLibFolders
+:material-design-iconic-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:material-design-iconic-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:material-design-iconic-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:meteocons-typeface-library:compileReleaseNdk NO-SOURCE
+:meteocons-typeface-library:mergeReleaseJniLibFolders
+:meteocons-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:meteocons-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:meteocons-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:octicons-typeface-library:compileReleaseNdk NO-SOURCE
+:octicons-typeface-library:mergeReleaseJniLibFolders
+:octicons-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:octicons-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:octicons-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:pixeden-7-stroke-typeface-library:compileReleaseNdk NO-SOURCE
+:pixeden-7-stroke-typeface-library:mergeReleaseJniLibFolders
+:pixeden-7-stroke-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:pixeden-7-stroke-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:pixeden-7-stroke-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:typeicons-typeface-library:compileReleaseNdk NO-SOURCE
+:typeicons-typeface-library:mergeReleaseJniLibFolders
+:typeicons-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:typeicons-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:typeicons-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:weather-icons-typeface-library:compileReleaseNdk NO-SOURCE
+:weather-icons-typeface-library:mergeReleaseJniLibFolders
+:weather-icons-typeface-library:transformNativeLibsWithMergeJniLibsForRelease
+:weather-icons-typeface-library:transformNativeLibsWithStripDebugSymbolForRelease
+:weather-icons-typeface-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 16s
+626 actionable tasks: 626 executed
+Exception in thread "Thread-20" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-05-22 08:53:28,719 INFO  FullProcessService - Found APK file: /tmp/rdisk/1164/src/app/build/outputs/apk/release/Android Iconics-v3.0.3-c30030-release-unsigned.apk

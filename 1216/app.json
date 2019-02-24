@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.wefika.flowlayout.example",
+    "label" : "FlowLayout Example",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEsklEQVRo3u1ZzW4cRRis6tnNEhI7P8RIWCgS5BBOkXxFSD5yI5zgHXgABBIKIkeeBngDC+WG5BeIkTjggy0RgcISe3e6OEx3T09Pz+zsrq040rY8mp2d2e6q76/rGwObsRmb8UYP9t08PDz8zFp793UCNMb8tbe398vSBI6Pj3+YzWZProKVx+Px093d3e8HEyjL8vG/r85/ev5yDpKge9AQeP+6wZ//CSRAEO4vTEa2F1B07T/LfdgeE1bCP7PqXjgk3Bwb3L8x8p74vCiKn1Osow7Sd/6eA989L1AYYkSgIDCh8O0HFj/+UaAgUbjvCwLGETTuM2PzqAJlAVjVRwngk9vCK0v8+gIoBczlz8TeLYMnH1UQrbV3ckBHfdlBZ93YAyQrsOnhiSS/AQCxIkA1PSQBhoSB6jUcUS5K0EUECILRxOEg3RFZPAJvUJOMw8cCkLtSFE70RiFgoYok/DyrE6CPAXpPpN5IiQVPMCzOGKiAkoSRQpwzyRWiuc6QfM0SsNY68GokqF8hLOQOkxAMYcQ6VCwBIxce/r7aRuhCWmHKlNkh9TUNofhmkyDra9b50bBqVNVai+S/Wi0H+n7dZak0BLwHqAVLcKnlhycxMvWbSRKmz0h11bHqfq7xvdoPaV0CubnlYyNKREVlUhJEBvBM5rDuGb8vxChzRtG6BBSZXdF1SsphgliBhNpJHAhGG5pyc6G51soEtscGX90vYQxDbS8oGBJCDYTxBhWZlWTTwlITuPzeAHx81+DDG4JVJSuEyovvTLg6gesj4tP3rtVg3Pj95RxWchtdlLiqE0QEKLVCyIMuFXlBwMNbYzz0HpJgjBks9BbmADPbYWV5RyIT6yapJCmBWA8pWStdz1qbxbC4CpFVwmWS2ioplUk8x1omzZUGgQGxLmklAuwrSzWBKm4UIVWy8XUSCGcNjQAuHUI55sHCAXCtamyikXJ7hLd6CVQJq4Ud2Xo5kG14HGaFGJYDz04pHJdbG1Uku2a3NuroyGCMway0LU+8e4345oEJWqYlwpjbx2ui1R/DvPcmwypOWZbLeeDFufDlb+cokmalcNrdoNnAGLYlcZcHfCH4YrfAo9vm4j3gFzwXKwJAfZZvYlxn5q6piIS657QRkfICGv4eAqrEGPNCq9qNGUAZX17ZVqs52WEjsdcXxlzQlo0WlctUgopNbWNZJ69J+gf0EFCPWPO1n1xDSviyGOtoZTYsExYEbJS87JLQXsmq2wNDwfdVIYIFrNSCEhNga+etm/KcC1K1qYG7bcC0XEdGlwOVOot1jg8j487ZvlbdTUzsgaGWXiEHFMqdKBj3DkRyJDI7LxfokFwuXGIVqquKcW8VJMEEBVQTScFzSHen/ip0IXI6aB7Wr0C8NxgRYQY4F/TBFQFdHoG3DPD4nm3IhUaNb7xCYffbCnb3vg/evkQPbE9GePro5pX/B4fpqMO8akC7MJlllN/rHEup0bIsMZ/P31wC0+kURVFcKQLT6XQ4gZOTk2dHR0dfn52djaI3A+yySC4+JTGJYWWeaX3nDefvGWMwmUzmW1tbz5Zq3vf393s7jdPT0wtN9J2dnd5N4eDgwGIzNmMzWuN/CLhr7N7AhTQAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 53,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.wefika.flowlayout.example\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f040000\" android:label=\"FlowLayout Example\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"FlowLayout Example\" android:name=\"com.wefika.flowlayout.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Basic example\" android:name=\"com.wefika.flowlayout.example.BasicActivity\" />\n\t\t<activity android:label=\"All in one example\" android:name=\"com.wefika.flowlayout.example.AllInOneActivity\" />\n\t\t<activity android:label=\"Visibility\" android:name=\"com.wefika.flowlayout.example.VisibilityActivity\" />\n\t\t<activity android:label=\"ScrollView\" android:name=\"com.wefika.flowlayout.example.ScrollActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 27806,
+  "crc32" : 3007392174,
+  "sha256" : "9a998411007dcbb78d462b14f8bf9ab4db8fa3f092ab5b5351859565eadbf826",
+  "buildTime" : 1526977266000
+}

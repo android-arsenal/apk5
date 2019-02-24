@@ -1,0 +1,21 @@
+2018-04-08 01:19:17,976 INFO  DownloadService - Downloading "https://github.com/shazam/fork-gradle-plugin/archive/master.zip", attempt 3
+2018-04-08 01:20:18,427 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:20:19,073 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:20:19,073 INFO  DownloadService - Downloading "https://github.com/shazam/fork-gradle-plugin/archive/master.zip", attempt 3
+2018-04-08 01:21:20,183 DEBUG FullProcessService - Repository https://github.com/shazam/fork-gradle-plugin available: true
+2018-04-08 01:21:20,183 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:21:20,183 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/shazam/fork-gradle-plugin, /tmp/rdisk/1166/src]
+2018-04-08 01:21:21,399 INFO  SysUtils - 
+2018-04-08 01:21:21,402 INFO  GitService - Deleted "/tmp/rdisk/1166/src/.git": true
+2018-04-08 01:21:21,403 INFO  FullProcessService - Size of directory with sources: 780 bytes
+2018-04-08 01:21:21,403 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1166/src]
+2018-04-08 01:21:21,407 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1166/src/.git/
+
+2018-04-08 01:21:21,408 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 01:21:21,408 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 01:21:21,409 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 01:21:21,410 INFO  ProjectBuildService - All script(s): none
+2018-04-08 01:21:21,410 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:21:21,410 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 01:21:21,410 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 01:21:21,410 ERROR FullProcessService - Could not find generated or existed APK file

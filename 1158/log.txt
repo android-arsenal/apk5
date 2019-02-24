@@ -1,0 +1,138 @@
+2018-04-08 01:39:26,465 INFO  DownloadService - Downloading "https://github.com/zcweng/ToggleButton/archive/master.zip", attempt 3
+2018-04-08 01:40:26,983 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:40:27,646 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:40:27,646 INFO  DownloadService - Downloading "https://github.com/zcweng/ToggleButton/archive/master.zip", attempt 3
+2018-04-08 01:41:28,906 DEBUG FullProcessService - Repository https://github.com/zcweng/ToggleButton available: true
+2018-04-08 01:41:28,907 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:41:28,907 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/zcweng/ToggleButton, /tmp/rdisk/1158/src]
+2018-04-08 01:41:30,882 INFO  SysUtils - 
+2018-04-08 01:41:30,897 INFO  GitService - Deleted "/tmp/rdisk/1158/src/.git": true
+2018-04-08 01:41:30,899 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-08 01:41:30,899 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1158/src]
+2018-04-08 01:41:30,903 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1158/src/.git/
+
+2018-04-08 01:41:30,906 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1158/src/gradlew
+2018-04-08 01:41:30,908 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1158/src/ToggleButtonSample/build.gradle /tmp/rdisk/1158/src/togglebutton-library/build.gradle /tmp/rdisk/1158/src/build.gradle
+2018-04-08 01:41:30,910 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1158/src/togglebutton-library/build.gradle /tmp/rdisk/1158/src/settings.gradle /tmp/rdisk/1158/src/build.gradle /tmp/rdisk/1158/src/ToggleButtonSample/build.gradle
+2018-04-08 01:41:30,911 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:41:30,911 INFO  ProjectFixService - Fixing project...
+2018-04-08 01:41:30,917 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1158/src/ToggleButtonSample/local.properties
+2018-04-08 01:41:30,917 INFO  ProjectFixService - Build info for "/tmp/rdisk/1158/src/ToggleButtonSample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-08 01:41:30,917 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1158/src/togglebutton-library/local.properties
+2018-04-08 01:41:30,918 INFO  ProjectFixService - Build info for "/tmp/rdisk/1158/src/togglebutton-library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-08 01:41:30,918 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1158/src/local.properties
+2018-04-08 01:41:30,918 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-bin.zip
+2018-04-08 01:41:30,919 INFO  ProjectFixService - Build info for "/tmp/rdisk/1158/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-08 01:41:30,919 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 01:41:30,919 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 01:41:30,919 INFO  SysUtils - Execute command: [/tmp/rdisk/1158/src/gradlew, -b, /tmp/rdisk/1158/src/ToggleButtonSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 01:41:41,288 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-04-08 01:41:41,288 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 01:41:41,289 INFO  SysUtils - Execute command: [/tmp/rdisk/1158/src/gradlew, -b, /tmp/rdisk/1158/src/ToggleButtonSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 01:41:55,987 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ToggleButtonSample:preBuild UP-TO-DATE
+:ToggleButtonSample:preDebugBuild UP-TO-DATE
+:ToggleButtonSample:checkDebugManifest
+:ToggleButtonSample:preReleaseBuild UP-TO-DATE
+:togglebutton-library:preBuild UP-TO-DATE
+:togglebutton-library:preReleaseBuild UP-TO-DATE
+:togglebutton-library:compileReleaseNdk UP-TO-DATE
+:togglebutton-library:compileLint
+:togglebutton-library:copyReleaseLint UP-TO-DATE
+:togglebutton-library:mergeReleaseProguardFiles
+:togglebutton-library:packageReleaseRenderscript UP-TO-DATE
+:togglebutton-library:checkReleaseManifest
+:togglebutton-library:prepareReleaseDependencies
+:togglebutton-library:compileReleaseRenderscript
+:togglebutton-library:generateReleaseResValues
+:togglebutton-library:generateReleaseResources
+:togglebutton-library:packageReleaseResources
+:togglebutton-library:compileReleaseAidl
+:togglebutton-library:generateReleaseBuildConfig
+:togglebutton-library:mergeReleaseShaders
+:togglebutton-library:compileReleaseShaders
+:togglebutton-library:generateReleaseAssets
+:togglebutton-library:mergeReleaseAssets
+:togglebutton-library:processReleaseManifest
+:togglebutton-library:processReleaseResources
+:togglebutton-library:generateReleaseSources
+:togglebutton-library:incrementalReleaseJavaCompilationSafeguard
+:togglebutton-library:compileReleaseJavaWithJavac
+:togglebutton-library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:togglebutton-library:processReleaseJavaRes UP-TO-DATE
+:togglebutton-library:transformResourcesWithMergeJavaResForRelease
+:togglebutton-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:togglebutton-library:mergeReleaseJniLibFolders
+:togglebutton-library:transformNative_libsWithMergeJniLibsForRelease
+:togglebutton-library:transformNative_libsWithSyncJniLibsForRelease
+:togglebutton-library:bundleRelease
+:ToggleButtonSample:prepareComZcwTogglebuttonLibrary100Library
+:ToggleButtonSample:prepareDebugDependencies
+:ToggleButtonSample:compileDebugAidl
+:ToggleButtonSample:compileDebugRenderscript
+:ToggleButtonSample:generateDebugBuildConfig
+:ToggleButtonSample:mergeDebugShaders
+:ToggleButtonSample:compileDebugShaders
+:ToggleButtonSample:generateDebugAssets
+:ToggleButtonSample:mergeDebugAssets
+:ToggleButtonSample:generateDebugResValues
+:ToggleButtonSample:generateDebugResources
+:ToggleButtonSample:mergeDebugResources
+:ToggleButtonSample:processDebugManifest
+:ToggleButtonSample:processDebugResources
+:ToggleButtonSample:generateDebugSources
+:ToggleButtonSample:incrementalDebugJavaCompilationSafeguard
+:ToggleButtonSample:compileDebugJavaWithJavac
+:ToggleButtonSample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ToggleButtonSample:compileDebugNdk UP-TO-DATE
+:ToggleButtonSample:compileDebugSources
+:ToggleButtonSample:prePackageMarkerForDebug
+:ToggleButtonSample:transformClassesWithDexForDebug
+Running dex in-process requires build tools 23.0.2.
+For faster builds update this project to use the latest build tools.
+:ToggleButtonSample:mergeDebugJniLibFolders
+:ToggleButtonSample:transformNative_libsWithMergeJniLibsForDebug
+:ToggleButtonSample:processDebugJavaRes UP-TO-DATE
+:ToggleButtonSample:transformResourcesWithMergeJavaResForDebug
+:ToggleButtonSample:validateDebugSigning
+:ToggleButtonSample:packageDebug
+:ToggleButtonSample:zipalignDebug
+:ToggleButtonSample:assembleDebug
+:ToggleButtonSample:checkReleaseManifest
+:ToggleButtonSample:prepareReleaseDependencies
+:ToggleButtonSample:compileReleaseAidl
+:ToggleButtonSample:compileReleaseRenderscript
+:ToggleButtonSample:generateReleaseBuildConfig
+:ToggleButtonSample:mergeReleaseShaders
+:ToggleButtonSample:compileReleaseShaders
+:ToggleButtonSample:generateReleaseAssets
+:ToggleButtonSample:mergeReleaseAssets
+:ToggleButtonSample:generateReleaseResValues
+:ToggleButtonSample:generateReleaseResources
+:ToggleButtonSample:mergeReleaseResources
+:ToggleButtonSample:processReleaseManifest
+:ToggleButtonSample:processReleaseResources
+:ToggleButtonSample:generateReleaseSources
+:ToggleButtonSample:incrementalReleaseJavaCompilationSafeguard
+:ToggleButtonSample:compileReleaseJavaWithJavac
+:ToggleButtonSample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ToggleButtonSample:compileReleaseNdk UP-TO-DATE
+:ToggleButtonSample:compileReleaseSources
+:ToggleButtonSample:lintVitalRelease
+:ToggleButtonSample:prePackageMarkerForRelease
+:ToggleButtonSample:transformClassesWithDexForRelease
+:ToggleButtonSample:mergeReleaseJniLibFolders
+:ToggleButtonSample:transformNative_libsWithMergeJniLibsForRelease
+:ToggleButtonSample:processReleaseJavaRes UP-TO-DATE
+:ToggleButtonSample:transformResourcesWithMergeJavaResForRelease
+:ToggleButtonSample:packageRelease
+:ToggleButtonSample:assembleRelease
+:ToggleButtonSample:assemble
+:ToggleButtonSample:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.278 secs
+
+2018-04-08 01:41:56,001 INFO  FullProcessService - Found APK file: /tmp/rdisk/1158/src/ToggleButtonSample/build/outputs/apk/ToggleButtonSample-release-unsigned.apk

@@ -1,0 +1,21 @@
+2018-04-08 04:21:41,542 INFO  DownloadService - Downloading "https://github.com/PkmX/lcamera/archive/master.zip", attempt 3
+2018-04-08 04:22:41,980 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 04:22:42,670 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 04:22:42,670 INFO  DownloadService - Downloading "https://github.com/PkmX/lcamera/archive/master.zip", attempt 3
+2018-04-08 04:23:43,907 DEBUG FullProcessService - Repository https://github.com/PkmX/lcamera available: true
+2018-04-08 04:23:43,908 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 04:23:43,908 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/PkmX/lcamera, /tmp/rdisk/1092/src]
+2018-04-08 04:23:45,617 INFO  SysUtils - 
+2018-04-08 04:23:45,631 INFO  GitService - Deleted "/tmp/rdisk/1092/src/.git": true
+2018-04-08 04:23:45,633 INFO  FullProcessService - Size of directory with sources: 530 KB
+2018-04-08 04:23:45,633 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1092/src]
+2018-04-08 04:23:45,638 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1092/src/.git/
+
+2018-04-08 04:23:45,639 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 04:23:45,639 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 04:23:45,641 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 04:23:45,643 INFO  ProjectBuildService - All script(s): none
+2018-04-08 04:23:45,643 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 04:23:45,643 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 04:23:45,643 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 04:23:45,644 ERROR FullProcessService - Could not find generated or existed APK file

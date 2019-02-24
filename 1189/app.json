@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "tr.xip.widget.simpleratingview.sample",
+    "label" : "SimpleRatingView Sample",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1129,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"tr.xip.widget.simpleratingview.sample\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f090063\" android:label=\"SimpleRatingView Sample\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SimpleRatingView Sample\" android:name=\"tr.xip.widget.simpleratingview.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 940992,
+  "crc32" : 1324750540,
+  "sha256" : "9a595fa1fd81ef650ac618eec3da07f5637935f02fc78c44d9e4369fd29d6968",
+  "buildTime" : 1523135595000
+}

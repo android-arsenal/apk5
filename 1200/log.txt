@@ -1,0 +1,21 @@
+2018-04-07 20:42:27,507 INFO  DownloadService - Downloading "https://github.com/dvdme/forecastio-lib-java/archive/master.zip", attempt 3
+2018-04-07 20:43:27,508 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-07 20:43:28,170 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-07 20:43:28,170 INFO  DownloadService - Downloading "https://github.com/dvdme/forecastio-lib-java/archive/master.zip", attempt 3
+2018-04-07 20:44:29,018 DEBUG FullProcessService - Repository https://github.com/dvdme/forecastio-lib-java available: true
+2018-04-07 20:44:29,018 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-07 20:44:29,018 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dvdme/forecastio-lib-java, /tmp/rdisk/1200/src]
+2018-04-07 20:44:30,764 INFO  SysUtils - 
+2018-04-07 20:44:30,780 INFO  GitService - Deleted "/tmp/rdisk/1200/src/.git": true
+2018-04-07 20:44:30,782 INFO  FullProcessService - Size of directory with sources: 744 KB
+2018-04-07 20:44:30,782 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1200/src]
+2018-04-07 20:44:30,789 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1200/src/.git/
+
+2018-04-07 20:44:30,792 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-07 20:44:30,792 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-07 20:44:30,793 INFO  ProjectBuildService - Build script(s): none
+2018-04-07 20:44:30,795 INFO  ProjectBuildService - All script(s): none
+2018-04-07 20:44:30,795 INFO  ProjectBuildService - Remote scripts: none
+2018-04-07 20:44:30,795 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-07 20:44:30,795 ERROR FullProcessService - Project build has not produced APK file
+2018-04-07 20:44:30,797 ERROR FullProcessService - Could not find generated or existed APK file

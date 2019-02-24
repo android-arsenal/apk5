@@ -1,0 +1,100 @@
+2018-04-08 02:39:03,858 INFO  DownloadService - Downloading "https://github.com/pavlospt/RoundedLetterView/archive/master.zip", attempt 3
+2018-04-08 02:40:04,459 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 02:40:05,132 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 02:40:05,132 INFO  DownloadService - Downloading "https://github.com/pavlospt/RoundedLetterView/archive/master.zip", attempt 3
+2018-04-08 02:41:06,534 DEBUG FullProcessService - Repository https://github.com/pavlospt/RoundedLetterView available: true
+2018-04-08 02:41:06,534 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 02:41:06,534 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/pavlospt/RoundedLetterView, /tmp/rdisk/1135/src]
+2018-04-08 02:41:09,703 INFO  SysUtils - 
+2018-04-08 02:41:09,711 INFO  GitService - Deleted "/tmp/rdisk/1135/src/.git": true
+2018-04-08 02:41:09,712 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-08 02:41:09,712 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1135/src]
+2018-04-08 02:41:09,717 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1135/src/.git/
+
+2018-04-08 02:41:09,718 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1135/src/gradlew
+2018-04-08 02:41:09,720 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1135/src/roundedletterview/build.gradle /tmp/rdisk/1135/src/build.gradle
+2018-04-08 02:41:09,721 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1135/src/settings.gradle /tmp/rdisk/1135/src/roundedletterview/build.gradle /tmp/rdisk/1135/src/build.gradle
+2018-04-08 02:41:09,721 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-08 02:41:10,349 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-04-08 02:41:10,349 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-04-08 02:41:10,513 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle, attempt 3
+2018-04-08 02:41:10,513 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle
+2018-04-08 02:41:10,513 INFO  ProjectFixService - Fixing project...
+2018-04-08 02:41:10,518 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1135/src/roundedletterview/local.properties
+2018-04-08 02:41:10,518 INFO  ProjectFixService - Build info for "/tmp/rdisk/1135/src/roundedletterview/build.gradle": [buildToolsVersion=24,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 02:41:10,518 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1135/src/roundedletterview/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 02:41:10,519 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1135/src/local.properties
+2018-04-08 02:41:10,520 INFO  ProjectFixService - Build info for "/tmp/rdisk/1135/src/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 02:41:10,520 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 02:41:10,520 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:41:10,520 INFO  SysUtils - Execute command: [/tmp/rdisk/1135/src/gradlew, -b, /tmp/rdisk/1135/src/roundedletterview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:41:10,652 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-08 02:41:10,652 INFO  ProjectTaskService - Detected possible tasks: 5
+2018-04-08 02:41:10,652 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2018-04-08 02:41:10,652 INFO  SysUtils - Execute command: [/tmp/rdisk/1135/src/gradlew, -b, /tmp/rdisk/1135/src/roundedletterview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2018-04-08 02:41:10,759 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:41:10,759 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+2018-04-08 02:41:10,760 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:41:10,761 INFO  SysUtils - Execute command: [/tmp/rdisk/1135/src/gradlew, -b, /tmp/rdisk/1135/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:41:10,905 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-08 02:41:10,905 INFO  ProjectTaskService - Detected possible tasks: 5
+2018-04-08 02:41:10,906 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2018-04-08 02:41:10,906 INFO  SysUtils - Execute command: [/tmp/rdisk/1135/src/gradlew, -b, /tmp/rdisk/1135/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2018-04-08 02:41:11,007 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:41:11,007 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+2018-04-08 02:41:11,008 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 02:41:11,009 ERROR FullProcessService - Could not find generated or existed APK file

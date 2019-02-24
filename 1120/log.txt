@@ -1,0 +1,21 @@
+2018-04-08 03:21:38,305 INFO  DownloadService - Downloading "https://github.com/kyleduo/iCometClient4j/archive/master.zip", attempt 3
+2018-04-08 03:22:38,746 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 03:22:39,445 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 03:22:39,445 INFO  DownloadService - Downloading "https://github.com/kyleduo/iCometClient4j/archive/master.zip", attempt 3
+2018-04-08 03:23:40,674 DEBUG FullProcessService - Repository https://github.com/kyleduo/iCometClient4j available: true
+2018-04-08 03:23:40,674 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 03:23:40,674 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kyleduo/iCometClient4j, /tmp/rdisk/1120/src]
+2018-04-08 03:23:43,430 INFO  SysUtils - 
+2018-04-08 03:23:43,437 INFO  GitService - Deleted "/tmp/rdisk/1120/src/.git": true
+2018-04-08 03:23:43,438 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-08 03:23:43,438 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1120/src]
+2018-04-08 03:23:43,442 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1120/src/.git/
+
+2018-04-08 03:23:43,443 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 03:23:43,443 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 03:23:43,444 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 03:23:43,445 INFO  ProjectBuildService - All script(s): none
+2018-04-08 03:23:43,445 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 03:23:43,445 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 03:23:43,445 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 03:23:43,446 ERROR FullProcessService - Could not find generated or existed APK file

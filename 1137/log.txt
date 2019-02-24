@@ -1,0 +1,603 @@
+2018-04-08 02:32:09,256 INFO  DownloadService - Downloading "https://github.com/AndroidDeveloperLB/AutoFitTextView/archive/master.zip", attempt 3
+2018-04-08 02:33:09,715 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 02:33:10,398 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 02:33:10,398 INFO  DownloadService - Downloading "https://github.com/AndroidDeveloperLB/AutoFitTextView/archive/master.zip", attempt 3
+2018-04-08 02:34:11,606 DEBUG FullProcessService - Repository https://github.com/AndroidDeveloperLB/AutoFitTextView available: true
+2018-04-08 02:34:11,606 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 02:34:11,606 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AndroidDeveloperLB/AutoFitTextView, /tmp/rdisk/1137/src]
+2018-04-08 02:34:16,878 INFO  SysUtils - 
+2018-04-08 02:34:16,890 INFO  GitService - Deleted "/tmp/rdisk/1137/src/.git": true
+2018-04-08 02:34:16,892 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-04-08 02:34:16,892 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1137/src]
+2018-04-08 02:34:16,903 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1137/src/.git/
+
+2018-04-08 02:34:16,905 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1137/src/gradlew
+2018-04-08 02:34:16,907 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1137/src/AutoFitTextViewLibrary/build.gradle /tmp/rdisk/1137/src/AutoFitTextViewSample/build.gradle /tmp/rdisk/1137/src/build.gradle
+2018-04-08 02:34:16,909 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1137/src/settings.gradle /tmp/rdisk/1137/src/build.gradle /tmp/rdisk/1137/src/AutoFitTextViewSample/build.gradle /tmp/rdisk/1137/src/AutoFitTextViewLibrary/build.gradle
+2018-04-08 02:34:16,909 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 02:34:16,909 INFO  ProjectFixService - Fixing project...
+2018-04-08 02:34:16,914 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1137/src/AutoFitTextViewLibrary/local.properties
+2018-04-08 02:34:16,914 INFO  ProjectFixService - Build info for "/tmp/rdisk/1137/src/AutoFitTextViewLibrary/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2018-04-08 02:34:16,914 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1137/src/AutoFitTextViewSample/local.properties
+2018-04-08 02:34:16,914 INFO  ProjectFixService - Build info for "/tmp/rdisk/1137/src/AutoFitTextViewSample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2018-04-08 02:34:16,915 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1137/src/local.properties
+2018-04-08 02:34:16,915 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-04-08 02:34:16,915 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-04-08 02:34:16,916 INFO  ProjectFixService - Build info for "/tmp/rdisk/1137/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2018-04-08 02:34:16,916 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 02:34:16,916 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:34:16,916 INFO  SysUtils - Execute command: [/tmp/rdisk/1137/src/gradlew, -b, /tmp/rdisk/1137/src/AutoFitTextViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:34:27,643 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-08 02:34:27,644 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 02:34:27,644 INFO  SysUtils - Execute command: [/tmp/rdisk/1137/src/gradlew, -b, /tmp/rdisk/1137/src/AutoFitTextViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 02:34:41,145 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:AutoFitTextViewLibrary:preBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preDebugBuild UP-TO-DATE
+:AutoFitTextViewLibrary:checkDebugManifest
+:AutoFitTextViewLibrary:preDebugAndroidTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preDebugUnitTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preReleaseBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preReleaseUnitTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportAnimatedVectorDrawable2400Library
+:AutoFitTextViewLibrary:prepareComAndroidSupportAppcompatV72400Library
+:AutoFitTextViewLibrary:prepareComAndroidSupportSupportV42400Library
+:AutoFitTextViewLibrary:prepareComAndroidSupportSupportVectorDrawable2400Library
+:AutoFitTextViewLibrary:prepareDebugDependencies
+:AutoFitTextViewLibrary:compileDebugAidl
+:AutoFitTextViewLibrary:compileDebugNdk UP-TO-DATE
+:AutoFitTextViewLibrary:compileLint
+:AutoFitTextViewLibrary:copyDebugLint UP-TO-DATE
+:AutoFitTextViewLibrary:compileDebugRenderscript
+:AutoFitTextViewLibrary:generateDebugBuildConfig
+:AutoFitTextViewLibrary:generateDebugResValues
+:AutoFitTextViewLibrary:generateDebugResources
+:AutoFitTextViewLibrary:mergeDebugResources
+:AutoFitTextViewLibrary:processDebugManifest
+:AutoFitTextViewLibrary:processDebugResources
+:AutoFitTextViewLibrary:generateDebugSources
+:AutoFitTextViewLibrary:incrementalDebugJavaCompilationSafeguard
+:AutoFitTextViewLibrary:compileDebugJavaWithJavac
+:AutoFitTextViewLibrary:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:AutoFitTextViewLibrary:extractDebugAnnotations
+:AutoFitTextViewLibrary:mergeDebugShaders
+:AutoFitTextViewLibrary:compileDebugShaders
+:AutoFitTextViewLibrary:generateDebugAssets
+:AutoFitTextViewLibrary:mergeDebugAssets
+:AutoFitTextViewLibrary:mergeDebugProguardFiles
+:AutoFitTextViewLibrary:packageDebugRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:packageDebugResources
+:AutoFitTextViewLibrary:processDebugJavaRes UP-TO-DATE
+:AutoFitTextViewLibrary:transformResourcesWithMergeJavaResForDebug
+:AutoFitTextViewLibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
+:AutoFitTextViewLibrary:mergeDebugJniLibFolders
+:AutoFitTextViewLibrary:transformNative_libsWithMergeJniLibsForDebug
+:AutoFitTextViewLibrary:transformNative_libsWithSyncJniLibsForDebug
+:AutoFitTextViewLibrary:bundleDebug
+:AutoFitTextViewLibrary:compileDebugSources
+:AutoFitTextViewLibrary:assembleDebug
+:AutoFitTextViewLibrary:checkReleaseManifest
+:AutoFitTextViewLibrary:prepareReleaseDependencies
+:AutoFitTextViewLibrary:compileReleaseAidl
+:AutoFitTextViewLibrary:compileReleaseNdk UP-TO-DATE
+:AutoFitTextViewLibrary:copyReleaseLint UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseRenderscript
+:AutoFitTextViewLibrary:generateReleaseBuildConfig
+:AutoFitTextViewLibrary:generateReleaseResValues
+:AutoFitTextViewLibrary:generateReleaseResources
+:AutoFitTextViewLibrary:mergeReleaseResources
+:AutoFitTextViewLibrary:processReleaseManifest
+:AutoFitTextViewLibrary:processReleaseResources
+:AutoFitTextViewLibrary:generateReleaseSources
+:AutoFitTextViewLibrary:incrementalReleaseJavaCompilationSafeguard
+:AutoFitTextViewLibrary:compileReleaseJavaWithJavac
+:AutoFitTextViewLibrary:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:AutoFitTextViewLibrary:extractReleaseAnnotations
+:AutoFitTextViewLibrary:mergeReleaseShaders
+:AutoFitTextViewLibrary:compileReleaseShaders
+:AutoFitTextViewLibrary:generateReleaseAssets
+:AutoFitTextViewLibrary:mergeReleaseAssets
+:AutoFitTextViewLibrary:mergeReleaseProguardFiles
+:AutoFitTextViewLibrary:packageReleaseRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:packageReleaseResources
+:AutoFitTextViewLibrary:processReleaseJavaRes UP-TO-DATE
+:AutoFitTextViewLibrary:transformResourcesWithMergeJavaResForRelease
+:AutoFitTextViewLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+:AutoFitTextViewLibrary:mergeReleaseJniLibFolders
+:AutoFitTextViewLibrary:transformNative_libsWithMergeJniLibsForRelease
+:AutoFitTextViewLibrary:transformNative_libsWithSyncJniLibsForRelease
+:AutoFitTextViewLibrary:bundleRelease
+:AutoFitTextViewLibrary:compileReleaseSources
+:AutoFitTextViewLibrary:assembleRelease
+:AutoFitTextViewLibrary:assemble
+:AutoFitTextViewLibrary:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.935 secs
+
+2018-04-08 02:34:41,197 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:34:41,197 INFO  SysUtils - Execute command: [/tmp/rdisk/1137/src/gradlew, -b, /tmp/rdisk/1137/src/AutoFitTextViewSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:34:48,863 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-04-08 02:34:48,863 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 02:34:48,863 INFO  SysUtils - Execute command: [/tmp/rdisk/1137/src/gradlew, -b, /tmp/rdisk/1137/src/AutoFitTextViewSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 02:35:09,672 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:35:09,672 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:AutoFitTextViewLibrary:preBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preReleaseBuild UP-TO-DATE
+:AutoFitTextViewLibrary:checkReleaseManifest
+:AutoFitTextViewLibrary:preDebugAndroidTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preDebugBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preDebugUnitTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preReleaseUnitTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportAnimatedVectorDrawable2400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportAppcompatV72400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportSupportVectorDrawable2400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareReleaseDependencies
+:AutoFitTextViewLibrary:compileReleaseAidl UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseNdk UP-TO-DATE
+:AutoFitTextViewLibrary:compileLint UP-TO-DATE
+:AutoFitTextViewLibrary:copyReleaseLint UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseBuildConfig UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseResValues UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:processReleaseManifest UP-TO-DATE
+:AutoFitTextViewLibrary:processReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseSources UP-TO-DATE
+:AutoFitTextViewLibrary:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseJavaWithJavac UP-TO-DATE
+:AutoFitTextViewLibrary:extractReleaseAnnotations UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseShaders UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseShaders UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseAssets UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseAssets UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseProguardFiles UP-TO-DATE
+:AutoFitTextViewLibrary:packageReleaseRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:packageReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:processReleaseJavaRes UP-TO-DATE
+:AutoFitTextViewLibrary:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseJniLibFolders UP-TO-DATE
+:AutoFitTextViewLibrary:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:bundleRelease UP-TO-DATE
+:AutoFitTextViewSample:preBuild UP-TO-DATE
+:AutoFitTextViewSample:preDebugBuild UP-TO-DATE
+:AutoFitTextViewSample:checkDebugManifest
+:AutoFitTextViewSample:preReleaseBuild UP-TO-DATE
+:AutoFitTextViewSample:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+:AutoFitTextViewSample:prepareComAndroidSupportAppcompatV72411Library
+:AutoFitTextViewSample:prepareComAndroidSupportRecyclerviewV72411Library
+:AutoFitTextViewSample:prepareComAndroidSupportSupportV42411Library
+:AutoFitTextViewSample:prepareComAndroidSupportSupportVectorDrawable2411Library
+:AutoFitTextViewSample:prepareSrcAutoFitTextViewLibraryUnspecifiedLibrary
+:AutoFitTextViewSample:prepareDebugDependencies
+:AutoFitTextViewSample:compileDebugAidl
+:AutoFitTextViewSample:compileDebugRenderscript
+:AutoFitTextViewSample:generateDebugBuildConfig
+:AutoFitTextViewSample:generateDebugResValues
+:AutoFitTextViewSample:generateDebugResources
+:AutoFitTextViewSample:mergeDebugResources
+:AutoFitTextViewSample:processDebugManifest
+:AutoFitTextViewSample:processDebugResources
+:AutoFitTextViewSample:generateDebugSources
+:AutoFitTextViewSample:incrementalDebugJavaCompilationSafeguard
+:AutoFitTextViewSample:compileDebugJavaWithJavac
+:AutoFitTextViewSample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1137/src/AutoFitTextViewSample/src/com/example/autofittextviewsample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:AutoFitTextViewSample:compileDebugNdk UP-TO-DATE
+:AutoFitTextViewSample:compileDebugSources
+:AutoFitTextViewSample:mergeDebugShaders
+:AutoFitTextViewSample:compileDebugShaders
+:AutoFitTextViewSample:generateDebugAssets
+:AutoFitTextViewSample:mergeDebugAssets
+:AutoFitTextViewSample:transformClassesWithDexForDebug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':AutoFitTextViewSample:transformClassesWithDexForDebug'.
+> com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':AutoFitTextViewSample:transformClassesWithDexForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:54)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:158)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:173)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:245)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:232)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+Caused by: com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.build.gradle.internal.transforms.DexTransform.transform(DexTransform.java:443)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:178)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:174)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	... 68 more
+Caused by: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.builder.core.DexByteCodeConverter.dexInProcess(DexByteCodeConverter.java:179)
+	at com.android.builder.core.DexByteCodeConverter.runDexer(DexByteCodeConverter.java:157)
+	at com.android.builder.core.DexByteCodeConverter.convertByteCode(DexByteCodeConverter.java:146)
+	at com.android.builder.core.AndroidBuilder.convertByteCode(AndroidBuilder.java:1422)
+	at com.android.build.gradle.internal.transforms.DexTransform.transform(DexTransform.java:432)
+	... 71 more
+Caused by: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.builder.core.DexByteCodeConverter.dexInProcess(DexByteCodeConverter.java:177)
+	... 75 more
+Caused by: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:584)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:539)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:521)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:167)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:191)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:522)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:344)
+	at com.android.dx.command.dexer.Main.run(Main.java:292)
+	at com.android.builder.internal.compiler.DexWrapper.run(DexWrapper.java:54)
+	at com.android.builder.core.DexByteCodeConverter.lambda$dexInProcess$0(DexByteCodeConverter.java:173)
+
+
+BUILD FAILED
+
+Total time: 20.253 secs
+
+2018-04-08 02:35:09,764 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:35:09,764 INFO  SysUtils - Execute command: [/tmp/rdisk/1137/src/gradlew, -b, /tmp/rdisk/1137/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:35:17,625 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-04-08 02:35:17,625 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 02:35:17,625 INFO  SysUtils - Execute command: [/tmp/rdisk/1137/src/gradlew, -b, /tmp/rdisk/1137/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 02:35:33,665 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:35:33,665 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:AutoFitTextViewLibrary:preBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preDebugBuild UP-TO-DATE
+:AutoFitTextViewLibrary:checkDebugManifest
+:AutoFitTextViewLibrary:preDebugAndroidTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preDebugUnitTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preReleaseBuild UP-TO-DATE
+:AutoFitTextViewLibrary:preReleaseUnitTestBuild UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportAnimatedVectorDrawable2400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportAppcompatV72400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareComAndroidSupportSupportVectorDrawable2400Library UP-TO-DATE
+:AutoFitTextViewLibrary:prepareDebugDependencies
+:AutoFitTextViewLibrary:compileDebugAidl UP-TO-DATE
+:AutoFitTextViewLibrary:compileDebugNdk UP-TO-DATE
+:AutoFitTextViewLibrary:compileLint UP-TO-DATE
+:AutoFitTextViewLibrary:copyDebugLint UP-TO-DATE
+:AutoFitTextViewLibrary:compileDebugRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:generateDebugBuildConfig UP-TO-DATE
+:AutoFitTextViewLibrary:generateDebugResValues UP-TO-DATE
+:AutoFitTextViewLibrary:generateDebugResources UP-TO-DATE
+:AutoFitTextViewLibrary:mergeDebugResources UP-TO-DATE
+:AutoFitTextViewLibrary:processDebugManifest UP-TO-DATE
+:AutoFitTextViewLibrary:processDebugResources UP-TO-DATE
+:AutoFitTextViewLibrary:generateDebugSources UP-TO-DATE
+:AutoFitTextViewLibrary:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:AutoFitTextViewLibrary:compileDebugJavaWithJavac UP-TO-DATE
+:AutoFitTextViewLibrary:extractDebugAnnotations UP-TO-DATE
+:AutoFitTextViewLibrary:mergeDebugShaders UP-TO-DATE
+:AutoFitTextViewLibrary:compileDebugShaders UP-TO-DATE
+:AutoFitTextViewLibrary:generateDebugAssets UP-TO-DATE
+:AutoFitTextViewLibrary:mergeDebugAssets UP-TO-DATE
+:AutoFitTextViewLibrary:mergeDebugProguardFiles UP-TO-DATE
+:AutoFitTextViewLibrary:packageDebugRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:packageDebugResources UP-TO-DATE
+:AutoFitTextViewLibrary:processDebugJavaRes UP-TO-DATE
+:AutoFitTextViewLibrary:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:AutoFitTextViewLibrary:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:AutoFitTextViewLibrary:mergeDebugJniLibFolders UP-TO-DATE
+:AutoFitTextViewLibrary:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:AutoFitTextViewLibrary:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:AutoFitTextViewLibrary:bundleDebug UP-TO-DATE
+:AutoFitTextViewLibrary:compileDebugSources UP-TO-DATE
+:AutoFitTextViewLibrary:assembleDebug UP-TO-DATE
+:AutoFitTextViewLibrary:checkReleaseManifest
+:AutoFitTextViewLibrary:prepareReleaseDependencies
+:AutoFitTextViewLibrary:compileReleaseAidl UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseNdk UP-TO-DATE
+:AutoFitTextViewLibrary:copyReleaseLint UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseBuildConfig UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseResValues UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:processReleaseManifest UP-TO-DATE
+:AutoFitTextViewLibrary:processReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseSources UP-TO-DATE
+:AutoFitTextViewLibrary:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseJavaWithJavac UP-TO-DATE
+:AutoFitTextViewLibrary:extractReleaseAnnotations UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseShaders UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseShaders UP-TO-DATE
+:AutoFitTextViewLibrary:generateReleaseAssets UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseAssets UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseProguardFiles UP-TO-DATE
+:AutoFitTextViewLibrary:packageReleaseRenderscript UP-TO-DATE
+:AutoFitTextViewLibrary:packageReleaseResources UP-TO-DATE
+:AutoFitTextViewLibrary:processReleaseJavaRes UP-TO-DATE
+:AutoFitTextViewLibrary:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:mergeReleaseJniLibFolders UP-TO-DATE
+:AutoFitTextViewLibrary:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:AutoFitTextViewLibrary:bundleRelease UP-TO-DATE
+:AutoFitTextViewLibrary:compileReleaseSources UP-TO-DATE
+:AutoFitTextViewLibrary:assembleRelease UP-TO-DATE
+:AutoFitTextViewLibrary:assemble UP-TO-DATE
+:AutoFitTextViewLibrary:build
+:AutoFitTextViewSample:preBuild UP-TO-DATE
+:AutoFitTextViewSample:preDebugBuild UP-TO-DATE
+:AutoFitTextViewSample:checkDebugManifest
+:AutoFitTextViewSample:preReleaseBuild UP-TO-DATE
+:AutoFitTextViewSample:prepareComAndroidSupportAnimatedVectorDrawable2411Library UP-TO-DATE
+:AutoFitTextViewSample:prepareComAndroidSupportAppcompatV72411Library UP-TO-DATE
+:AutoFitTextViewSample:prepareComAndroidSupportRecyclerviewV72411Library UP-TO-DATE
+:AutoFitTextViewSample:prepareComAndroidSupportSupportV42411Library UP-TO-DATE
+:AutoFitTextViewSample:prepareComAndroidSupportSupportVectorDrawable2411Library UP-TO-DATE
+:AutoFitTextViewSample:prepareSrcAutoFitTextViewLibraryUnspecifiedLibrary UP-TO-DATE
+:AutoFitTextViewSample:prepareDebugDependencies
+:AutoFitTextViewSample:compileDebugAidl UP-TO-DATE
+:AutoFitTextViewSample:compileDebugRenderscript UP-TO-DATE
+:AutoFitTextViewSample:generateDebugBuildConfig UP-TO-DATE
+:AutoFitTextViewSample:generateDebugResValues UP-TO-DATE
+:AutoFitTextViewSample:generateDebugResources UP-TO-DATE
+:AutoFitTextViewSample:mergeDebugResources UP-TO-DATE
+:AutoFitTextViewSample:processDebugManifest UP-TO-DATE
+:AutoFitTextViewSample:processDebugResources UP-TO-DATE
+:AutoFitTextViewSample:generateDebugSources UP-TO-DATE
+:AutoFitTextViewSample:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:AutoFitTextViewSample:compileDebugJavaWithJavac UP-TO-DATE
+:AutoFitTextViewSample:compileDebugNdk UP-TO-DATE
+:AutoFitTextViewSample:compileDebugSources UP-TO-DATE
+:AutoFitTextViewSample:mergeDebugShaders UP-TO-DATE
+:AutoFitTextViewSample:compileDebugShaders UP-TO-DATE
+:AutoFitTextViewSample:generateDebugAssets UP-TO-DATE
+:AutoFitTextViewSample:mergeDebugAssets UP-TO-DATE
+:AutoFitTextViewSample:transformClassesWithDexForDebug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':AutoFitTextViewSample:transformClassesWithDexForDebug'.
+> com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':AutoFitTextViewSample:transformClassesWithDexForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:54)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:158)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:173)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:245)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:232)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+Caused by: com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.build.gradle.internal.transforms.DexTransform.transform(DexTransform.java:443)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:178)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:174)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	... 68 more
+Caused by: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.builder.core.DexByteCodeConverter.dexInProcess(DexByteCodeConverter.java:179)
+	at com.android.builder.core.DexByteCodeConverter.runDexer(DexByteCodeConverter.java:157)
+	at com.android.builder.core.DexByteCodeConverter.convertByteCode(DexByteCodeConverter.java:146)
+	at com.android.builder.core.AndroidBuilder.convertByteCode(AndroidBuilder.java:1422)
+	at com.android.build.gradle.internal.transforms.DexTransform.transform(DexTransform.java:432)
+	... 71 more
+Caused by: java.util.concurrent.ExecutionException: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.builder.core.DexByteCodeConverter.dexInProcess(DexByteCodeConverter.java:177)
+	... 75 more
+Caused by: com.android.dex.DexException: Multiple dex files define Landroid/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:584)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:539)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:521)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:167)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:191)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:522)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:344)
+	at com.android.dx.command.dexer.Main.run(Main.java:292)
+	at com.android.builder.internal.compiler.DexWrapper.run(DexWrapper.java:54)
+	at com.android.builder.core.DexByteCodeConverter.lambda$dexInProcess$0(DexByteCodeConverter.java:173)
+
+
+BUILD FAILED
+
+Total time: 15.471 secs
+
+2018-04-08 02:35:33,742 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 02:35:33,822 ERROR FullProcessService - Could not find generated or existed APK file

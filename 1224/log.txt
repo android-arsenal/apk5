@@ -1,0 +1,197 @@
+2018-05-22 07:58:21,269 INFO  DownloadService - Downloading "https://github.com/modern-java-graphics/java6-android-demoframework/archive/master.zip", attempt 3
+2018-05-22 07:59:21,270 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 07:59:22,035 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 07:59:22,035 INFO  DownloadService - Downloading "https://github.com/modern-java-graphics/java6-android-demoframework/archive/master.zip", attempt 3
+2018-05-22 08:00:23,007 DEBUG FullProcessService - Repository https://github.com/modern-java-graphics/java6-android-demoframework available: true
+2018-05-22 08:00:23,007 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 08:00:23,007 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/modern-java-graphics/java6-android-demoframework, /tmp/rdisk/1224/src]
+2018-05-22 08:00:24,922 INFO  SysUtils - 
+2018-05-22 08:00:24,934 INFO  GitService - Deleted "/tmp/rdisk/1224/src/.git": true
+2018-05-22 08:00:24,935 INFO  FullProcessService - Size of directory with sources: 91 KB
+2018-05-22 08:00:24,935 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1224/src]
+2018-05-22 08:00:24,948 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1224/src/.git/
+
+2018-05-22 08:00:24,950 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1224/src/gradlew
+2018-05-22 08:00:24,952 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1224/src/java6-android-demoframework/build.gradle /tmp/rdisk/1224/src/build.gradle
+2018-05-22 08:00:24,953 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1224/src/settings.gradle /tmp/rdisk/1224/src/java6-android-demoframework/build.gradle /tmp/rdisk/1224/src/build.gradle
+2018-05-22 08:00:24,954 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 08:00:24,954 INFO  ProjectFixService - Fixing project...
+2018-05-22 08:00:24,958 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1224/src/java6-android-demoframework/local.properties
+2018-05-22 08:00:24,958 INFO  ProjectFixService - Build info for "/tmp/rdisk/1224/src/java6-android-demoframework/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=21]
+2018-05-22 08:00:24,959 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1224/src/local.properties
+2018-05-22 08:00:24,959 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-05-22 08:00:24,959 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-05-22 08:00:24,960 INFO  ProjectFixService - Build info for "/tmp/rdisk/1224/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=21]
+2018-05-22 08:00:24,960 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 08:00:24,961 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 08:00:24,961 INFO  SysUtils - Execute command: [/tmp/rdisk/1224/src/gradlew, -b, /tmp/rdisk/1224/src/java6-android-demoframework/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 08:00:33,340 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-05-22 08:00:33,340 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-22 08:00:33,340 INFO  SysUtils - Execute command: [/tmp/rdisk/1224/src/gradlew, -b, /tmp/rdisk/1224/src/java6-android-demoframework/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-22 08:00:45,985 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:java6-android-demoframework:preBuild UP-TO-DATE
+:java6-android-demoframework:preDebugBuild UP-TO-DATE
+:java6-android-demoframework:compileDebugNdk UP-TO-DATE
+:java6-android-demoframework:compileLint
+:java6-android-demoframework:copyDebugLint UP-TO-DATE
+:java6-android-demoframework:checkDebugManifest
+:java6-android-demoframework:preDebugAndroidTestBuild UP-TO-DATE
+:java6-android-demoframework:preDebugUnitTestBuild UP-TO-DATE
+:java6-android-demoframework:preReleaseBuild UP-TO-DATE
+:java6-android-demoframework:preReleaseUnitTestBuild UP-TO-DATE
+:java6-android-demoframework:prepareComAndroidSupportAnimatedVectorDrawable2330Library
+:java6-android-demoframework:prepareComAndroidSupportAppcompatV72330Library
+:java6-android-demoframework:prepareComAndroidSupportSupportV42330Library
+:java6-android-demoframework:prepareComAndroidSupportSupportVectorDrawable2330Library
+:java6-android-demoframework:prepareDebugDependencies
+:java6-android-demoframework:compileDebugAidl
+:java6-android-demoframework:compileDebugRenderscript
+:java6-android-demoframework:generateDebugBuildConfig
+:java6-android-demoframework:generateDebugAssets UP-TO-DATE
+:java6-android-demoframework:mergeDebugAssets
+:java6-android-demoframework:generateDebugResValues
+:java6-android-demoframework:generateDebugResources
+:java6-android-demoframework:mergeDebugResources
+:java6-android-demoframework:processDebugManifest
+:java6-android-demoframework:processDebugResources
+:java6-android-demoframework:generateDebugSources
+:java6-android-demoframework:compileDebugJavaWithJavacNote: /tmp/rdisk/1224/src/java6-android-demoframework/src/main/java/org/typhonrt/android/java6/data/option/control/OptionModelDrawerControl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:java6-android-demoframework:extractDebugAnnotations
+:java6-android-demoframework:mergeDebugProguardFiles
+:java6-android-demoframework:packageDebugRenderscript UP-TO-DATE
+:java6-android-demoframework:packageDebugResources
+:java6-android-demoframework:processDebugJavaRes UP-TO-DATE
+:java6-android-demoframework:transformResourcesWithMergeJavaResForDebug
+:java6-android-demoframework:transformClassesAndResourcesWithSyncLibJarsForDebug
+:java6-android-demoframework:mergeDebugJniLibFolders
+:java6-android-demoframework:transformNative_libsWithMergeJniLibsForDebug
+:java6-android-demoframework:transformNative_libsWithSyncJniLibsForDebug
+:java6-android-demoframework:bundleDebug
+:java6-android-demoframework:compileDebugSources
+:java6-android-demoframework:assembleDebug
+:java6-android-demoframework:compileReleaseNdk UP-TO-DATE
+:java6-android-demoframework:copyReleaseLint UP-TO-DATE
+:java6-android-demoframework:checkReleaseManifest
+:java6-android-demoframework:prepareReleaseDependencies
+:java6-android-demoframework:compileReleaseAidl
+:java6-android-demoframework:compileReleaseRenderscript
+:java6-android-demoframework:generateReleaseBuildConfig
+:java6-android-demoframework:generateReleaseAssets UP-TO-DATE
+:java6-android-demoframework:mergeReleaseAssets
+:java6-android-demoframework:generateReleaseResValues
+:java6-android-demoframework:generateReleaseResources
+:java6-android-demoframework:mergeReleaseResources
+:java6-android-demoframework:processReleaseManifest
+:java6-android-demoframework:processReleaseResources
+:java6-android-demoframework:generateReleaseSources
+:java6-android-demoframework:compileReleaseJavaWithJavacNote: /tmp/rdisk/1224/src/java6-android-demoframework/src/main/java/org/typhonrt/android/java6/data/option/control/OptionModelDrawerControl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:java6-android-demoframework:extractReleaseAnnotations
+:java6-android-demoframework:mergeReleaseProguardFiles
+:java6-android-demoframework:packageReleaseRenderscript UP-TO-DATE
+:java6-android-demoframework:packageReleaseResources
+:java6-android-demoframework:processReleaseJavaRes UP-TO-DATE
+:java6-android-demoframework:transformResourcesWithMergeJavaResForRelease
+:java6-android-demoframework:transformClassesAndResourcesWithSyncLibJarsForRelease
+:java6-android-demoframework:mergeReleaseJniLibFolders
+:java6-android-demoframework:transformNative_libsWithMergeJniLibsForRelease
+:java6-android-demoframework:transformNative_libsWithSyncJniLibsForRelease
+:java6-android-demoframework:bundleRelease
+:java6-android-demoframework:compileReleaseSources
+:java6-android-demoframework:assembleRelease
+:java6-android-demoframework:assemble
+:java6-android-demoframework:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.161 secs
+
+2018-05-22 08:00:46,028 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 08:00:46,028 INFO  SysUtils - Execute command: [/tmp/rdisk/1224/src/gradlew, -b, /tmp/rdisk/1224/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 08:00:52,687 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-05-22 08:00:52,687 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-22 08:00:52,687 INFO  SysUtils - Execute command: [/tmp/rdisk/1224/src/gradlew, -b, /tmp/rdisk/1224/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-22 08:01:00,292 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:java6-android-demoframework:preBuild UP-TO-DATE
+:java6-android-demoframework:preDebugBuild UP-TO-DATE
+:java6-android-demoframework:compileDebugNdk UP-TO-DATE
+:java6-android-demoframework:compileLint
+:java6-android-demoframework:copyDebugLint UP-TO-DATE
+:java6-android-demoframework:checkDebugManifest
+:java6-android-demoframework:preDebugAndroidTestBuild UP-TO-DATE
+:java6-android-demoframework:preDebugUnitTestBuild UP-TO-DATE
+:java6-android-demoframework:preReleaseBuild UP-TO-DATE
+:java6-android-demoframework:preReleaseUnitTestBuild UP-TO-DATE
+:java6-android-demoframework:prepareComAndroidSupportAnimatedVectorDrawable2330Library UP-TO-DATE
+:java6-android-demoframework:prepareComAndroidSupportAppcompatV72330Library UP-TO-DATE
+:java6-android-demoframework:prepareComAndroidSupportSupportV42330Library UP-TO-DATE
+:java6-android-demoframework:prepareComAndroidSupportSupportVectorDrawable2330Library UP-TO-DATE
+:java6-android-demoframework:prepareDebugDependencies
+:java6-android-demoframework:compileDebugAidl UP-TO-DATE
+:java6-android-demoframework:compileDebugRenderscript UP-TO-DATE
+:java6-android-demoframework:generateDebugBuildConfig UP-TO-DATE
+:java6-android-demoframework:generateDebugAssets UP-TO-DATE
+:java6-android-demoframework:mergeDebugAssets UP-TO-DATE
+:java6-android-demoframework:generateDebugResValues UP-TO-DATE
+:java6-android-demoframework:generateDebugResources UP-TO-DATE
+:java6-android-demoframework:mergeDebugResources UP-TO-DATE
+:java6-android-demoframework:processDebugManifest UP-TO-DATE
+:java6-android-demoframework:processDebugResources UP-TO-DATE
+:java6-android-demoframework:generateDebugSources UP-TO-DATE
+:java6-android-demoframework:compileDebugJavaWithJavac UP-TO-DATE
+:java6-android-demoframework:extractDebugAnnotations UP-TO-DATE
+:java6-android-demoframework:mergeDebugProguardFiles UP-TO-DATE
+:java6-android-demoframework:packageDebugRenderscript UP-TO-DATE
+:java6-android-demoframework:packageDebugResources UP-TO-DATE
+:java6-android-demoframework:processDebugJavaRes UP-TO-DATE
+:java6-android-demoframework:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:java6-android-demoframework:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:java6-android-demoframework:mergeDebugJniLibFolders UP-TO-DATE
+:java6-android-demoframework:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:java6-android-demoframework:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:java6-android-demoframework:bundleDebug UP-TO-DATE
+:java6-android-demoframework:compileDebugSources UP-TO-DATE
+:java6-android-demoframework:assembleDebug UP-TO-DATE
+:java6-android-demoframework:compileReleaseNdk UP-TO-DATE
+:java6-android-demoframework:copyReleaseLint UP-TO-DATE
+:java6-android-demoframework:checkReleaseManifest
+:java6-android-demoframework:prepareReleaseDependencies
+:java6-android-demoframework:compileReleaseAidl UP-TO-DATE
+:java6-android-demoframework:compileReleaseRenderscript UP-TO-DATE
+:java6-android-demoframework:generateReleaseBuildConfig UP-TO-DATE
+:java6-android-demoframework:generateReleaseAssets UP-TO-DATE
+:java6-android-demoframework:mergeReleaseAssets UP-TO-DATE
+:java6-android-demoframework:generateReleaseResValues UP-TO-DATE
+:java6-android-demoframework:generateReleaseResources UP-TO-DATE
+:java6-android-demoframework:mergeReleaseResources UP-TO-DATE
+:java6-android-demoframework:processReleaseManifest UP-TO-DATE
+:java6-android-demoframework:processReleaseResources UP-TO-DATE
+:java6-android-demoframework:generateReleaseSources UP-TO-DATE
+:java6-android-demoframework:compileReleaseJavaWithJavac UP-TO-DATE
+:java6-android-demoframework:extractReleaseAnnotations UP-TO-DATE
+:java6-android-demoframework:mergeReleaseProguardFiles UP-TO-DATE
+:java6-android-demoframework:packageReleaseRenderscript UP-TO-DATE
+:java6-android-demoframework:packageReleaseResources UP-TO-DATE
+:java6-android-demoframework:processReleaseJavaRes UP-TO-DATE
+:java6-android-demoframework:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:java6-android-demoframework:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:java6-android-demoframework:mergeReleaseJniLibFolders UP-TO-DATE
+:java6-android-demoframework:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:java6-android-demoframework:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:java6-android-demoframework:bundleRelease UP-TO-DATE
+:java6-android-demoframework:compileReleaseSources UP-TO-DATE
+:java6-android-demoframework:assembleRelease UP-TO-DATE
+:java6-android-demoframework:assemble UP-TO-DATE
+:java6-android-demoframework:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.161 secs
+
+2018-05-22 08:01:00,342 ERROR FullProcessService - Project build has not produced APK file
+2018-05-22 08:01:00,382 ERROR FullProcessService - Could not find generated or existed APK file

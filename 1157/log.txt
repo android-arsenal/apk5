@@ -1,0 +1,190 @@
+2018-05-11 14:46:53,038 INFO  DownloadService - Downloading "https://github.com/amulyakhare/TextDrawable/archive/master.zip", attempt 3
+2018-05-11 14:46:53,489 INFO  DownloadService - Downloaded https://github.com/amulyakhare/TextDrawable/archive/master.zip, attempt 3
+2018-05-11 14:46:53,489 INFO  DownloadService - Size of file "/tmp/rdisk/1157/master.zip": 696 KB
+2018-05-11 14:46:53,489 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 14:46:53,490 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1157/master.zip: true
+2018-05-11 14:46:53,490 DEBUG ZipUtil - Extracting '/tmp/rdisk/1157/master.zip' into '/tmp/rdisk/1157/src'.
+2018-05-11 14:46:53,505 INFO  FullProcessService - Size of directory with sources: 740 KB
+2018-05-11 14:46:53,505 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1157/src]
+2018-05-11 14:46:53,510 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1157/src/.git/
+
+2018-05-11 14:46:53,512 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1157/src/TextDrawable-master/gradlew
+2018-05-11 14:46:53,515 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1157/src/TextDrawable-master/library/build.gradle /tmp/rdisk/1157/src/TextDrawable-master/sample/build.gradle /tmp/rdisk/1157/src/TextDrawable-master/build.gradle
+2018-05-11 14:46:53,517 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1157/src/TextDrawable-master/settings.gradle /tmp/rdisk/1157/src/TextDrawable-master/sample/build.gradle /tmp/rdisk/1157/src/TextDrawable-master/library/build.gradle /tmp/rdisk/1157/src/TextDrawable-master/build.gradle
+2018-05-11 14:46:53,518 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 14:46:53,518 INFO  ProjectFixService - Fixing project...
+2018-05-11 14:46:53,524 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1157/src/TextDrawable-master/library/local.properties
+2018-05-11 14:46:53,524 INFO  ProjectFixService - Build info for "/tmp/rdisk/1157/src/TextDrawable-master/library/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-05-11 14:46:53,524 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1157/src/TextDrawable-master/sample/local.properties
+2018-05-11 14:46:53,525 INFO  ProjectFixService - Build info for "/tmp/rdisk/1157/src/TextDrawable-master/sample/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-05-11 14:46:53,525 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1157/src/TextDrawable-master/local.properties
+2018-05-11 14:46:53,525 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-11 14:46:53,525 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-11 14:46:53,526 INFO  ProjectFixService - Build info for "/tmp/rdisk/1157/src/TextDrawable-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-05-11 14:46:53,526 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 14:46:53,527 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 14:46:53,527 INFO  SysUtils - Execute command: [/tmp/rdisk/1157/src/TextDrawable-master/gradlew, -b, /tmp/rdisk/1157/src/TextDrawable-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 14:46:59,800 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-05-11 14:46:59,801 INFO  ProjectTaskService - Excluded tasks (9): lintDebug deviceCheck lint connectedCheck uninstallAll sourcesJar check connectedAndroidTest lintRelease
+2018-05-11 14:46:59,801 INFO  SysUtils - Execute command: [/tmp/rdisk/1157/src/TextDrawable-master/gradlew, -b, /tmp/rdisk/1157/src/TextDrawable-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, sourcesJar, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 14:47:06,364 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugProguardFiles
+:library:preBuild
+:library:preDebugBuild
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:compileDebugJava
+:library:processDebugJavaRes UP-TO-DATE
+:library:packageDebugJar
+:library:compileDebugNdk
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:bundleDebug
+:library:assembleDebug
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.119 secs
+
+2018-05-11 14:47:06,371 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 14:47:06,373 INFO  SysUtils - Execute command: [/tmp/rdisk/1157/src/TextDrawable-master/gradlew, -b, /tmp/rdisk/1157/src/TextDrawable-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 14:47:12,320 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-05-11 14:47:12,321 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-11 14:47:12,321 INFO  SysUtils - Execute command: [/tmp/rdisk/1157/src/TextDrawable-master/gradlew, -b, /tmp/rdisk/1157/src/TextDrawable-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-11 14:47:33,574 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild
+:sample:compileDebugNdk
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:compileReleaseJava UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preDebugBuild
+:sample:checkDebugManifest
+:sample:preReleaseBuild
+:sample:prepareComAndroidSupportAppcompatV72103Library
+:sample:prepareComAndroidSupportSupportV42103Library
+:sample:prepareTextDrawableMasterLibraryUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJava
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1157/src/TextDrawable-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJava
+:sample:lintVitalRelease
+:sample:compileReleaseNdk
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.834 secs
+
+2018-05-11 14:47:33,611 INFO  FullProcessService - Found APK file: /tmp/rdisk/1157/src/TextDrawable-master/sample/build/outputs/apk/sample-release-unsigned.apk

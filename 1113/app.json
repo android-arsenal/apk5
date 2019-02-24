@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.afollestad.materialdialogssample",
+    "label" : "Material Dialogs",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.9.2.3",
+    "versionCode" : 171,
+    "installLocation" : null,
+    "minSdkVersion" : "13",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2208,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"171\" android:versionName=\"0.9.2.3\" package=\"com.afollestad.materialdialogssample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"13\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f090043\" android:label=\"Material Dialogs\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:vmSafeMode=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"Material Dialogs\" android:name=\"com.afollestad.materialdialogssample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Preference Dialogs\" android:name=\"com.afollestad.materialdialogssample.PreferenceActivity\" />\n\t\t<activity android:label=\"Preference Dialogs\" android:name=\"com.afollestad.materialdialogssample.PreferenceActivityCompat\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2201508,
+  "crc32" : 1323882064,
+  "sha256" : "14e73d5a150c0d7cc2f3f7c65f584ca1d9a3e225e09c2c8d1f3584209257dd02",
+  "buildTime" : 1526052170000
+}

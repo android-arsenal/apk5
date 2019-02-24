@@ -1,0 +1,242 @@
+2018-05-22 08:18:13,836 INFO  DownloadService - Downloading "https://github.com/blazsolar/FlowLayout/archive/master.zip", attempt 3
+2018-05-22 08:19:13,837 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 08:19:14,527 INFO  GithubDownloadService - Default branch of this repository: develop
+2018-05-22 08:19:14,537 INFO  DownloadService - Downloading "https://github.com/blazsolar/FlowLayout/archive/develop.zip", attempt 3
+2018-05-22 08:20:15,944 DEBUG FullProcessService - Repository https://github.com/blazsolar/FlowLayout available: true
+2018-05-22 08:20:15,944 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 08:20:15,944 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/blazsolar/FlowLayout, /tmp/rdisk/1216/src]
+2018-05-22 08:20:18,377 INFO  SysUtils - 
+2018-05-22 08:20:18,381 INFO  GitService - Deleted "/tmp/rdisk/1216/src/.git": true
+2018-05-22 08:20:18,385 INFO  FullProcessService - Size of directory with sources: 537 KB
+2018-05-22 08:20:18,385 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1216/src]
+2018-05-22 08:20:18,392 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1216/src/.git/
+
+2018-05-22 08:20:18,395 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1216/src/gradlew
+2018-05-22 08:20:18,398 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1216/src/FlowLayout/build.gradle /tmp/rdisk/1216/src/FlowLayoutExample/build.gradle /tmp/rdisk/1216/src/test/build.gradle /tmp/rdisk/1216/src/build.gradle
+2018-05-22 08:20:18,401 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1216/src/test/build.gradle /tmp/rdisk/1216/src/settings.gradle /tmp/rdisk/1216/src/maven_push.gradle /tmp/rdisk/1216/src/build.gradle /tmp/rdisk/1216/src/FlowLayoutExample/build.gradle /tmp/rdisk/1216/src/FlowLayout/build.gradle
+2018-05-22 08:20:18,402 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 08:20:18,402 INFO  ProjectFixService - Fixing project...
+2018-05-22 08:20:18,412 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1216/src/FlowLayout/local.properties
+2018-05-22 08:20:18,412 INFO  ProjectFixService - Build info for "/tmp/rdisk/1216/src/FlowLayout/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-22 08:20:18,413 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1216/src/FlowLayoutExample/local.properties
+2018-05-22 08:20:18,413 INFO  ProjectFixService - Build info for "/tmp/rdisk/1216/src/FlowLayoutExample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-22 08:20:18,413 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1216/src/test/local.properties
+2018-05-22 08:20:18,414 INFO  ProjectFixService - Build info for "/tmp/rdisk/1216/src/test/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-05-22 08:20:18,414 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1216/src/local.properties
+2018-05-22 08:20:18,414 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.5-bin.zip
+2018-05-22 08:20:18,415 INFO  ProjectFixService - Build info for "/tmp/rdisk/1216/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-05-22 08:20:18,415 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 08:20:18,415 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 08:20:18,416 INFO  SysUtils - Execute command: [/tmp/rdisk/1216/src/gradlew, -b, /tmp/rdisk/1216/src/FlowLayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 08:20:30,817 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-22 08:20:30,818 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-22 08:20:30,818 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-22 08:20:30,818 INFO  SysUtils - Execute command: [/tmp/rdisk/1216/src/gradlew, -b, /tmp/rdisk/1216/src/FlowLayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-22 08:20:48,984 INFO  SysUtils - Configuration on demand is an incubating feature.
+DEBUG BUILD
+:FlowLayout:androidJavadocs
+:FlowLayout:androidJavadocsJar
+:FlowLayout:androidSourcesJar
+:FlowLayout:compileLint
+:FlowLayout:copyDebugLint UP-TO-DATE
+:FlowLayout:mergeDebugProguardFiles
+:FlowLayout:preBuild UP-TO-DATE
+:FlowLayout:preDebugBuild UP-TO-DATE
+:FlowLayout:checkDebugManifest
+:FlowLayout:prepareDebugDependencies
+:FlowLayout:compileDebugAidl
+:FlowLayout:compileDebugRenderscript
+:FlowLayout:generateDebugBuildConfig
+:FlowLayout:generateDebugAssets UP-TO-DATE
+:FlowLayout:mergeDebugAssets
+:FlowLayout:generateDebugResValues
+:FlowLayout:generateDebugResources
+:FlowLayout:packageDebugResources
+:FlowLayout:processDebugManifest
+:FlowLayout:processDebugResources
+:FlowLayout:generateDebugSources
+:FlowLayout:processDebugJavaRes UP-TO-DATE
+:FlowLayout:compileDebugJavaWithJavac
+:FlowLayout:unzipJacocoAgent
+:FlowLayout:instrumentDebug
+:FlowLayout:packageDebugJar
+:FlowLayout:compileDebugNdk UP-TO-DATE
+:FlowLayout:packageDebugJniLibs UP-TO-DATE
+:FlowLayout:packageDebugLocalJar
+:FlowLayout:packageDebugRenderscript UP-TO-DATE
+:FlowLayout:bundleDebug
+:FlowLayout:compileDebugSources
+:FlowLayout:assembleDebug
+:FlowLayout:copyReleaseLint UP-TO-DATE
+:FlowLayout:mergeReleaseProguardFiles
+:FlowLayout:preReleaseBuild UP-TO-DATE
+:FlowLayout:checkReleaseManifest
+:FlowLayout:prepareReleaseDependencies
+:FlowLayout:compileReleaseAidl
+:FlowLayout:compileReleaseRenderscript
+:FlowLayout:generateReleaseBuildConfig
+:FlowLayout:generateReleaseAssets UP-TO-DATE
+:FlowLayout:mergeReleaseAssets
+:FlowLayout:generateReleaseResValues
+:FlowLayout:generateReleaseResources
+:FlowLayout:packageReleaseResources
+:FlowLayout:processReleaseManifest
+:FlowLayout:processReleaseResources
+:FlowLayout:generateReleaseSources
+:FlowLayout:processReleaseJavaRes UP-TO-DATE
+:FlowLayout:compileReleaseJavaWithJavac
+:FlowLayout:packageReleaseJar
+:FlowLayout:compileReleaseNdk UP-TO-DATE
+:FlowLayout:packageReleaseJniLibs UP-TO-DATE
+:FlowLayout:packageReleaseLocalJar UP-TO-DATE
+:FlowLayout:packageReleaseRenderscript UP-TO-DATE
+:FlowLayout:bundleRelease
+:FlowLayout:compileReleaseSources
+:FlowLayout:assembleRelease
+:FlowLayout:signArchives SKIPPED
+:FlowLayout:assemble
+:FlowLayout:lint
+Ran lint on variant debug: 12 issues found
+Ran lint on variant release: 12 issues found
+Wrote HTML report to file:/tmp/rdisk/1216/src/FlowLayout/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1216/src/FlowLayout/build/outputs/lint-results.xml
+:FlowLayout:preDebugUnitTestBuild UP-TO-DATE
+:FlowLayout:prepareDebugUnitTestDependencies
+:FlowLayout:processDebugUnitTestJavaRes UP-TO-DATE
+:FlowLayout:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:FlowLayout:compileDebugUnitTestSources UP-TO-DATE
+:FlowLayout:mockableAndroidJar
+:FlowLayout:assembleDebugUnitTest
+:FlowLayout:testDebugUnitTest
+:FlowLayout:preReleaseUnitTestBuild UP-TO-DATE
+:FlowLayout:prepareReleaseUnitTestDependencies
+:FlowLayout:processReleaseUnitTestJavaRes UP-TO-DATE
+:FlowLayout:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:FlowLayout:compileReleaseUnitTestSources UP-TO-DATE
+:FlowLayout:assembleReleaseUnitTest
+:FlowLayout:testReleaseUnitTest
+:FlowLayout:test
+:FlowLayout:check
+:FlowLayout:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.727 secs
+
+2018-05-22 08:20:48,993 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 08:20:48,993 INFO  SysUtils - Execute command: [/tmp/rdisk/1216/src/gradlew, -b, /tmp/rdisk/1216/src/FlowLayoutExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 08:20:56,287 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-22 08:20:56,287 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-22 08:20:56,287 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-22 08:20:56,287 INFO  SysUtils - Execute command: [/tmp/rdisk/1216/src/gradlew, -b, /tmp/rdisk/1216/src/FlowLayoutExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-22 08:21:13,929 INFO  SysUtils - Configuration on demand is an incubating feature.
+DEBUG BUILD
+:FlowLayout:compileLint
+:FlowLayout:copyReleaseLint UP-TO-DATE
+:FlowLayout:mergeReleaseProguardFiles UP-TO-DATE
+:FlowLayout:preBuild UP-TO-DATE
+:FlowLayout:preReleaseBuild UP-TO-DATE
+:FlowLayout:checkReleaseManifest
+:FlowLayout:prepareReleaseDependencies
+:FlowLayout:compileReleaseAidl UP-TO-DATE
+:FlowLayout:compileReleaseRenderscript UP-TO-DATE
+:FlowLayout:generateReleaseBuildConfig UP-TO-DATE
+:FlowLayout:generateReleaseAssets UP-TO-DATE
+:FlowLayout:mergeReleaseAssets UP-TO-DATE
+:FlowLayout:generateReleaseResValues UP-TO-DATE
+:FlowLayout:generateReleaseResources UP-TO-DATE
+:FlowLayout:packageReleaseResources UP-TO-DATE
+:FlowLayout:processReleaseManifest UP-TO-DATE
+:FlowLayout:processReleaseResources UP-TO-DATE
+:FlowLayout:generateReleaseSources UP-TO-DATE
+:FlowLayout:processReleaseJavaRes UP-TO-DATE
+:FlowLayout:compileReleaseJavaWithJavac UP-TO-DATE
+:FlowLayout:packageReleaseJar UP-TO-DATE
+:FlowLayout:compileReleaseNdk UP-TO-DATE
+:FlowLayout:packageReleaseJniLibs UP-TO-DATE
+:FlowLayout:packageReleaseLocalJar UP-TO-DATE
+:FlowLayout:packageReleaseRenderscript UP-TO-DATE
+:FlowLayout:bundleRelease UP-TO-DATE
+:FlowLayoutExample:preBuild UP-TO-DATE
+:FlowLayoutExample:preDebugBuild UP-TO-DATE
+:FlowLayoutExample:checkDebugManifest
+:FlowLayoutExample:preReleaseBuild UP-TO-DATE
+:FlowLayoutExample:prepareComWefikaFlowLayout050SNAPSHOTLibrary
+:FlowLayoutExample:prepareDebugDependencies
+:FlowLayoutExample:compileDebugAidl
+:FlowLayoutExample:compileDebugRenderscript
+:FlowLayoutExample:generateDebugBuildConfig
+:FlowLayoutExample:generateDebugAssets UP-TO-DATE
+:FlowLayoutExample:mergeDebugAssets
+:FlowLayoutExample:generateDebugResValues
+:FlowLayoutExample:generateDebugResources
+:FlowLayoutExample:mergeDebugResources
+:FlowLayoutExample:processDebugManifest
+:FlowLayoutExample:processDebugResources
+:FlowLayoutExample:generateDebugSources
+:FlowLayoutExample:processDebugJavaRes UP-TO-DATE
+:FlowLayoutExample:compileDebugJavaWithJavacNote: /tmp/rdisk/1216/src/FlowLayoutExample/src/main/java/com/wefika/flowlayout/example/VisibilityActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:FlowLayoutExample:compileDebugNdk UP-TO-DATE
+:FlowLayoutExample:compileDebugSources
+:FlowLayoutExample:preDexDebug
+:FlowLayoutExample:dexDebug
+:FlowLayoutExample:validateDebugSigning
+:FlowLayoutExample:packageDebug
+:FlowLayoutExample:zipalignDebug
+:FlowLayoutExample:assembleDebug
+:FlowLayoutExample:checkReleaseManifest
+:FlowLayoutExample:prepareReleaseDependencies
+:FlowLayoutExample:compileReleaseAidl
+:FlowLayoutExample:compileReleaseRenderscript
+:FlowLayoutExample:generateReleaseBuildConfig
+:FlowLayoutExample:generateReleaseAssets UP-TO-DATE
+:FlowLayoutExample:mergeReleaseAssets
+:FlowLayoutExample:generateReleaseResValues
+:FlowLayoutExample:generateReleaseResources
+:FlowLayoutExample:mergeReleaseResources
+:FlowLayoutExample:processReleaseManifest
+:FlowLayoutExample:processReleaseResources
+:FlowLayoutExample:generateReleaseSources
+:FlowLayoutExample:processReleaseJavaRes UP-TO-DATE
+:FlowLayoutExample:compileReleaseJavaWithJavacNote: /tmp/rdisk/1216/src/FlowLayoutExample/src/main/java/com/wefika/flowlayout/example/VisibilityActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:FlowLayoutExample:compileReleaseNdk UP-TO-DATE
+:FlowLayoutExample:compileReleaseSources
+:FlowLayoutExample:preDexRelease
+:FlowLayoutExample:dexRelease
+:FlowLayoutExample:packageRelease
+:FlowLayoutExample:assembleRelease
+:FlowLayoutExample:assemble
+:FlowLayoutExample:compileLint
+:FlowLayoutExample:lint
+Ran lint on variant debug: 25 issues found
+Ran lint on variant release: 25 issues found
+Wrote HTML report to file:/tmp/rdisk/1216/src/FlowLayoutExample/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1216/src/FlowLayoutExample/build/outputs/lint-results.xml
+:FlowLayoutExample:preDebugUnitTestBuild UP-TO-DATE
+:FlowLayoutExample:prepareDebugUnitTestDependencies
+:FlowLayoutExample:processDebugUnitTestJavaRes UP-TO-DATE
+:FlowLayoutExample:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:FlowLayoutExample:compileDebugUnitTestSources UP-TO-DATE
+:FlowLayoutExample:mockableAndroidJar
+:FlowLayoutExample:assembleDebugUnitTest
+:FlowLayoutExample:testDebugUnitTest
+:FlowLayoutExample:preReleaseUnitTestBuild UP-TO-DATE
+:FlowLayoutExample:prepareReleaseUnitTestDependencies
+:FlowLayoutExample:processReleaseUnitTestJavaRes UP-TO-DATE
+:FlowLayoutExample:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:FlowLayoutExample:compileReleaseUnitTestSources UP-TO-DATE
+:FlowLayoutExample:assembleReleaseUnitTest
+:FlowLayoutExample:testReleaseUnitTest
+:FlowLayoutExample:test
+:FlowLayoutExample:check
+:FlowLayoutExample:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.225 secs
+
+2018-05-22 08:21:13,943 INFO  FullProcessService - Found APK file: /tmp/rdisk/1216/src/FlowLayoutExample/build/outputs/apk/FlowLayoutExample-release-unsigned.apk

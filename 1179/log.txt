@@ -1,0 +1,136 @@
+2018-04-07 21:36:38,123 INFO  DownloadService - Downloading "https://github.com/quiqueqs/BabushkaText/archive/master.zip", attempt 3
+2018-04-07 21:37:38,124 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-07 21:37:38,790 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-07 21:37:38,790 INFO  DownloadService - Downloading "https://github.com/quiqueqs/BabushkaText/archive/master.zip", attempt 3
+2018-04-07 21:38:39,541 DEBUG FullProcessService - Repository https://github.com/quiqueqs/BabushkaText available: true
+2018-04-07 21:38:39,541 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-07 21:38:39,541 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/quiqueqs/BabushkaText, /tmp/rdisk/1179/src]
+2018-04-07 21:38:41,549 INFO  SysUtils - 
+2018-04-07 21:38:41,563 INFO  GitService - Deleted "/tmp/rdisk/1179/src/.git": true
+2018-04-07 21:38:41,567 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-07 21:38:41,567 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1179/src]
+2018-04-07 21:38:41,571 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1179/src/.git/
+
+2018-04-07 21:38:41,575 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1179/src/gradlew
+2018-04-07 21:38:41,578 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1179/src/app/build.gradle /tmp/rdisk/1179/src/babushkatext/build.gradle /tmp/rdisk/1179/src/build.gradle
+2018-04-07 21:38:41,580 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1179/src/settings.gradle /tmp/rdisk/1179/src/build.gradle /tmp/rdisk/1179/src/babushkatext/build.gradle /tmp/rdisk/1179/src/app/build.gradle
+2018-04-07 21:38:41,580 INFO  ProjectBuildService - Remote scripts: none
+2018-04-07 21:38:41,580 INFO  ProjectFixService - Fixing project...
+2018-04-07 21:38:41,586 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1179/src/app/local.properties
+2018-04-07 21:38:41,587 INFO  ProjectFixService - Build info for "/tmp/rdisk/1179/src/app/build.gradle": [buildToolsVersion=21.0.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-07 21:38:41,587 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1179/src/app/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-07 21:38:41,587 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1179/src/babushkatext/local.properties
+2018-04-07 21:38:41,588 INFO  ProjectFixService - Build info for "/tmp/rdisk/1179/src/babushkatext/build.gradle": [buildToolsVersion=21.0.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-07 21:38:41,588 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1179/src/babushkatext/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-07 21:38:41,588 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1179/src/local.properties
+2018-04-07 21:38:41,588 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-07 21:38:41,588 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-07 21:38:41,589 INFO  ProjectFixService - Build info for "/tmp/rdisk/1179/src/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-07 21:38:41,591 INFO  ProjectFixService - Project was maybe fixed
+2018-04-07 21:38:41,591 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:38:41,591 INFO  SysUtils - Execute command: [/tmp/rdisk/1179/src/gradlew, -b, /tmp/rdisk/1179/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:39:05,976 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-07 21:39:05,976 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-07 21:39:05,976 INFO  SysUtils - Execute command: [/tmp/rdisk/1179/src/gradlew, -b, /tmp/rdisk/1179/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-07 21:39:28,611 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:babushkatext:compileLint
+:babushkatext:copyReleaseLint UP-TO-DATE
+:babushkatext:preBuild
+:babushkatext:preReleaseBuild
+:babushkatext:checkReleaseManifest
+:babushkatext:preDebugBuild
+:babushkatext:preDebugTestBuild
+:babushkatext:prepareComAndroidSupportAppcompatV72100Library
+:babushkatext:prepareComAndroidSupportSupportV42100Library
+:babushkatext:prepareReleaseDependencies
+:babushkatext:compileReleaseAidl
+:babushkatext:compileReleaseRenderscript
+:babushkatext:generateReleaseBuildConfig
+:babushkatext:generateReleaseAssets UP-TO-DATE
+:babushkatext:mergeReleaseAssets
+:babushkatext:generateReleaseResValues
+:babushkatext:generateReleaseResources
+:babushkatext:mergeReleaseResources
+:babushkatext:processReleaseManifest
+:babushkatext:processReleaseResources
+:babushkatext:generateReleaseSources
+:babushkatext:compileReleaseJava
+:babushkatext:extractReleaseAnnotations
+:babushkatext:mergeReleaseProguardFiles
+:babushkatext:processReleaseJavaRes UP-TO-DATE
+:babushkatext:packageReleaseJar
+:babushkatext:compileReleaseNdk
+:babushkatext:packageReleaseJniLibs UP-TO-DATE
+:babushkatext:packageReleaseLocalJar UP-TO-DATE
+:babushkatext:packageReleaseRenderscript UP-TO-DATE
+:babushkatext:packageReleaseResources
+:babushkatext:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72100Library
+:app:prepareComAndroidSupportSupportV42100Library
+:app:prepareSrcBabushkatextUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1179/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.175 secs
+
+2018-04-07 21:39:28,659 INFO  FullProcessService - Found APK file: /tmp/rdisk/1179/src/app/build/outputs/apk/app-debug.apk

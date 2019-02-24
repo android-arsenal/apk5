@@ -1,0 +1,145 @@
+2018-04-08 01:30:11,862 INFO  DownloadService - Downloading "https://github.com/dexafree/MaterialList/archive/master.zip", attempt 3
+2018-04-08 01:31:12,352 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:31:13,008 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:31:13,008 INFO  DownloadService - Downloading "https://github.com/dexafree/MaterialList/archive/master.zip", attempt 3
+2018-04-08 01:32:14,237 DEBUG FullProcessService - Repository https://github.com/dexafree/MaterialList available: true
+2018-04-08 01:32:14,237 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:32:14,238 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dexafree/MaterialList, /tmp/rdisk/1161/src]
+2018-04-08 01:32:16,516 INFO  SysUtils - 
+2018-04-08 01:32:16,521 INFO  GitService - Deleted "/tmp/rdisk/1161/src/.git": true
+2018-04-08 01:32:16,525 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-04-08 01:32:16,525 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1161/src]
+2018-04-08 01:32:16,529 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1161/src/.git/
+
+2018-04-08 01:32:16,532 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1161/src/gradlew
+2018-04-08 01:32:16,535 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1161/src/app/build.gradle /tmp/rdisk/1161/src/materialList/build.gradle /tmp/rdisk/1161/src/build.gradle
+2018-04-08 01:32:16,538 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1161/src/settings.gradle /tmp/rdisk/1161/src/maven_push.gradle /tmp/rdisk/1161/src/materialList/build.gradle /tmp/rdisk/1161/src/build.gradle /tmp/rdisk/1161/src/app/build.gradle
+2018-04-08 01:32:16,539 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:32:16,539 INFO  ProjectFixService - Fixing project...
+2018-04-08 01:32:16,546 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1161/src/app/local.properties
+2018-04-08 01:32:16,547 INFO  ProjectFixService - Build info for "/tmp/rdisk/1161/src/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2018-04-08 01:32:16,547 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1161/src/materialList/local.properties
+2018-04-08 01:32:16,547 INFO  ProjectFixService - Build info for "/tmp/rdisk/1161/src/materialList/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-08 01:32:16,547 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1161/src/local.properties
+2018-04-08 01:32:16,548 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-08 01:32:16,548 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-08 01:32:16,550 INFO  ProjectFixService - Build info for "/tmp/rdisk/1161/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-08 01:32:16,550 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 01:32:16,550 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 01:32:16,550 INFO  SysUtils - Execute command: [/tmp/rdisk/1161/src/gradlew, -b, /tmp/rdisk/1161/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 01:32:30,215 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-08 01:32:30,215 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 01:32:30,215 INFO  SysUtils - Execute command: [/tmp/rdisk/1161/src/gradlew, -b, /tmp/rdisk/1161/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 01:33:14,806 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:materialList:preBuild UP-TO-DATE
+:materialList:preReleaseBuild UP-TO-DATE
+:materialList:compileReleaseNdk UP-TO-DATE
+:materialList:compileLint
+:materialList:copyReleaseLint UP-TO-DATE
+:materialList:checkReleaseManifest
+:materialList:preDebugAndroidTestBuild UP-TO-DATE
+:materialList:preDebugBuild UP-TO-DATE
+:materialList:preDebugUnitTestBuild UP-TO-DATE
+:materialList:preReleaseUnitTestBuild UP-TO-DATE
+:materialList:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:materialList:prepareComAndroidSupportAppcompatV72321Library
+:materialList:prepareComAndroidSupportCardviewV72321Library
+:materialList:prepareComAndroidSupportRecyclerviewV72321Library
+:materialList:prepareComAndroidSupportSupportV42321Library
+:materialList:prepareComAndroidSupportSupportVectorDrawable2321Library
+:materialList:prepareReleaseDependencies
+:materialList:compileReleaseAidl
+:materialList:compileReleaseRenderscript
+:materialList:generateReleaseBuildConfig
+:materialList:generateReleaseAssets UP-TO-DATE
+:materialList:mergeReleaseAssets
+:materialList:generateReleaseResValues
+:materialList:generateReleaseResources
+:materialList:mergeReleaseResources
+:materialList:processReleaseManifest
+:materialList:processReleaseResources
+:materialList:generateReleaseSources
+:materialList:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:materialList:extractReleaseAnnotations
+:materialList:mergeReleaseProguardFiles
+:materialList:packageReleaseRenderscript UP-TO-DATE
+:materialList:packageReleaseResources
+:materialList:processReleaseJavaRes UP-TO-DATE
+:materialList:transformResourcesWithMergeJavaResForRelease
+:materialList:transformClassesAndResourcesWithSyncLibJarsForRelease
+:materialList:mergeReleaseJniLibFolders
+:materialList:transformNative_libsWithMergeJniLibsForRelease
+:materialList:transformNative_libsWithSyncJniLibsForRelease
+:materialList:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:app:prepareComAndroidSupportAppcompatV72321Library
+:app:prepareComAndroidSupportCardviewV72321Library
+:app:prepareComAndroidSupportDesign2321Library
+:app:prepareComAndroidSupportRecyclerviewV72321Library
+:app:prepareComAndroidSupportSupportV42321Library
+:app:prepareComAndroidSupportSupportVectorDrawable2321Library
+:app:prepareComGithubDexafreeMaterialList321Library
+:app:prepareJpWasabeefRecyclerviewAnimators200Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 44.124 secs
+
+2018-04-08 01:33:14,882 INFO  FullProcessService - Found APK file: /tmp/rdisk/1161/src/app/build/outputs/apk/app-debug.apk

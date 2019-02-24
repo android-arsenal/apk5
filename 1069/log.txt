@@ -1,0 +1,652 @@
+2018-04-08 05:15:03,839 INFO  DownloadService - Downloading "https://github.com/StanKocken/EfficientAdapter/archive/master.zip", attempt 3
+2018-04-08 05:16:04,307 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 05:16:04,998 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 05:16:04,998 INFO  DownloadService - Downloading "https://github.com/StanKocken/EfficientAdapter/archive/master.zip", attempt 3
+2018-04-08 05:17:06,276 DEBUG FullProcessService - Repository https://github.com/StanKocken/EfficientAdapter available: true
+2018-04-08 05:17:06,276 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 05:17:06,276 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/StanKocken/EfficientAdapter, /tmp/rdisk/1069/src]
+2018-04-08 05:17:08,333 INFO  SysUtils - 
+2018-04-08 05:17:08,348 INFO  GitService - Deleted "/tmp/rdisk/1069/src/.git": true
+2018-04-08 05:17:08,350 INFO  FullProcessService - Size of directory with sources: 228 KB
+2018-04-08 05:17:08,350 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1069/src]
+2018-04-08 05:17:08,355 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1069/src/.git/
+
+2018-04-08 05:17:08,357 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1069/src/gradlew
+2018-04-08 05:17:08,360 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1069/src/efficientadapter/build.gradle /tmp/rdisk/1069/src/example/build.gradle /tmp/rdisk/1069/src/build.gradle
+2018-04-08 05:17:08,362 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1069/src/settings.gradle /tmp/rdisk/1069/src/gradle_script/installv1.gradle /tmp/rdisk/1069/src/gradle_script/bintrayv1.gradle /tmp/rdisk/1069/src/example/build.gradle /tmp/rdisk/1069/src/efficientadapter/build.gradle /tmp/rdisk/1069/src/build.gradle
+2018-04-08 05:17:08,362 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 05:17:08,362 INFO  ProjectFixService - Fixing project...
+2018-04-08 05:17:08,369 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1069/src/efficientadapter/local.properties
+2018-04-08 05:17:08,372 INFO  ProjectFixService - Build info for "/tmp/rdisk/1069/src/efficientadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-08 05:17:08,372 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1069/src/efficientadapter/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-08 05:17:08,372 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1069/src/example/local.properties
+2018-04-08 05:17:08,375 INFO  ProjectFixService - Build info for "/tmp/rdisk/1069/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-08 05:17:08,375 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1069/src/example/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-08 05:17:08,375 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1069/src/local.properties
+2018-04-08 05:17:08,376 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-04-08 05:17:08,376 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-04-08 05:17:08,378 INFO  ProjectFixService - Build info for "/tmp/rdisk/1069/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-08 05:17:08,378 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1069/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-08 05:17:08,379 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 05:17:08,379 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 05:17:08,379 INFO  SysUtils - Execute command: [/tmp/rdisk/1069/src/gradlew, -b, /tmp/rdisk/1069/src/efficientadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 05:17:17,620 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-08 05:17:17,621 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 05:17:17,621 INFO  SysUtils - Execute command: [/tmp/rdisk/1069/src/gradlew, -b, /tmp/rdisk/1069/src/efficientadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 05:17:36,035 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':efficientadapter' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':efficientadapter' is deprecated. Use 'testImplementation' instead.
+:efficientadapter:preBuild UP-TO-DATE
+:efficientadapter:preDebugBuild UP-TO-DATE
+:efficientadapter:compileDebugAidl
+:efficientadapter:compileDebugNdk NO-SOURCE
+:efficientadapter:compileDebugRenderscript
+:efficientadapter:checkDebugManifest
+:efficientadapter:generateDebugBuildConfig
+:efficientadapter:prepareLintJar
+:efficientadapter:generateDebugResValues
+:efficientadapter:generateDebugResources
+:efficientadapter:packageDebugResources
+:efficientadapter:platformAttrExtractor
+:efficientadapter:processDebugManifest
+:efficientadapter:javaPreCompileDebug
+:efficientadapter:mergeDebugShaders
+:efficientadapter:compileDebugShaders
+:efficientadapter:generateDebugAssets
+:efficientadapter:mergeDebugAssets
+:efficientadapter:mergeDebugConsumerProguardFiles
+:efficientadapter:packageDebugRenderscript NO-SOURCE
+:efficientadapter:processDebugJavaRes NO-SOURCE
+:efficientadapter:mergeDebugJniLibFolders
+:efficientadapter:transformNativeLibsWithMergeJniLibsForDebug
+:efficientadapter:transformNativeLibsWithStripDebugSymbolForDebug
+:efficientadapter:transformNativeLibsWithSyncJniLibsForDebug
+:efficientadapter:preReleaseBuild UP-TO-DATE
+:efficientadapter:compileReleaseAidl
+:efficientadapter:compileReleaseNdk NO-SOURCE
+:efficientadapter:compileReleaseRenderscript
+:efficientadapter:checkReleaseManifest
+:efficientadapter:generateReleaseBuildConfig
+:efficientadapter:generateReleaseResValues
+:efficientadapter:generateReleaseResources
+:efficientadapter:packageReleaseResources
+:efficientadapter:processReleaseManifest
+:efficientadapter:javaPreCompileRelease
+:efficientadapter:mergeReleaseShaders
+:efficientadapter:compileReleaseShaders
+:efficientadapter:generateReleaseAssets
+:efficientadapter:mergeReleaseAssets
+:efficientadapter:mergeReleaseConsumerProguardFiles
+:efficientadapter:packageReleaseRenderscript NO-SOURCE
+:efficientadapter:processReleaseJavaRes NO-SOURCE
+:efficientadapter:mergeReleaseJniLibFolders
+:efficientadapter:transformNativeLibsWithMergeJniLibsForRelease
+:efficientadapter:transformNativeLibsWithStripDebugSymbolForRelease
+:efficientadapter:transformNativeLibsWithSyncJniLibsForRelease
+:efficientadapter:mergeReleaseResources
+:efficientadapter:verifyReleaseResources
+:efficientadapter:javadoc/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:12: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:13: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:14: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:15: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:16: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:17: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:22: error: package RecyclerView does not exist
+public abstract class EfficientViewHolder<T> extends RecyclerView.ViewHolder {
+                                                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.LayoutRes;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:10: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientRecyclerAdapter.java:3: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientRecyclerAdapter.java:14: error: package RecyclerView does not exist
+public class EfficientRecyclerAdapter<T> extends RecyclerView.Adapter<EfficientViewHolder<T>>
+                                                             ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientPagerAdapter.java:3: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientPagerAdapter.java:15: error: cannot find symbol
+public class EfficientPagerAdapter<T> extends PagerAdapter implements EfficientAdapter<T> {
+                                              ^
+  symbol: class PagerAdapter
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:33: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:56: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:66: error: cannot find symbol
+    public void onBindView(@Nullable T item, int position) {
+                            ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:78: error: cannot find symbol
+    protected abstract void updateView(@NonNull Context context, @Nullable T item);
+                                        ^
+  symbol:   class NonNull
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:78: error: cannot find symbol
+    protected abstract void updateView(@NonNull Context context, @Nullable T item);
+                                                                  ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:83: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:105: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:116: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:126: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:224: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:232: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:263: error: cannot find symbol
+    public void setBackgroundColor(int viewId, @ColorInt int color) {
+                                                ^
+  symbol:   class ColorInt
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:273: error: cannot find symbol
+    public void setBackgroundResource(int viewId, @DrawableRes int resid) {
+                                                   ^
+  symbol:   class DrawableRes
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:314: error: cannot find symbol
+    public void setText(int viewId, @StringRes int resid) {
+                                     ^
+  symbol:   class StringRes
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:324: error: cannot find symbol
+    public void setTextColor(int viewId, @ColorInt int color) {
+                                          ^
+  symbol:   class ColorInt
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:355: error: cannot find symbol
+    public void setImageViewResource(int viewId, @DrawableRes int resId) {
+                                                  ^
+  symbol:   class DrawableRes
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:376: error: cannot find symbol
+    public void setImageUri(int viewId, @Nullable Uri uri) {
+                                         ^
+  symbol:   class Nullable
+  location: class EfficientViewHolder<T>
+  where T is a type-variable:
+    T extends Object declared in class EfficientViewHolder
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:262: error: cannot find symbol
+    @LayoutRes
+     ^
+  symbol:   class LayoutRes
+  location: interface EfficientAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in interface EfficientAdapter
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:291: error: cannot find symbol
+        void onItemClick(@NonNull EfficientAdapter<T> adapter, @NonNull View view, @Nullable T item, int position);
+                          ^
+  symbol:   class NonNull
+  location: interface OnItemClickListener<T>
+  where T is a type-variable:
+    T extends Object declared in interface OnItemClickListener
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:291: error: cannot find symbol
+        void onItemClick(@NonNull EfficientAdapter<T> adapter, @NonNull View view, @Nullable T item, int position);
+                                                                ^
+  symbol:   class NonNull
+  location: interface OnItemClickListener<T>
+  where T is a type-variable:
+    T extends Object declared in interface OnItemClickListener
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:291: error: cannot find symbol
+        void onItemClick(@NonNull EfficientAdapter<T> adapter, @NonNull View view, @Nullable T item, int position);
+                                                                                    ^
+  symbol:   class Nullable
+  location: interface OnItemClickListener<T>
+  where T is a type-variable:
+    T extends Object declared in interface OnItemClickListener
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:310: error: cannot find symbol
+        void onLongItemClick(@NonNull EfficientAdapter<T> adapter, @NonNull View view, @Nullable T item, int position);
+                              ^
+  symbol:   class NonNull
+  location: interface OnItemLongClickListener<T>
+  where T is a type-variable:
+    T extends Object declared in interface OnItemLongClickListener
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:310: error: cannot find symbol
+        void onLongItemClick(@NonNull EfficientAdapter<T> adapter, @NonNull View view, @Nullable T item, int position);
+                                                                    ^
+  symbol:   class NonNull
+  location: interface OnItemLongClickListener<T>
+  where T is a type-variable:
+    T extends Object declared in interface OnItemLongClickListener
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:310: error: cannot find symbol
+        void onLongItemClick(@NonNull EfficientAdapter<T> adapter, @NonNull View view, @Nullable T item, int position);
+                                                                                        ^
+  symbol:   class Nullable
+  location: interface OnItemLongClickListener<T>
+  where T is a type-variable:
+    T extends Object declared in interface OnItemLongClickListener
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:57: error: cannot find symbol
+            @ColorInt int color) {
+             ^
+  symbol:   class ColorInt
+  location: class ViewHelper
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:72: error: cannot find symbol
+            @DrawableRes int resid) {
+             ^
+  symbol:   class DrawableRes
+  location: class ViewHelper
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:129: error: cannot find symbol
+    public static void setText(EfficientCacheView cacheView, int viewId, @StringRes int resid) {
+                                                                          ^
+  symbol:   class StringRes
+  location: class ViewHelper
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:143: error: cannot find symbol
+    public static void setTextColor(EfficientCacheView cacheView, int viewId, @ColorInt int color) {
+                                                                               ^
+  symbol:   class ColorInt
+  location: class ViewHelper
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:187: error: cannot find symbol
+            @DrawableRes int resId) {
+             ^
+  symbol:   class DrawableRes
+  location: class ViewHelper
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java:217: error: cannot find symbol
+    public static void setImageUri(EfficientCacheView cacheView, int viewId, @Nullable Uri uri) {
+                                                                              ^
+  symbol:   class Nullable
+  location: class ViewHelper
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:66: warning: no @param for position
+    public void onBindView(@Nullable T item, int position) {
+                ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:84: warning: no @return
+    public T getObject() {
+             ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:210: warning: no @param for viewId
+    public void clearViewCached(int viewId) {
+                ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:217: warning: no @param for parentId
+    public void clearViewCached(int parentId, int viewId) {
+                ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:217: warning: no @param for viewId
+    public void clearViewCached(int parentId, int viewId) {
+                ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:225: warning: no @param for <T>
+    public <T extends View> T findViewByIdEfficient(int id) {
+                              ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:225: warning: no @param for id
+    public <T extends View> T findViewByIdEfficient(int id) {
+                              ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:225: warning: no @return
+    public <T extends View> T findViewByIdEfficient(int id) {
+                              ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:233: warning: no @param for <T>
+    public <T extends View> T findViewByIdEfficient(int parentId, int id) {
+                              ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:233: warning: no @param for parentId
+    public <T extends View> T findViewByIdEfficient(int parentId, int id) {
+                              ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:233: warning: no @param for id
+    public <T extends View> T findViewByIdEfficient(int parentId, int id) {
+                              ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/viewholder/EfficientViewHolder.java:233: warning: no @return
+    public <T extends View> T findViewByIdEfficient(int parentId, int id) {
+                              ^
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class Nullable not found.
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:122: warning: no @param for from
+    void move(int from, int to);
+         ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:122: warning: no @param for to
+    void move(int from, int to);
+         ^
+/tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/adapter/EfficientAdapter.java:221: warning: no @param for holder
+    void onViewRecycled(EfficientViewHolder<T> holder);
+         ^
+
+100 warnings
+:efficientadapter:javadocJar
+:efficientadapter:sourcesJar
+:efficientadapter:processDebugResources
+:efficientadapter:generateDebugSources
+:efficientadapter:compileDebugJavaWithJavacNote: /tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:efficientadapter:extractDebugAnnotations
+:efficientadapter:transformResourcesWithMergeJavaResForDebug
+:efficientadapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+:efficientadapter:bundleDebug
+:efficientadapter:compileDebugSources
+:efficientadapter:assembleDebug
+:efficientadapter:processReleaseResources
+:efficientadapter:generateReleaseSources
+:efficientadapter:compileReleaseJavaWithJavacNote: /tmp/rdisk/1069/src/efficientadapter/src/main/java/com/skocken/efficientadapter/lib/util/ViewHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:efficientadapter:extractReleaseAnnotations
+:efficientadapter:transformResourcesWithMergeJavaResForRelease
+:efficientadapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+:efficientadapter:bundleRelease
+:efficientadapter:compileReleaseSources
+:efficientadapter:assembleRelease
+:efficientadapter:assemble
+:efficientadapter:build
+
+BUILD SUCCESSFUL in 18s
+51 actionable tasks: 51 executed
+
+2018-04-08 05:17:36,058 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 05:17:36,058 INFO  SysUtils - Execute command: [/tmp/rdisk/1069/src/gradlew, -b, /tmp/rdisk/1069/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 05:17:44,032 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 05:17:44,032 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 05:17:44,032 INFO  SysUtils - Execute command: [/tmp/rdisk/1069/src/gradlew, -b, /tmp/rdisk/1069/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 05:18:10,260 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':example' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':efficientadapter' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':efficientadapter' is deprecated. Use 'testImplementation' instead.
+:efficientadapter:preBuild UP-TO-DATE
+:efficientadapter:preDebugBuild UP-TO-DATE
+:efficientadapter:compileDebugAidl UP-TO-DATE
+:efficientadapter:compileDebugRenderscript UP-TO-DATE
+:efficientadapter:checkDebugManifest UP-TO-DATE
+:efficientadapter:generateDebugBuildConfig UP-TO-DATE
+:efficientadapter:prepareLintJar UP-TO-DATE
+:efficientadapter:generateDebugResValues UP-TO-DATE
+:efficientadapter:generateDebugResources UP-TO-DATE
+:efficientadapter:packageDebugResources UP-TO-DATE
+:efficientadapter:platformAttrExtractor UP-TO-DATE
+:efficientadapter:processDebugManifest UP-TO-DATE
+:efficientadapter:processDebugResources UP-TO-DATE
+:efficientadapter:generateDebugSources UP-TO-DATE
+:efficientadapter:javaPreCompileDebug UP-TO-DATE
+:efficientadapter:compileDebugJavaWithJavac UP-TO-DATE
+:efficientadapter:processDebugJavaRes NO-SOURCE
+:efficientadapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild
+:example:compileDebugAidl
+:efficientadapter:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:example:processDebugResources
+:example:generateDebugSources
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavacNote: /tmp/rdisk/1069/src/example/src/main/java/com/skocken/efficientadapter/example/activities/HeterogeneousListActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:efficientadapter:mergeDebugShaders UP-TO-DATE
+:efficientadapter:compileDebugShaders UP-TO-DATE
+:efficientadapter:generateDebugAssets UP-TO-DATE
+:efficientadapter:mergeDebugAssets UP-TO-DATE
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:efficientadapter:compileDebugNdk NO-SOURCE
+:efficientadapter:mergeDebugJniLibFolders UP-TO-DATE
+:efficientadapter:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:efficientadapter:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:efficientadapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:mergeDebugJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:efficientadapter:preReleaseBuild UP-TO-DATE
+:efficientadapter:compileReleaseAidl UP-TO-DATE
+:efficientadapter:compileReleaseRenderscript UP-TO-DATE
+:efficientadapter:checkReleaseManifest UP-TO-DATE
+:efficientadapter:generateReleaseBuildConfig UP-TO-DATE
+:efficientadapter:generateReleaseResValues UP-TO-DATE
+:efficientadapter:generateReleaseResources UP-TO-DATE
+:efficientadapter:packageReleaseResources UP-TO-DATE
+:efficientadapter:processReleaseManifest UP-TO-DATE
+:efficientadapter:processReleaseResources UP-TO-DATE
+:efficientadapter:generateReleaseSources UP-TO-DATE
+:efficientadapter:javaPreCompileRelease UP-TO-DATE
+:efficientadapter:compileReleaseJavaWithJavac UP-TO-DATE
+:efficientadapter:processReleaseJavaRes NO-SOURCE
+:efficientadapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:extractProguardFiles
+:example:preReleaseBuild
+:example:compileReleaseAidl
+:efficientadapter:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavacNote: /tmp/rdisk/1069/src/example/src/main/java/com/skocken/efficientadapter/example/activities/HeterogeneousListActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:efficientadapter:mergeReleaseShaders UP-TO-DATE
+:efficientadapter:compileReleaseShaders UP-TO-DATE
+:efficientadapter:generateReleaseAssets UP-TO-DATE
+:efficientadapter:mergeReleaseAssets UP-TO-DATE
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:example:mergeReleaseAssets
+:efficientadapter:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0e857e45ab0ffba2bd801d47091a995a/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/84ea988176b4e07b944fd1bdba9529f4/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ee1c08b0da218dd4965296f0bb2e2b59/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d225d060d1872aeab8966e40087c96ca/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/tmp/rdisk/1069/src/efficientadapter/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/tmp/rdisk/1069/src/example/build/intermediates/classes/release] (filtered)
+Reading program jar [/tmp/rdisk/1069/src/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    831
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/1069/src/example/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 858
+  Final number of program classes:    215
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/tmp/rdisk/1069/src/example/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/tmp/rdisk/1069/src/example/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0e857e45ab0ffba2bd801d47091a995a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/84ea988176b4e07b944fd1bdba9529f4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ee1c08b0da218dd4965296f0bb2e2b59/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d225d060d1872aeab8966e40087c96ca/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1069/src/efficientadapter/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/1069/src/example/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1069/src/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/tmp/rdisk/1069/src/example/build/outputs/mapping/release/dump.txt]...
+:example:transformClassesWithDexForRelease
+:efficientadapter:compileReleaseNdk NO-SOURCE
+:efficientadapter:mergeReleaseJniLibFolders UP-TO-DATE
+:efficientadapter:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:efficientadapter:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:efficientadapter:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:mergeReleaseJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 25s
+90 actionable tasks: 55 executed, 35 up-to-date
+
+2018-04-08 05:18:10,314 INFO  FullProcessService - Found APK file: /tmp/rdisk/1069/src/example/build/outputs/apk/release/example-release-unsigned.apk

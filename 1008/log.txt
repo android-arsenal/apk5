@@ -1,0 +1,10 @@
+2018-04-08 13:05:19,685 INFO  DownloadService - Downloading "https://github.com/honeynet/apkinspector/archive/master.zip", attempt 3
+2018-04-08 13:05:34,049 INFO  DownloadService - Downloaded https://github.com/honeynet/apkinspector/archive/master.zip, attempt 3
+2018-04-08 13:05:34,050 INFO  DownloadService - Size of file "/tmp/rdisk/1008/master.zip": 145 MB
+2018-04-08 13:05:34,050 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-08 13:05:34,072 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1008/master.zip: false
+2018-04-08 13:05:34,073 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-04-08 13:05:34,073 ERROR FullProcessService - Could not find directory with sources
+2018-04-08 13:05:34,073 ERROR FullProcessService - Project will not be processed
+2018-04-08 13:05:34,073 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 13:05:34,073 ERROR FullProcessService - Could not find generated or existed APK file

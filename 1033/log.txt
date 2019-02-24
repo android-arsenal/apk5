@@ -1,0 +1,21 @@
+2018-04-08 07:00:26,733 INFO  DownloadService - Downloading "https://github.com/learnNcode/2DScroller/archive/master.zip", attempt 3
+2018-04-08 07:01:27,199 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 07:01:27,826 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 07:01:27,827 INFO  DownloadService - Downloading "https://github.com/learnNcode/2DScroller/archive/master.zip", attempt 3
+2018-04-08 07:02:29,103 DEBUG FullProcessService - Repository https://github.com/learnNcode/2DScroller available: true
+2018-04-08 07:02:29,103 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 07:02:29,103 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/learnNcode/2DScroller, /tmp/rdisk/1033/src]
+2018-04-08 07:02:30,865 INFO  SysUtils - 
+2018-04-08 07:02:30,878 INFO  GitService - Deleted "/tmp/rdisk/1033/src/.git": true
+2018-04-08 07:02:30,880 INFO  FullProcessService - Size of directory with sources: 378 KB
+2018-04-08 07:02:30,880 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1033/src]
+2018-04-08 07:02:30,885 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1033/src/.git/
+
+2018-04-08 07:02:30,887 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 07:02:30,887 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 07:02:30,889 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 07:02:30,891 INFO  ProjectBuildService - All script(s): none
+2018-04-08 07:02:30,891 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 07:02:30,891 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 07:02:30,891 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 07:02:30,893 ERROR FullProcessService - Could not find generated or existed APK file

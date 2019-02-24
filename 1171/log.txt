@@ -1,0 +1,21 @@
+2018-04-08 01:10:17,613 INFO  DownloadService - Downloading "https://github.com/cookpad/gradle-android-sdk-manager/archive/master.zip", attempt 3
+2018-04-08 01:11:18,110 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:11:18,759 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:11:18,759 INFO  DownloadService - Downloading "https://github.com/cookpad/gradle-android-sdk-manager/archive/master.zip", attempt 3
+2018-04-08 01:12:20,057 DEBUG FullProcessService - Repository https://github.com/cookpad/gradle-android-sdk-manager available: true
+2018-04-08 01:12:20,058 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:12:20,058 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/cookpad/gradle-android-sdk-manager, /tmp/rdisk/1171/src]
+2018-04-08 01:12:21,411 INFO  SysUtils - 
+2018-04-08 01:12:21,416 INFO  GitService - Deleted "/tmp/rdisk/1171/src/.git": true
+2018-04-08 01:12:21,416 INFO  FullProcessService - Size of directory with sources: 6 KB
+2018-04-08 01:12:21,416 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1171/src]
+2018-04-08 01:12:21,429 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1171/src/.git/
+
+2018-04-08 01:12:21,429 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 01:12:21,429 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 01:12:21,431 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 01:12:21,432 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1171/src/test/test.gradle /tmp/rdisk/1171/src/sdk_manager.gradle
+2018-04-08 01:12:21,432 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:12:21,432 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 01:12:21,432 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 01:12:21,433 ERROR FullProcessService - Could not find generated or existed APK file

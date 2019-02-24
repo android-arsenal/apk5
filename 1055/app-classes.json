@@ -1,0 +1,4 @@
+{
+  "com.percolate.caffeine" : [ "ActivityUtils", "BuildConfig", "ClipboardUtils", "CountUtil", "DialogUtils", "DialogUtils$1", "IntentUtils", "IntentUtils$1", "MiscUtils", "PhoneUtils", "R", "StrictModeUtils", "ToastUtils", "ViewUtils" ],
+  "com.percolate.caffeine.testapp" : [ "ActivityTwo", "BuildConfig", "MainActivity", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "ViewUtilsActivity" ]
+}

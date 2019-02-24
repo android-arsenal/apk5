@@ -1,0 +1,6 @@
+{
+  "com.facebook.rebound" : [ "AndroidSpringLooperFactory", "AndroidSpringLooperFactory$ChoreographerAndroidSpringLooper", "AndroidSpringLooperFactory$ChoreographerAndroidSpringLooper$1", "AndroidSpringLooperFactory$LegacyAndroidSpringLooper", "AndroidSpringLooperFactory$LegacyAndroidSpringLooper$1", "BaseSpringSystem", "OrigamiValueConverter", "SimpleSpringListener", "Spring", "Spring$1", "Spring$PhysicsState", "SpringConfig", "SpringConfigRegistry", "SpringListener", "SpringLooper", "SpringSystem", "SpringSystemListener", "SpringUtil", "SteppingLooper", "SynchronousLooper" ],
+  "com.facebook.rebound.ui" : [ "SpringConfiguratorView", "SpringConfiguratorView$1", "SpringConfiguratorView$OnNubTouchListener", "SpringConfiguratorView$RevealerSpringListener", "SpringConfiguratorView$SeekbarListener", "SpringConfiguratorView$SpinnerAdapter", "SpringConfiguratorView$SpringSelectedListener", "Util" ],
+  "com.zcw.togglebutton" : [ "BuildConfig", "R", "R$attr", "R$styleable", "ToggleButton", "ToggleButton$1", "ToggleButton$2", "ToggleButton$OnToggleChanged" ],
+  "com.zcw.togglebutton.sample" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$styleable" ]
+}

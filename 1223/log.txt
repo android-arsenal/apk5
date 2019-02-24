@@ -1,0 +1,21 @@
+2018-05-22 08:01:00,485 INFO  DownloadService - Downloading "https://github.com/gregko/aminc/archive/master.zip", attempt 3
+2018-05-22 08:02:00,486 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 08:02:01,230 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 08:02:01,230 INFO  DownloadService - Downloading "https://github.com/gregko/aminc/archive/master.zip", attempt 3
+2018-05-22 08:03:02,313 DEBUG FullProcessService - Repository https://github.com/gregko/aminc available: true
+2018-05-22 08:03:02,313 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 08:03:02,314 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gregko/aminc, /tmp/rdisk/1223/src]
+2018-05-22 08:03:05,304 INFO  SysUtils - 
+2018-05-22 08:03:05,309 INFO  GitService - Deleted "/tmp/rdisk/1223/src/.git": true
+2018-05-22 08:03:05,310 INFO  FullProcessService - Size of directory with sources: 22 KB
+2018-05-22 08:03:05,310 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1223/src]
+2018-05-22 08:03:05,317 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1223/src/.git/
+
+2018-05-22 08:03:05,319 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-05-22 08:03:05,319 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-05-22 08:03:05,320 INFO  ProjectBuildService - Build script(s): none
+2018-05-22 08:03:05,325 INFO  ProjectBuildService - All script(s): none
+2018-05-22 08:03:05,326 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 08:03:05,326 ERROR FullProcessService - Project is not correct Gradle project
+2018-05-22 08:03:05,326 ERROR FullProcessService - Project build has not produced APK file
+2018-05-22 08:03:05,326 ERROR FullProcessService - Could not find generated or existed APK file

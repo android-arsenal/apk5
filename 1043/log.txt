@@ -1,0 +1,139 @@
+2018-04-08 06:34:19,130 INFO  DownloadService - Downloading "https://github.com/torryharris/skycons/archive/master.zip", attempt 3
+2018-04-08 06:35:19,739 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 06:35:20,405 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 06:35:20,405 INFO  DownloadService - Downloading "https://github.com/torryharris/skycons/archive/master.zip", attempt 3
+2018-04-08 06:36:21,613 DEBUG FullProcessService - Repository https://github.com/torryharris/skycons available: true
+2018-04-08 06:36:21,613 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 06:36:21,613 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/torryharris/skycons, /tmp/rdisk/1043/src]
+2018-04-08 06:36:28,310 INFO  SysUtils - 
+2018-04-08 06:36:28,316 INFO  GitService - Deleted "/tmp/rdisk/1043/src/.git": true
+2018-04-08 06:36:28,319 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-04-08 06:36:28,319 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1043/src]
+2018-04-08 06:36:28,324 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1043/src/.git/
+
+2018-04-08 06:36:28,327 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1043/src/Skycons/gradlew
+2018-04-08 06:36:28,331 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1043/src/Skycons/SkyconDemo/build.gradle /tmp/rdisk/1043/src/Skycons/SkyconsLibrary/build.gradle /tmp/rdisk/1043/src/Skycons/build.gradle
+2018-04-08 06:36:28,334 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1043/src/Skycons/settings.gradle /tmp/rdisk/1043/src/Skycons/build.gradle /tmp/rdisk/1043/src/Skycons/SkyconsLibrary/build.gradle /tmp/rdisk/1043/src/Skycons/SkyconDemo/build.gradle
+2018-04-08 06:36:28,334 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 06:36:28,334 INFO  ProjectFixService - Fixing project...
+2018-04-08 06:36:28,341 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1043/src/Skycons/SkyconDemo/local.properties
+2018-04-08 06:36:28,342 INFO  ProjectFixService - Build info for "/tmp/rdisk/1043/src/Skycons/SkyconDemo/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 06:36:28,342 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1043/src/Skycons/SkyconsLibrary/local.properties
+2018-04-08 06:36:28,342 INFO  ProjectFixService - Build info for "/tmp/rdisk/1043/src/Skycons/SkyconsLibrary/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 06:36:28,342 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1043/src/Skycons/local.properties
+2018-04-08 06:36:28,343 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-08 06:36:28,343 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-08 06:36:28,344 INFO  ProjectFixService - Build info for "/tmp/rdisk/1043/src/Skycons/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 06:36:28,344 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 06:36:28,344 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 06:36:28,344 INFO  SysUtils - Execute command: [/tmp/rdisk/1043/src/Skycons/gradlew, -b, /tmp/rdisk/1043/src/Skycons/SkyconDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 06:36:35,946 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 06:36:35,946 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 06:36:35,946 INFO  SysUtils - Execute command: [/tmp/rdisk/1043/src/Skycons/gradlew, -b, /tmp/rdisk/1043/src/Skycons/SkyconDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 06:36:51,020 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:SkyconDemo:preBuild UP-TO-DATE
+:SkyconDemo:preDebugBuild UP-TO-DATE
+:SkyconDemo:checkDebugManifest
+:SkyconsLibrary:preBuild UP-TO-DATE
+:SkyconsLibrary:preReleaseBuild UP-TO-DATE
+:SkyconsLibrary:checkReleaseManifest
+:SkyconsLibrary:prepareReleaseDependencies
+:SkyconsLibrary:compileReleaseAidl
+:SkyconsLibrary:compileReleaseNdk UP-TO-DATE
+:SkyconsLibrary:compileLint
+:SkyconsLibrary:copyReleaseLint UP-TO-DATE
+:SkyconsLibrary:mergeReleaseShaders
+:SkyconsLibrary:compileReleaseShaders
+:SkyconsLibrary:generateReleaseAssets
+:SkyconsLibrary:mergeReleaseAssets
+:SkyconsLibrary:mergeReleaseProguardFiles
+:SkyconsLibrary:packageReleaseRenderscript UP-TO-DATE
+:SkyconsLibrary:compileReleaseRenderscript
+:SkyconsLibrary:generateReleaseResValues
+:SkyconsLibrary:generateReleaseResources
+:SkyconsLibrary:packageReleaseResources
+:SkyconsLibrary:processReleaseManifest
+:SkyconsLibrary:generateReleaseBuildConfig
+:SkyconsLibrary:processReleaseResources
+:SkyconsLibrary:generateReleaseSources
+:SkyconsLibrary:incrementalReleaseJavaCompilationSafeguard
+:SkyconsLibrary:javaPreCompileRelease
+:SkyconsLibrary:compileReleaseJavaWithJavac
+:SkyconsLibrary:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:SkyconsLibrary:processReleaseJavaRes UP-TO-DATE
+:SkyconsLibrary:transformResourcesWithMergeJavaResForRelease
+:SkyconsLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+:SkyconsLibrary:mergeReleaseJniLibFolders
+:SkyconsLibrary:transformNativeLibsWithMergeJniLibsForRelease
+:SkyconsLibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:SkyconsLibrary:transformNativeLibsWithSyncJniLibsForRelease
+:SkyconsLibrary:bundleRelease
+:SkyconDemo:prepareDebugDependencies
+:SkyconDemo:compileDebugAidl
+:SkyconDemo:compileDebugRenderscript
+:SkyconDemo:generateDebugBuildConfig
+:SkyconDemo:generateDebugResValues
+:SkyconDemo:generateDebugResources
+:SkyconDemo:mergeDebugResources
+:SkyconDemo:processDebugManifest
+:SkyconDemo:processDebugResources
+:SkyconDemo:generateDebugSources
+:SkyconDemo:incrementalDebugJavaCompilationSafeguard
+:SkyconDemo:javaPreCompileDebug
+:SkyconDemo:compileDebugJavaWithJavac
+:SkyconDemo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:SkyconDemo:compileDebugNdk UP-TO-DATE
+:SkyconDemo:compileDebugSources
+:SkyconDemo:mergeDebugShaders
+:SkyconDemo:compileDebugShaders
+:SkyconDemo:generateDebugAssets
+:SkyconDemo:mergeDebugAssets
+:SkyconDemo:transformClassesWithDexForDebug
+:SkyconDemo:mergeDebugJniLibFolders
+:SkyconDemo:transformNativeLibsWithMergeJniLibsForDebug
+:SkyconDemo:transformNativeLibsWithStripDebugSymbolForDebug
+:SkyconDemo:processDebugJavaRes UP-TO-DATE
+:SkyconDemo:transformResourcesWithMergeJavaResForDebug
+:SkyconDemo:validateSigningDebug
+:SkyconDemo:packageDebug
+:SkyconDemo:assembleDebug
+:SkyconDemo:preReleaseBuild UP-TO-DATE
+:SkyconDemo:checkReleaseManifest
+:SkyconDemo:prepareReleaseDependencies
+:SkyconDemo:compileReleaseAidl
+:SkyconDemo:compileReleaseRenderscript
+:SkyconDemo:generateReleaseBuildConfig
+:SkyconDemo:generateReleaseResValues
+:SkyconDemo:generateReleaseResources
+:SkyconDemo:mergeReleaseResources
+:SkyconDemo:processReleaseManifest
+:SkyconDemo:processReleaseResources
+:SkyconDemo:generateReleaseSources
+:SkyconDemo:incrementalReleaseJavaCompilationSafeguard
+:SkyconDemo:javaPreCompileRelease
+:SkyconDemo:compileReleaseJavaWithJavac
+:SkyconDemo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:SkyconDemo:compileReleaseNdk UP-TO-DATE
+:SkyconDemo:compileReleaseSources
+:SkyconDemo:lintVitalRelease
+:SkyconDemo:mergeReleaseShaders
+:SkyconDemo:compileReleaseShaders
+:SkyconDemo:generateReleaseAssets
+:SkyconDemo:mergeReleaseAssets
+:SkyconDemo:transformClassesWithDexForRelease
+:SkyconDemo:mergeReleaseJniLibFolders
+:SkyconDemo:transformNativeLibsWithMergeJniLibsForRelease
+:SkyconDemo:transformNativeLibsWithStripDebugSymbolForRelease
+:SkyconDemo:processReleaseJavaRes UP-TO-DATE
+:SkyconDemo:transformResourcesWithMergeJavaResForRelease
+:SkyconDemo:packageRelease
+:SkyconDemo:assembleRelease
+:SkyconDemo:assemble
+:SkyconDemo:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.37 secs
+
+2018-04-08 06:36:51,036 INFO  FullProcessService - Found APK file: /tmp/rdisk/1043/src/Skycons/SkyconDemo/build/outputs/apk/SkyconDemo-release-unsigned.apk

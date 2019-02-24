@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.kyleduo.switchbutton.demo",
+    "label" : "SwitchButton Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0.0",
+    "versionCode" : 23,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADC0lEQVRo3t2aPW8TQRCGn93428Yk8QeRIFFCAShFGqRENKGjpIQG+A/U/Ah+AwgkytSUaYiABgoUGiAJgmDHiNi++HwX31DcGgKC5M7B4OWVrlnt3b3v3NzM7M4qfgMRKQBXgGVgHpgGSkAWyAAaUOY6DsRcAeACHaABbAGvgFXgsVKqHe1pIjkRuSMiDRkd7BhOuaPIz4nICxldvBCRuYOc1UHywFOgzGijDiwppd5i/BjzaVYsIA9QAVb67qTN4G1gAXuwYDijTLTZACaxCw1gVptQaRt5TEi/ok2ctxXL2iQpWzGvTYa1FdPa+JKtKGlT29iKrBIRH0hYKmBfH0hmNkLrP1AO/0uoxHEEiAhO16fpeHj7PQKRaGZTilRijGI+RSGTOraAgdDueGzWmjhdP/o93R6fHR8RmMglKGYT5DNJZipFCtnBhAwk4HOrw5vtL0Q0OPWWz8NnNda3Oz+Mz5Uz3FissNf1OTs1zuSJ+AFRiUSl8d3y6+8bkck/32hxf62G1/v1DWMarl+scPncSS5Ml2K7VOwItFlvxrL8YeQBegE8el5no+GyWWvGD0NxJjuuh+NG9/kHTw8n30cgcH+thuP6OK43PAG7TvSHt90erz91Is9//8Vju+nR3BuiAG+/F3214fix3aHe8vH83vAExEkYgcSPboHIcP+BVHIs8tzJfPwIXS4kY70jtoBiLnqIO5lNMFtKR99qKCQ5PZ6O9Y7YAvKZFPlMMvL8G4tVdES/u7lUJZ9Jkh92HpipFlERSZ2ZSHPtYvlIEVcXJjk/lWWmWhx+Jh6klNhouNxbq/Fh1/vJ5xPcWjrF+ans3ysljlPMfdz1qLU8RMIf9sxEmnw6yUx18GJuYAEjUk6jRCSweFEjmrC5gM0CAosFBJqwrWMrXE3Yk7IVHU24TW0rGpqwG2grtjRhK9NWvNKEfVhbsdpvMb3Dvl3qsMVkOuB3LbT+XaVUW5maJgc8wZ5O5UvgklJq7/9odAOYgUWjbpQt/43870rk/mGPHRsOe6hDhFhx3OYrJ8kZH/6ochIAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 815,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"23\" android:versionName=\"2.0.0\" package=\"com.kyleduo.switchbutton.demo\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"SwitchButton Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"SwitchButton Demo\" android:name=\"com.kyleduo.switchbutton.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Style in xml\" android:name=\"com.kyleduo.switchbutton.demo.StyleActivity\" android:parentActivityName=\"com.kyleduo.switchbutton.demo.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Easy to use\" android:name=\"com.kyleduo.switchbutton.demo.UseActivity\" android:parentActivityName=\"com.kyleduo.switchbutton.demo.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Style in code\" android:name=\"com.kyleduo.switchbutton.demo.StyleInCodeActivity\" android:parentActivityName=\"com.kyleduo.switchbutton.demo.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Used in RecyclerView\" android:name=\"com.kyleduo.switchbutton.demo.RecyclerActivity\" android:parentActivityName=\"com.kyleduo.switchbutton.demo.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 946733,
+  "crc32" : 2154498085,
+  "sha256" : "a05fbce8c4666bf6ffa9d7bbfbb0fd1c9a679f63e2f8381e6af442923d0fa2e3",
+  "buildTime" : 1523157949000
+}

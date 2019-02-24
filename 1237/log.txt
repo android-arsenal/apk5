@@ -1,0 +1,126 @@
+2018-05-21 02:54:51,743 INFO  DownloadService - Downloading "https://github.com/Subito-it/Masaccio/archive/master.zip", attempt 3
+2018-05-21 02:54:54,218 INFO  DownloadService - Downloaded https://github.com/Subito-it/Masaccio/archive/master.zip, attempt 3
+2018-05-21 02:54:54,219 INFO  DownloadService - Size of file "/tmp/rdisk/1237/master.zip": 2 MB
+2018-05-21 02:54:54,219 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-21 02:54:54,219 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1237/master.zip: true
+2018-05-21 02:54:54,219 DEBUG ZipUtil - Extracting '/tmp/rdisk/1237/master.zip' into '/tmp/rdisk/1237/src'.
+2018-05-21 02:54:54,237 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-05-21 02:54:54,237 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1237/src]
+2018-05-21 02:54:54,242 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1237/src/.git/
+
+2018-05-21 02:54:54,244 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1237/src/Masaccio-master/gradlew
+2018-05-21 02:54:54,247 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1237/src/Masaccio-master/app/build.gradle /tmp/rdisk/1237/src/Masaccio-master/library/build.gradle /tmp/rdisk/1237/src/Masaccio-master/build.gradle
+2018-05-21 02:54:54,249 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1237/src/Masaccio-master/settings.gradle /tmp/rdisk/1237/src/Masaccio-master/maven_publish.gradle /tmp/rdisk/1237/src/Masaccio-master/library/build.gradle /tmp/rdisk/1237/src/Masaccio-master/build.gradle /tmp/rdisk/1237/src/Masaccio-master/app/build.gradle
+2018-05-21 02:54:54,249 INFO  ProjectBuildService - Remote scripts: none
+2018-05-21 02:54:54,249 INFO  ProjectFixService - Fixing project...
+2018-05-21 02:54:54,256 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1237/src/Masaccio-master/app/local.properties
+2018-05-21 02:54:54,257 INFO  ProjectFixService - Build info for "/tmp/rdisk/1237/src/Masaccio-master/app/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-05-21 02:54:54,257 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1237/src/Masaccio-master/library/local.properties
+2018-05-21 02:54:54,258 INFO  ProjectFixService - Build info for "/tmp/rdisk/1237/src/Masaccio-master/library/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2018-05-21 02:54:54,259 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1237/src/Masaccio-master/local.properties
+2018-05-21 02:54:54,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-21 02:54:54,259 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-21 02:54:54,260 INFO  ProjectFixService - Build info for "/tmp/rdisk/1237/src/Masaccio-master/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2018-05-21 02:54:54,260 INFO  ProjectFixService - Project was maybe fixed
+2018-05-21 02:54:54,260 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-21 02:54:54,260 INFO  SysUtils - Execute command: [/tmp/rdisk/1237/src/Masaccio-master/gradlew, -b, /tmp/rdisk/1237/src/Masaccio-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-21 02:55:07,622 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-05-21 02:55:07,623 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-21 02:55:07,623 INFO  SysUtils - Execute command: [/tmp/rdisk/1237/src/Masaccio-master/gradlew, -b, /tmp/rdisk/1237/src/Masaccio-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-21 02:55:35,069 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72102Library
+:app:prepareComAndroidSupportSupportV42102Library
+:app:prepareItSubitoLibrary100Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1237/src/Masaccio-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 26.989 secs
+
+2018-05-21 02:55:35,111 INFO  FullProcessService - Found APK file: /tmp/rdisk/1237/src/Masaccio-master/app/build/outputs/apk/app-debug.apk

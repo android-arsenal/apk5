@@ -1,0 +1,200 @@
+2018-04-08 03:32:13,284 INFO  DownloadService - Downloading "https://github.com/defacto133/MultiLevelExpandableIndentableListView/archive/master.zip", attempt 3
+2018-04-08 03:33:13,721 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 03:33:14,408 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 03:33:14,408 INFO  DownloadService - Downloading "https://github.com/defacto133/MultiLevelExpandableIndentableListView/archive/master.zip", attempt 3
+2018-04-08 03:34:15,631 DEBUG FullProcessService - Repository https://github.com/defacto133/MultiLevelExpandableIndentableListView available: true
+2018-04-08 03:34:15,631 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 03:34:15,632 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/defacto133/MultiLevelExpandableIndentableListView, /tmp/rdisk/1116/src]
+2018-04-08 03:34:17,031 INFO  SysUtils - 
+2018-04-08 03:34:17,046 INFO  GitService - Deleted "/tmp/rdisk/1116/src/.git": true
+2018-04-08 03:34:17,049 INFO  FullProcessService - Size of directory with sources: 198 KB
+2018-04-08 03:34:17,049 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1116/src]
+2018-04-08 03:34:17,054 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1116/src/.git/
+
+2018-04-08 03:34:17,056 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1116/src/gradlew
+2018-04-08 03:34:17,059 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1116/src/multilevelexpindlistview/build.gradle /tmp/rdisk/1116/src/sampleapp/build.gradle /tmp/rdisk/1116/src/build.gradle
+2018-04-08 03:34:17,062 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1116/src/settings.gradle /tmp/rdisk/1116/src/sampleapp/build.gradle /tmp/rdisk/1116/src/multilevelexpindlistview/build.gradle /tmp/rdisk/1116/src/build.gradle
+2018-04-08 03:34:17,062 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 03:34:17,062 INFO  ProjectFixService - Fixing project...
+2018-04-08 03:34:17,068 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1116/src/multilevelexpindlistview/local.properties
+2018-04-08 03:34:17,068 INFO  ProjectFixService - Build info for "/tmp/rdisk/1116/src/multilevelexpindlistview/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-08 03:34:17,068 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1116/src/sampleapp/local.properties
+2018-04-08 03:34:17,069 INFO  ProjectFixService - Build info for "/tmp/rdisk/1116/src/sampleapp/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-08 03:34:17,069 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1116/src/local.properties
+2018-04-08 03:34:17,069 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.1-all.zip
+2018-04-08 03:34:17,069 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.1-bin.zip)
+2018-04-08 03:34:17,070 INFO  ProjectFixService - Build info for "/tmp/rdisk/1116/src/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-08 03:34:17,071 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 03:34:17,071 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 03:34:17,071 INFO  SysUtils - Execute command: [/tmp/rdisk/1116/src/gradlew, -b, /tmp/rdisk/1116/src/multilevelexpindlistview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 03:34:44,682 INFO  ProjectTaskService - Detected possible tasks: 55
+2018-04-08 03:34:44,682 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 03:34:44,682 INFO  SysUtils - Execute command: [/tmp/rdisk/1116/src/gradlew, -b, /tmp/rdisk/1116/src/multilevelexpindlistview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 03:34:54,323 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING [Project: :multilevelexpindlistview] WARNING: runProguard is deprecated (and will soon stop working); change to "minifyEnabled" instead
+:multilevelexpindlistview:compileLint
+:multilevelexpindlistview:copyDebugLint UP-TO-DATE
+:multilevelexpindlistview:preBuild
+:multilevelexpindlistview:preDebugBuild
+:multilevelexpindlistview:checkDebugManifest
+:multilevelexpindlistview:preDebugTestBuild
+:multilevelexpindlistview:preReleaseBuild
+:multilevelexpindlistview:prepareComAndroidSupportAppcompatV72100Library
+:multilevelexpindlistview:prepareComAndroidSupportRecyclerviewV72103Library
+:multilevelexpindlistview:prepareComAndroidSupportSupportV42103Library
+:multilevelexpindlistview:prepareDebugDependencies
+:multilevelexpindlistview:compileDebugAidl
+:multilevelexpindlistview:compileDebugRenderscript
+:multilevelexpindlistview:generateDebugBuildConfig
+:multilevelexpindlistview:generateDebugAssets UP-TO-DATE
+:multilevelexpindlistview:mergeDebugAssets
+:multilevelexpindlistview:generateDebugResValues
+:multilevelexpindlistview:generateDebugResources
+:multilevelexpindlistview:mergeDebugResources
+:multilevelexpindlistview:processDebugManifest
+:multilevelexpindlistview:processDebugResources
+:multilevelexpindlistview:generateDebugSources
+:multilevelexpindlistview:compileDebugJava
+:multilevelexpindlistview:extractDebugAnnotations
+:multilevelexpindlistview:mergeDebugProguardFiles
+:multilevelexpindlistview:processDebugJavaRes UP-TO-DATE
+:multilevelexpindlistview:packageDebugJar
+:multilevelexpindlistview:compileDebugNdk
+:multilevelexpindlistview:packageDebugJniLibs UP-TO-DATE
+:multilevelexpindlistview:packageDebugLocalJar UP-TO-DATE
+:multilevelexpindlistview:packageDebugRenderscript UP-TO-DATE
+:multilevelexpindlistview:packageDebugResources
+:multilevelexpindlistview:bundleDebug
+:multilevelexpindlistview:assembleDebug
+:multilevelexpindlistview:copyReleaseLint UP-TO-DATE
+:multilevelexpindlistview:checkReleaseManifest
+:multilevelexpindlistview:prepareReleaseDependencies
+:multilevelexpindlistview:compileReleaseAidl
+:multilevelexpindlistview:compileReleaseRenderscript
+:multilevelexpindlistview:generateReleaseBuildConfig
+:multilevelexpindlistview:generateReleaseAssets UP-TO-DATE
+:multilevelexpindlistview:mergeReleaseAssets
+:multilevelexpindlistview:generateReleaseResValues
+:multilevelexpindlistview:generateReleaseResources
+:multilevelexpindlistview:mergeReleaseResources
+:multilevelexpindlistview:processReleaseManifest
+:multilevelexpindlistview:processReleaseResources
+:multilevelexpindlistview:generateReleaseSources
+:multilevelexpindlistview:compileReleaseJava
+:multilevelexpindlistview:extractReleaseAnnotations
+:multilevelexpindlistview:mergeReleaseProguardFiles
+:multilevelexpindlistview:processReleaseJavaRes UP-TO-DATE
+:multilevelexpindlistview:packageReleaseJar
+:multilevelexpindlistview:compileReleaseNdk
+:multilevelexpindlistview:packageReleaseJniLibs UP-TO-DATE
+:multilevelexpindlistview:packageReleaseLocalJar UP-TO-DATE
+:multilevelexpindlistview:packageReleaseRenderscript UP-TO-DATE
+:multilevelexpindlistview:packageReleaseResources
+:multilevelexpindlistview:bundleRelease
+:multilevelexpindlistview:assembleRelease
+:multilevelexpindlistview:assemble
+:multilevelexpindlistview:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.187 secs
+
+2018-04-08 03:34:54,353 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 03:34:54,353 INFO  SysUtils - Execute command: [/tmp/rdisk/1116/src/gradlew, -b, /tmp/rdisk/1116/src/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 03:35:01,260 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-08 03:35:01,260 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 03:35:01,260 INFO  SysUtils - Execute command: [/tmp/rdisk/1116/src/gradlew, -b, /tmp/rdisk/1116/src/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 03:35:25,782 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING [Project: :sampleapp] WARNING: runProguard is deprecated (and will soon stop working); change to "minifyEnabled" instead
+WARNING [Project: :multilevelexpindlistview] WARNING: runProguard is deprecated (and will soon stop working); change to "minifyEnabled" instead
+:sampleapp:preBuild
+:sampleapp:compileDebugNdk
+:multilevelexpindlistview:compileLint
+:multilevelexpindlistview:copyReleaseLint UP-TO-DATE
+:multilevelexpindlistview:preBuild
+:multilevelexpindlistview:preReleaseBuild
+:multilevelexpindlistview:checkReleaseManifest
+:multilevelexpindlistview:preDebugBuild
+:multilevelexpindlistview:preDebugTestBuild
+:multilevelexpindlistview:prepareComAndroidSupportAppcompatV72100Library UP-TO-DATE
+:multilevelexpindlistview:prepareComAndroidSupportRecyclerviewV72103Library UP-TO-DATE
+:multilevelexpindlistview:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:multilevelexpindlistview:prepareReleaseDependencies
+:multilevelexpindlistview:compileReleaseAidl UP-TO-DATE
+:multilevelexpindlistview:compileReleaseRenderscript UP-TO-DATE
+:multilevelexpindlistview:generateReleaseBuildConfig UP-TO-DATE
+:multilevelexpindlistview:generateReleaseAssets UP-TO-DATE
+:multilevelexpindlistview:mergeReleaseAssets UP-TO-DATE
+:multilevelexpindlistview:generateReleaseResValues UP-TO-DATE
+:multilevelexpindlistview:generateReleaseResources UP-TO-DATE
+:multilevelexpindlistview:mergeReleaseResources UP-TO-DATE
+:multilevelexpindlistview:processReleaseManifest UP-TO-DATE
+:multilevelexpindlistview:processReleaseResources UP-TO-DATE
+:multilevelexpindlistview:generateReleaseSources UP-TO-DATE
+:multilevelexpindlistview:compileReleaseJava UP-TO-DATE
+:multilevelexpindlistview:extractReleaseAnnotations UP-TO-DATE
+:multilevelexpindlistview:mergeReleaseProguardFiles UP-TO-DATE
+:multilevelexpindlistview:processReleaseJavaRes UP-TO-DATE
+:multilevelexpindlistview:packageReleaseJar UP-TO-DATE
+:multilevelexpindlistview:compileReleaseNdk UP-TO-DATE
+:multilevelexpindlistview:packageReleaseJniLibs UP-TO-DATE
+:multilevelexpindlistview:packageReleaseLocalJar UP-TO-DATE
+:multilevelexpindlistview:packageReleaseRenderscript UP-TO-DATE
+:multilevelexpindlistview:packageReleaseResources UP-TO-DATE
+:multilevelexpindlistview:bundleRelease UP-TO-DATE
+:sampleapp:preDebugBuild
+:sampleapp:checkDebugManifest
+:sampleapp:preReleaseBuild
+:sampleapp:prepareComAndroidSupportAppcompatV72100Library
+:sampleapp:prepareComAndroidSupportRecyclerviewV72103Library
+:sampleapp:prepareComAndroidSupportSupportV42103Library
+:sampleapp:prepareSrcMultilevelexpindlistviewUnspecifiedLibrary
+:sampleapp:prepareDebugDependencies
+:sampleapp:compileDebugAidl
+:sampleapp:compileDebugRenderscript
+:sampleapp:generateDebugBuildConfig
+:sampleapp:generateDebugAssets UP-TO-DATE
+:sampleapp:mergeDebugAssets
+:sampleapp:generateDebugResValues
+:sampleapp:generateDebugResources
+:sampleapp:mergeDebugResources
+:sampleapp:processDebugManifest
+:sampleapp:processDebugResources
+:sampleapp:generateDebugSources
+:sampleapp:compileDebugJava
+:sampleapp:preDexDebug
+:sampleapp:dexDebug
+:sampleapp:processDebugJavaRes UP-TO-DATE
+:sampleapp:validateDebugSigning
+:sampleapp:packageDebug
+:sampleapp:zipalignDebug
+:sampleapp:assembleDebug
+:sampleapp:checkReleaseManifest
+:sampleapp:prepareReleaseDependencies
+:sampleapp:compileReleaseAidl
+:sampleapp:compileReleaseRenderscript
+:sampleapp:generateReleaseBuildConfig
+:sampleapp:generateReleaseAssets UP-TO-DATE
+:sampleapp:mergeReleaseAssets
+:sampleapp:generateReleaseResValues
+:sampleapp:generateReleaseResources
+:sampleapp:mergeReleaseResources
+:sampleapp:processReleaseManifest
+:sampleapp:processReleaseResources
+:sampleapp:generateReleaseSources
+:sampleapp:compileReleaseJava
+:sampleapp:lintVitalRelease
+:sampleapp:compileReleaseNdk
+:sampleapp:preDexRelease
+:sampleapp:dexRelease
+:sampleapp:processReleaseJavaRes UP-TO-DATE
+:sampleapp:packageRelease
+:sampleapp:assembleRelease
+:sampleapp:assemble
+:sampleapp:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.08 secs
+
+2018-04-08 03:35:25,841 INFO  FullProcessService - Found APK file: /tmp/rdisk/1116/src/sampleapp/build/outputs/apk/sampleapp-release-unsigned.apk

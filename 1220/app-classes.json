@@ -1,0 +1,4 @@
+{
+  "com.commonsware.cwac.layouts" : [ "AspectLockedFrameLayout", "AspectLockedFrameLayout$AspectRatioSource", "AspectLockedFrameLayout$ViewAspectRatioSource", "BuildConfig", "Mirror", "MirrorSink", "MirroringFrameLayout" ],
+  "com.commonsware.cwac.layouts.demo" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SimpleMirrorActivity", "WebMirrorActivity" ]
+}

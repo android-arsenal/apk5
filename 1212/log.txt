@@ -1,0 +1,14 @@
+2018-05-22 08:28:58,077 INFO  DownloadService - Downloading "https://github.com/mousebird/WhirlyGlobe/archive/master.zip", attempt 3
+2018-05-22 08:29:58,078 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 08:29:58,943 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 08:29:58,943 INFO  DownloadService - Downloading "https://github.com/mousebird/WhirlyGlobe/archive/master.zip", attempt 3
+2018-05-22 08:30:59,887 DEBUG FullProcessService - Repository https://github.com/mousebird/WhirlyGlobe available: true
+2018-05-22 08:30:59,887 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 08:30:59,888 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mousebird/WhirlyGlobe, /tmp/rdisk/1212/src]
+2018-05-22 08:33:01,313 INFO  SysUtils - 
+2018-05-22 08:33:01,342 INFO  GitService - Deleted "/tmp/rdisk/1212/src/.git": true
+2018-05-22 08:33:01,386 INFO  FullProcessService - Size of directory with sources: 139 MB
+2018-05-22 08:33:01,386 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-05-22 08:33:01,386 ERROR FullProcessService - Project will not be processed
+2018-05-22 08:33:01,386 ERROR FullProcessService - Project build has not produced APK file
+2018-05-22 08:33:01,413 ERROR FullProcessService - Could not find generated or existed APK file

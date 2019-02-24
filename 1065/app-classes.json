@@ -1,0 +1,19 @@
+{
+  "android.support.a.a" : [ "a", "b" ],
+  "android.support.a.b.a" : [ "a", "b", "c", "d", "e", "f" ],
+  "android.support.a.c.a" : [ "a", "b" ],
+  "android.support.a.d" : [ "a", "b", "c", "d", "e", "f" ],
+  "android.support.a.e" : [ "a" ],
+  "android.support.a.f" : [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ],
+  "android.support.a.g" : [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l" ],
+  "android.support.v7.a" : [ "a" ],
+  "android.support.v7.b" : [ "a" ],
+  "android.support.v7.internal.a" : [ "a" ],
+  "android.support.v7.internal.view" : [ "a" ],
+  "android.support.v7.internal.view.menu" : [ "ActionMenuItemView", "ExpandedMenuView", "ListMenuItemView", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m" ],
+  "android.support.v7.internal.widget" : [ "ActionBarContainer", "ActionBarContextView", "ActionBarOverlayLayout", "ContentFrameLayout", "FitWindowsFrameLayout", "FitWindowsLinearLayout", "NativeActionModeAwareLayout", "TintImageView", "ViewStubCompat", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x" ],
+  "android.support.v7.widget" : [ "A", "ActionMenuView", "B", "C", "LinearLayoutCompat", "SearchView", "SearchView$SearchAutoComplete", "Toolbar", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ],
+  "cn.pedant.SweetAlert" : [ "Rotate3dAnimation", "SuccessTickView", "a", "b", "c", "d", "e", "f", "g", "h", "i" ],
+  "cn.pedant.SweetAlert.sample" : [ "SampleActivity", "a", "b", "c", "d" ],
+  "com.pnikosis.materialishprogress" : [ "ProgressWheel", "a", "b", "c" ]
+}

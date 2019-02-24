@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.jmolsmobile.landscapevideocapture_sample",
+    "label" : "Landscape VideoCapture",
+    "icon" : "res/drawable-mdpi-v4/icon.png",
+    "versionName" : "1.3.0",
+    "versionCode" : 17,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECORD_AUDIO", "android.permission.CAMERA", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/icon.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAB4UlEQVRYw+2Xv0sjQRTHPxsT9SSb2Am5ix5qIVoINhpt0qRUzlJEDv+BtAuCnShil85CG4l3io0IgpfimsNgY3leoXLG6BlsjD+4NWLGQpEVsmYZdtBiZ5tZ3u778N6bmfcdTaB2+PAAHsAD+J9nYXpocslrgV2KVoAvN3X6dT34N+SO/9bLwatIunmCe0AgOJmZuEG4+xj/j2YFAgSiYTfvtnsEIpsXYYEf6N5ssAbYTL9karbJWd429L4efvqBlgPd+lk/31JkJfzHRpJWwGGIJusqso4s36VCSL7VPijbWTVi2C3dffafZvWYTjZahZFfWU4c11W2DV8PjNZlgI4rQx+vAhBaZeNNt9Fo9+OvD2tDbRk6/2zVnulqziJNo2vvR/yTssOusf33VvxjwUmR5ZTFxUA8eK7uuD6jz4H7KkV+HaC44XQyJBwDyhIR1LJqfrlV2jL/LaV2qiP88oDy3edEKkOvgwjskhko2wcYIlCkFE2kdmrupSMIzO1Nmjb1CV5H54FSNMGY9DKNLrJYNVMlFt6JLnrR/KR8xewAhdZLa1vZZiRZqfk5afov1RGFR10UziqULT6gGEkbptu5N8xImiJoAqAmN306uqEfKpCOmlAsfjXvGusBPIB6wAPEwgnhVK0NqQAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1612,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"17\" android:versionName=\"1.3.0\" package=\"com.jmolsmobile.landscapevideocapture_sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0c0006\" android:label=\"Landscape VideoCapture\" android:icon=\"res/drawable-mdpi-v4/icon.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Landscape VideoCapture\" android:name=\"com.jmolsmobile.landscapevideocapture_sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Landscape VideoCapture\" android:name=\"com.jmolsmobile.landscapevideocapture.VideoCaptureActivity\" android:screenOrientation=\"sensor\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1499348,
+  "crc32" : 1361154735,
+  "sha256" : "9dec7b26679a236f5691e80d287578cefc9f6d2158ba32a9625fd0a4b6eab0a9",
+  "buildTime" : 1526978533000
+}

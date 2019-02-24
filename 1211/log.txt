@@ -1,0 +1,21 @@
+2018-05-22 08:33:01,493 INFO  DownloadService - Downloading "https://github.com/app-ad/Adroit/archive/master.zip", attempt 3
+2018-05-22 08:34:01,495 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 08:34:02,387 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 08:34:02,387 INFO  DownloadService - Downloading "https://github.com/app-ad/Adroit/archive/master.zip", attempt 3
+2018-05-22 08:35:03,343 DEBUG FullProcessService - Repository https://github.com/app-ad/Adroit available: true
+2018-05-22 08:35:03,343 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 08:35:03,343 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/app-ad/Adroit, /tmp/rdisk/1211/src]
+2018-05-22 08:35:08,316 INFO  SysUtils - 
+2018-05-22 08:35:08,326 INFO  GitService - Deleted "/tmp/rdisk/1211/src/.git": true
+2018-05-22 08:35:08,327 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-22 08:35:08,327 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1211/src]
+2018-05-22 08:35:08,332 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1211/src/.git/
+
+2018-05-22 08:35:08,334 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-05-22 08:35:08,334 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-05-22 08:35:08,335 INFO  ProjectBuildService - Build script(s): none
+2018-05-22 08:35:08,336 INFO  ProjectBuildService - All script(s): none
+2018-05-22 08:35:08,336 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 08:35:08,336 ERROR FullProcessService - Project is not correct Gradle project
+2018-05-22 08:35:08,336 ERROR FullProcessService - Project build has not produced APK file
+2018-05-22 08:35:08,338 ERROR FullProcessService - Could not find generated or existed APK file

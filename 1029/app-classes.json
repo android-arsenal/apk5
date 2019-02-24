@@ -1,0 +1,4 @@
+{
+  "com.example.com.learnncode.sample" : [ "BuildConfig", "MainActivity", "MainActivity$DummyAdapter", "R", "R$anim", "R$attr", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style", "R$styleable" ],
+  "com.learnNcode.android" : [ "Clock", "ExtendedListView", "ExtendedListView$1", "ExtendedListView$2", "ExtendedListView$OnPositionChangedListener", "R", "R$anim", "R$attr", "R$drawable", "R$layout", "R$string", "R$styleable" ]
+}

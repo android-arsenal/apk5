@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "widget.meg7.com.customshapeimageview",
+    "label" : "Shaped image samples",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "18",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABblBMVEUAAABPT09NTU1NTU1RUVG/v7/c3NxPT0/Hx8fm5ubb3N3a29zk5ORxoOxrn/TP0td3ovFtn/O5w++bs++Mq/Da2PHU0+92ofFun/PKzO+yv+9tnvKfte/Z1/GHqfB3oe6zvObV0/DHy++yvufW1OqMq+uzv+6dtO+GqOzIyudvn/GFqfDU0/B2ovHEx+eitOhsn/PFye60we+ZsOnT0el6ou53keSdmNucl9pvk+l0oO/Pzui4wOdrmvBqZ8tqY8hqbc9rnvOtu+iNqutqe9pqhOCBpezV0+lqk+tqZspgZLteWKxidsxqcdJkXb1aVKpaVatokudqieReV7FeZ71rnPFqacxnYMNlhdpqf9xhWrdbW7Fqm/Bqlu1qZMlpYsZbVa1idstqdNRkXr7P0dlqjedeWLLQz9xxnupqa85whNhhW7hPT1BxbctcVq1QUFFya8plXr7JydPKydbIx8vk5OXl5eW3t7fT09NOTk5BS1y8AAAAenRSTlMAXe3/Xf//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////XXlncs0AAAFcSURBVEjH7dZFUwMxGIDhCrZQliLBiwZ3d9LiXnzx4u7Ov2ctWctKhpmeeG+Z+Z7Dt3tIfL4k5A8EPRZIkYHneVHIIMgQBqlpXkrXQAaXmeVWiDOAbN6tnH/wNxDOZQR5+WygABQWsYDiEgBKtbkyV1AOAIhU4FNllRsIV4sA1OC9a2GdC6gHcg3KqRHCpmZH0BJRQGubvEA7hLDDCXR2AbVu6dgjzsPePgfQP4AbHOL54REJwFF7MDaOSNEYPwGVJm3BFNI1PTOrAnlvGpjTz6P5hUXcEh3Elg0ArcRxq2tUsI5MbRCxSQNb22YgEBDfoYBdZGmPgP0DCzg8soLEMREnFnCKKJ1pe5+bwAWidknElRFc39CBYAdukU13GrjXgwc7kHgk4EkPnu0AemEFeG8DeHUCAgW8OQF1bwN45z6cCkl96r/S17eXdP+B7dplvth/vD8d/Ml4yvwCmOXsaVW8mfAAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1485,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"widget.meg7.com.customshapeimageview\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090082\" android:label=\"Shaped image samples\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Shaped image samples\" android:name=\"com.meg7.samples.SamplesActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1321932,
+  "crc32" : 1697404340,
+  "sha256" : "6491c78b5d6d726ba6b330e456c896431ba9dc2808f234cea40990d830b04c2e",
+  "buildTime" : 1523134207000
+}

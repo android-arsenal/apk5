@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.fmsirvent.transformabledrawablebutton.app",
+    "label" : "TransformableDrawableButton",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.1",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAEh0lEQVRYw6WYXWwUVRSAvztut2TbKdbSCktoSqFuBbNUadAHGioCMeIPoI3RGCTBGCOa8mQ0xriiMRESE6IPIpIIaBSRH2NKAFtbEK1aqRbR/kAsraQ0bWlpd9vddn+OD9suu9ud3Z165mVmzrnnu/fMnXPPvUpIQywsxM587OQzSA899NCJL52mSPLLJhtlv1yX6TIqR2Wz3JaifVLAQjkoY5Jc/FIj98wEkC+7ZVzSk5B8IcXmAM/JiJiTCdkhWnoAi3wgMxJ/jeipAblSKzOWiVZZmByQLS3Jg/1ziq/uH5BCY4CS48l7uE2Q9SlGMdIhWUaAdxNN9hbxR57KBJmVMlC9daISATYmMv5QnpedEpp8WiZIZhrf4srOmwBt8oe28n6i/3wMuEwj5sS+/ePSqfspwIsUJTJ9DIBjaaadKcnIKNujVDQgh9cTm97BcmCEEybHUL7yrYeiAS8xJ1odxB+5f5wMoI5+UwBNe/hNdctNQFVsfv2JU/zKKAB5rAUCfG1yDEud9nunAEWUxSo9QB8N/E0AeJBbgT9oMwXIzNzyzBRgQ6xKUU4WIPxDPd1Y2QTAIZNjWLNCzQkDHo1X5bOKO7EA41zgHIspBnrwmAIsd1AaBpQk+Egs4n4WADBMI0sJAiOmADnZ9jLQUNxuEEWWUUHulDnDBE0GqaREWS3kkRH7epCJqKdF9HIJHw4u4gdC9Bq4U+RH/tuwFOtncizMjTV7gT1Je+VnnqGugrqY3i7IRtfIjjX6lpnLj3EpRbeiW+iLNfqcvYaxrsEDFFKIhk4WKm5ibECPeXNtFN0SH9JKKg17WEYLGndxH3cDWSwxmh+T0uUhqDGG20wYFHY68AKjNPFL0saXPbg14JqpNIaGjRsUANDPWf6KSo0xOU3aR8OARnMAG3CeuawgGxA6qaeL6TVud48vFAYcMzdXHgGEQxSwiiVYgAn+5Ny0qXG2lWAYcDpkasGqZB5wmSYUxaymEAUMT6b3m3KgjU4JaIA3UGsuSOHl4wh+wIqTCgopISfGqm+g9jptkwuO9SOTiwlOYIhTkTzlxBFnc6IZiQCoGbxgDlGFBTjJkIH+xsj2Jq6KJ1JVjFSbAxSwGvBzxED/Sf1wgB+iypaihmtnzCHWowO/E0qg6+17rYUu6Yiui/A96zG1nsxiK3lUxiVoAH+g+puA8N20Pdrep/z+5CVhhSCzU253XIdxUZWwfP/sveSNT8oK2Z8C8FU9LraRmRCAdvzLkPwfaTivuXiFXMMdDrZ39o1PzMx5MLTvJC7eoCjpHo3ZT789eMO8e6+3+iAuXmVRyl0m1vKt3/8WNBWr5taVu3HxMnnx3lSiowSlWLVu0651Tkc6E7bz6o7Tn/4LXOKITEubyuisQhWwZvMDW5zLHTm6kWuvr+XS0Yu7OoABaiVh8aqSHYaoItZq85+wP+lwzMvVZ+fYbArweofdQ+4r/cfbD3T7QoCHBpolZOAj1WmLyqcUB/NRYNMW27p8w4GIcoh22ug2cp4WYNIsGzs6OjpZjOPGjZt+SWNX8h9qxq2DzAJnIQAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 833,
+  "locales" : [ "", "sl", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "pt", "ar", "ru", "fa", "sk", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "es", "hy_AM", "tr", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "fr", "ja", "lo_LA", "iw", "de", "en_IN", "es_US", "nb", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.0.1\" package=\"com.fmsirvent.transformabledrawablebutton.app\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"19\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"TransformableDrawableButton\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"TransformableDrawableButton\" android:name=\"com.fmsirvent.transformabledrawablebuttonsample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 831801,
+  "crc32" : 3313507786,
+  "sha256" : "d839f99959d7a3b923a6ce7b180ad8a99be399c953fad44950daeeef153242b1",
+  "buildTime" : 1523135408000
+}

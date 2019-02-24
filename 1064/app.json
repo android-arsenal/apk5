@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "fr.tvbarthel.lib.blurdialogfragment.sample",
+    "label" : "Blur Dialog Fragment",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.8",
+    "versionCode" : 9,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACplBMVEUAAABVqv+Av/+A//95yeR3zN17ytyAzOZ5zuB4zN94zN93zN93y914zN94y95ywtQAAAB3y914yt14y954y95yw9ZZm7FnrLp2ytxzw9RPjJhgn6x3ydxPhpKk24rs8wrM6ER/ztPw9Qbw9gTx9QXo8Q7S6TWO0q+x3Xbz9gC53Vpvvc5/ztHu9Ajl7xSAw6+63lri7xud0IKi0XvS5zO43FxvvM1wvc/Y6iluuszJ40GSy5az2mXG40fE4ky742Hl8Bmd2Jm44mrZ7Szs8w17zNpvu8yPyZm53FnX6y7v9QZ2wchxv9HV7DaRzpzh8B3h7x5ywdNzwtPq8g/D4EnK5D7s8gvl8BWAw613wsmz22iSz53g7yDC4lFzwtRzw9XR5jSDxq1wvtCz3GnD4EpzxNZvvM3g7h+Ry5WSzJWk1Hnr8g7a6yhyvsyTzJe631txwNK84Fpzw9VPgIzA4FGDxq/W6y93w8qSz5684VvZ6ypwvs7K5ECCxrDS6Tfy9gF/xrx0xdfo8hK+31S+31PP5jbf7iByv82TzZi73lfH5Eeu23Dh7h50xNbp8g+UzZWMyqTS6DV0xNZvvc59zdbB4E/E4Uu931Wn1nd+w7qGx6zF4kyg04SWz5TO5jqv2W17xMXE40/F40yHy7HG5E2i1oZ0xth0xddwvs51xtl1xdh1xdhwv891x9p1xtlxv9Bio7F2yNtNiI5SiZt2ydtywdJywdN1xtl2xtl3ydxuvM08aXgAVaoAAABnscB5zeB1xth1x9l2x9peorEAAAAYKzFgorJvvc9ywNJxwNFsucltusptusttu8xvvMxvvc1wvc5uuctcnasXKS4AAAAAAAAfNj4uT1YsS1IsSlEoRk0sRk0sR04uT1MzZmYAAAAAAABAgL+OPQEDAAAA4nRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir//////////////////////////////////////////////////////////////////////P/////////////////////////v///////////////8Kv/////////////////////////////////8///////v//////////////////////////zv//z/7//87yf/Kxzs/Pz9+f/sIgMIqf////+tAyqw7fDv8PDw8PDw8O2xLAkgQk1LTExMS00FCw4EnvON8QAAArJJREFUSMdjYKAXYGQiABhRlDMzEzYSWQ2QycLKhhewsoCVwdSzc3ByEQCc3OxwHcwMPLx8hAG/AFQDIwOLIJ+QsAheICzEKyrGAPE5E4O4BJ8IIfNFeCWlgEohGqRliNIgi9AgMaqB9hrk5OUVCGtQVFJWVlZRVVPn49PQ1NTSJqhBR1cTDPT0QRoMtLWJ0GBoZGyiqWlqBtZgbk5Yg4Wlpb6mppWZNVCDuY2tnSKfvYODo6ODg5Oziyt2DW7umpoeEA2eml7ePr6amn5+mpr+mgGBQVg0BIeEhmmGR2jDNET6RAE1RAM9FhMbFxSPw9MJiWANSWANyZqa0UANKYFxcUGpaRga0jMys7I1c3LzNDXzwRoKoBoK4+LiilLTijH8YGZmVqKpWQrWUKbpVQ7WUKGpWRkXF49NQ5WZWXWNpmYtSINPnWZ9A0hDBVhDfHxRI6aGpuaW1nrNtvYOkIZOTc2u7h6ohvj4+F4sGsCgrz8JrGGCF5AzEa5hUm/jZFQNU6ZOmzbNbvqMmUlJs2bPnlNQMHee5/wFCxctXrxkydL4SZN6l6Fp4DPT1gamB/OkpCQfH5+CgoJAMACGD9A9kyZNWo6hgQ+v+sbly1aga+DDp75x+UpMDXx41DeuwqaBD7f61atWrsGigQ+n+tWr1mLVwIdL/ep1a9fIYi2McahfuW7teoSGDcilBnb1K9dtXL8JqoGRYfMWXqQKZeu2bduCgoKKiop6e3uXL1++atWqdeu279i5azfDHmiVtXffxv28++EAZvKBAwcOHjx46NChjUCwc9LhvfA67sjRY8dPnDwBB6dOnTp9+vSZM2fOnj177ty58+fPp124eOnyEUQ1euXqtes3bty4CQO3gOA2Aty5cePutatXkCvqe/cfEAD376FW/nseEgB76NaKAQA9h8itEoCUTgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1660,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"9\" android:versionName=\"1.8\" package=\"fr.tvbarthel.lib.blurdialogfragment.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f09008b\" android:label=\"Blur Dialog Fragment\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Blur Dialog Fragment\" android:name=\"fr.tvbarthel.lib.blurdialogfragment.sample.SampleActionBarActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0900bc\" android:label=\"Blur Dialog Fragment\" android:name=\"fr.tvbarthel.lib.blurdialogfragment.sample.SampleFullScreenActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 6890301,
+  "crc32" : 1150177883,
+  "sha256" : "7c2b3d3c1c93f730ea289d4f1c92dcd4e467f05b9f6eaee893cc829f27719515",
+  "buildTime" : 1523165613000
+}

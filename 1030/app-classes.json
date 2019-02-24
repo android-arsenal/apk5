@@ -1,0 +1,6 @@
+{
+  "at.markushi.reveal" : [ "BuildConfig", "MyActivity", "MyActivity$1", "MyActivity$2", "MyActivity$3", "MyActivity$4", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$menu", "R$string", "R$style", "R$styleable" ],
+  "at.markushi.ui" : [ "ActionView", "ActionView$1", "ActionView$SavedState", "ActionView$SavedState$1", "BuildConfig", "R", "R$attr", "R$id", "R$integer", "R$styleable", "RevealColorView", "RevealColorView$1", "RevealColorView$2" ],
+  "at.markushi.ui.action" : [ "Action", "Action$1", "BackAction", "CloseAction", "DrawerAction", "LineSegment", "LineSegment$1", "PlusAction" ],
+  "at.markushi.ui.util" : [ "BakedBezierInterpolator", "UiHelper" ]
+}

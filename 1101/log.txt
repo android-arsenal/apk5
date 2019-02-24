@@ -1,0 +1,211 @@
+2018-04-08 04:02:54,359 INFO  DownloadService - Downloading "https://github.com/BoD/jraf-android-util/archive/master.zip", attempt 3
+2018-04-08 04:03:54,809 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 04:03:55,468 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 04:03:55,468 INFO  DownloadService - Downloading "https://github.com/BoD/jraf-android-util/archive/master.zip", attempt 3
+2018-04-08 04:04:56,708 DEBUG FullProcessService - Repository https://github.com/BoD/jraf-android-util available: true
+2018-04-08 04:04:56,708 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 04:04:56,708 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/BoD/jraf-android-util, /tmp/rdisk/1101/src]
+2018-04-08 04:04:58,531 INFO  SysUtils - 
+2018-04-08 04:04:58,536 INFO  GitService - Deleted "/tmp/rdisk/1101/src/.git": true
+2018-04-08 04:04:58,541 INFO  FullProcessService - Size of directory with sources: 453 KB
+2018-04-08 04:04:58,541 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1101/src]
+2018-04-08 04:04:58,545 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1101/src/.git/
+
+2018-04-08 04:04:58,549 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1101/src/gradlew
+2018-04-08 04:04:58,553 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1101/src/library/build.gradle /tmp/rdisk/1101/src/build.gradle
+2018-04-08 04:04:58,557 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1101/src/settings.gradle /tmp/rdisk/1101/src/library/build.gradle /tmp/rdisk/1101/src/build.gradle
+2018-04-08 04:04:58,557 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 04:04:58,557 INFO  ProjectFixService - Fixing project...
+2018-04-08 04:04:58,565 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1101/src/library/local.properties
+2018-04-08 04:04:58,566 INFO  ProjectFixService - Build info for "/tmp/rdisk/1101/src/library/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-08 04:04:58,572 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1101/src/local.properties
+2018-04-08 04:04:58,573 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2018-04-08 04:04:58,573 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2018-04-08 04:04:58,574 INFO  ProjectFixService - Build info for "/tmp/rdisk/1101/src/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-08 04:04:58,577 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 04:04:58,577 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 04:04:58,577 INFO  SysUtils - Execute command: [/tmp/rdisk/1101/src/gradlew, -b, /tmp/rdisk/1101/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 04:05:11,104 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-08 04:05:11,104 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 04:05:11,104 INFO  SysUtils - Execute command: [/tmp/rdisk/1101/src/gradlew, -b, /tmp/rdisk/1101/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 04:05:38,570 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:library:dataBindingGenBaseClassesDebug
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:packageDebugResources
+:library:platformAttrExtractor
+:library:processDebugManifest
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:generateDebugRFile
+:library:generateDebugSources
+:library:dataBindingExportBuildInfoDebug
+:library:transformDataBindingWithDataBindingMergeArtifactsForDebug
+:library:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1101/src/library/src/main/java/org/jraf/android/util/ui/graph/GraphView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractDebugAnnotations
+:library:mergeDebugConsumerProguardFiles
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:library:dataBindingGenBaseClassesRelease
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:dataBindingExportBuildInfoRelease
+:library:javaPreCompileRelease
+:library:transformDataBindingWithDataBindingMergeArtifactsForRelease
+:library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1101/src/library/src/main/java/org/jraf/android/util/ui/graph/GraphView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseConsumerProguardFiles
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:verifyReleaseResources
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL in 27s
+57 actionable tasks: 57 executed
+
+2018-04-08 04:05:38,645 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 04:05:38,646 INFO  SysUtils - Execute command: [/tmp/rdisk/1101/src/gradlew, -b, /tmp/rdisk/1101/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 04:05:46,185 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-08 04:05:46,186 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 04:05:46,186 INFO  SysUtils - Execute command: [/tmp/rdisk/1101/src/gradlew, -b, /tmp/rdisk/1101/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 04:05:55,147 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:mergeDebugResources UP-TO-DATE
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+:library:dataBindingGenBaseClassesDebug UP-TO-DATE
+:library:checkDebugManifest UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:platformAttrExtractor UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:generateDebugRFile UP-TO-DATE
+:library:prepareLintJar UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:dataBindingExportBuildInfoDebug UP-TO-DATE
+:library:javaPreCompileDebug UP-TO-DATE
+:library:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:extractDebugAnnotations UP-TO-DATE
+:library:mergeDebugConsumerProguardFiles UP-TO-DATE
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:packageDebugAssets UP-TO-DATE
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:library:bundleDebug UP-TO-DATE
+:library:compileDebugSources UP-TO-DATE
+:library:assembleDebug UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
+:library:dataBindingGenBaseClassesRelease UP-TO-DATE
+:library:checkReleaseManifest UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:generateReleaseRFile UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:dataBindingExportBuildInfoRelease UP-TO-DATE
+:library:javaPreCompileRelease UP-TO-DATE
+:library:transformDataBindingWithDataBindingMergeArtifactsForRelease UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:packageReleaseAssets UP-TO-DATE
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:library:compileReleaseSources UP-TO-DATE
+:library:verifyReleaseResources UP-TO-DATE
+:library:assembleRelease UP-TO-DATE
+:library:assemble UP-TO-DATE
+:library:build
+
+BUILD SUCCESSFUL in 8s
+57 actionable tasks: 57 up-to-date
+
+2018-04-08 04:05:55,214 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 04:05:55,282 ERROR FullProcessService - Could not find generated or existed APK file

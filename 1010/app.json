@@ -1,0 +1,32 @@
+{
+  "meta" : {
+    "packageName" : "com.androwarn.sampleapplication",
+    "label" : "SampleApplication",
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "3",
+    "targetSdkVersion" : null,
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_PHONE_STATE", "android.permission.ACCESS_NETWORK_STATE", "android.permission.RECORD_AUDIO", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.CALL_PHONE", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION", "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS", "android.permission.INTERNET", "android.permission.RECORD_VIDEO", "android.permission.CAMERA", "android.permission.RECEIVE_SMS", "android.permission.READ_SMS", "android.permission.WRITE_SMS", "android.permission.SEND_SMS" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.telephony",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 7,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.androwarn.sampleapplication\">\n\t<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CALL_PHONE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.READ_CONTACTS\" />\n\t<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.RECORD_VIDEO\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-feature android:name=\"android.hardware.telephony\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_SMS\" />\n\t<uses-permission android:name=\"android.permission.READ_SMS\" />\n\t<uses-permission android:name=\"android.permission.WRITE_SMS\" />\n\t<uses-permission android:name=\"android.permission.SEND_SMS\" />\n\t<uses-sdk android:minSdkVersion=\"3\" />\n\t<application android:label=\"SampleApplication\" android:debuggable=\"true\">\n\t\t<activity android:label=\"SampleApplication\" android:name=\".SampleApplication\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n\t<receiver android:name=\".BusterReceiver\">\n\t\t<intentfilter android:priority=\"100\">\n\t\t\t<action android:name=\"android.provider.Telephony.SMS_RECEIVED\" />\n\t\t</intentfilter>\n\t</receiver>\n</manifest>\n",
+  "fileSize" : 21160,
+  "crc32" : 3045482055,
+  "sha256" : "5c63eefedb5aeebecb65cde43a373f6bf07c058cd186633604a36425b98d3c27",
+  "buildTime" : 1496784448000
+}

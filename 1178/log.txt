@@ -1,0 +1,218 @@
+2018-05-11 14:45:04,802 INFO  DownloadService - Downloading "https://github.com/fengdai/AlertDialogPro/archive/master.zip", attempt 3
+2018-05-11 14:45:05,357 INFO  DownloadService - Downloaded https://github.com/fengdai/AlertDialogPro/archive/master.zip, attempt 3
+2018-05-11 14:45:05,357 INFO  DownloadService - Size of file "/tmp/rdisk/1178/master.zip": 885 KB
+2018-05-11 14:45:05,357 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 14:45:05,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1178/master.zip: true
+2018-05-11 14:45:05,358 DEBUG ZipUtil - Extracting '/tmp/rdisk/1178/master.zip' into '/tmp/rdisk/1178/src'.
+2018-05-11 14:45:05,407 INFO  FullProcessService - Size of directory with sources: 971 KB
+2018-05-11 14:45:05,407 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1178/src]
+2018-05-11 14:45:05,412 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1178/src/.git/
+
+2018-05-11 14:45:05,419 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1178/src/AlertDialogPro-master/gradlew
+2018-05-11 14:45:05,425 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-core/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-holo/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-material/build.gradle
+2018-05-11 14:45:05,432 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1178/src/AlertDialogPro-master/settings.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/maven_push.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/android.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-material/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-holo/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/build.gradle /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-core/build.gradle
+2018-05-11 14:45:05,432 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 14:45:05,432 INFO  ProjectFixService - Fixing project...
+2018-05-11 14:45:05,450 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/local.properties
+2018-05-11 14:45:05,454 INFO  ProjectFixService - Build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 14:45:05,454 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 14:45:05,455 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1178/src/AlertDialogPro-master/local.properties
+2018-05-11 14:45:05,455 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-11 14:45:05,455 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-11 14:45:05,459 INFO  ProjectFixService - Build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 14:45:05,459 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 14:45:05,459 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-core/local.properties
+2018-05-11 14:45:05,463 INFO  ProjectFixService - Build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 14:45:05,463 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-core/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 14:45:05,464 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-holo/local.properties
+2018-05-11 14:45:05,467 INFO  ProjectFixService - Build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-holo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 14:45:05,467 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-holo/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 14:45:05,468 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-material/local.properties
+2018-05-11 14:45:05,471 INFO  ProjectFixService - Build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-material/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 14:45:05,471 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-material/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 14:45:05,472 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 14:45:05,472 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 14:45:05,472 INFO  SysUtils - Execute command: [/tmp/rdisk/1178/src/AlertDialogPro-master/gradlew, -b, /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 14:45:21,054 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-11 14:45:21,055 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-11 14:45:21,055 INFO  SysUtils - Execute command: [/tmp/rdisk/1178/src/AlertDialogPro-master/gradlew, -b, /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-11 14:45:52,345 INFO  SysUtils - Configuration on demand is an incubating feature.
+SNAPSHOT BUILD: alertdialogpro-theme-holo:0.2.7-SNAPSHOT
+SNAPSHOT BUILD: alertdialogpro-core:0.2.7-SNAPSHOT
+SNAPSHOT BUILD: alertdialogpro-theme-material:0.2.7-SNAPSHOT
+:alertdialogpro-core:compileLint
+:alertdialogpro-core:copyReleaseLint UP-TO-DATE
+:alertdialogpro-core:preBuild UP-TO-DATE
+:alertdialogpro-core:preReleaseBuild UP-TO-DATE
+:alertdialogpro-core:checkReleaseManifest
+:alertdialogpro-core:preDebugAndroidTestBuild UP-TO-DATE
+:alertdialogpro-core:preDebugBuild UP-TO-DATE
+:alertdialogpro-core:preDebugUnitTestBuild UP-TO-DATE
+:alertdialogpro-core:preReleaseUnitTestBuild UP-TO-DATE
+:alertdialogpro-core:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:alertdialogpro-core:prepareComAndroidSupportAppcompatV72321Library
+:alertdialogpro-core:prepareComAndroidSupportSupportV42321Library
+:alertdialogpro-core:prepareComAndroidSupportSupportVectorDrawable2321Library
+:alertdialogpro-core:prepareReleaseDependencies
+:alertdialogpro-core:compileReleaseAidl
+:alertdialogpro-core:compileReleaseRenderscript
+:alertdialogpro-core:generateReleaseBuildConfig
+:alertdialogpro-core:generateReleaseAssets UP-TO-DATE
+:alertdialogpro-core:mergeReleaseAssets
+:alertdialogpro-core:generateReleaseResValues
+:alertdialogpro-core:generateReleaseResources
+:alertdialogpro-core:mergeReleaseResources
+:alertdialogpro-core:processReleaseManifest
+:alertdialogpro-core:processReleaseResources
+:alertdialogpro-core:generateReleaseSources
+:alertdialogpro-core:processReleaseJavaRes UP-TO-DATE
+:alertdialogpro-core:compileReleaseJavaWithJavacNote: /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-core/src/main/java/com/alertdialogpro/internal/AlertController.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:alertdialogpro-core:extractReleaseAnnotations
+:alertdialogpro-core:mergeReleaseProguardFiles
+:alertdialogpro-core:packageReleaseJar
+:alertdialogpro-core:compileReleaseNdk UP-TO-DATE
+:alertdialogpro-core:packageReleaseJniLibs UP-TO-DATE
+:alertdialogpro-core:packageReleaseLocalJar UP-TO-DATE
+:alertdialogpro-core:packageReleaseRenderscript UP-TO-DATE
+:alertdialogpro-core:packageReleaseResources
+:alertdialogpro-core:bundleRelease
+:alertdialogpro-demo:preBuild UP-TO-DATE
+:alertdialogpro-demo:preDebugBuild UP-TO-DATE
+:alertdialogpro-demo:checkDebugManifest
+:alertdialogpro-demo:preReleaseBuild UP-TO-DATE
+:alertdialogpro-theme-holo:compileLint
+:alertdialogpro-theme-holo:copyReleaseLint UP-TO-DATE
+:alertdialogpro-theme-holo:preBuild UP-TO-DATE
+:alertdialogpro-theme-holo:preReleaseBuild UP-TO-DATE
+:alertdialogpro-theme-holo:checkReleaseManifest
+:alertdialogpro-theme-holo:preDebugAndroidTestBuild UP-TO-DATE
+:alertdialogpro-theme-holo:preDebugBuild UP-TO-DATE
+:alertdialogpro-theme-holo:preDebugUnitTestBuild UP-TO-DATE
+:alertdialogpro-theme-holo:preReleaseUnitTestBuild UP-TO-DATE
+:alertdialogpro-theme-holo:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:alertdialogpro-theme-holo:prepareComAndroidSupportAppcompatV72321Library
+:alertdialogpro-theme-holo:prepareComAndroidSupportSupportV42321Library
+:alertdialogpro-theme-holo:prepareComAndroidSupportSupportVectorDrawable2321Library
+:alertdialogpro-theme-holo:prepareComGithubFengdaiAlertdialogproCore027SNAPSHOTLibrary
+:alertdialogpro-theme-holo:prepareReleaseDependencies
+:alertdialogpro-theme-holo:compileReleaseAidl
+:alertdialogpro-theme-holo:compileReleaseRenderscript
+:alertdialogpro-theme-holo:generateReleaseBuildConfig
+:alertdialogpro-theme-holo:generateReleaseAssets UP-TO-DATE
+:alertdialogpro-theme-holo:mergeReleaseAssets
+:alertdialogpro-theme-holo:generateReleaseResValues
+:alertdialogpro-theme-holo:generateReleaseResources
+:alertdialogpro-theme-holo:mergeReleaseResources
+:alertdialogpro-theme-holo:processReleaseManifest
+:alertdialogpro-theme-holo:processReleaseResources
+:alertdialogpro-theme-holo:generateReleaseSources
+:alertdialogpro-theme-holo:processReleaseJavaRes UP-TO-DATE
+:alertdialogpro-theme-holo:compileReleaseJavaWithJavac
+:alertdialogpro-theme-holo:extractReleaseAnnotations
+:alertdialogpro-theme-holo:mergeReleaseProguardFiles
+:alertdialogpro-theme-holo:packageReleaseJar
+:alertdialogpro-theme-holo:compileReleaseNdk UP-TO-DATE
+:alertdialogpro-theme-holo:packageReleaseJniLibs UP-TO-DATE
+:alertdialogpro-theme-holo:packageReleaseLocalJar UP-TO-DATE
+:alertdialogpro-theme-holo:packageReleaseRenderscript UP-TO-DATE
+:alertdialogpro-theme-holo:packageReleaseResources
+:alertdialogpro-theme-holo:bundleRelease
+:alertdialogpro-theme-material:compileLint
+:alertdialogpro-theme-material:copyReleaseLint UP-TO-DATE
+:alertdialogpro-theme-material:preBuild UP-TO-DATE
+:alertdialogpro-theme-material:preReleaseBuild UP-TO-DATE
+:alertdialogpro-theme-material:checkReleaseManifest
+:alertdialogpro-theme-material:preDebugAndroidTestBuild UP-TO-DATE
+:alertdialogpro-theme-material:preDebugBuild UP-TO-DATE
+:alertdialogpro-theme-material:preDebugUnitTestBuild UP-TO-DATE
+:alertdialogpro-theme-material:preReleaseUnitTestBuild UP-TO-DATE
+:alertdialogpro-theme-material:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:alertdialogpro-theme-material:prepareComAndroidSupportAppcompatV72321Library
+:alertdialogpro-theme-material:prepareComAndroidSupportSupportV42321Library
+:alertdialogpro-theme-material:prepareComAndroidSupportSupportVectorDrawable2321Library
+:alertdialogpro-theme-material:prepareComGithubFengdaiAlertdialogproCore027SNAPSHOTLibrary
+:alertdialogpro-theme-material:prepareReleaseDependencies
+:alertdialogpro-theme-material:compileReleaseAidl
+:alertdialogpro-theme-material:compileReleaseRenderscript
+:alertdialogpro-theme-material:generateReleaseBuildConfig
+:alertdialogpro-theme-material:generateReleaseAssets UP-TO-DATE
+:alertdialogpro-theme-material:mergeReleaseAssets
+:alertdialogpro-theme-material:generateReleaseResValues
+:alertdialogpro-theme-material:generateReleaseResources
+:alertdialogpro-theme-material:mergeReleaseResources
+:alertdialogpro-theme-material:processReleaseManifest
+:alertdialogpro-theme-material:processReleaseResources
+:alertdialogpro-theme-material:generateReleaseSources
+:alertdialogpro-theme-material:processReleaseJavaRes UP-TO-DATE
+:alertdialogpro-theme-material:compileReleaseJavaWithJavacNote: /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-theme-material/src/main/java/com/alertdialogpro/material/ProgressBarCompat.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:alertdialogpro-theme-material:extractReleaseAnnotations
+:alertdialogpro-theme-material:mergeReleaseProguardFiles
+:alertdialogpro-theme-material:packageReleaseJar
+:alertdialogpro-theme-material:compileReleaseNdk UP-TO-DATE
+:alertdialogpro-theme-material:packageReleaseJniLibs UP-TO-DATE
+:alertdialogpro-theme-material:packageReleaseLocalJar UP-TO-DATE
+:alertdialogpro-theme-material:packageReleaseRenderscript UP-TO-DATE
+:alertdialogpro-theme-material:packageReleaseResources
+:alertdialogpro-theme-material:bundleRelease
+:alertdialogpro-demo:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:alertdialogpro-demo:prepareComAndroidSupportAppcompatV72321Library
+:alertdialogpro-demo:prepareComAndroidSupportSupportV42321Library
+:alertdialogpro-demo:prepareComAndroidSupportSupportVectorDrawable2321Library
+:alertdialogpro-demo:prepareComGithubFengdaiAlertdialogproCore027SNAPSHOTLibrary
+:alertdialogpro-demo:prepareComGithubFengdaiAlertdialogproThemeHolo027SNAPSHOTLibrary
+:alertdialogpro-demo:prepareComGithubFengdaiAlertdialogproThemeMaterial027SNAPSHOTLibrary
+:alertdialogpro-demo:prepareDebugDependencies
+:alertdialogpro-demo:compileDebugAidl
+:alertdialogpro-demo:compileDebugRenderscript
+:alertdialogpro-demo:generateDebugBuildConfig
+:alertdialogpro-demo:generateDebugAssets UP-TO-DATE
+:alertdialogpro-demo:mergeDebugAssets
+:alertdialogpro-demo:generateDebugResValues
+:alertdialogpro-demo:generateDebugResources
+:alertdialogpro-demo:mergeDebugResources
+:alertdialogpro-demo:processDebugManifest
+:alertdialogpro-demo:processDebugResources
+:alertdialogpro-demo:generateDebugSources
+:alertdialogpro-demo:processDebugJavaRes UP-TO-DATE
+:alertdialogpro-demo:compileDebugJavaWithJavac
+:alertdialogpro-demo:compileDebugNdk UP-TO-DATE
+:alertdialogpro-demo:compileDebugSources
+:alertdialogpro-demo:preDexDebug
+:alertdialogpro-demo:dexDebug
+:alertdialogpro-demo:validateDebugSigning
+:alertdialogpro-demo:packageDebug
+:alertdialogpro-demo:zipalignDebug
+:alertdialogpro-demo:assembleDebug
+:alertdialogpro-demo:checkReleaseManifest
+:alertdialogpro-demo:prepareReleaseDependencies
+:alertdialogpro-demo:compileReleaseAidl
+:alertdialogpro-demo:compileReleaseRenderscript
+:alertdialogpro-demo:generateReleaseBuildConfig
+:alertdialogpro-demo:generateReleaseAssets UP-TO-DATE
+:alertdialogpro-demo:mergeReleaseAssets
+:alertdialogpro-demo:generateReleaseResValues
+:alertdialogpro-demo:generateReleaseResources
+:alertdialogpro-demo:mergeReleaseResources
+:alertdialogpro-demo:processReleaseManifest
+:alertdialogpro-demo:processReleaseResources
+:alertdialogpro-demo:generateReleaseSources
+:alertdialogpro-demo:processReleaseJavaRes UP-TO-DATE
+:alertdialogpro-demo:compileReleaseJavaWithJavac
+:alertdialogpro-demo:compileReleaseNdk UP-TO-DATE
+:alertdialogpro-demo:compileReleaseSources
+:alertdialogpro-demo:preDexRelease
+:alertdialogpro-demo:dexRelease
+:alertdialogpro-demo:packageRelease
+:alertdialogpro-demo:assembleRelease
+:alertdialogpro-demo:assemble
+:alertdialogpro-demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 30.838 secs
+
+2018-05-11 14:45:52,471 INFO  FullProcessService - Found APK file: /tmp/rdisk/1178/src/AlertDialogPro-master/alertdialogpro-demo/build/outputs/apk/alertdialogpro-demo-release-unsigned.apk

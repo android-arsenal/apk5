@@ -1,0 +1,137 @@
+2018-05-22 07:55:41,720 INFO  DownloadService - Downloading "https://github.com/wada811/Android-Material-Design-Colors/archive/master.zip", attempt 3
+2018-05-22 07:55:44,223 INFO  DownloadService - Downloaded https://github.com/wada811/Android-Material-Design-Colors/archive/master.zip, attempt 3
+2018-05-22 07:55:44,224 INFO  DownloadService - Size of file "/tmp/rdisk/1231/master.zip": 2 MB
+2018-05-22 07:55:44,224 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-22 07:55:44,225 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1231/master.zip: true
+2018-05-22 07:55:44,225 DEBUG ZipUtil - Extracting '/tmp/rdisk/1231/master.zip' into '/tmp/rdisk/1231/src'.
+2018-05-22 07:55:44,286 INFO  FullProcessService - Size of directory with sources: 10 MB
+2018-05-22 07:55:44,286 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1231/src]
+2018-05-22 07:55:44,291 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1231/src/.git/
+
+2018-05-22 07:55:44,296 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/gradlew
+2018-05-22 07:55:44,300 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/build.gradle /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/sample/build.gradle /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/build.gradle
+2018-05-22 07:55:44,304 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/settings.gradle /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/sample/build.gradle /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/build.gradle /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/build.gradle
+2018-05-22 07:55:44,304 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 07:55:44,304 INFO  ProjectFixService - Fixing project...
+2018-05-22 07:55:44,313 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/local.properties
+2018-05-22 07:55:44,314 INFO  ProjectFixService - Build info for "/tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-05-22 07:55:44,315 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/sample/local.properties
+2018-05-22 07:55:44,316 INFO  ProjectFixService - Build info for "/tmp/rdisk/1231/src/Android-Material-Design-Colors-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-05-22 07:55:44,316 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/local.properties
+2018-05-22 07:55:44,316 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-05-22 07:55:44,317 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-05-22 07:55:44,317 INFO  ProjectFixService - Build info for "/tmp/rdisk/1231/src/Android-Material-Design-Colors-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-05-22 07:55:44,318 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 07:55:44,318 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 07:55:44,318 INFO  SysUtils - Execute command: [/tmp/rdisk/1231/src/Android-Material-Design-Colors-master/gradlew, -b, /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 07:55:51,973 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-22 07:55:51,973 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-22 07:55:51,973 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-22 07:55:51,973 INFO  SysUtils - Execute command: [/tmp/rdisk/1231/src/Android-Material-Design-Colors-master/gradlew, -b, /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-22 07:56:14,373 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:library:prepareComAndroidSupportAppcompatV72340Library
+:library:prepareComAndroidSupportSupportV42340Library
+:library:prepareComAndroidSupportSupportVectorDrawable2340Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:compileDebugJavaWithJavac
+:library:extractDebugAnnotations
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForDebug
+:library:transformNative_libsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:lint
+Ran lint on variant release: 258 issues found
+Ran lint on variant debug: 258 issues found
+Wrote HTML report to file:///tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/1231/src/Android-Material-Design-Colors-master/library/build/outputs/lint-results-debug.xml
+:library:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:library:prepareDebugUnitTestDependencies
+:library:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:library:processDebugUnitTestJavaRes UP-TO-DATE
+:library:compileDebugUnitTestSources UP-TO-DATE
+:library:mockableAndroidJar
+:library:assembleDebugUnitTest
+:library:testDebugUnitTest
+:library:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:library:prepareReleaseUnitTestDependencies
+:library:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:library:processReleaseUnitTestJavaRes UP-TO-DATE
+:library:compileReleaseUnitTestSources UP-TO-DATE
+:library:assembleReleaseUnitTest
+:library:testReleaseUnitTest
+:library:test
+:library:check
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.978 secs
+
+2018-05-22 07:56:14,422 INFO  FullProcessService - Found APK file: /tmp/rdisk/1231/src/Android-Material-Design-Colors-master/sample/release/apk/at.wada811.android.material.design.colors.sample_v1.2.1_r24.apk

@@ -1,0 +1,191 @@
+2018-04-08 06:17:37,841 INFO  DownloadService - Downloading "https://github.com/DeveloperPaul123/AnalogStickLibrary/archive/master.zip", attempt 3
+2018-04-08 06:18:38,290 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 06:18:38,952 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 06:18:38,952 INFO  DownloadService - Downloading "https://github.com/DeveloperPaul123/AnalogStickLibrary/archive/master.zip", attempt 3
+2018-04-08 06:19:40,144 DEBUG FullProcessService - Repository https://github.com/DeveloperPaul123/AnalogStickLibrary available: true
+2018-04-08 06:19:40,144 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 06:19:40,144 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DeveloperPaul123/AnalogStickLibrary, /tmp/rdisk/1049/src]
+2018-04-08 06:19:42,649 INFO  SysUtils - 
+2018-04-08 06:19:42,654 INFO  GitService - Deleted "/tmp/rdisk/1049/src/.git": true
+2018-04-08 06:19:42,657 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-08 06:19:42,657 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1049/src]
+2018-04-08 06:19:42,661 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1049/src/.git/
+
+2018-04-08 06:19:42,668 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1049/src/gradlew
+2018-04-08 06:19:42,673 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1049/src/analogsticklib/build.gradle /tmp/rdisk/1049/src/app/build.gradle /tmp/rdisk/1049/src/build.gradle
+2018-04-08 06:19:42,676 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1049/src/settings.gradle /tmp/rdisk/1049/src/maven_push.gradle /tmp/rdisk/1049/src/build.gradle /tmp/rdisk/1049/src/app/build.gradle /tmp/rdisk/1049/src/analogsticklib/build.gradle
+2018-04-08 06:19:42,676 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 06:19:42,677 INFO  ProjectFixService - Fixing project...
+2018-04-08 06:19:42,688 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1049/src/analogsticklib/local.properties
+2018-04-08 06:19:42,689 INFO  ProjectFixService - Build info for "/tmp/rdisk/1049/src/analogsticklib/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2018-04-08 06:19:42,689 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1049/src/app/local.properties
+2018-04-08 06:19:42,689 INFO  ProjectFixService - Build info for "/tmp/rdisk/1049/src/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-08 06:19:42,690 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1049/src/local.properties
+2018-04-08 06:19:42,690 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-08 06:19:42,690 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-08 06:19:42,692 INFO  ProjectFixService - Build info for "/tmp/rdisk/1049/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-08 06:19:42,692 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 06:19:42,692 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 06:19:42,692 INFO  SysUtils - Execute command: [/tmp/rdisk/1049/src/gradlew, -b, /tmp/rdisk/1049/src/analogsticklib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 06:19:54,007 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-08 06:19:54,007 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 06:19:54,008 INFO  SysUtils - Execute command: [/tmp/rdisk/1049/src/gradlew, -b, /tmp/rdisk/1049/src/analogsticklib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 06:20:02,636 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:analogsticklib:preBuild UP-TO-DATE
+:analogsticklib:preDebugBuild UP-TO-DATE
+:analogsticklib:compileDebugNdk UP-TO-DATE
+:analogsticklib:compileLint
+:analogsticklib:copyDebugLint UP-TO-DATE
+:analogsticklib:mergeDebugProguardFiles
+:analogsticklib:packageDebugRenderscript UP-TO-DATE
+:analogsticklib:checkDebugManifest
+:analogsticklib:prepareDebugDependencies
+:analogsticklib:compileDebugRenderscript
+:analogsticklib:generateDebugResValues
+:analogsticklib:generateDebugResources
+:analogsticklib:packageDebugResources
+:analogsticklib:compileDebugAidl
+:analogsticklib:generateDebugBuildConfig
+:analogsticklib:mergeDebugShaders
+:analogsticklib:compileDebugShaders
+:analogsticklib:generateDebugAssets
+:analogsticklib:mergeDebugAssets
+:analogsticklib:processDebugManifest
+:analogsticklib:processDebugResources
+:analogsticklib:generateDebugSources
+:analogsticklib:incrementalDebugJavaCompilationSafeguard
+:analogsticklib:compileDebugJavaWithJavac
+:analogsticklib:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1049/src/analogsticklib/src/main/java/com/devpaul/analogsticklib/AnalogStick.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:analogsticklib:processDebugJavaRes UP-TO-DATE
+:analogsticklib:transformResourcesWithMergeJavaResForDebug
+:analogsticklib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:analogsticklib:mergeDebugJniLibFolders
+:analogsticklib:transformNative_libsWithMergeJniLibsForDebug
+:analogsticklib:transformNative_libsWithSyncJniLibsForDebug
+:analogsticklib:bundleDebug
+:analogsticklib:compileDebugSources
+:analogsticklib:assembleDebug
+:analogsticklib:preReleaseBuild UP-TO-DATE
+:analogsticklib:compileReleaseNdk UP-TO-DATE
+:analogsticklib:copyReleaseLint UP-TO-DATE
+:analogsticklib:mergeReleaseProguardFiles
+:analogsticklib:packageReleaseRenderscript UP-TO-DATE
+:analogsticklib:checkReleaseManifest
+:analogsticklib:prepareReleaseDependencies
+:analogsticklib:compileReleaseRenderscript
+:analogsticklib:generateReleaseResValues
+:analogsticklib:generateReleaseResources
+:analogsticklib:packageReleaseResources
+:analogsticklib:compileReleaseAidl
+:analogsticklib:generateReleaseBuildConfig
+:analogsticklib:mergeReleaseShaders
+:analogsticklib:compileReleaseShaders
+:analogsticklib:generateReleaseAssets
+:analogsticklib:mergeReleaseAssets
+:analogsticklib:processReleaseManifest
+:analogsticklib:processReleaseResources
+:analogsticklib:generateReleaseSources
+:analogsticklib:incrementalReleaseJavaCompilationSafeguard
+:analogsticklib:compileReleaseJavaWithJavac
+:analogsticklib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1049/src/analogsticklib/src/main/java/com/devpaul/analogsticklib/AnalogStick.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:analogsticklib:processReleaseJavaRes UP-TO-DATE
+:analogsticklib:transformResourcesWithMergeJavaResForRelease
+:analogsticklib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:analogsticklib:mergeReleaseJniLibFolders
+:analogsticklib:transformNative_libsWithMergeJniLibsForRelease
+:analogsticklib:transformNative_libsWithSyncJniLibsForRelease
+:analogsticklib:bundleRelease
+:analogsticklib:compileReleaseSources
+:analogsticklib:assembleRelease
+:analogsticklib:assemble
+:analogsticklib:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.182 secs
+
+2018-04-08 06:20:02,645 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 06:20:02,645 INFO  SysUtils - Execute command: [/tmp/rdisk/1049/src/gradlew, -b, /tmp/rdisk/1049/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 06:20:09,829 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-04-08 06:20:09,829 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 06:20:09,830 INFO  SysUtils - Execute command: [/tmp/rdisk/1049/src/gradlew, -b, /tmp/rdisk/1049/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 06:20:22,269 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComGithubDeveloperPaul123AnalogStickLibrary100Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithDexForDebug
+Running dex in-process requires build tools 23.0.2.
+For faster builds update this project to use the latest build tools.
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:prePackageMarkerForRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.007 secs
+
+2018-04-08 06:20:22,285 INFO  FullProcessService - Found APK file: /tmp/rdisk/1049/src/app/build/outputs/apk/app-debug.apk

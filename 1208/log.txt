@@ -1,0 +1,124 @@
+2018-05-22 08:42:27,285 INFO  DownloadService - Downloading "https://github.com/zeapo/Android-Password-Store/archive/master.zip", attempt 3
+2018-05-22 08:43:27,286 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 08:43:28,205 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 08:43:28,205 INFO  DownloadService - Downloading "https://github.com/zeapo/Android-Password-Store/archive/master.zip", attempt 3
+2018-05-22 08:44:29,146 DEBUG FullProcessService - Repository https://github.com/zeapo/Android-Password-Store available: true
+2018-05-22 08:44:29,147 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 08:44:29,147 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/zeapo/Android-Password-Store, /tmp/rdisk/1208/src]
+2018-05-22 08:44:37,718 INFO  SysUtils - 
+2018-05-22 08:44:37,725 INFO  GitService - Deleted "/tmp/rdisk/1208/src/.git": true
+2018-05-22 08:44:37,732 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-05-22 08:44:37,732 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1208/src]
+2018-05-22 08:44:37,737 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1208/src/.git/
+
+2018-05-22 08:44:37,743 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1208/src/gradlew
+2018-05-22 08:44:37,748 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1208/src/app/build.gradle /tmp/rdisk/1208/src/build.gradle
+2018-05-22 08:44:37,753 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1208/src/settings.gradle /tmp/rdisk/1208/src/build.gradle /tmp/rdisk/1208/src/app/build.gradle
+2018-05-22 08:44:37,753 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 08:44:37,753 INFO  ProjectFixService - Fixing project...
+2018-05-22 08:44:37,764 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1208/src/app/local.properties
+2018-05-22 08:44:37,765 INFO  ProjectFixService - Build info for "/tmp/rdisk/1208/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-22 08:44:37,765 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1208/src/local.properties
+2018-05-22 08:44:37,765 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-05-22 08:44:37,766 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-05-22 08:44:37,767 INFO  ProjectFixService - Build info for "/tmp/rdisk/1208/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-22 08:44:37,767 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 08:44:37,767 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 08:44:37,767 INFO  SysUtils - Execute command: [/tmp/rdisk/1208/src/gradlew, -b, /tmp/rdisk/1208/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 08:44:46,637 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-05-22 08:44:46,638 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-22 08:44:46,638 INFO  SysUtils - Execute command: [/tmp/rdisk/1208/src/gradlew, -b, /tmp/rdisk/1208/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-22 08:46:07,217 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:compileDebugKotlin
+Using Kotlin incremental compilation
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1208/src/app/src/main/java/com/zeapo/pwdstore/utils/PasswordRepository.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:compileReleaseKotlin
+Using Kotlin incremental compilation
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1208/src/app/src/main/java/com/zeapo/pwdstore/utils/PasswordRepository.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 19s
+55 actionable tasks: 55 executed
+
+2018-05-22 08:46:07,288 INFO  FullProcessService - Found APK file: /tmp/rdisk/1208/src/app/build/outputs/apk/debug/app-debug.apk

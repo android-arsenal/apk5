@@ -1,0 +1,116 @@
+2018-04-08 06:00:36,013 INFO  DownloadService - Downloading "https://github.com/ygorbarboza/AKParallax-Android/archive/master.zip", attempt 3
+2018-04-08 06:01:36,600 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 06:01:37,244 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 06:01:37,244 INFO  DownloadService - Downloading "https://github.com/ygorbarboza/AKParallax-Android/archive/master.zip", attempt 3
+2018-04-08 06:02:38,456 DEBUG FullProcessService - Repository https://github.com/ygorbarboza/AKParallax-Android available: true
+2018-04-08 06:02:38,456 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 06:02:38,456 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ygorbarboza/AKParallax-Android, /tmp/rdisk/1056/src]
+2018-04-08 06:02:44,364 INFO  SysUtils - 
+2018-04-08 06:02:44,380 INFO  GitService - Deleted "/tmp/rdisk/1056/src/.git": true
+2018-04-08 06:02:44,383 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-04-08 06:02:44,383 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1056/src]
+2018-04-08 06:02:44,387 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1056/src/.git/
+
+2018-04-08 06:02:44,390 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1056/src/gradlew
+2018-04-08 06:02:44,393 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1056/src/Parallax-Sample/build.gradle /tmp/rdisk/1056/src/Parallax/build.gradle /tmp/rdisk/1056/src/build.gradle
+2018-04-08 06:02:44,395 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1056/src/settings.gradle /tmp/rdisk/1056/src/build.gradle /tmp/rdisk/1056/src/Parallax/build.gradle /tmp/rdisk/1056/src/Parallax-Sample/build.gradle
+2018-04-08 06:02:44,395 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 06:02:44,395 INFO  ProjectFixService - Fixing project...
+2018-04-08 06:02:44,400 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1056/src/Parallax-Sample/local.properties
+2018-04-08 06:02:44,401 INFO  ProjectFixService - Build info for "/tmp/rdisk/1056/src/Parallax-Sample/build.gradle": [buildToolsVersion=19.0.0,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-08 06:02:44,402 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1056/src/Parallax-Sample/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-04-08 06:02:44,402 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1056/src/Parallax/local.properties
+2018-04-08 06:02:44,403 INFO  ProjectFixService - Build info for "/tmp/rdisk/1056/src/Parallax/build.gradle": [buildToolsVersion=19.0.0,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-08 06:02:44,403 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1056/src/Parallax/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-04-08 06:02:44,404 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1056/src/local.properties
+2018-04-08 06:02:44,404 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.11-all.zip
+2018-04-08 06:02:44,404 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.11-bin.zip)
+2018-04-08 06:02:44,405 INFO  ProjectFixService - Build info for "/tmp/rdisk/1056/src/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-08 06:02:44,405 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1056/src/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-04-08 06:02:44,406 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 06:02:44,406 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 06:02:44,406 INFO  SysUtils - Execute command: [/tmp/rdisk/1056/src/gradlew, -b, /tmp/rdisk/1056/src/Parallax-Sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 06:02:56,491 INFO  ProjectTaskService - Detected possible tasks: 49
+2018-04-08 06:02:56,491 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 06:02:56,491 INFO  SysUtils - Execute command: [/tmp/rdisk/1056/src/gradlew, -b, /tmp/rdisk/1056/src/Parallax-Sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 06:03:37,695 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:Parallax-Sample:compileDebugNdk
+:Parallax:compileLint
+:Parallax:copyReleaseLint UP-TO-DATE
+:Parallax:mergeReleaseProguardFiles
+:Parallax:packageReleaseAidl UP-TO-DATE
+:Parallax:preBuild
+:Parallax:preReleaseBuild
+:Parallax:checkReleaseManifest
+:Parallax:prepareReleaseDependencies
+:Parallax:compileReleaseAidl
+:Parallax:compileReleaseRenderscript
+:Parallax:generateReleaseBuildConfig
+:Parallax:mergeReleaseAssets
+:Parallax:generateReleaseResValues
+:Parallax:generateReleaseResources
+:Parallax:packageReleaseResources
+:Parallax:processReleaseManifest
+:Parallax:processReleaseResources
+:Parallax:generateReleaseSources
+:Parallax:compileReleaseJava
+:Parallax:processReleaseJavaRes UP-TO-DATE
+:Parallax:packageReleaseJar
+:Parallax:compileReleaseNdk
+:Parallax:packageReleaseJniLibs UP-TO-DATE
+:Parallax:packageReleaseLocalJar UP-TO-DATE
+:Parallax:packageReleaseRenderscript UP-TO-DATE
+:Parallax:bundleRelease
+:Parallax-Sample:preBuild
+:Parallax-Sample:preDebugBuild
+:Parallax-Sample:checkDebugManifest
+:Parallax-Sample:preReleaseBuild
+:Parallax-Sample:prepareComAndroidSupportAppcompatV71910Library
+:Parallax-Sample:prepareSrcParallaxUnspecifiedLibrary
+:Parallax-Sample:prepareDebugDependencies
+:Parallax-Sample:compileDebugAidl
+:Parallax-Sample:compileDebugRenderscript
+:Parallax-Sample:generateDebugBuildConfig
+:Parallax-Sample:mergeDebugAssets
+:Parallax-Sample:generateDebugResValues
+:Parallax-Sample:generateDebugResources
+:Parallax-Sample:mergeDebugResources
+:Parallax-Sample:processDebugManifest
+:Parallax-Sample:processDebugResources
+:Parallax-Sample:generateDebugSources
+:Parallax-Sample:compileDebugJava
+:Parallax-Sample:preDexDebug
+:Parallax-Sample:dexDebug
+:Parallax-Sample:processDebugJavaRes UP-TO-DATE
+:Parallax-Sample:validateDebugSigning
+:Parallax-Sample:packageDebug
+:Parallax-Sample:assembleDebug
+:Parallax-Sample:checkReleaseManifest
+:Parallax-Sample:prepareReleaseDependencies
+:Parallax-Sample:compileReleaseAidl
+:Parallax-Sample:compileReleaseRenderscript
+:Parallax-Sample:generateReleaseBuildConfig
+:Parallax-Sample:mergeReleaseAssets
+:Parallax-Sample:generateReleaseResValues
+:Parallax-Sample:generateReleaseResources
+:Parallax-Sample:mergeReleaseResources
+:Parallax-Sample:processReleaseManifest
+:Parallax-Sample:processReleaseResources
+:Parallax-Sample:generateReleaseSources
+:Parallax-Sample:compileReleaseJava
+:Parallax-Sample:lintVitalRelease
+:Parallax-Sample:compileReleaseNdk
+:Parallax-Sample:preDexRelease
+:Parallax-Sample:dexRelease
+:Parallax-Sample:processReleaseJavaRes UP-TO-DATE
+:Parallax-Sample:packageRelease
+:Parallax-Sample:assembleRelease
+:Parallax-Sample:assemble
+:Parallax-Sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 40.785 secs
+
+2018-04-08 06:03:37,729 INFO  FullProcessService - Found APK file: /tmp/rdisk/1056/src/Parallax-Sample/build/apk/Parallax-Sample-release-unsigned.apk

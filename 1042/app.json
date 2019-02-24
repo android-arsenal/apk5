@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.ikimuhendis.ldrawer.sample",
+    "label" : "LDrawer Sample App",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "20",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAe1BMVEUAAAC/NgzBPhXPaEnQa0vCPhbIUzD89fP//v789vPJVTHIUy/78e/++/r78u/JVDDBOxLKWDXKWjfBOxPBPRTNYkLOZUTOZETBPRX78vD++/v78/DOZEPOZkXKWDTKWTb78e79+vn68e789fT////89vTPaUrQa03QbE0LzgmGAAAAKXRSTlMA/////////////////////////////////////////////////////0LHzqgAAACHSURBVEjHY2AYlICRaDCqYVQDjTQwMbNgBcysODSwsXNgBZxcODRw8/BiBXz8ODQICAphBYLCAxZKIqJiCCCOAKISuDwtKYUVSPNTS4OEjCxWICMxYKEkICePFcgJ4PK0giJWoITL02zKKliBKq7Ex6SmjgAaIKwBwhpqrKOFwKiGwaJhkAEASGwhn3MAytAAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 650,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0\" package=\"com.ikimuhendis.ldrawer.sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"20\" />\n\t<application android:theme=\"resourceId:0x7f070002\" android:label=\"LDrawer Sample App\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"LDrawer Sample App\" android:name=\"com.ikimuhendis.ldrawer.sample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 287659,
+  "crc32" : 1180576776,
+  "sha256" : "1b496f6c787f5aabbb60d0c80877ff2ce55679303ae6872785f58cdbf81bb3f9",
+  "buildTime" : 1526052628000
+}

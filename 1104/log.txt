@@ -1,0 +1,21 @@
+2018-04-08 03:58:12,791 INFO  DownloadService - Downloading "https://github.com/mttkay/droid-fu/archive/master.zip", attempt 3
+2018-04-08 03:59:13,242 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 03:59:13,915 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 03:59:13,915 INFO  DownloadService - Downloading "https://github.com/mttkay/droid-fu/archive/master.zip", attempt 3
+2018-04-08 04:00:15,243 DEBUG FullProcessService - Repository https://github.com/mttkay/droid-fu available: true
+2018-04-08 04:00:15,243 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 04:00:15,244 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mttkay/droid-fu, /tmp/rdisk/1104/src]
+2018-04-08 04:00:18,638 INFO  SysUtils - 
+2018-04-08 04:00:18,642 INFO  GitService - Deleted "/tmp/rdisk/1104/src/.git": true
+2018-04-08 04:00:18,645 INFO  FullProcessService - Size of directory with sources: 435 KB
+2018-04-08 04:00:18,646 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1104/src]
+2018-04-08 04:00:18,650 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1104/src/.git/
+
+2018-04-08 04:00:18,652 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 04:00:18,653 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 04:00:18,655 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 04:00:18,658 INFO  ProjectBuildService - All script(s): none
+2018-04-08 04:00:18,658 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 04:00:18,658 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 04:00:18,658 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 04:00:18,660 ERROR FullProcessService - Could not find generated or existed APK file

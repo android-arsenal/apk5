@@ -1,0 +1,194 @@
+2018-04-08 07:02:30,904 INFO  DownloadService - Downloading "https://github.com/androidsx/rate-me/archive/master.zip", attempt 3
+2018-04-08 07:03:31,365 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 07:03:32,039 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 07:03:32,039 INFO  DownloadService - Downloading "https://github.com/androidsx/rate-me/archive/master.zip", attempt 3
+2018-04-08 07:04:33,268 DEBUG FullProcessService - Repository https://github.com/androidsx/rate-me available: true
+2018-04-08 07:04:33,268 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 07:04:33,268 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/androidsx/rate-me, /tmp/rdisk/1032/src]
+2018-04-08 07:04:36,933 INFO  SysUtils - 
+2018-04-08 07:04:36,949 INFO  GitService - Deleted "/tmp/rdisk/1032/src/.git": true
+2018-04-08 07:04:36,951 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-08 07:04:36,951 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1032/src]
+2018-04-08 07:04:36,956 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1032/src/.git/
+
+2018-04-08 07:04:36,958 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1032/src/gradlew
+2018-04-08 07:04:36,961 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1032/src/LibraryRateMe/build.gradle /tmp/rdisk/1032/src/SampleProject/build.gradle /tmp/rdisk/1032/src/build.gradle
+2018-04-08 07:04:36,963 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1032/src/settings.gradle /tmp/rdisk/1032/src/maven_push.gradle /tmp/rdisk/1032/src/build.gradle /tmp/rdisk/1032/src/SampleProject/build.gradle /tmp/rdisk/1032/src/LibraryRateMe/build.gradle
+2018-04-08 07:04:36,963 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 07:04:36,963 INFO  ProjectFixService - Fixing project...
+2018-04-08 07:04:36,970 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1032/src/LibraryRateMe/local.properties
+2018-04-08 07:04:36,970 INFO  ProjectFixService - Build info for "/tmp/rdisk/1032/src/LibraryRateMe/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=11,targetSdkVersion=22]
+2018-04-08 07:04:36,970 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1032/src/SampleProject/local.properties
+2018-04-08 07:04:36,970 INFO  ProjectFixService - Build info for "/tmp/rdisk/1032/src/SampleProject/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-08 07:04:36,971 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1032/src/local.properties
+2018-04-08 07:04:36,971 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-08 07:04:36,971 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-08 07:04:36,973 INFO  ProjectFixService - Build info for "/tmp/rdisk/1032/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-08 07:04:36,973 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 07:04:36,973 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 07:04:36,973 INFO  SysUtils - Execute command: [/tmp/rdisk/1032/src/gradlew, -b, /tmp/rdisk/1032/src/LibraryRateMe/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 07:04:50,640 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-04-08 07:04:50,640 INFO  ProjectTaskService - Excluded tasks (15): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2018-04-08 07:04:50,640 INFO  SysUtils - Execute command: [/tmp/rdisk/1032/src/gradlew, -b, /tmp/rdisk/1032/src/LibraryRateMe/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-04-08 07:04:58,575 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:LibraryRateMe:androidJavadocsJar
+:LibraryRateMe:androidSourcesJar
+:LibraryRateMe:compileLint
+:LibraryRateMe:copyDebugLint UP-TO-DATE
+:LibraryRateMe:mergeDebugProguardFiles
+:LibraryRateMe:preBuild UP-TO-DATE
+:LibraryRateMe:preDebugBuild UP-TO-DATE
+:LibraryRateMe:checkDebugManifest
+:LibraryRateMe:prepareDebugDependencies
+:LibraryRateMe:compileDebugAidl
+:LibraryRateMe:compileDebugRenderscript
+:LibraryRateMe:generateDebugBuildConfig
+:LibraryRateMe:generateDebugAssets UP-TO-DATE
+:LibraryRateMe:mergeDebugAssets
+:LibraryRateMe:generateDebugResValues
+:LibraryRateMe:generateDebugResources
+:LibraryRateMe:packageDebugResources
+:LibraryRateMe:processDebugManifest
+:LibraryRateMe:processDebugResources
+:LibraryRateMe:generateDebugSources
+:LibraryRateMe:compileDebugJavaNote: /tmp/rdisk/1032/src/LibraryRateMe/src/com/androidsx/rateme/RateMeDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:LibraryRateMe:processDebugJavaRes UP-TO-DATE
+:LibraryRateMe:packageDebugJar
+:LibraryRateMe:compileDebugNdk UP-TO-DATE
+:LibraryRateMe:packageDebugJniLibs UP-TO-DATE
+:LibraryRateMe:packageDebugLocalJar UP-TO-DATE
+:LibraryRateMe:packageDebugRenderscript UP-TO-DATE
+:LibraryRateMe:bundleDebug
+:LibraryRateMe:assembleDebug
+:LibraryRateMe:copyReleaseLint UP-TO-DATE
+:LibraryRateMe:mergeReleaseProguardFiles
+:LibraryRateMe:preReleaseBuild UP-TO-DATE
+:LibraryRateMe:checkReleaseManifest
+:LibraryRateMe:prepareReleaseDependencies
+:LibraryRateMe:compileReleaseAidl
+:LibraryRateMe:compileReleaseRenderscript
+:LibraryRateMe:generateReleaseBuildConfig
+:LibraryRateMe:generateReleaseAssets UP-TO-DATE
+:LibraryRateMe:mergeReleaseAssets
+:LibraryRateMe:generateReleaseResValues
+:LibraryRateMe:generateReleaseResources
+:LibraryRateMe:packageReleaseResources
+:LibraryRateMe:processReleaseManifest
+:LibraryRateMe:processReleaseResources
+:LibraryRateMe:generateReleaseSources
+:LibraryRateMe:compileReleaseJavaNote: /tmp/rdisk/1032/src/LibraryRateMe/src/com/androidsx/rateme/RateMeDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:LibraryRateMe:processReleaseJavaRes UP-TO-DATE
+:LibraryRateMe:packageReleaseJar
+:LibraryRateMe:compileReleaseNdk UP-TO-DATE
+:LibraryRateMe:packageReleaseJniLibs UP-TO-DATE
+:LibraryRateMe:packageReleaseLocalJar UP-TO-DATE
+:LibraryRateMe:packageReleaseRenderscript UP-TO-DATE
+:LibraryRateMe:bundleRelease
+:LibraryRateMe:assembleRelease
+:LibraryRateMe:signArchives SKIPPED
+:LibraryRateMe:assemble
+:LibraryRateMe:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.503 secs
+
+2018-04-08 07:04:58,582 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 07:04:58,582 INFO  SysUtils - Execute command: [/tmp/rdisk/1032/src/gradlew, -b, /tmp/rdisk/1032/src/SampleProject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 07:05:05,158 INFO  ProjectTaskService - Detected possible tasks: 60
+2018-04-08 07:05:05,158 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-08 07:05:05,158 INFO  SysUtils - Execute command: [/tmp/rdisk/1032/src/gradlew, -b, /tmp/rdisk/1032/src/SampleProject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-08 07:05:28,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:SampleProject:preBuild UP-TO-DATE
+:SampleProject:preDebugBuild UP-TO-DATE
+:SampleProject:compileDebugNdk UP-TO-DATE
+:LibraryRateMe:compileLint
+:LibraryRateMe:copyReleaseLint UP-TO-DATE
+:LibraryRateMe:mergeReleaseProguardFiles UP-TO-DATE
+:LibraryRateMe:preBuild UP-TO-DATE
+:LibraryRateMe:preReleaseBuild UP-TO-DATE
+:LibraryRateMe:checkReleaseManifest
+:LibraryRateMe:prepareReleaseDependencies
+:LibraryRateMe:compileReleaseAidl UP-TO-DATE
+:LibraryRateMe:compileReleaseRenderscript UP-TO-DATE
+:LibraryRateMe:generateReleaseBuildConfig UP-TO-DATE
+:LibraryRateMe:generateReleaseAssets UP-TO-DATE
+:LibraryRateMe:mergeReleaseAssets UP-TO-DATE
+:LibraryRateMe:generateReleaseResValues UP-TO-DATE
+:LibraryRateMe:generateReleaseResources UP-TO-DATE
+:LibraryRateMe:packageReleaseResources UP-TO-DATE
+:LibraryRateMe:processReleaseManifest UP-TO-DATE
+:LibraryRateMe:processReleaseResources UP-TO-DATE
+:LibraryRateMe:generateReleaseSources UP-TO-DATE
+:LibraryRateMe:compileReleaseJava UP-TO-DATE
+:LibraryRateMe:processReleaseJavaRes UP-TO-DATE
+:LibraryRateMe:packageReleaseJar UP-TO-DATE
+:LibraryRateMe:compileReleaseNdk UP-TO-DATE
+:LibraryRateMe:packageReleaseJniLibs UP-TO-DATE
+:LibraryRateMe:packageReleaseLocalJar UP-TO-DATE
+:LibraryRateMe:packageReleaseRenderscript UP-TO-DATE
+:LibraryRateMe:bundleRelease UP-TO-DATE
+:SampleProject:checkDebugManifest
+:SampleProject:preReleaseBuild UP-TO-DATE
+:SampleProject:prepareComAndroidSupportAppcompatV72220Library
+:SampleProject:prepareComAndroidSupportSupportV42220Library
+:SampleProject:prepareComAndroidsxLibraryRateMe403Library
+:SampleProject:prepareDebugDependencies
+:SampleProject:compileDebugAidl
+:SampleProject:compileDebugRenderscript
+:SampleProject:generateDebugBuildConfig
+:SampleProject:generateDebugAssets UP-TO-DATE
+:SampleProject:mergeDebugAssets
+:SampleProject:generateDebugResValues
+:SampleProject:generateDebugResources
+:SampleProject:mergeDebugResources
+:SampleProject:processDebugManifest
+:SampleProject:processDebugResources
+:SampleProject:generateDebugSources
+:SampleProject:compileDebugJavaNote: /tmp/rdisk/1032/src/SampleProject/src/com/androidsx/rateme/demo1/SampleProjectMainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:SampleProject:preDexDebug
+:SampleProject:dexDebug
+:SampleProject:processDebugJavaRes UP-TO-DATE
+:SampleProject:validateDebugSigning
+:SampleProject:packageDebug
+:SampleProject:zipalignDebug
+:SampleProject:assembleDebug
+:SampleProject:checkReleaseManifest
+:SampleProject:prepareReleaseDependencies
+:SampleProject:compileReleaseAidl
+:SampleProject:compileReleaseRenderscript
+:SampleProject:generateReleaseBuildConfig
+:SampleProject:generateReleaseAssets UP-TO-DATE
+:SampleProject:mergeReleaseAssets
+:SampleProject:generateReleaseResValues
+:SampleProject:generateReleaseResources
+:SampleProject:mergeReleaseResources
+:SampleProject:processReleaseManifest
+:SampleProject:processReleaseResources
+:SampleProject:generateReleaseSources
+:SampleProject:compileReleaseJavaNote: /tmp/rdisk/1032/src/SampleProject/src/com/androidsx/rateme/demo1/SampleProjectMainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:SampleProject:lintVitalRelease
+:SampleProject:compileReleaseNdk UP-TO-DATE
+:SampleProject:preDexRelease
+:SampleProject:dexRelease
+:SampleProject:processReleaseJavaRes UP-TO-DATE
+:SampleProject:packageRelease
+:SampleProject:assembleRelease
+:SampleProject:assemble
+:SampleProject:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.045 secs
+
+2018-04-08 07:05:28,657 INFO  FullProcessService - Found APK file: /tmp/rdisk/1032/src/SampleProject/build/outputs/apk/SampleProject-release-unsigned.apk

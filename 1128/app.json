@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.kpbird.chipsedittextdemo",
+    "label" : "ChipsEditTextDemo",
+    "icon" : "res/drawable-mdpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "14",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 333,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.kpbird.chipsedittextdemo\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"14\" />\n\t<application android:theme=\"resourceId:0x7f050001\" android:label=\"ChipsEditTextDemo\" android:icon=\"res/drawable-mdpi/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"ChipsEditTextDemo\" android:name=\"com.kpbird.chipsedittextdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 212209,
+  "crc32" : 3886233097,
+  "sha256" : "e2911b902e5305c9baf69b05e2c647f36c7fc61fb96671e5fcb79e956719cca0",
+  "buildTime" : 1523156615000
+}

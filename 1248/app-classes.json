@@ -1,0 +1,4 @@
+{
+  "com.commonsware.cwac.provider" : [ "AFDStrategy", "AbstractPipeStrategy", "AbstractPipeStrategy$TransferOutThread", "AssetStrategy", "BuildConfig", "CompositeStreamStrategy", "LegacyCompatCursorWrapper", "LocalPathStrategy", "R", "RawResourceStrategy", "StreamProvider", "StreamStrategy" ],
+  "com.commonsware.cwac.provider.demo" : [ "BuildConfig", "MainActivity", "R", "R$array", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "R$xml" ]
+}

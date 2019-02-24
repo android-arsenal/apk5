@@ -1,0 +1,1486 @@
+2018-05-11 15:02:49,879 INFO  DownloadService - Downloading "https://github.com/Raizlabs/DBFlow/archive/master.zip", attempt 3
+2018-05-11 15:03:50,373 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-11 15:03:51,087 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-11 15:03:51,088 INFO  DownloadService - Downloading "https://github.com/Raizlabs/DBFlow/archive/master.zip", attempt 3
+2018-05-11 15:04:52,542 DEBUG FullProcessService - Repository https://github.com/Raizlabs/DBFlow available: true
+2018-05-11 15:04:52,542 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-11 15:04:52,542 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Raizlabs/DBFlow, /tmp/rdisk/1134/src]
+2018-05-11 15:04:54,701 INFO  SysUtils - 
+2018-05-11 15:04:54,713 INFO  GitService - Deleted "/tmp/rdisk/1134/src/.git": true
+2018-05-11 15:04:54,729 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-11 15:04:54,729 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1134/src]
+2018-05-11 15:04:54,734 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1134/src/.git/
+
+2018-05-11 15:04:54,745 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1134/src/gradlew
+2018-05-11 15:04:54,757 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1134/src/dbflow-kotlinextensions/build.gradle /tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/build.gradle /tmp/rdisk/1134/src/dbflow-rx/build.gradle /tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/build.gradle /tmp/rdisk/1134/src/dbflow-rx2/build.gradle /tmp/rdisk/1134/src/dbflow-sqlcipher/build.gradle /tmp/rdisk/1134/src/dbflow-tests/build.gradle /tmp/rdisk/1134/src/dbflow/build.gradle /tmp/rdisk/1134/src/build.gradle /tmp/rdisk/1134/src/dbflow-core/build.gradle /tmp/rdisk/1134/src/dbflow-processor/build.gradle
+2018-05-11 15:04:54,768 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1134/src/settings.gradle /tmp/rdisk/1134/src/kotlin-artifacts.gradle /tmp/rdisk/1134/src/java-artifacts.gradle /tmp/rdisk/1134/src/dbflow/settings.gradle /tmp/rdisk/1134/src/dbflow/build.gradle /tmp/rdisk/1134/src/dbflow-tests/build.gradle /tmp/rdisk/1134/src/dbflow-sqlcipher/settings.gradle /tmp/rdisk/1134/src/dbflow-sqlcipher/build.gradle /tmp/rdisk/1134/src/dbflow-rx2/build.gradle /tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/build.gradle /tmp/rdisk/1134/src/dbflow-rx/build.gradle /tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/build.gradle /tmp/rdisk/1134/src/dbflow-processor/build.gradle /tmp/rdisk/1134/src/dbflow-kotlinextensions/build.gradle /tmp/rdisk/1134/src/dbflow-core/build.gradle /tmp/rdisk/1134/src/build.gradle /tmp/rdisk/1134/src/bintray_upload.gradle /tmp/rdisk/1134/src/android-artifacts.gradle
+2018-05-11 15:04:54,770 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 15:04:54,770 INFO  ProjectFixService - Fixing project...
+2018-05-11 15:04:54,799 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-kotlinextensions/local.properties
+2018-05-11 15:04:54,810 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-kotlinextensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,810 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-kotlinextensions/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,811 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/local.properties
+2018-05-11 15:04:54,816 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,816 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,816 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-rx/local.properties
+2018-05-11 15:04:54,821 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,821 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-rx/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,821 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/local.properties
+2018-05-11 15:04:54,826 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,827 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,827 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-rx2/local.properties
+2018-05-11 15:04:54,832 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-rx2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,832 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-rx2/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,832 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-sqlcipher/local.properties
+2018-05-11 15:04:54,836 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-sqlcipher/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=7,targetSdkVersion=26]
+2018-05-11 15:04:54,836 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-sqlcipher/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=7,targetSdkVersion=26]
+2018-05-11 15:04:54,836 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-tests/local.properties
+2018-05-11 15:04:54,839 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-tests/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,839 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-tests/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,840 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow/local.properties
+2018-05-11 15:04:54,845 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,845 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,845 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/local.properties
+2018-05-11 15:04:54,846 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-05-11 15:04:54,846 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-05-11 15:04:54,851 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,851 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,851 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-core/local.properties
+2018-05-11 15:04:54,856 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,856 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-core/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,857 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1134/src/dbflow-processor/local.properties
+2018-05-11 15:04:54,861 INFO  ProjectFixService - Build info for "/tmp/rdisk/1134/src/dbflow-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,862 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1134/src/dbflow-processor/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-05-11 15:04:54,862 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 15:04:54,862 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:04:54,862 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-kotlinextensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:05:03,499 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-05-11 15:05:03,499 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-11 15:05:03,499 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-kotlinextensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 15:05:31,195 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dbflow:preBuild UP-TO-DATE
+:dbflow:preDebugBuild UP-TO-DATE
+:dbflow:compileDebugAidl
+:dbflow-kotlinextensions:preBuild UP-TO-DATE
+:dbflow-kotlinextensions:preDebugBuild UP-TO-DATE
+:dbflow-kotlinextensions:compileDebugAidl
+:dbflow-kotlinextensions:compileDebugNdk NO-SOURCE
+:dbflow:compileDebugRenderscript
+:dbflow:checkDebugManifest
+:dbflow:generateDebugBuildConfig
+:dbflow:prepareLintJar
+:dbflow:generateDebugResValues
+:dbflow:generateDebugResources
+:dbflow:packageDebugResources
+:dbflow:platformAttrExtractor
+:dbflow:processDebugManifest
+:dbflow-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:dbflow-core:processResources NO-SOURCE
+:dbflow-core:classes
+:dbflow-core:jar
+:dbflow:javaPreCompileDebug
+:dbflow:processDebugJavaRes NO-SOURCE
+:dbflow:packageDebugRenderscript NO-SOURCE
+:dbflow-kotlinextensions:compileDebugRenderscript
+:dbflow-kotlinextensions:checkDebugManifest
+:dbflow-kotlinextensions:generateDebugBuildConfig
+:dbflow-kotlinextensions:generateDebugResValues
+:dbflow-kotlinextensions:generateDebugResources
+:dbflow-kotlinextensions:packageDebugResources
+:dbflow-kotlinextensions:platformAttrExtractor
+:dbflow-kotlinextensions:processDebugManifest
+:dbflow-kotlinextensions:prepareLintJar
+:dbflow-kotlinextensions:mergeDebugShaders
+:dbflow-kotlinextensions:compileDebugShaders
+:dbflow-kotlinextensions:generateDebugAssets
+:dbflow-kotlinextensions:mergeDebugAssets
+:dbflow-kotlinextensions:mergeDebugConsumerProguardFiles
+:dbflow-kotlinextensions:packageDebugRenderscript NO-SOURCE
+:dbflow-kotlinextensions:processDebugJavaRes NO-SOURCE
+:dbflow-kotlinextensions:mergeDebugJniLibFolders
+:dbflow-kotlinextensions:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow-kotlinextensions:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow-kotlinextensions:transformNativeLibsWithSyncJniLibsForDebug
+:dbflow:preReleaseBuild UP-TO-DATE
+:dbflow:compileReleaseAidl
+:dbflow-kotlinextensions:preReleaseBuild UP-TO-DATE
+:dbflow-kotlinextensions:compileReleaseAidl
+:dbflow-kotlinextensions:compileReleaseNdk NO-SOURCE
+:dbflow:compileReleaseRenderscript
+:dbflow:checkReleaseManifest
+:dbflow:generateReleaseBuildConfig
+:dbflow:generateReleaseResValues
+:dbflow:generateReleaseResources
+:dbflow:packageReleaseResources
+:dbflow:processReleaseManifest
+:dbflow:javaPreCompileRelease
+:dbflow:processReleaseJavaRes NO-SOURCE
+:dbflow:packageReleaseRenderscript NO-SOURCE
+:dbflow-kotlinextensions:compileReleaseRenderscript
+:dbflow-kotlinextensions:checkReleaseManifest
+:dbflow-kotlinextensions:generateReleaseBuildConfig
+:dbflow-kotlinextensions:generateReleaseResValues
+:dbflow-kotlinextensions:generateReleaseResources
+:dbflow-kotlinextensions:packageReleaseResources
+:dbflow-kotlinextensions:processReleaseManifest
+:dbflow-kotlinextensions:mergeReleaseShaders
+:dbflow-kotlinextensions:compileReleaseShaders
+:dbflow-kotlinextensions:generateReleaseAssets
+:dbflow-kotlinextensions:mergeReleaseAssets
+:dbflow-kotlinextensions:mergeReleaseConsumerProguardFiles
+:dbflow-kotlinextensions:packageReleaseRenderscript NO-SOURCE
+:dbflow-kotlinextensions:processReleaseJavaRes NO-SOURCE
+:dbflow-kotlinextensions:mergeReleaseJniLibFolders
+:dbflow-kotlinextensions:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow-kotlinextensions:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow-kotlinextensions:transformNativeLibsWithSyncJniLibsForRelease
+:dbflow-kotlinextensions:mergeReleaseResources
+:dbflow-kotlinextensions:verifyReleaseResources
+:dbflow:processDebugResources
+:dbflow:generateDebugSources
+:dbflow:compileDebugJavaWithJavac/tmp/rdisk/1134/src/dbflow/src/main/java/com/raizlabs/android/dbflow/sql/language/Operator.java:375: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        return new In(this, firstConditional, true, conditionals);
+                                                    ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/tmp/rdisk/1134/src/dbflow/src/main/java/com/raizlabs/android/dbflow/sql/language/Operator.java:382: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        return new In(this, firstConditional, false, conditionals);
+                                                     ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/tmp/rdisk/1134/src/dbflow/src/main/java/com/raizlabs/android/dbflow/sql/language/Operator.java:530: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        return new In(this, firstBaseModelQueriable, true, baseModelQueriables);
+                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:dbflow-kotlinextensions:processDebugResources
+:dbflow-kotlinextensions:compileDebugKotlin
+w: /tmp/rdisk/1134/src/dbflow-kotlinextensions/src/main/java/com/raizlabs/android/dbflow/kotlinextensions/QueryExtensions.kt: (86, 13): 'count(): Long' is deprecated. Deprecated in Java
+:dbflow-kotlinextensions:generateDebugSources
+:dbflow-kotlinextensions:javaPreCompileDebug
+:dbflow-kotlinextensions:compileDebugJavaWithJavac
+:dbflow-kotlinextensions:extractDebugAnnotations
+:dbflow-kotlinextensions:transformResourcesWithMergeJavaResForDebug
+:dbflow-kotlinextensions:transformClassesAndResourcesWithSyncLibJarsForDebug
+:dbflow-kotlinextensions:bundleDebug
+:dbflow-kotlinextensions:compileDebugSources
+:dbflow-kotlinextensions:assembleDebug
+:dbflow:processReleaseResources
+:dbflow:generateReleaseSources
+:dbflow:compileReleaseJavaWithJavac/tmp/rdisk/1134/src/dbflow/src/main/java/com/raizlabs/android/dbflow/sql/language/Operator.java:375: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        return new In(this, firstConditional, true, conditionals);
+                                                    ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/tmp/rdisk/1134/src/dbflow/src/main/java/com/raizlabs/android/dbflow/sql/language/Operator.java:382: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        return new In(this, firstConditional, false, conditionals);
+                                                     ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/tmp/rdisk/1134/src/dbflow/src/main/java/com/raizlabs/android/dbflow/sql/language/Operator.java:530: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        return new In(this, firstBaseModelQueriable, true, baseModelQueriables);
+                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:dbflow-kotlinextensions:processReleaseResources
+:dbflow-kotlinextensions:compileReleaseKotlin
+w: /tmp/rdisk/1134/src/dbflow-kotlinextensions/src/main/java/com/raizlabs/android/dbflow/kotlinextensions/QueryExtensions.kt: (86, 13): 'count(): Long' is deprecated. Deprecated in Java
+:dbflow-kotlinextensions:generateReleaseSources
+:dbflow-kotlinextensions:javaPreCompileRelease
+:dbflow-kotlinextensions:compileReleaseJavaWithJavac
+:dbflow-kotlinextensions:extractReleaseAnnotations
+:dbflow-kotlinextensions:transformResourcesWithMergeJavaResForRelease
+:dbflow-kotlinextensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+:dbflow-kotlinextensions:bundleRelease
+:dbflow-kotlinextensions:compileReleaseSources
+:dbflow-kotlinextensions:assembleRelease
+:dbflow-kotlinextensions:assemble
+:dbflow-kotlinextensions:build
+
+BUILD SUCCESSFUL in 26s
+76 actionable tasks: 76 executed
+
+2018-05-11 15:05:31,227 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:05:31,227 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:05:38,949 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-05-11 15:05:38,949 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-11 15:05:38,949 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 15:05:59,477 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dbflow:preBuild UP-TO-DATE
+:dbflow:preDebugBuild UP-TO-DATE
+:dbflow:compileDebugAidl UP-TO-DATE
+:dbflow-rx:preBuild UP-TO-DATE
+:dbflow-rx:preDebugBuild UP-TO-DATE
+:dbflow-rx:compileDebugAidl
+:dbflow-rx-kotlinextensions:preBuild UP-TO-DATE
+:dbflow-rx-kotlinextensions:preDebugBuild UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileDebugAidl
+:dbflow-rx-kotlinextensions:compileDebugNdk NO-SOURCE
+:dbflow:compileDebugRenderscript UP-TO-DATE
+:dbflow:checkDebugManifest UP-TO-DATE
+:dbflow:generateDebugBuildConfig UP-TO-DATE
+:dbflow:prepareLintJar UP-TO-DATE
+:dbflow:generateDebugResValues UP-TO-DATE
+:dbflow:generateDebugResources UP-TO-DATE
+:dbflow:packageDebugResources UP-TO-DATE
+:dbflow:platformAttrExtractor UP-TO-DATE
+:dbflow:processDebugManifest UP-TO-DATE
+:dbflow:processDebugResources UP-TO-DATE
+:dbflow:generateDebugSources UP-TO-DATE
+:dbflow-core:compileJava UP-TO-DATE
+:dbflow-core:processResources NO-SOURCE
+:dbflow-core:classes UP-TO-DATE
+:dbflow-core:jar UP-TO-DATE
+:dbflow:javaPreCompileDebug UP-TO-DATE
+:dbflow:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow:processDebugJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:dbflow:packageDebugRenderscript NO-SOURCE
+:dbflow-rx:compileDebugRenderscript
+:dbflow-rx:checkDebugManifest
+:dbflow-rx:generateDebugBuildConfig
+:dbflow-rx:prepareLintJar
+:dbflow-rx:generateDebugResValues
+:dbflow-rx:generateDebugResources
+:dbflow-rx:packageDebugResources
+:dbflow-rx:platformAttrExtractor
+:dbflow-rx:processDebugManifest
+:dbflow-rx:javaPreCompileDebug
+:dbflow-rx:processDebugJavaRes NO-SOURCE
+:dbflow-rx:processDebugResources
+:dbflow-rx:generateDebugSources
+:dbflow-rx:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1134/src/dbflow-rx/src/main/java/com/raizlabs/android/dbflow/rx/language/TableChangeListenerEmitter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:dbflow-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:dbflow-rx:packageDebugRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:compileDebugRenderscript
+:dbflow-rx-kotlinextensions:checkDebugManifest
+:dbflow-rx-kotlinextensions:generateDebugBuildConfig
+:dbflow-rx-kotlinextensions:generateDebugResValues
+:dbflow-rx-kotlinextensions:generateDebugResources
+:dbflow-rx-kotlinextensions:packageDebugResources
+:dbflow-rx-kotlinextensions:platformAttrExtractor
+:dbflow-rx-kotlinextensions:processDebugManifest
+:dbflow-rx-kotlinextensions:processDebugResources
+:dbflow-rx-kotlinextensions:compileDebugKotlin
+w: /tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/src/main/java/com/raizlabs/android/dbflow/rx/kotlinextensions/QueryExtensions.kt: (25, 13): 'count(): Single<Long!>' is deprecated. Deprecated in Java
+:dbflow-rx-kotlinextensions:prepareLintJar
+:dbflow-rx-kotlinextensions:generateDebugSources
+:dbflow-rx-kotlinextensions:javaPreCompileDebug
+:dbflow-rx-kotlinextensions:compileDebugJavaWithJavac
+:dbflow-rx-kotlinextensions:extractDebugAnnotations
+:dbflow-rx-kotlinextensions:mergeDebugShaders
+:dbflow-rx-kotlinextensions:compileDebugShaders
+:dbflow-rx-kotlinextensions:generateDebugAssets
+:dbflow-rx-kotlinextensions:mergeDebugAssets
+:dbflow-rx-kotlinextensions:mergeDebugConsumerProguardFiles
+:dbflow-rx-kotlinextensions:packageDebugRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:processDebugJavaRes NO-SOURCE
+:dbflow-rx-kotlinextensions:transformResourcesWithMergeJavaResForDebug
+:dbflow-rx-kotlinextensions:transformClassesAndResourcesWithSyncLibJarsForDebug
+:dbflow-rx-kotlinextensions:mergeDebugJniLibFolders
+:dbflow-rx-kotlinextensions:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow-rx-kotlinextensions:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow-rx-kotlinextensions:transformNativeLibsWithSyncJniLibsForDebug
+:dbflow-rx-kotlinextensions:bundleDebug
+:dbflow-rx-kotlinextensions:compileDebugSources
+:dbflow-rx-kotlinextensions:assembleDebug
+:dbflow:preReleaseBuild UP-TO-DATE
+:dbflow:compileReleaseAidl UP-TO-DATE
+:dbflow-rx:preReleaseBuild UP-TO-DATE
+:dbflow-rx:compileReleaseAidl
+:dbflow-rx-kotlinextensions:preReleaseBuild UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileReleaseAidl
+:dbflow-rx-kotlinextensions:compileReleaseNdk NO-SOURCE
+:dbflow:compileReleaseRenderscript UP-TO-DATE
+:dbflow:checkReleaseManifest UP-TO-DATE
+:dbflow:generateReleaseBuildConfig UP-TO-DATE
+:dbflow:generateReleaseResValues UP-TO-DATE
+:dbflow:generateReleaseResources UP-TO-DATE
+:dbflow:packageReleaseResources UP-TO-DATE
+:dbflow:processReleaseManifest UP-TO-DATE
+:dbflow:processReleaseResources UP-TO-DATE
+:dbflow:generateReleaseSources UP-TO-DATE
+:dbflow:javaPreCompileRelease UP-TO-DATE
+:dbflow:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow:processReleaseJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:dbflow:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx:compileReleaseRenderscript
+:dbflow-rx:checkReleaseManifest
+:dbflow-rx:generateReleaseBuildConfig
+:dbflow-rx:generateReleaseResValues
+:dbflow-rx:generateReleaseResources
+:dbflow-rx:packageReleaseResources
+:dbflow-rx:processReleaseManifest
+:dbflow-rx:processReleaseResources
+:dbflow-rx:generateReleaseSources
+:dbflow-rx:javaPreCompileRelease
+:dbflow-rx:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1134/src/dbflow-rx/src/main/java/com/raizlabs/android/dbflow/rx/language/TableChangeListenerEmitter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:dbflow-rx:processReleaseJavaRes NO-SOURCE
+:dbflow-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:dbflow-rx:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:compileReleaseRenderscript
+:dbflow-rx-kotlinextensions:checkReleaseManifest
+:dbflow-rx-kotlinextensions:generateReleaseBuildConfig
+:dbflow-rx-kotlinextensions:generateReleaseResValues
+:dbflow-rx-kotlinextensions:generateReleaseResources
+:dbflow-rx-kotlinextensions:packageReleaseResources
+:dbflow-rx-kotlinextensions:processReleaseManifest
+:dbflow-rx-kotlinextensions:processReleaseResources
+:dbflow-rx-kotlinextensions:compileReleaseKotlin
+w: /tmp/rdisk/1134/src/dbflow-rx-kotlinextensions/src/main/java/com/raizlabs/android/dbflow/rx/kotlinextensions/QueryExtensions.kt: (25, 13): 'count(): Single<Long!>' is deprecated. Deprecated in Java
+:dbflow-rx-kotlinextensions:generateReleaseSources
+:dbflow-rx-kotlinextensions:javaPreCompileRelease
+:dbflow-rx-kotlinextensions:compileReleaseJavaWithJavac
+:dbflow-rx-kotlinextensions:extractReleaseAnnotations
+:dbflow-rx-kotlinextensions:mergeReleaseShaders
+:dbflow-rx-kotlinextensions:compileReleaseShaders
+:dbflow-rx-kotlinextensions:generateReleaseAssets
+:dbflow-rx-kotlinextensions:mergeReleaseAssets
+:dbflow-rx-kotlinextensions:mergeReleaseConsumerProguardFiles
+:dbflow-rx-kotlinextensions:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:processReleaseJavaRes NO-SOURCE
+:dbflow-rx-kotlinextensions:transformResourcesWithMergeJavaResForRelease
+:dbflow-rx-kotlinextensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+:dbflow-rx-kotlinextensions:mergeReleaseJniLibFolders
+:dbflow-rx-kotlinextensions:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow-rx-kotlinextensions:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow-rx-kotlinextensions:transformNativeLibsWithSyncJniLibsForRelease
+:dbflow-rx-kotlinextensions:bundleRelease
+:dbflow-rx-kotlinextensions:compileReleaseSources
+:dbflow-rx-kotlinextensions:mergeReleaseResources
+:dbflow-rx-kotlinextensions:verifyReleaseResources
+:dbflow-rx-kotlinextensions:assembleRelease
+:dbflow-rx-kotlinextensions:assemble
+:dbflow-rx-kotlinextensions:build
+
+BUILD SUCCESSFUL in 19s
+100 actionable tasks: 74 executed, 26 up-to-date
+
+2018-05-11 15:05:59,520 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:05:59,521 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:06:07,137 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-05-11 15:06:07,138 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-11 15:06:07,138 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 15:06:17,978 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dbflow:preBuild UP-TO-DATE
+:dbflow:preDebugBuild UP-TO-DATE
+:dbflow:compileDebugAidl UP-TO-DATE
+:dbflow-rx:preBuild UP-TO-DATE
+:dbflow-rx:preDebugBuild UP-TO-DATE
+:dbflow-rx:compileDebugAidl UP-TO-DATE
+:dbflow-rx:compileDebugNdk NO-SOURCE
+:dbflow:compileDebugRenderscript UP-TO-DATE
+:dbflow:checkDebugManifest UP-TO-DATE
+:dbflow:generateDebugBuildConfig UP-TO-DATE
+:dbflow:prepareLintJar UP-TO-DATE
+:dbflow:generateDebugResValues UP-TO-DATE
+:dbflow:generateDebugResources UP-TO-DATE
+:dbflow:packageDebugResources UP-TO-DATE
+:dbflow:platformAttrExtractor UP-TO-DATE
+:dbflow:processDebugManifest UP-TO-DATE
+:dbflow:processDebugResources UP-TO-DATE
+:dbflow:generateDebugSources UP-TO-DATE
+:dbflow-core:compileJava UP-TO-DATE
+:dbflow-core:processResources NO-SOURCE
+:dbflow-core:classes UP-TO-DATE
+:dbflow-core:jar UP-TO-DATE
+:dbflow:javaPreCompileDebug UP-TO-DATE
+:dbflow:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow:processDebugJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:dbflow:packageDebugRenderscript NO-SOURCE
+:dbflow-rx:compileDebugRenderscript UP-TO-DATE
+:dbflow-rx:checkDebugManifest UP-TO-DATE
+:dbflow-rx:generateDebugBuildConfig UP-TO-DATE
+:dbflow-rx:prepareLintJar UP-TO-DATE
+:dbflow-rx:generateDebugResValues UP-TO-DATE
+:dbflow-rx:generateDebugResources UP-TO-DATE
+:dbflow-rx:packageDebugResources UP-TO-DATE
+:dbflow-rx:platformAttrExtractor UP-TO-DATE
+:dbflow-rx:processDebugManifest UP-TO-DATE
+:dbflow-rx:processDebugResources UP-TO-DATE
+:dbflow-rx:generateDebugSources UP-TO-DATE
+:dbflow-rx:javaPreCompileDebug UP-TO-DATE
+:dbflow-rx:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow-rx:extractDebugAnnotations
+:dbflow-rx:mergeDebugShaders
+:dbflow-rx:compileDebugShaders
+:dbflow-rx:generateDebugAssets
+:dbflow-rx:mergeDebugAssets
+:dbflow-rx:mergeDebugConsumerProguardFiles
+:dbflow-rx:packageDebugRenderscript NO-SOURCE
+:dbflow-rx:processDebugJavaRes NO-SOURCE
+:dbflow-rx:transformResourcesWithMergeJavaResForDebug
+:dbflow-rx:transformClassesAndResourcesWithSyncLibJarsForDebug
+:dbflow-rx:mergeDebugJniLibFolders
+:dbflow-rx:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow-rx:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow-rx:transformNativeLibsWithSyncJniLibsForDebug
+:dbflow-rx:bundleDebug
+:dbflow-rx:compileDebugSources UP-TO-DATE
+:dbflow-rx:assembleDebug
+:dbflow:preReleaseBuild UP-TO-DATE
+:dbflow:compileReleaseAidl UP-TO-DATE
+:dbflow-rx:preReleaseBuild UP-TO-DATE
+:dbflow-rx:compileReleaseAidl UP-TO-DATE
+:dbflow-rx:compileReleaseNdk NO-SOURCE
+:dbflow:compileReleaseRenderscript UP-TO-DATE
+:dbflow:checkReleaseManifest UP-TO-DATE
+:dbflow:generateReleaseBuildConfig UP-TO-DATE
+:dbflow:generateReleaseResValues UP-TO-DATE
+:dbflow:generateReleaseResources UP-TO-DATE
+:dbflow:packageReleaseResources UP-TO-DATE
+:dbflow:processReleaseManifest UP-TO-DATE
+:dbflow:processReleaseResources UP-TO-DATE
+:dbflow:generateReleaseSources UP-TO-DATE
+:dbflow:javaPreCompileRelease UP-TO-DATE
+:dbflow:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow:processReleaseJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:dbflow:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx:compileReleaseRenderscript UP-TO-DATE
+:dbflow-rx:checkReleaseManifest UP-TO-DATE
+:dbflow-rx:generateReleaseBuildConfig UP-TO-DATE
+:dbflow-rx:generateReleaseResValues UP-TO-DATE
+:dbflow-rx:generateReleaseResources UP-TO-DATE
+:dbflow-rx:packageReleaseResources UP-TO-DATE
+:dbflow-rx:processReleaseManifest UP-TO-DATE
+:dbflow-rx:processReleaseResources UP-TO-DATE
+:dbflow-rx:generateReleaseSources UP-TO-DATE
+:dbflow-rx:javaPreCompileRelease UP-TO-DATE
+:dbflow-rx:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow-rx:extractReleaseAnnotations
+:dbflow-rx:mergeReleaseShaders
+:dbflow-rx:compileReleaseShaders
+:dbflow-rx:generateReleaseAssets
+:dbflow-rx:mergeReleaseAssets
+:dbflow-rx:mergeReleaseConsumerProguardFiles
+:dbflow-rx:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx:processReleaseJavaRes NO-SOURCE
+:dbflow-rx:transformResourcesWithMergeJavaResForRelease
+:dbflow-rx:transformClassesAndResourcesWithSyncLibJarsForRelease
+:dbflow-rx:mergeReleaseJniLibFolders
+:dbflow-rx:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow-rx:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow-rx:transformNativeLibsWithSyncJniLibsForRelease
+:dbflow-rx:bundleRelease
+:dbflow-rx:compileReleaseSources UP-TO-DATE
+:dbflow-rx:mergeReleaseResources
+:dbflow-rx:verifyReleaseResources
+:dbflow-rx:assembleRelease
+:dbflow-rx:sourcesJar
+:dbflow-rx:assemble
+:dbflow-rx:build
+
+BUILD SUCCESSFUL in 10s
+75 actionable tasks: 27 executed, 48 up-to-date
+
+2018-05-11 15:06:18,023 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:06:18,023 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:06:25,588 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-05-11 15:06:25,588 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-11 15:06:25,588 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 15:06:46,566 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dbflow:preBuild UP-TO-DATE
+:dbflow:preDebugBuild UP-TO-DATE
+:dbflow:compileDebugAidl UP-TO-DATE
+:dbflow-rx2:preBuild UP-TO-DATE
+:dbflow-rx2:preDebugBuild UP-TO-DATE
+:dbflow-rx2:compileDebugAidl
+:dbflow-rx2-kotlinextensions:preBuild UP-TO-DATE
+:dbflow-rx2-kotlinextensions:preDebugBuild UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileDebugAidl
+:dbflow-rx2-kotlinextensions:compileDebugNdk NO-SOURCE
+:dbflow:compileDebugRenderscript UP-TO-DATE
+:dbflow:checkDebugManifest UP-TO-DATE
+:dbflow:generateDebugBuildConfig UP-TO-DATE
+:dbflow:prepareLintJar UP-TO-DATE
+:dbflow:generateDebugResValues UP-TO-DATE
+:dbflow:generateDebugResources UP-TO-DATE
+:dbflow:packageDebugResources UP-TO-DATE
+:dbflow:platformAttrExtractor UP-TO-DATE
+:dbflow:processDebugManifest UP-TO-DATE
+:dbflow:processDebugResources UP-TO-DATE
+:dbflow:generateDebugSources UP-TO-DATE
+:dbflow-core:compileJava UP-TO-DATE
+:dbflow-core:processResources NO-SOURCE
+:dbflow-core:classes UP-TO-DATE
+:dbflow-core:jar UP-TO-DATE
+:dbflow:javaPreCompileDebug UP-TO-DATE
+:dbflow:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow:processDebugJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:dbflow:packageDebugRenderscript NO-SOURCE
+:dbflow-rx2:compileDebugRenderscript
+:dbflow-rx2:checkDebugManifest
+:dbflow-rx2:generateDebugBuildConfig
+:dbflow-rx2:prepareLintJar
+:dbflow-rx2:generateDebugResValues
+:dbflow-rx2:generateDebugResources
+:dbflow-rx2:packageDebugResources
+:dbflow-rx2:platformAttrExtractor
+:dbflow-rx2:processDebugManifest
+:dbflow-rx2:javaPreCompileDebug
+:dbflow-rx2:processDebugJavaRes NO-SOURCE
+:dbflow-rx2:packageDebugRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:compileDebugRenderscript
+:dbflow-rx2-kotlinextensions:checkDebugManifest
+:dbflow-rx2-kotlinextensions:generateDebugBuildConfig
+:dbflow-rx2-kotlinextensions:generateDebugResValues
+:dbflow-rx2-kotlinextensions:generateDebugResources
+:dbflow-rx2-kotlinextensions:packageDebugResources
+:dbflow-rx2-kotlinextensions:platformAttrExtractor
+:dbflow-rx2:processDebugResources
+:dbflow-rx2:generateDebugSources
+:dbflow-rx2:compileDebugJavaWithJavacNote: /tmp/rdisk/1134/src/dbflow-rx2/src/main/java/com/raizlabs/android/dbflow/rx2/language/RXQueriableImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1134/src/dbflow-rx2/src/main/java/com/raizlabs/android/dbflow/rx2/language/TableChangeOnSubscribe.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:dbflow-rx2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:dbflow-rx2-kotlinextensions:processDebugManifest
+:dbflow-rx2-kotlinextensions:prepareLintJar
+:dbflow-rx2-kotlinextensions:processDebugResources
+:dbflow-rx2-kotlinextensions:compileDebugKotlin
+w: /tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/src/main/java/com/raizlabs/android/dbflow/rx2/kotlinextensions/QueryExtensions.kt: (22, 13): 'count(): Single<Long!>' is deprecated. Deprecated in Java
+:dbflow-rx2-kotlinextensions:generateDebugSources
+:dbflow-rx2-kotlinextensions:javaPreCompileDebug
+:dbflow-rx2-kotlinextensions:compileDebugJavaWithJavac
+:dbflow-rx2-kotlinextensions:extractDebugAnnotations
+:dbflow-rx2-kotlinextensions:mergeDebugShaders
+:dbflow-rx2-kotlinextensions:compileDebugShaders
+:dbflow-rx2-kotlinextensions:generateDebugAssets
+:dbflow-rx2-kotlinextensions:mergeDebugAssets
+:dbflow-rx2-kotlinextensions:mergeDebugConsumerProguardFiles
+:dbflow-rx2-kotlinextensions:packageDebugRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:processDebugJavaRes NO-SOURCE
+:dbflow-rx2-kotlinextensions:transformResourcesWithMergeJavaResForDebug
+:dbflow-rx2-kotlinextensions:transformClassesAndResourcesWithSyncLibJarsForDebug
+:dbflow-rx2-kotlinextensions:mergeDebugJniLibFolders
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithSyncJniLibsForDebug
+:dbflow-rx2-kotlinextensions:bundleDebug
+:dbflow-rx2-kotlinextensions:compileDebugSources
+:dbflow-rx2-kotlinextensions:assembleDebug
+:dbflow:preReleaseBuild UP-TO-DATE
+:dbflow:compileReleaseAidl UP-TO-DATE
+:dbflow-rx2:preReleaseBuild UP-TO-DATE
+:dbflow-rx2:compileReleaseAidl
+:dbflow-rx2-kotlinextensions:preReleaseBuild UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileReleaseAidl
+:dbflow-rx2-kotlinextensions:compileReleaseNdk NO-SOURCE
+:dbflow:compileReleaseRenderscript UP-TO-DATE
+:dbflow:checkReleaseManifest UP-TO-DATE
+:dbflow:generateReleaseBuildConfig UP-TO-DATE
+:dbflow:generateReleaseResValues UP-TO-DATE
+:dbflow:generateReleaseResources UP-TO-DATE
+:dbflow:packageReleaseResources UP-TO-DATE
+:dbflow:processReleaseManifest UP-TO-DATE
+:dbflow:processReleaseResources UP-TO-DATE
+:dbflow:generateReleaseSources UP-TO-DATE
+:dbflow:javaPreCompileRelease UP-TO-DATE
+:dbflow:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow:processReleaseJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:dbflow:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx2:compileReleaseRenderscript
+:dbflow-rx2:checkReleaseManifest
+:dbflow-rx2:generateReleaseBuildConfig
+:dbflow-rx2:generateReleaseResValues
+:dbflow-rx2:generateReleaseResources
+:dbflow-rx2:packageReleaseResources
+:dbflow-rx2:processReleaseManifest
+:dbflow-rx2:processReleaseResources
+:dbflow-rx2:generateReleaseSources
+:dbflow-rx2:javaPreCompileRelease
+:dbflow-rx2:compileReleaseJavaWithJavacNote: /tmp/rdisk/1134/src/dbflow-rx2/src/main/java/com/raizlabs/android/dbflow/rx2/language/RXQueriableImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1134/src/dbflow-rx2/src/main/java/com/raizlabs/android/dbflow/rx2/language/TableChangeOnSubscribe.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:dbflow-rx2:processReleaseJavaRes NO-SOURCE
+:dbflow-rx2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:dbflow-rx2:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:compileReleaseRenderscript
+:dbflow-rx2-kotlinextensions:checkReleaseManifest
+:dbflow-rx2-kotlinextensions:generateReleaseBuildConfig
+:dbflow-rx2-kotlinextensions:generateReleaseResValues
+:dbflow-rx2-kotlinextensions:generateReleaseResources
+:dbflow-rx2-kotlinextensions:packageReleaseResources
+:dbflow-rx2-kotlinextensions:processReleaseManifest
+:dbflow-rx2-kotlinextensions:processReleaseResources
+:dbflow-rx2-kotlinextensions:compileReleaseKotlin
+w: /tmp/rdisk/1134/src/dbflow-rx2-kotlinextensions/src/main/java/com/raizlabs/android/dbflow/rx2/kotlinextensions/QueryExtensions.kt: (22, 13): 'count(): Single<Long!>' is deprecated. Deprecated in Java
+:dbflow-rx2-kotlinextensions:generateReleaseSources
+:dbflow-rx2-kotlinextensions:javaPreCompileRelease
+:dbflow-rx2-kotlinextensions:compileReleaseJavaWithJavac
+:dbflow-rx2-kotlinextensions:extractReleaseAnnotations
+:dbflow-rx2-kotlinextensions:mergeReleaseShaders
+:dbflow-rx2-kotlinextensions:compileReleaseShaders
+:dbflow-rx2-kotlinextensions:generateReleaseAssets
+:dbflow-rx2-kotlinextensions:mergeReleaseAssets
+:dbflow-rx2-kotlinextensions:mergeReleaseConsumerProguardFiles
+:dbflow-rx2-kotlinextensions:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:processReleaseJavaRes NO-SOURCE
+:dbflow-rx2-kotlinextensions:transformResourcesWithMergeJavaResForRelease
+:dbflow-rx2-kotlinextensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+:dbflow-rx2-kotlinextensions:mergeReleaseJniLibFolders
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithSyncJniLibsForRelease
+:dbflow-rx2-kotlinextensions:bundleRelease
+:dbflow-rx2-kotlinextensions:compileReleaseSources
+:dbflow-rx2-kotlinextensions:mergeReleaseResources
+:dbflow-rx2-kotlinextensions:verifyReleaseResources
+:dbflow-rx2-kotlinextensions:assembleRelease
+:dbflow-rx2-kotlinextensions:assemble
+:dbflow-rx2-kotlinextensions:build
+
+BUILD SUCCESSFUL in 20s
+100 actionable tasks: 74 executed, 26 up-to-date
+
+2018-05-11 15:06:46,627 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:06:46,627 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:06:54,207 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-05-11 15:06:54,207 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-11 15:06:54,207 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 15:07:05,382 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dbflow:preBuild UP-TO-DATE
+:dbflow:preDebugBuild UP-TO-DATE
+:dbflow:compileDebugAidl UP-TO-DATE
+:dbflow-rx2:preBuild UP-TO-DATE
+:dbflow-rx2:preDebugBuild UP-TO-DATE
+:dbflow-rx2:compileDebugAidl UP-TO-DATE
+:dbflow-rx2:compileDebugNdk NO-SOURCE
+:dbflow:compileDebugRenderscript UP-TO-DATE
+:dbflow:checkDebugManifest UP-TO-DATE
+:dbflow:generateDebugBuildConfig UP-TO-DATE
+:dbflow:prepareLintJar UP-TO-DATE
+:dbflow:generateDebugResValues UP-TO-DATE
+:dbflow:generateDebugResources UP-TO-DATE
+:dbflow:packageDebugResources UP-TO-DATE
+:dbflow:platformAttrExtractor UP-TO-DATE
+:dbflow:processDebugManifest UP-TO-DATE
+:dbflow:processDebugResources UP-TO-DATE
+:dbflow:generateDebugSources UP-TO-DATE
+:dbflow-core:compileJava UP-TO-DATE
+:dbflow-core:processResources NO-SOURCE
+:dbflow-core:classes UP-TO-DATE
+:dbflow-core:jar UP-TO-DATE
+:dbflow:javaPreCompileDebug UP-TO-DATE
+:dbflow:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow:processDebugJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:dbflow:packageDebugRenderscript NO-SOURCE
+:dbflow-rx2:compileDebugRenderscript UP-TO-DATE
+:dbflow-rx2:checkDebugManifest UP-TO-DATE
+:dbflow-rx2:generateDebugBuildConfig UP-TO-DATE
+:dbflow-rx2:prepareLintJar UP-TO-DATE
+:dbflow-rx2:generateDebugResValues UP-TO-DATE
+:dbflow-rx2:generateDebugResources UP-TO-DATE
+:dbflow-rx2:packageDebugResources UP-TO-DATE
+:dbflow-rx2:platformAttrExtractor UP-TO-DATE
+:dbflow-rx2:processDebugManifest UP-TO-DATE
+:dbflow-rx2:processDebugResources UP-TO-DATE
+:dbflow-rx2:generateDebugSources UP-TO-DATE
+:dbflow-rx2:javaPreCompileDebug UP-TO-DATE
+:dbflow-rx2:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow-rx2:extractDebugAnnotations
+:dbflow-rx2:mergeDebugShaders
+:dbflow-rx2:compileDebugShaders
+:dbflow-rx2:generateDebugAssets
+:dbflow-rx2:mergeDebugAssets
+:dbflow-rx2:mergeDebugConsumerProguardFiles
+:dbflow-rx2:packageDebugRenderscript NO-SOURCE
+:dbflow-rx2:processDebugJavaRes NO-SOURCE
+:dbflow-rx2:transformResourcesWithMergeJavaResForDebug
+:dbflow-rx2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:dbflow-rx2:mergeDebugJniLibFolders
+:dbflow-rx2:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow-rx2:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow-rx2:transformNativeLibsWithSyncJniLibsForDebug
+:dbflow-rx2:bundleDebug
+:dbflow-rx2:compileDebugSources UP-TO-DATE
+:dbflow-rx2:assembleDebug
+:dbflow:preReleaseBuild UP-TO-DATE
+:dbflow:compileReleaseAidl UP-TO-DATE
+:dbflow-rx2:preReleaseBuild UP-TO-DATE
+:dbflow-rx2:compileReleaseAidl UP-TO-DATE
+:dbflow-rx2:compileReleaseNdk NO-SOURCE
+:dbflow:compileReleaseRenderscript UP-TO-DATE
+:dbflow:checkReleaseManifest UP-TO-DATE
+:dbflow:generateReleaseBuildConfig UP-TO-DATE
+:dbflow:generateReleaseResValues UP-TO-DATE
+:dbflow:generateReleaseResources UP-TO-DATE
+:dbflow:packageReleaseResources UP-TO-DATE
+:dbflow:processReleaseManifest UP-TO-DATE
+:dbflow:processReleaseResources UP-TO-DATE
+:dbflow:generateReleaseSources UP-TO-DATE
+:dbflow:javaPreCompileRelease UP-TO-DATE
+:dbflow:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow:processReleaseJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:dbflow:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx2:compileReleaseRenderscript UP-TO-DATE
+:dbflow-rx2:checkReleaseManifest UP-TO-DATE
+:dbflow-rx2:generateReleaseBuildConfig UP-TO-DATE
+:dbflow-rx2:generateReleaseResValues UP-TO-DATE
+:dbflow-rx2:generateReleaseResources UP-TO-DATE
+:dbflow-rx2:packageReleaseResources UP-TO-DATE
+:dbflow-rx2:processReleaseManifest UP-TO-DATE
+:dbflow-rx2:processReleaseResources UP-TO-DATE
+:dbflow-rx2:generateReleaseSources UP-TO-DATE
+:dbflow-rx2:javaPreCompileRelease UP-TO-DATE
+:dbflow-rx2:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow-rx2:extractReleaseAnnotations
+:dbflow-rx2:mergeReleaseShaders
+:dbflow-rx2:compileReleaseShaders
+:dbflow-rx2:generateReleaseAssets
+:dbflow-rx2:mergeReleaseAssets
+:dbflow-rx2:mergeReleaseConsumerProguardFiles
+:dbflow-rx2:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx2:processReleaseJavaRes NO-SOURCE
+:dbflow-rx2:transformResourcesWithMergeJavaResForRelease
+:dbflow-rx2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:dbflow-rx2:mergeReleaseJniLibFolders
+:dbflow-rx2:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow-rx2:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow-rx2:transformNativeLibsWithSyncJniLibsForRelease
+:dbflow-rx2:bundleRelease
+:dbflow-rx2:compileReleaseSources UP-TO-DATE
+:dbflow-rx2:mergeReleaseResources
+:dbflow-rx2:verifyReleaseResources
+:dbflow-rx2:assembleRelease
+:dbflow-rx2:sourcesJar
+:dbflow-rx2:assemble
+:dbflow-rx2:build
+
+BUILD SUCCESSFUL in 10s
+75 actionable tasks: 27 executed, 48 up-to-date
+
+2018-05-11 15:07:05,444 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:07:05,444 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-sqlcipher/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:07:07,382 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-11 15:07:07,383 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-11 15:07:07,383 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-11 15:07:07,383 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-sqlcipher/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-11 15:07:09,378 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 15:07:09,378 INFO  SysUtils - 
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/tmp/rdisk/1134/src/dbflow-sqlcipher/settings.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating settings 'dbflow-sqlcipher'.
+> Could not get unknown property 'buildName' for settings 'dbflow-sqlcipher' of type org.gradle.initialization.DefaultSettings.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating settings 'dbflow-sqlcipher'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:187)
+	at org.gradle.configuration.DefaultScriptTarget.addConfiguration(DefaultScriptTarget.java:74)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:192)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.initialization.ScriptEvaluatingSettingsProcessor.applySettingsScript(ScriptEvaluatingSettingsProcessor.java:73)
+	at org.gradle.initialization.ScriptEvaluatingSettingsProcessor.process(ScriptEvaluatingSettingsProcessor.java:63)
+	at org.gradle.initialization.PropertiesLoadingSettingsProcessor.process(PropertiesLoadingSettingsProcessor.java:37)
+	at org.gradle.initialization.NotifyingSettingsProcessor$1.call(NotifyingSettingsProcessor.java:42)
+	at org.gradle.initialization.NotifyingSettingsProcessor$1.call(NotifyingSettingsProcessor.java:39)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:350)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:340)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:117)
+	at org.gradle.initialization.NotifyingSettingsProcessor.process(NotifyingSettingsProcessor.java:39)
+	at org.gradle.initialization.DefaultSettingsLoader.findSettingsAndLoadIfAppropriate(DefaultSettingsLoader.java:90)
+	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:47)
+	at org.gradle.internal.composite.CompositeBuildSettingsLoader.findAndLoadSettings(CompositeBuildSettingsLoader.java:49)
+	at org.gradle.initialization.NotifyingSettingsLoader.findAndLoadSettings(NotifyingSettingsLoader.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$LoadBuild.run(DefaultGradleLauncher.java:233)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.loadSettings(DefaultGradleLauncher.java:157)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:120)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 'buildName' for settings 'dbflow-sqlcipher' of type org.gradle.initialization.DefaultSettings.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:83)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.getMissingProperty(BasicScript.java:156)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
+	at org.gradle.groovy.scripts.BasicScript.getProperty(BasicScript.java:65)
+	at settings_cph73egbxoujff0a5bm2k8imx.run(/tmp/rdisk/1134/src/dbflow-sqlcipher/settings.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 82 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+
+2018-05-11 15:07:09,440 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:07:09,440 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:07:19,684 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-05-11 15:07:19,684 INFO  ProjectTaskService - Excluded tasks (21): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test countDebugDexMethods check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug countReleaseDexMethods
+2018-05-11 15:07:19,684 INFO  SysUtils - Execute command: [/tmp/rdisk/1134/src/gradlew, -b, /tmp/rdisk/1134/src/dbflow-tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, countDebugDexMethods, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, -x, countReleaseDexMethods, build]
+2018-05-11 15:08:47,883 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dbflow:preBuild UP-TO-DATE
+:dbflow:preDebugBuild UP-TO-DATE
+:dbflow:compileDebugAidl UP-TO-DATE
+:dbflow:compileDebugRenderscript UP-TO-DATE
+:dbflow:checkDebugManifest UP-TO-DATE
+:dbflow:generateDebugBuildConfig UP-TO-DATE
+:dbflow:prepareLintJar UP-TO-DATE
+:dbflow:generateDebugResValues UP-TO-DATE
+:dbflow:generateDebugResources UP-TO-DATE
+:dbflow:packageDebugResources UP-TO-DATE
+:dbflow:platformAttrExtractor UP-TO-DATE
+:dbflow:processDebugManifest UP-TO-DATE
+:dbflow:processDebugResources UP-TO-DATE
+:dbflow:generateDebugSources UP-TO-DATE
+:dbflow-core:compileJava UP-TO-DATE
+:dbflow-core:processResources NO-SOURCE
+:dbflow-core:classes UP-TO-DATE
+:dbflow-core:jar UP-TO-DATE
+:dbflow:javaPreCompileDebug UP-TO-DATE
+:dbflow:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow:processDebugJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:dbflow-kotlinextensions:preBuild UP-TO-DATE
+:dbflow-kotlinextensions:preDebugBuild UP-TO-DATE
+:dbflow-kotlinextensions:compileDebugAidl UP-TO-DATE
+:dbflow:packageDebugRenderscript NO-SOURCE
+:dbflow-kotlinextensions:compileDebugRenderscript UP-TO-DATE
+:dbflow-kotlinextensions:checkDebugManifest UP-TO-DATE
+:dbflow-kotlinextensions:generateDebugBuildConfig UP-TO-DATE
+:dbflow-kotlinextensions:generateDebugResValues UP-TO-DATE
+:dbflow-kotlinextensions:generateDebugResources UP-TO-DATE
+:dbflow-kotlinextensions:packageDebugResources UP-TO-DATE
+:dbflow-kotlinextensions:platformAttrExtractor UP-TO-DATE
+:dbflow-kotlinextensions:processDebugManifest UP-TO-DATE
+:dbflow-kotlinextensions:processDebugResources UP-TO-DATE
+:dbflow-kotlinextensions:compileDebugKotlin UP-TO-DATE
+:dbflow-kotlinextensions:prepareLintJar UP-TO-DATE
+:dbflow-kotlinextensions:generateDebugSources UP-TO-DATE
+:dbflow-kotlinextensions:javaPreCompileDebug UP-TO-DATE
+:dbflow-kotlinextensions:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow-kotlinextensions:processDebugJavaRes NO-SOURCE
+:dbflow-kotlinextensions:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:dbflow-rx:preBuild UP-TO-DATE
+:dbflow-rx:preDebugBuild UP-TO-DATE
+:dbflow-rx:compileDebugAidl UP-TO-DATE
+:dbflow-rx:compileDebugRenderscript UP-TO-DATE
+:dbflow-rx:checkDebugManifest UP-TO-DATE
+:dbflow-rx:generateDebugBuildConfig UP-TO-DATE
+:dbflow-rx:prepareLintJar UP-TO-DATE
+:dbflow-rx:generateDebugResValues UP-TO-DATE
+:dbflow-rx:generateDebugResources UP-TO-DATE
+:dbflow-rx:packageDebugResources UP-TO-DATE
+:dbflow-rx:platformAttrExtractor UP-TO-DATE
+:dbflow-rx:processDebugManifest UP-TO-DATE
+:dbflow-rx:processDebugResources UP-TO-DATE
+:dbflow-rx:generateDebugSources UP-TO-DATE
+:dbflow-rx:javaPreCompileDebug UP-TO-DATE
+:dbflow-rx:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow-rx:processDebugJavaRes NO-SOURCE
+:dbflow-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:dbflow-rx-kotlinextensions:preBuild UP-TO-DATE
+:dbflow-rx-kotlinextensions:preDebugBuild UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileDebugAidl UP-TO-DATE
+:dbflow-rx:packageDebugRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:compileDebugRenderscript UP-TO-DATE
+:dbflow-rx-kotlinextensions:checkDebugManifest UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateDebugBuildConfig UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateDebugResValues UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateDebugResources UP-TO-DATE
+:dbflow-rx-kotlinextensions:packageDebugResources UP-TO-DATE
+:dbflow-rx-kotlinextensions:platformAttrExtractor UP-TO-DATE
+:dbflow-rx-kotlinextensions:processDebugManifest UP-TO-DATE
+:dbflow-rx-kotlinextensions:processDebugResources UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileDebugKotlin UP-TO-DATE
+:dbflow-rx-kotlinextensions:prepareLintJar UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateDebugSources UP-TO-DATE
+:dbflow-rx-kotlinextensions:javaPreCompileDebug UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow-rx-kotlinextensions:processDebugJavaRes NO-SOURCE
+:dbflow-rx-kotlinextensions:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:dbflow-rx2:preBuild UP-TO-DATE
+:dbflow-rx2:preDebugBuild UP-TO-DATE
+:dbflow-rx2:compileDebugAidl UP-TO-DATE
+:dbflow-rx2:compileDebugRenderscript UP-TO-DATE
+:dbflow-rx2:checkDebugManifest UP-TO-DATE
+:dbflow-rx2:generateDebugBuildConfig UP-TO-DATE
+:dbflow-rx2:prepareLintJar UP-TO-DATE
+:dbflow-rx2:generateDebugResValues UP-TO-DATE
+:dbflow-rx2:generateDebugResources UP-TO-DATE
+:dbflow-rx2:packageDebugResources UP-TO-DATE
+:dbflow-rx2:platformAttrExtractor UP-TO-DATE
+:dbflow-rx2:processDebugManifest UP-TO-DATE
+:dbflow-rx2:processDebugResources UP-TO-DATE
+:dbflow-rx2:generateDebugSources UP-TO-DATE
+:dbflow-rx2:javaPreCompileDebug UP-TO-DATE
+:dbflow-rx2:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow-rx2:processDebugJavaRes NO-SOURCE
+:dbflow-rx2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:dbflow-rx2-kotlinextensions:preBuild UP-TO-DATE
+:dbflow-rx2-kotlinextensions:preDebugBuild UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileDebugAidl UP-TO-DATE
+:dbflow-rx2:packageDebugRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:compileDebugRenderscript UP-TO-DATE
+:dbflow-rx2-kotlinextensions:checkDebugManifest UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateDebugBuildConfig UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateDebugResValues UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateDebugResources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:packageDebugResources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:platformAttrExtractor UP-TO-DATE
+:dbflow-rx2-kotlinextensions:processDebugManifest UP-TO-DATE
+:dbflow-rx2-kotlinextensions:processDebugResources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileDebugKotlin UP-TO-DATE
+:dbflow-rx2-kotlinextensions:prepareLintJar UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateDebugSources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:javaPreCompileDebug UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileDebugJavaWithJavac UP-TO-DATE
+:dbflow-rx2-kotlinextensions:processDebugJavaRes NO-SOURCE
+:dbflow-rx2-kotlinextensions:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:dbflow-sqlcipher:preBuild UP-TO-DATE
+:dbflow-sqlcipher:preDebugBuild UP-TO-DATE
+:dbflow-sqlcipher:compileDebugAidl
+:dbflow-sqlcipher:compileDebugRenderscript
+:dbflow-sqlcipher:checkDebugManifest
+:dbflow-sqlcipher:generateDebugBuildConfig
+:dbflow-sqlcipher:prepareLintJar
+:dbflow-sqlcipher:generateDebugResValues
+:dbflow-sqlcipher:generateDebugResources
+:dbflow-sqlcipher:packageDebugResources
+:dbflow-sqlcipher:platformAttrExtractor
+:dbflow-sqlcipher:processDebugManifest
+:dbflow-sqlcipher:javaPreCompileDebug
+:dbflow-sqlcipher:processDebugJavaRes NO-SOURCE
+:dbflow-tests:preBuild UP-TO-DATE
+:dbflow-tests:preDebugBuild
+:dbflow-tests:compileDebugAidl
+:dbflow-kotlinextensions:packageDebugRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:packageDebugRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:packageDebugRenderscript NO-SOURCE
+:dbflow-sqlcipher:packageDebugRenderscript NO-SOURCE
+:dbflow-tests:compileDebugRenderscript
+:dbflow-tests:checkDebugManifest
+:dbflow-tests:generateDebugBuildConfig
+:dbflow-processor:compileKotlin
+w: /tmp/rdisk/1134/src/dbflow-processor/src/main/java/com/raizlabs/android/dbflow/processor/definition/DatabaseDefinition.kt: (64, 37): 'name: String' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1134/src/dbflow-processor/src/main/java/com/raizlabs/android/dbflow/processor/definition/DatabaseDefinition.kt: (65, 46): 'databaseExtension: String' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1134/src/dbflow-processor/src/main/java/com/raizlabs/android/dbflow/processor/definition/DatabaseDefinition.kt: (66, 33): 'inMemory: Boolean' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1134/src/dbflow-processor/src/main/java/com/raizlabs/android/dbflow/processor/definition/DatabaseDefinition.kt: (71, 39): 'generatedClassSeparator: String' is deprecated. Deprecated in Java
+:dbflow-processor:compileJava NO-SOURCE
+:dbflow-processor:processResources
+:dbflow-processor:classes
+:dbflow-processor:jar
+:dbflow-tests:copyDebugResDirectoryToClasses
+:dbflow-tests:generateDebugResValues
+:dbflow-tests:generateDebugResources
+:dbflow-tests:mergeDebugResources
+:dbflow-tests:createDebugCompatibleScreenManifests
+:dbflow-tests:processDebugManifest
+:dbflow-tests:splitsDiscoveryTaskDebug
+:dbflow-tests:prepareLintJar
+:dbflow-tests:compileDebugNdk NO-SOURCE
+:dbflow:mergeDebugShaders
+:dbflow:compileDebugShaders
+:dbflow:generateDebugAssets
+:dbflow:mergeDebugAssets
+:dbflow-kotlinextensions:mergeDebugShaders UP-TO-DATE
+:dbflow-kotlinextensions:compileDebugShaders UP-TO-DATE
+:dbflow-kotlinextensions:generateDebugAssets UP-TO-DATE
+:dbflow-kotlinextensions:mergeDebugAssets UP-TO-DATE
+:dbflow-rx:mergeDebugShaders UP-TO-DATE
+:dbflow-rx:compileDebugShaders UP-TO-DATE
+:dbflow-rx:generateDebugAssets UP-TO-DATE
+:dbflow-rx:mergeDebugAssets UP-TO-DATE
+:dbflow-rx-kotlinextensions:mergeDebugShaders UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileDebugShaders UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateDebugAssets UP-TO-DATE
+:dbflow-rx-kotlinextensions:mergeDebugAssets UP-TO-DATE
+:dbflow-rx2:mergeDebugShaders UP-TO-DATE
+:dbflow-rx2:compileDebugShaders UP-TO-DATE
+:dbflow-rx2:generateDebugAssets UP-TO-DATE
+:dbflow-rx2:mergeDebugAssets UP-TO-DATE
+:dbflow-rx2-kotlinextensions:mergeDebugShaders UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileDebugShaders UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateDebugAssets UP-TO-DATE
+:dbflow-rx2-kotlinextensions:mergeDebugAssets UP-TO-DATE
+:dbflow-sqlcipher:mergeDebugShaders
+:dbflow-sqlcipher:compileDebugShaders
+:dbflow-sqlcipher:generateDebugAssets
+:dbflow-sqlcipher:mergeDebugAssets
+:dbflow-tests:mergeDebugShaders
+:dbflow-tests:compileDebugShaders
+:dbflow-tests:generateDebugAssets
+:dbflow-tests:mergeDebugAssets
+:dbflow:compileDebugNdk NO-SOURCE
+:dbflow:mergeDebugJniLibFolders
+:dbflow:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow:transformNativeLibsWithIntermediateJniLibsForDebug
+:dbflow-kotlinextensions:compileDebugNdk NO-SOURCE
+:dbflow-kotlinextensions:mergeDebugJniLibFolders UP-TO-DATE
+:dbflow-kotlinextensions:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:dbflow-kotlinextensions:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:dbflow-kotlinextensions:transformNativeLibsWithIntermediateJniLibsForDebug
+:dbflow-rx:compileDebugNdk NO-SOURCE
+:dbflow-rx:mergeDebugJniLibFolders UP-TO-DATE
+:dbflow-rx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:dbflow-rx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:dbflow-rx:transformNativeLibsWithIntermediateJniLibsForDebug
+:dbflow-rx-kotlinextensions:compileDebugNdk NO-SOURCE
+:dbflow-rx-kotlinextensions:mergeDebugJniLibFolders UP-TO-DATE
+:dbflow-rx-kotlinextensions:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:dbflow-rx-kotlinextensions:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:dbflow-rx-kotlinextensions:transformNativeLibsWithIntermediateJniLibsForDebug
+:dbflow-rx2:compileDebugNdk NO-SOURCE
+:dbflow-rx2:mergeDebugJniLibFolders UP-TO-DATE
+:dbflow-rx2:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:dbflow-rx2:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:dbflow-rx2:transformNativeLibsWithIntermediateJniLibsForDebug
+:dbflow-rx2-kotlinextensions:compileDebugNdk NO-SOURCE
+:dbflow-rx2-kotlinextensions:mergeDebugJniLibFolders UP-TO-DATE
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithIntermediateJniLibsForDebug
+:dbflow-sqlcipher:compileDebugNdk NO-SOURCE
+:dbflow-sqlcipher:mergeDebugJniLibFolders
+:dbflow-sqlcipher:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow-sqlcipher:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow-sqlcipher:transformNativeLibsWithIntermediateJniLibsForDebug
+:dbflow-tests:mergeDebugJniLibFolders
+:dbflow-tests:processDebugJavaRes NO-SOURCE
+:dbflow-tests:validateSigningDebug
+:dbflow:preReleaseBuild UP-TO-DATE
+:dbflow:compileReleaseAidl UP-TO-DATE
+:dbflow:compileReleaseRenderscript UP-TO-DATE
+:dbflow:checkReleaseManifest UP-TO-DATE
+:dbflow:generateReleaseBuildConfig UP-TO-DATE
+:dbflow:generateReleaseResValues UP-TO-DATE
+:dbflow:generateReleaseResources UP-TO-DATE
+:dbflow:packageReleaseResources UP-TO-DATE
+:dbflow:processReleaseManifest UP-TO-DATE
+:dbflow:processReleaseResources UP-TO-DATE
+:dbflow:generateReleaseSources UP-TO-DATE
+:dbflow:javaPreCompileRelease UP-TO-DATE
+:dbflow:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow:processReleaseJavaRes NO-SOURCE
+:dbflow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:dbflow-kotlinextensions:preReleaseBuild UP-TO-DATE
+:dbflow-kotlinextensions:compileReleaseAidl UP-TO-DATE
+:dbflow:packageReleaseRenderscript NO-SOURCE
+:dbflow-kotlinextensions:compileReleaseRenderscript UP-TO-DATE
+:dbflow-kotlinextensions:checkReleaseManifest UP-TO-DATE
+:dbflow-kotlinextensions:generateReleaseBuildConfig UP-TO-DATE
+:dbflow-kotlinextensions:generateReleaseResValues UP-TO-DATE
+:dbflow-kotlinextensions:generateReleaseResources UP-TO-DATE
+:dbflow-kotlinextensions:packageReleaseResources UP-TO-DATE
+:dbflow-kotlinextensions:processReleaseManifest UP-TO-DATE
+:dbflow-kotlinextensions:processReleaseResources UP-TO-DATE
+:dbflow-kotlinextensions:compileReleaseKotlin UP-TO-DATE
+:dbflow-kotlinextensions:generateReleaseSources UP-TO-DATE
+:dbflow-kotlinextensions:javaPreCompileRelease UP-TO-DATE
+:dbflow-kotlinextensions:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow-kotlinextensions:processReleaseJavaRes NO-SOURCE
+:dbflow-kotlinextensions:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:dbflow-rx:preReleaseBuild UP-TO-DATE
+:dbflow-rx:compileReleaseAidl UP-TO-DATE
+:dbflow-rx:compileReleaseRenderscript UP-TO-DATE
+:dbflow-rx:checkReleaseManifest UP-TO-DATE
+:dbflow-rx:generateReleaseBuildConfig UP-TO-DATE
+:dbflow-sqlcipher:processDebugResources
+:dbflow-sqlcipher:generateDebugSources
+:dbflow-sqlcipher:compileDebugJavaWithJavac
+:dbflow-sqlcipher:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:dbflow-tests:processDebugResources
+:dbflow-tests:kaptGenerateStubsDebugKotlin
+:dbflow-tests:kaptDebugKotlin
+w: warning: File for type 'com.raizlabs.android.dbflow.config.AppDatabaseAppDatabase_Database' created in the last round will not be subject to annotation processing.
+w: 
+
+w: warning: File for type 'com.raizlabs.android.dbflow.config.CipherDatabaseCipherDatabase_Database' created in the last round will not be subject to annotation processing.
+w: 
+
+w: warning: File for type 'com.raizlabs.android.dbflow.config.PrepackagedDBPrepackagedDB_Database' created in the last round will not be subject to annotation processing.
+w: 
+
+:dbflow-tests:compileDebugKotlin
+:dbflow-tests:generateDebugSources
+:dbflow-tests:javaPreCompileDebug
+:dbflow-tests:compileDebugJavaWithJavac
+:dbflow-tests:compileDebugSources
+:dbflow-tests:transformClassesWithDexBuilderForDebug
+:dbflow-tests:transformDexArchiveWithExternalLibsDexMergerForDebug
+:dbflow-tests:transformDexArchiveWithDexMergerForDebug
+:dbflow-tests:transformNativeLibsWithMergeJniLibsForDebug
+:dbflow-tests:transformNativeLibsWithStripDebugSymbolForDebug
+:dbflow-tests:transformResourcesWithMergeJavaResForDebug
+:dbflow-tests:packageDebug
+:dbflow-tests:assembleDebug
+:dbflow-rx:generateReleaseResValues UP-TO-DATE
+:dbflow-rx:generateReleaseResources UP-TO-DATE
+:dbflow-rx:packageReleaseResources UP-TO-DATE
+:dbflow-rx:processReleaseManifest UP-TO-DATE
+:dbflow-rx:processReleaseResources UP-TO-DATE
+:dbflow-rx:generateReleaseSources UP-TO-DATE
+:dbflow-rx:javaPreCompileRelease UP-TO-DATE
+:dbflow-rx:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow-rx:processReleaseJavaRes NO-SOURCE
+:dbflow-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:dbflow-rx-kotlinextensions:preReleaseBuild UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileReleaseAidl UP-TO-DATE
+:dbflow-rx:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:compileReleaseRenderscript UP-TO-DATE
+:dbflow-rx-kotlinextensions:checkReleaseManifest UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateReleaseBuildConfig UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateReleaseResValues UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateReleaseResources UP-TO-DATE
+:dbflow-rx-kotlinextensions:packageReleaseResources UP-TO-DATE
+:dbflow-rx-kotlinextensions:processReleaseManifest UP-TO-DATE
+:dbflow-rx-kotlinextensions:processReleaseResources UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileReleaseKotlin UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateReleaseSources UP-TO-DATE
+:dbflow-rx-kotlinextensions:javaPreCompileRelease UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow-rx-kotlinextensions:processReleaseJavaRes NO-SOURCE
+:dbflow-rx-kotlinextensions:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:dbflow-rx2:preReleaseBuild UP-TO-DATE
+:dbflow-rx2:compileReleaseAidl UP-TO-DATE
+:dbflow-rx2:compileReleaseRenderscript UP-TO-DATE
+:dbflow-rx2:checkReleaseManifest UP-TO-DATE
+:dbflow-rx2:generateReleaseBuildConfig UP-TO-DATE
+:dbflow-rx2:generateReleaseResValues UP-TO-DATE
+:dbflow-rx2:generateReleaseResources UP-TO-DATE
+:dbflow-rx2:packageReleaseResources UP-TO-DATE
+:dbflow-rx2:processReleaseManifest UP-TO-DATE
+:dbflow-rx2:processReleaseResources UP-TO-DATE
+:dbflow-rx2:generateReleaseSources UP-TO-DATE
+:dbflow-rx2:javaPreCompileRelease UP-TO-DATE
+:dbflow-rx2:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow-rx2:processReleaseJavaRes NO-SOURCE
+:dbflow-rx2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:dbflow-rx2-kotlinextensions:preReleaseBuild UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileReleaseAidl UP-TO-DATE
+:dbflow-rx2:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:compileReleaseRenderscript UP-TO-DATE
+:dbflow-rx2-kotlinextensions:checkReleaseManifest UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateReleaseBuildConfig UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateReleaseResValues UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateReleaseResources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:packageReleaseResources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:processReleaseManifest UP-TO-DATE
+:dbflow-rx2-kotlinextensions:processReleaseResources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileReleaseKotlin UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateReleaseSources UP-TO-DATE
+:dbflow-rx2-kotlinextensions:javaPreCompileRelease UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileReleaseJavaWithJavac UP-TO-DATE
+:dbflow-rx2-kotlinextensions:processReleaseJavaRes NO-SOURCE
+:dbflow-rx2-kotlinextensions:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:dbflow-sqlcipher:preReleaseBuild UP-TO-DATE
+:dbflow-sqlcipher:compileReleaseAidl
+:dbflow-sqlcipher:compileReleaseRenderscript
+:dbflow-sqlcipher:checkReleaseManifest
+:dbflow-sqlcipher:generateReleaseBuildConfig
+:dbflow-sqlcipher:generateReleaseResValues
+:dbflow-sqlcipher:generateReleaseResources
+:dbflow-sqlcipher:packageReleaseResources
+:dbflow-sqlcipher:processReleaseManifest
+:dbflow-sqlcipher:processReleaseResources
+:dbflow-sqlcipher:generateReleaseSources
+:dbflow-sqlcipher:javaPreCompileRelease
+:dbflow-sqlcipher:compileReleaseJavaWithJavac
+:dbflow-sqlcipher:processReleaseJavaRes NO-SOURCE
+:dbflow-sqlcipher:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:dbflow-tests:preReleaseBuild
+:dbflow-tests:compileReleaseAidl
+:dbflow-kotlinextensions:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx-kotlinextensions:packageReleaseRenderscript NO-SOURCE
+:dbflow-rx2-kotlinextensions:packageReleaseRenderscript NO-SOURCE
+:dbflow-sqlcipher:packageReleaseRenderscript NO-SOURCE
+:dbflow-tests:compileReleaseRenderscript
+:dbflow-tests:checkReleaseManifest
+:dbflow-tests:generateReleaseBuildConfig
+:dbflow-tests:copyReleaseResDirectoryToClasses
+:dbflow-tests:generateReleaseResValues
+:dbflow-tests:generateReleaseResources
+:dbflow-tests:mergeReleaseResources
+:dbflow-tests:createReleaseCompatibleScreenManifests
+:dbflow-tests:processReleaseManifest
+:dbflow-tests:splitsDiscoveryTaskRelease
+:dbflow-tests:processReleaseResources
+:dbflow-tests:kaptGenerateStubsReleaseKotlin
+:dbflow-tests:kaptReleaseKotlin
+w: warning: File for type 'com.raizlabs.android.dbflow.config.AppDatabaseAppDatabase_Database' created in the last round will not be subject to annotation processing.
+w: 
+
+w: warning: File for type 'com.raizlabs.android.dbflow.config.CipherDatabaseCipherDatabase_Database' created in the last round will not be subject to annotation processing.
+w: 
+
+w: warning: File for type 'com.raizlabs.android.dbflow.config.PrepackagedDBPrepackagedDB_Database' created in the last round will not be subject to annotation processing.
+w: 
+
+:dbflow-tests:compileReleaseKotlin
+:dbflow-tests:generateReleaseSources
+:dbflow-tests:javaPreCompileRelease
+:dbflow-tests:compileReleaseJavaWithJavac
+:dbflow-tests:compileReleaseNdk NO-SOURCE
+:dbflow-tests:compileReleaseSources
+:dbflow-tests:lintVitalRelease
+Gradle now uses separate output directories for each JVM language, but this build assumes a single directory for all classes from a source set. This behaviour has been deprecated and is scheduled to be removed in Gradle 5.0
+	at org.gradle.api.internal.tasks.DefaultSourceSetOutput.getClassesDir(DefaultSourceSetOutput.java:80)
+	at org.gradle.api.internal.tasks.DefaultSourceSetOutput_Decorated.getClassesDir(Unknown Source)
+	at com.android.build.gradle.internal.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:839)
+	at com.android.build.gradle.internal.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:981)
+	at com.android.build.gradle.internal.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:784)
+	at com.android.build.gradle.internal.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:981)
+	at com.android.build.gradle.internal.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:784)
+	at com.android.build.gradle.internal.LintGradleClient.createLintRequest(LintGradleClient.java:182)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:149)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:197)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:198)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lintSingleVariant(LintPerVariantTask.java:53)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:731)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:705)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+:dbflow:mergeReleaseShaders
+:dbflow:compileReleaseShaders
+:dbflow:generateReleaseAssets
+:dbflow:mergeReleaseAssets
+:dbflow-kotlinextensions:mergeReleaseShaders UP-TO-DATE
+:dbflow-kotlinextensions:compileReleaseShaders UP-TO-DATE
+:dbflow-kotlinextensions:generateReleaseAssets UP-TO-DATE
+:dbflow-kotlinextensions:mergeReleaseAssets UP-TO-DATE
+:dbflow-rx:mergeReleaseShaders UP-TO-DATE
+:dbflow-rx:compileReleaseShaders UP-TO-DATE
+:dbflow-rx:generateReleaseAssets UP-TO-DATE
+:dbflow-rx:mergeReleaseAssets UP-TO-DATE
+:dbflow-rx-kotlinextensions:mergeReleaseShaders UP-TO-DATE
+:dbflow-rx-kotlinextensions:compileReleaseShaders UP-TO-DATE
+:dbflow-rx-kotlinextensions:generateReleaseAssets UP-TO-DATE
+:dbflow-rx-kotlinextensions:mergeReleaseAssets UP-TO-DATE
+:dbflow-rx2:mergeReleaseShaders UP-TO-DATE
+:dbflow-rx2:compileReleaseShaders UP-TO-DATE
+:dbflow-rx2:generateReleaseAssets UP-TO-DATE
+:dbflow-rx2:mergeReleaseAssets UP-TO-DATE
+:dbflow-rx2-kotlinextensions:mergeReleaseShaders UP-TO-DATE
+:dbflow-rx2-kotlinextensions:compileReleaseShaders UP-TO-DATE
+:dbflow-rx2-kotlinextensions:generateReleaseAssets UP-TO-DATE
+:dbflow-rx2-kotlinextensions:mergeReleaseAssets UP-TO-DATE
+:dbflow-sqlcipher:mergeReleaseShaders
+:dbflow-sqlcipher:compileReleaseShaders
+:dbflow-sqlcipher:generateReleaseAssets
+:dbflow-sqlcipher:mergeReleaseAssets
+:dbflow-tests:mergeReleaseShaders
+:dbflow-tests:compileReleaseShaders
+:dbflow-tests:generateReleaseAssets
+:dbflow-tests:mergeReleaseAssets
+:dbflow-tests:transformClassesWithPreDexForRelease
+:dbflow-tests:transformDexWithDexForRelease
+:dbflow:compileReleaseNdk NO-SOURCE
+:dbflow:mergeReleaseJniLibFolders
+:dbflow:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow:transformNativeLibsWithIntermediateJniLibsForRelease
+:dbflow-kotlinextensions:compileReleaseNdk NO-SOURCE
+:dbflow-kotlinextensions:mergeReleaseJniLibFolders UP-TO-DATE
+:dbflow-kotlinextensions:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:dbflow-kotlinextensions:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:dbflow-kotlinextensions:transformNativeLibsWithIntermediateJniLibsForRelease
+:dbflow-rx:compileReleaseNdk NO-SOURCE
+:dbflow-rx:mergeReleaseJniLibFolders UP-TO-DATE
+:dbflow-rx:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:dbflow-rx:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:dbflow-rx:transformNativeLibsWithIntermediateJniLibsForRelease
+:dbflow-rx-kotlinextensions:compileReleaseNdk NO-SOURCE
+:dbflow-rx-kotlinextensions:mergeReleaseJniLibFolders UP-TO-DATE
+:dbflow-rx-kotlinextensions:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:dbflow-rx-kotlinextensions:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:dbflow-rx-kotlinextensions:transformNativeLibsWithIntermediateJniLibsForRelease
+:dbflow-rx2:compileReleaseNdk NO-SOURCE
+:dbflow-rx2:mergeReleaseJniLibFolders UP-TO-DATE
+:dbflow-rx2:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:dbflow-rx2:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:dbflow-rx2:transformNativeLibsWithIntermediateJniLibsForRelease
+:dbflow-rx2-kotlinextensions:compileReleaseNdk NO-SOURCE
+:dbflow-rx2-kotlinextensions:mergeReleaseJniLibFolders UP-TO-DATE
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:dbflow-rx2-kotlinextensions:transformNativeLibsWithIntermediateJniLibsForRelease
+:dbflow-sqlcipher:compileReleaseNdk NO-SOURCE
+:dbflow-sqlcipher:mergeReleaseJniLibFolders
+:dbflow-sqlcipher:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow-sqlcipher:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow-sqlcipher:transformNativeLibsWithIntermediateJniLibsForRelease
+:dbflow-tests:mergeReleaseJniLibFolders
+:dbflow-tests:transformNativeLibsWithMergeJniLibsForRelease
+:dbflow-tests:transformNativeLibsWithStripDebugSymbolForRelease
+:dbflow-tests:processReleaseJavaRes NO-SOURCE
+:dbflow-tests:transformResourcesWithMergeJavaResForRelease
+:dbflow-tests:packageRelease
+:dbflow-tests:assembleRelease
+:dbflow-tests:assemble
+:dbflow-tests:build
+
+BUILD SUCCESSFUL in 1m 27s
+335 actionable tasks: 129 executed, 206 up-to-date
+
+2018-05-11 15:08:48,026 INFO  FullProcessService - Found APK file: /tmp/rdisk/1134/src/dbflow-tests/build/outputs/apk/release/dbflow-tests-release-unsigned.apk

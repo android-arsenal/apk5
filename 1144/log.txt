@@ -1,0 +1,245 @@
+2018-05-11 14:51:46,960 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxAndroid/archive/master.zip", attempt 3
+2018-05-11 14:51:54,131 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxAndroid/archive/master.zip", attempt 2
+2018-05-11 14:51:59,787 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxAndroid/archive/master.zip", attempt 1
+2018-05-11 14:53:00,021 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-11 14:53:01,090 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2018-05-11 14:53:01,090 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxAndroid/archive/2.x.zip", attempt 3
+2018-05-11 14:54:02,625 DEBUG FullProcessService - Repository https://github.com/ReactiveX/RxAndroid available: true
+2018-05-11 14:54:02,625 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-11 14:54:02,625 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ReactiveX/RxAndroid, /tmp/rdisk/1144/src]
+2018-05-11 14:54:06,613 INFO  SysUtils - 
+2018-05-11 14:54:06,630 INFO  GitService - Deleted "/tmp/rdisk/1144/src/.git": true
+2018-05-11 14:54:06,632 INFO  FullProcessService - Size of directory with sources: 219 KB
+2018-05-11 14:54:06,632 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1144/src]
+2018-05-11 14:54:06,649 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1144/src/.git/
+
+2018-05-11 14:54:06,651 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1144/src/gradlew
+2018-05-11 14:54:06,653 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1144/src/rxandroid/build.gradle /tmp/rdisk/1144/src/sample-app/build.gradle /tmp/rdisk/1144/src/build.gradle
+2018-05-11 14:54:06,655 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1144/src/settings.gradle /tmp/rdisk/1144/src/sample-app/build.gradle /tmp/rdisk/1144/src/rxandroid/build.gradle /tmp/rdisk/1144/src/gradle/artifacts.gradle /tmp/rdisk/1144/src/build.gradle
+2018-05-11 14:54:06,656 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 14:54:06,656 INFO  ProjectFixService - Fixing project...
+2018-05-11 14:54:06,662 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1144/src/rxandroid/local.properties
+2018-05-11 14:54:06,665 INFO  ProjectFixService - Build info for "/tmp/rdisk/1144/src/rxandroid/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=23]
+2018-05-11 14:54:06,665 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1144/src/sample-app/local.properties
+2018-05-11 14:54:06,667 INFO  ProjectFixService - Build info for "/tmp/rdisk/1144/src/sample-app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=23]
+2018-05-11 14:54:06,667 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1144/src/local.properties
+2018-05-11 14:54:06,668 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-05-11 14:54:06,668 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-05-11 14:54:06,668 INFO  ProjectFixService - Build info for "/tmp/rdisk/1144/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=23]
+2018-05-11 14:54:06,669 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 14:54:06,669 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 14:54:06,669 INFO  SysUtils - Execute command: [/tmp/rdisk/1144/src/gradlew, -b, /tmp/rdisk/1144/src/rxandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 14:54:16,743 INFO  ProjectTaskService - Detected possible tasks: 79
+2018-05-11 14:54:16,743 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-11 14:54:16,743 INFO  SysUtils - Execute command: [/tmp/rdisk/1144/src/gradlew, -b, /tmp/rdisk/1144/src/rxandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 14:54:32,054 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxandroid:preBuild UP-TO-DATE
+:rxandroid:preDebugBuild UP-TO-DATE
+:rxandroid:compileDebugAidl
+:rxandroid:compileDebugNdk NO-SOURCE
+:rxandroid:compileDebugRenderscript
+:rxandroid:checkDebugManifest
+:rxandroid:generateDebugBuildConfig SKIPPED
+:rxandroid:prepareLintJar
+:rxandroid:generateDebugResValues
+:rxandroid:generateDebugResources
+:rxandroid:packageDebugResources
+:rxandroid:platformAttrExtractor
+:rxandroid:processDebugManifest
+:rxandroid:javaPreCompileDebug
+:rxandroid:mergeDebugShaders
+:rxandroid:compileDebugShaders
+:rxandroid:generateDebugAssets
+:rxandroid:mergeDebugAssets
+:rxandroid:mergeDebugConsumerProguardFiles
+:rxandroid:packageDebugRenderscript NO-SOURCE
+:rxandroid:processDebugJavaRes NO-SOURCE
+:rxandroid:mergeDebugJniLibFolders
+:rxandroid:transformNativeLibsWithMergeJniLibsForDebug
+:rxandroid:transformNativeLibsWithStripDebugSymbolForDebug
+:rxandroid:transformNativeLibsWithSyncJniLibsForDebug
+:rxandroid:preReleaseBuild UP-TO-DATE
+:rxandroid:compileReleaseAidl
+:rxandroid:compileReleaseNdk NO-SOURCE
+:rxandroid:compileReleaseRenderscript
+:rxandroid:checkReleaseManifest
+:rxandroid:generateReleaseBuildConfig SKIPPED
+:rxandroid:generateReleaseResValues
+:rxandroid:generateReleaseResources
+:rxandroid:packageReleaseResources
+:rxandroid:processReleaseManifest
+:rxandroid:javaPreCompileRelease
+:rxandroid:mergeReleaseShaders
+:rxandroid:compileReleaseShaders
+:rxandroid:generateReleaseAssets
+:rxandroid:mergeReleaseAssets
+:rxandroid:mergeReleaseConsumerProguardFiles
+:rxandroid:packageReleaseRenderscript NO-SOURCE
+:rxandroid:processReleaseJavaRes NO-SOURCE
+:rxandroid:mergeReleaseJniLibFolders
+:rxandroid:transformNativeLibsWithMergeJniLibsForRelease
+:rxandroid:transformNativeLibsWithStripDebugSymbolForRelease
+:rxandroid:transformNativeLibsWithSyncJniLibsForRelease
+:rxandroid:mergeReleaseResources
+:rxandroid:verifyReleaseResources
+:rxandroid:processDebugResources
+:rxandroid:generateDebugSources
+:rxandroid:compileDebugJavaWithJavac
+:rxandroid:extractDebugAnnotations
+:rxandroid:transformResourcesWithMergeJavaResForDebug
+:rxandroid:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxandroid:bundleDebug
+:rxandroid:compileDebugSources
+:rxandroid:assembleDebug
+:rxandroid:processReleaseResources
+:rxandroid:generateReleaseSources
+:rxandroid:compileReleaseJavaWithJavac
+:rxandroid:extractReleaseAnnotations
+:rxandroid:transformResourcesWithMergeJavaResForRelease
+:rxandroid:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxandroid:bundleRelease
+:rxandroid:compileReleaseSources
+:rxandroid:assembleRelease
+:rxandroid:generateReleaseJavadocjavadoc: warning - Error reading file: /root/Applications/android-sdk/docs/reference/package-list
+
+1 warning
+:rxandroid:generateReleaseJavadocJar
+:rxandroid:generateReleaseSourcesJar
+:rxandroid:assemble
+:rxandroid:build
+
+BUILD SUCCESSFUL in 14s
+49 actionable tasks: 49 executed
+
+2018-05-11 14:54:32,064 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 14:54:32,064 INFO  SysUtils - Execute command: [/tmp/rdisk/1144/src/gradlew, -b, /tmp/rdisk/1144/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 14:54:39,656 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-11 14:54:39,656 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-11 14:54:39,656 INFO  SysUtils - Execute command: [/tmp/rdisk/1144/src/gradlew, -b, /tmp/rdisk/1144/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-11 14:55:05,107 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxandroid:preBuild UP-TO-DATE
+:rxandroid:preDebugBuild UP-TO-DATE
+:rxandroid:compileDebugAidl UP-TO-DATE
+:rxandroid:compileDebugRenderscript UP-TO-DATE
+:rxandroid:checkDebugManifest UP-TO-DATE
+:rxandroid:generateDebugBuildConfig SKIPPED
+:rxandroid:prepareLintJar UP-TO-DATE
+:rxandroid:generateDebugResValues UP-TO-DATE
+:rxandroid:generateDebugResources UP-TO-DATE
+:rxandroid:packageDebugResources UP-TO-DATE
+:rxandroid:platformAttrExtractor UP-TO-DATE
+:rxandroid:processDebugManifest UP-TO-DATE
+:rxandroid:processDebugResources UP-TO-DATE
+:rxandroid:generateDebugSources UP-TO-DATE
+:rxandroid:javaPreCompileDebug UP-TO-DATE
+:rxandroid:compileDebugJavaWithJavac UP-TO-DATE
+:rxandroid:processDebugJavaRes NO-SOURCE
+:rxandroid:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample-app:preBuild UP-TO-DATE
+:sample-app:preDebugBuild
+:sample-app:compileDebugAidl
+:rxandroid:packageDebugRenderscript NO-SOURCE
+:sample-app:compileDebugRenderscript
+:sample-app:checkDebugManifest
+:sample-app:generateDebugBuildConfig
+:sample-app:prepareLintJar
+:sample-app:generateDebugResValues
+:sample-app:generateDebugResources
+:sample-app:mergeDebugResources
+:sample-app:createDebugCompatibleScreenManifests
+:sample-app:processDebugManifest
+:sample-app:splitsDiscoveryTaskDebug
+:sample-app:processDebugResources
+:sample-app:generateDebugSources
+:sample-app:javaPreCompileDebug
+:sample-app:compileDebugJavaWithJavac
+:sample-app:compileDebugNdk NO-SOURCE
+:sample-app:compileDebugSources
+:rxandroid:mergeDebugShaders UP-TO-DATE
+:rxandroid:compileDebugShaders UP-TO-DATE
+:rxandroid:generateDebugAssets UP-TO-DATE
+:rxandroid:mergeDebugAssets UP-TO-DATE
+:sample-app:mergeDebugShaders
+:sample-app:compileDebugShaders
+:sample-app:generateDebugAssets
+:sample-app:mergeDebugAssets
+:sample-app:transformClassesWithDexBuilderForDebug
+:sample-app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample-app:transformDexArchiveWithDexMergerForDebug
+:rxandroid:compileDebugNdk NO-SOURCE
+:rxandroid:mergeDebugJniLibFolders UP-TO-DATE
+:rxandroid:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:rxandroid:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:rxandroid:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample-app:mergeDebugJniLibFolders
+:sample-app:transformNativeLibsWithMergeJniLibsForDebug
+:sample-app:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-app:processDebugJavaRes NO-SOURCE
+:sample-app:transformResourcesWithMergeJavaResForDebug
+:sample-app:validateSigningDebug
+:sample-app:packageDebug
+:sample-app:assembleDebug
+:rxandroid:preReleaseBuild UP-TO-DATE
+:rxandroid:compileReleaseAidl UP-TO-DATE
+:rxandroid:compileReleaseRenderscript UP-TO-DATE
+:rxandroid:checkReleaseManifest UP-TO-DATE
+:rxandroid:generateReleaseBuildConfig SKIPPED
+:rxandroid:generateReleaseResValues UP-TO-DATE
+:rxandroid:generateReleaseResources UP-TO-DATE
+:rxandroid:packageReleaseResources UP-TO-DATE
+:rxandroid:processReleaseManifest UP-TO-DATE
+:rxandroid:processReleaseResources UP-TO-DATE
+:rxandroid:generateReleaseSources UP-TO-DATE
+:rxandroid:javaPreCompileRelease UP-TO-DATE
+:rxandroid:compileReleaseJavaWithJavac UP-TO-DATE
+:rxandroid:processReleaseJavaRes NO-SOURCE
+:rxandroid:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample-app:preReleaseBuild
+:sample-app:compileReleaseAidl
+:rxandroid:packageReleaseRenderscript NO-SOURCE
+:sample-app:compileReleaseRenderscript
+:sample-app:checkReleaseManifest
+:sample-app:generateReleaseBuildConfig
+:sample-app:generateReleaseResValues
+:sample-app:generateReleaseResources
+:sample-app:mergeReleaseResources
+:sample-app:createReleaseCompatibleScreenManifests
+:sample-app:processReleaseManifest
+:sample-app:splitsDiscoveryTaskRelease
+:sample-app:processReleaseResources
+:sample-app:generateReleaseSources
+:sample-app:javaPreCompileRelease
+:sample-app:compileReleaseJavaWithJavac
+:sample-app:compileReleaseNdk NO-SOURCE
+:sample-app:compileReleaseSources
+:sample-app:lintVitalReleaseWarning: Configuration file /tmp/rdisk/1144/src/sample-app/lint.xml does not exist
+
+:rxandroid:mergeReleaseShaders UP-TO-DATE
+:rxandroid:compileReleaseShaders UP-TO-DATE
+:rxandroid:generateReleaseAssets UP-TO-DATE
+:rxandroid:mergeReleaseAssets UP-TO-DATE
+:sample-app:mergeReleaseShaders
+:sample-app:compileReleaseShaders
+:sample-app:generateReleaseAssets
+:sample-app:mergeReleaseAssets
+:sample-app:transformClassesWithPreDexForRelease
+:sample-app:transformDexWithDexForRelease
+:rxandroid:compileReleaseNdk NO-SOURCE
+:rxandroid:mergeReleaseJniLibFolders UP-TO-DATE
+:rxandroid:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:rxandroid:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:rxandroid:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample-app:mergeReleaseJniLibFolders
+:sample-app:transformNativeLibsWithMergeJniLibsForRelease
+:sample-app:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-app:processReleaseJavaRes NO-SOURCE
+:sample-app:transformResourcesWithMergeJavaResForRelease
+:sample-app:packageRelease
+:sample-app:assembleRelease
+:sample-app:assemble
+:sample-app:build
+
+BUILD SUCCESSFUL in 24s
+86 actionable tasks: 54 executed, 32 up-to-date
+
+2018-05-11 14:55:05,125 INFO  FullProcessService - Found APK file: /tmp/rdisk/1144/src/sample-app/build/outputs/apk/release/sample-app-release-unsigned.apk

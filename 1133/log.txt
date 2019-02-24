@@ -1,0 +1,482 @@
+2018-04-08 02:47:53,047 INFO  DownloadService - Downloading "https://github.com/rahulrj/Swipe_RecyclerView/archive/master.zip", attempt 3
+2018-04-08 02:48:53,657 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 02:48:54,553 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 02:48:54,553 INFO  DownloadService - Downloading "https://github.com/rahulrj/Swipe_RecyclerView/archive/master.zip", attempt 3
+2018-04-08 02:49:55,797 DEBUG FullProcessService - Repository https://github.com/rahulrj/Swipe_RecyclerView available: true
+2018-04-08 02:49:55,797 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 02:49:55,797 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rahulrj/Swipe_RecyclerView, /tmp/rdisk/1133/src]
+2018-04-08 02:49:57,278 INFO  SysUtils - 
+2018-04-08 02:49:57,282 INFO  GitService - Deleted "/tmp/rdisk/1133/src/.git": true
+2018-04-08 02:49:57,285 INFO  FullProcessService - Size of directory with sources: 244 KB
+2018-04-08 02:49:57,285 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1133/src]
+2018-04-08 02:49:57,294 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1133/src/.git/
+
+2018-04-08 02:49:57,297 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1133/src/gradlew
+2018-04-08 02:49:57,299 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1133/src/app/build.gradle /tmp/rdisk/1133/src/swipelistview/build.gradle /tmp/rdisk/1133/src/build.gradle
+2018-04-08 02:49:57,302 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1133/src/swipelistview/build.gradle /tmp/rdisk/1133/src/settings.gradle /tmp/rdisk/1133/src/build.gradle /tmp/rdisk/1133/src/app/build.gradle
+2018-04-08 02:49:57,302 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 02:49:57,302 INFO  ProjectFixService - Fixing project...
+2018-04-08 02:49:57,308 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1133/src/app/local.properties
+2018-04-08 02:49:57,308 INFO  ProjectFixService - Build info for "/tmp/rdisk/1133/src/app/build.gradle": [buildToolsVersion=21.0.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-08 02:49:57,309 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1133/src/app/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-08 02:49:57,310 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1133/src/swipelistview/local.properties
+2018-04-08 02:49:57,310 INFO  ProjectFixService - Build info for "/tmp/rdisk/1133/src/swipelistview/build.gradle": [buildToolsVersion=21.0.0,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2018-04-08 02:49:57,310 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1133/src/swipelistview/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2018-04-08 02:49:57,310 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1133/src/local.properties
+2018-04-08 02:49:57,311 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2018-04-08 02:49:57,311 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2018-04-08 02:49:57,311 INFO  ProjectFixService - Build info for "/tmp/rdisk/1133/src/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2018-04-08 02:49:57,311 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 02:49:57,311 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:49:57,312 INFO  SysUtils - Execute command: [/tmp/rdisk/1133/src/gradlew, -b, /tmp/rdisk/1133/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:50:13,559 INFO  ProjectTaskService - Detected possible tasks: 49
+2018-04-08 02:50:13,559 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 02:50:13,559 INFO  SysUtils - Execute command: [/tmp/rdisk/1133/src/gradlew, -b, /tmp/rdisk/1133/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 02:50:23,408 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:50:23,408 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:swipelistview:compileLint
+:swipelistview:copyReleaseLint UP-TO-DATE
+:swipelistview:preBuild
+:swipelistview:preReleaseBuild
+:swipelistview:checkReleaseManifest
+:swipelistview:preDebugBuild
+:swipelistview:preDebugTestBuild
+:swipelistview:prepareComAndroidSupportRecyclerviewV72600Alpha1Library
+:swipelistview:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:swipelistview:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:swipelistview:prepareComAndroidSupportSupportV42103Library
+:swipelistview:prepareReleaseDependencies
+:swipelistview:compileReleaseAidl
+:swipelistview:compileReleaseRenderscript
+:swipelistview:generateReleaseBuildConfig
+:swipelistview:generateReleaseAssets UP-TO-DATE
+:swipelistview:mergeReleaseAssets
+:swipelistview:generateReleaseResValues
+:swipelistview:generateReleaseResources
+:swipelistview:mergeReleaseResources
+:swipelistview:processReleaseManifest
+:swipelistview:processReleaseResources
+:swipelistview:generateReleaseSources
+:swipelistview:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:swipelistview:extractReleaseAnnotations
+:swipelistview:mergeReleaseProguardFiles
+:swipelistview:processReleaseJavaRes UP-TO-DATE
+:swipelistview:packageReleaseJar
+:swipelistview:compileReleaseNdk
+:swipelistview:packageReleaseJniLibs UP-TO-DATE
+:swipelistview:packageReleaseLocalJar UP-TO-DATE
+:swipelistview:packageReleaseRenderscript UP-TO-DATE
+:swipelistview:packageReleaseResources
+:swipelistview:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72100Library
+:app:prepareComAndroidSupportRecyclerviewV72600Alpha1Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42103Library
+:app:prepareSrcSwipelistviewUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processDebugManifest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugManifest'.
+> Error: [/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:289)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:86)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:67)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:54)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:166)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: Error: [/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:116)
+	at com.android.manifmerger.XmlElement.initMergeableChildren(XmlElement.java:807)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:144)
+	at com.android.manifmerger.XmlDocument.getRootNode(XmlDocument.java:240)
+	at com.android.manifmerger.ManifestMerger2.loadLibraries(ManifestMerger2.java:337)
+	at com.android.manifmerger.ManifestMerger2.merge(ManifestMerger2.java:100)
+	at com.android.manifmerger.ManifestMerger2.access$1000(ManifestMerger2.java:49)
+	at com.android.manifmerger.ManifestMerger2$Invoker.merge(ManifestMerger2.java:764)
+	at com.android.builder.core.AndroidBuilder.mergeManifests(AndroidBuilder.java:411)
+	at com.android.builder.core.AndroidBuilder$mergeManifests.call(Unknown Source)
+	at com.android.build.gradle.tasks.MergeManifests.doFullTaskAction(MergeManifests.groovy:111)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:64)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:236)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:212)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:223)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:201)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:533)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:516)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 46 more
+Caused by: Error: [/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	... 67 more
+Caused by: java.lang.IllegalArgumentException: No enum constant com.android.manifmerger.AttributeOperationType.OVERRIDELIBRARY
+	at com.android.manifmerger.AttributeOperationType.valueOf(AttributeOperationType.java:54)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:99)
+	... 66 more
+
+
+BUILD FAILED
+
+Total time: 9.398 secs
+
+2018-04-08 02:50:23,434 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:50:23,434 INFO  SysUtils - Execute command: [/tmp/rdisk/1133/src/gradlew, -b, /tmp/rdisk/1133/src/swipelistview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:50:28,964 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-04-08 02:50:28,964 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 02:50:28,965 INFO  SysUtils - Execute command: [/tmp/rdisk/1133/src/gradlew, -b, /tmp/rdisk/1133/src/swipelistview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 02:50:36,718 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:swipelistview:compileLint
+:swipelistview:copyDebugLint UP-TO-DATE
+:swipelistview:preBuild
+:swipelistview:preDebugBuild
+:swipelistview:checkDebugManifest
+:swipelistview:preDebugTestBuild
+:swipelistview:preReleaseBuild
+:swipelistview:prepareComAndroidSupportRecyclerviewV72600Alpha1Library UP-TO-DATE
+:swipelistview:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:swipelistview:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:swipelistview:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:swipelistview:prepareDebugDependencies
+:swipelistview:compileDebugAidl
+:swipelistview:compileDebugRenderscript
+:swipelistview:generateDebugBuildConfig
+:swipelistview:generateDebugAssets UP-TO-DATE
+:swipelistview:mergeDebugAssets
+:swipelistview:generateDebugResValues
+:swipelistview:generateDebugResources
+:swipelistview:mergeDebugResources
+:swipelistview:processDebugManifest
+:swipelistview:processDebugResources
+:swipelistview:generateDebugSources
+:swipelistview:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:swipelistview:extractDebugAnnotations
+:swipelistview:mergeDebugProguardFiles
+:swipelistview:processDebugJavaRes UP-TO-DATE
+:swipelistview:packageDebugJar
+:swipelistview:compileDebugNdk
+:swipelistview:packageDebugJniLibs UP-TO-DATE
+:swipelistview:packageDebugLocalJar UP-TO-DATE
+:swipelistview:packageDebugRenderscript UP-TO-DATE
+:swipelistview:packageDebugResources
+:swipelistview:bundleDebug
+:swipelistview:assembleDebug
+:swipelistview:copyReleaseLint UP-TO-DATE
+:swipelistview:checkReleaseManifest
+:swipelistview:prepareReleaseDependencies
+:swipelistview:compileReleaseAidl UP-TO-DATE
+:swipelistview:compileReleaseRenderscript UP-TO-DATE
+:swipelistview:generateReleaseBuildConfig UP-TO-DATE
+:swipelistview:generateReleaseAssets UP-TO-DATE
+:swipelistview:mergeReleaseAssets UP-TO-DATE
+:swipelistview:generateReleaseResValues UP-TO-DATE
+:swipelistview:generateReleaseResources UP-TO-DATE
+:swipelistview:mergeReleaseResources UP-TO-DATE
+:swipelistview:processReleaseManifest UP-TO-DATE
+:swipelistview:processReleaseResources UP-TO-DATE
+:swipelistview:generateReleaseSources UP-TO-DATE
+:swipelistview:compileReleaseJava UP-TO-DATE
+:swipelistview:extractReleaseAnnotations
+:swipelistview:mergeReleaseProguardFiles UP-TO-DATE
+:swipelistview:processReleaseJavaRes UP-TO-DATE
+:swipelistview:packageReleaseJar UP-TO-DATE
+:swipelistview:compileReleaseNdk UP-TO-DATE
+:swipelistview:packageReleaseJniLibs UP-TO-DATE
+:swipelistview:packageReleaseLocalJar UP-TO-DATE
+:swipelistview:packageReleaseRenderscript UP-TO-DATE
+:swipelistview:packageReleaseResources UP-TO-DATE
+:swipelistview:bundleRelease
+:swipelistview:assembleRelease
+:swipelistview:assemble
+:swipelistview:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.304 secs
+
+2018-04-08 02:50:36,752 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:50:36,752 INFO  SysUtils - Execute command: [/tmp/rdisk/1133/src/gradlew, -b, /tmp/rdisk/1133/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:50:42,962 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-08 02:50:42,962 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 02:50:42,962 INFO  SysUtils - Execute command: [/tmp/rdisk/1133/src/gradlew, -b, /tmp/rdisk/1133/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 02:50:49,588 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:50:49,589 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:app:preBuild
+:app:compileDebugNdk UP-TO-DATE
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:swipelistview:compileLint
+:swipelistview:copyReleaseLint UP-TO-DATE
+:swipelistview:preBuild
+:swipelistview:preReleaseBuild
+:swipelistview:checkReleaseManifest
+:swipelistview:preDebugBuild
+:swipelistview:preDebugTestBuild
+:swipelistview:prepareComAndroidSupportRecyclerviewV72600Alpha1Library UP-TO-DATE
+:swipelistview:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:swipelistview:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:swipelistview:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:swipelistview:prepareReleaseDependencies
+:swipelistview:compileReleaseAidl UP-TO-DATE
+:swipelistview:compileReleaseRenderscript UP-TO-DATE
+:swipelistview:generateReleaseBuildConfig UP-TO-DATE
+:swipelistview:generateReleaseAssets UP-TO-DATE
+:swipelistview:mergeReleaseAssets UP-TO-DATE
+:swipelistview:generateReleaseResValues UP-TO-DATE
+:swipelistview:generateReleaseResources UP-TO-DATE
+:swipelistview:mergeReleaseResources UP-TO-DATE
+:swipelistview:processReleaseManifest UP-TO-DATE
+:swipelistview:processReleaseResources UP-TO-DATE
+:swipelistview:generateReleaseSources UP-TO-DATE
+:swipelistview:compileReleaseJava UP-TO-DATE
+:swipelistview:extractReleaseAnnotations UP-TO-DATE
+:swipelistview:mergeReleaseProguardFiles UP-TO-DATE
+:swipelistview:processReleaseJavaRes UP-TO-DATE
+:swipelistview:packageReleaseJar UP-TO-DATE
+:swipelistview:compileReleaseNdk UP-TO-DATE
+:swipelistview:packageReleaseJniLibs UP-TO-DATE
+:swipelistview:packageReleaseLocalJar UP-TO-DATE
+:swipelistview:packageReleaseRenderscript UP-TO-DATE
+:swipelistview:packageReleaseResources UP-TO-DATE
+:swipelistview:bundleRelease UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72100Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72600Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:app:prepareSrcSwipelistviewUnspecifiedLibrary UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugManifest'.
+> Error: [/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:289)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:86)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:67)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:54)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:166)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: Error: [/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:116)
+	at com.android.manifmerger.XmlElement.initMergeableChildren(XmlElement.java:807)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:144)
+	at com.android.manifmerger.XmlDocument.getRootNode(XmlDocument.java:240)
+	at com.android.manifmerger.ManifestMerger2.loadLibraries(ManifestMerger2.java:337)
+	at com.android.manifmerger.ManifestMerger2.merge(ManifestMerger2.java:100)
+	at com.android.manifmerger.ManifestMerger2.access$1000(ManifestMerger2.java:49)
+	at com.android.manifmerger.ManifestMerger2$Invoker.merge(ManifestMerger2.java:764)
+	at com.android.builder.core.AndroidBuilder.mergeManifests(AndroidBuilder.java:411)
+	at com.android.builder.core.AndroidBuilder$mergeManifests.call(Unknown Source)
+	at com.android.build.gradle.tasks.MergeManifests.doFullTaskAction(MergeManifests.groovy:111)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:64)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:236)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:212)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:223)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:201)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:533)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:516)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 46 more
+Caused by: Error: [/tmp/rdisk/1133/src/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	... 67 more
+Caused by: java.lang.IllegalArgumentException: No enum constant com.android.manifmerger.AttributeOperationType.OVERRIDELIBRARY
+	at com.android.manifmerger.AttributeOperationType.valueOf(AttributeOperationType.java:54)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:99)
+	... 66 more
+
+
+BUILD FAILED
+
+Total time: 6.171 secs
+
+2018-04-08 02:50:49,615 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 02:50:49,641 ERROR FullProcessService - Could not find generated or existed APK file

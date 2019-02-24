@@ -1,0 +1,228 @@
+2018-04-08 03:23:43,461 INFO  DownloadService - Downloading "https://github.com/kyleduo/SwitchButton/archive/master.zip", attempt 3
+2018-04-08 03:24:43,956 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 03:24:44,628 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 03:24:44,628 INFO  DownloadService - Downloading "https://github.com/kyleduo/SwitchButton/archive/master.zip", attempt 3
+2018-04-08 03:25:45,962 DEBUG FullProcessService - Repository https://github.com/kyleduo/SwitchButton available: true
+2018-04-08 03:25:45,962 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 03:25:45,962 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kyleduo/SwitchButton, /tmp/rdisk/1119/src]
+2018-04-08 03:25:49,020 INFO  SysUtils - 
+2018-04-08 03:25:49,025 INFO  GitService - Deleted "/tmp/rdisk/1119/src/.git": true
+2018-04-08 03:25:49,029 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-08 03:25:49,029 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1119/src]
+2018-04-08 03:25:49,033 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1119/src/.git/
+
+2018-04-08 03:25:49,036 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1119/src/SwitchButton/gradlew
+2018-04-08 03:25:49,040 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1119/src/SwitchButton/demo/build.gradle /tmp/rdisk/1119/src/SwitchButton/library/build.gradle /tmp/rdisk/1119/src/SwitchButton/build.gradle
+2018-04-08 03:25:49,043 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1119/src/SwitchButton/settings.gradle /tmp/rdisk/1119/src/SwitchButton/library/build.gradle /tmp/rdisk/1119/src/SwitchButton/gradle/gradle-bintray-upload.gradle /tmp/rdisk/1119/src/SwitchButton/demo/build.gradle /tmp/rdisk/1119/src/SwitchButton/build.gradle
+2018-04-08 03:25:49,043 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 03:25:49,043 INFO  ProjectFixService - Fixing project...
+2018-04-08 03:25:49,051 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1119/src/SwitchButton/demo/local.properties
+2018-04-08 03:25:49,051 INFO  ProjectFixService - Build info for "/tmp/rdisk/1119/src/SwitchButton/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-04-08 03:25:49,051 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1119/src/SwitchButton/library/local.properties
+2018-04-08 03:25:49,052 INFO  ProjectFixService - Build info for "/tmp/rdisk/1119/src/SwitchButton/library/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2018-04-08 03:25:49,052 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1119/src/SwitchButton/local.properties
+2018-04-08 03:25:49,052 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-04-08 03:25:49,052 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-04-08 03:25:49,053 INFO  ProjectFixService - Build info for "/tmp/rdisk/1119/src/SwitchButton/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2018-04-08 03:25:49,053 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 03:25:49,053 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 03:25:49,053 INFO  SysUtils - Execute command: [/tmp/rdisk/1119/src/SwitchButton/gradlew, -b, /tmp/rdisk/1119/src/SwitchButton/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 03:25:56,443 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 03:25:56,443 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 03:25:56,443 INFO  SysUtils - Execute command: [/tmp/rdisk/1119/src/SwitchButton/gradlew, -b, /tmp/rdisk/1119/src/SwitchButton/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 03:26:39,674 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:demo:preDebugBuild
+:library:compileDebugAidl
+:demo:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:processDebugResources
+:demo:processDebugResources
+:demo:generateDebugSources
+:library:generateDebugSources
+:library:compileDebugJavaWithJavac
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:demo:extractProguardFiles
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:demo:preReleaseBuild
+:library:compileReleaseAidl
+:demo:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:library:processReleaseResources
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:demo:mergeReleaseAssets
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:library:mergeReleaseConsumerProguardFiles
+:demo:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2346f270f95d2d37ee2ebe76697b8077/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/833698213110068267ffdf2ca2a9423f/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9d33f79f17fbb562e91033f91b020cbe/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/e9dbefb11ee645ae0cb6a0ef5509995d/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cbc866802832712e470a36778db6f1e9/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24d6361ccc3992c37b5becee4c11ec05/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cb2a9eb87fc0783439f5369ca298d368/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/764679bd37db1fb2197d29e4b865ca06/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/22ca6d88102aa4e3e50f46d98ad5007e/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/5ddf7596d002d1c7ebeac6c6ad06be76/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9eb77b18fbeea82876f5993f72207a36/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/tmp/rdisk/1119/src/SwitchButton/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/tmp/rdisk/1119/src/SwitchButton/demo/build/intermediates/classes/release] (filtered)
+Reading program jar [/tmp/rdisk/1119/src/SwitchButton/demo/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-26/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4590
+  Final number of library classes:    1075
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/1119/src/SwitchButton/demo/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1797
+  Final number of program classes:    815
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/tmp/rdisk/1119/src/SwitchButton/demo/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/tmp/rdisk/1119/src/SwitchButton/demo/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2346f270f95d2d37ee2ebe76697b8077/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/833698213110068267ffdf2ca2a9423f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9d33f79f17fbb562e91033f91b020cbe/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/e9dbefb11ee645ae0cb6a0ef5509995d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cbc866802832712e470a36778db6f1e9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24d6361ccc3992c37b5becee4c11ec05/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cb2a9eb87fc0783439f5369ca298d368/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/764679bd37db1fb2197d29e4b865ca06/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/22ca6d88102aa4e3e50f46d98ad5007e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/5ddf7596d002d1c7ebeac6c6ad06be76/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9eb77b18fbeea82876f5993f72207a36/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1119/src/SwitchButton/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/1119/src/SwitchButton/demo/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1119/src/SwitchButton/demo/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/tmp/rdisk/1119/src/SwitchButton/demo/build/outputs/mapping/release/dump.txt]...
+:demo:transformClassesWithDexForRelease
+:demo:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:packageRelease
+:demo:lintVitalRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 42s
+90 actionable tasks: 90 executed
+
+2018-04-08 03:26:39,730 INFO  FullProcessService - Found APK file: /tmp/rdisk/1119/src/demo/switchbutton_demo_200.apk

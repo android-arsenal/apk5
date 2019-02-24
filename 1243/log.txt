@@ -1,0 +1,1502 @@
+2018-05-21 02:48:23,946 INFO  DownloadService - Downloading "https://github.com/pushbit/sprockets-android/archive/master.zip", attempt 3
+2018-05-21 02:48:24,835 INFO  DownloadService - Downloaded https://github.com/pushbit/sprockets-android/archive/master.zip, attempt 3
+2018-05-21 02:48:24,835 INFO  DownloadService - Size of file "/tmp/rdisk/1243/master.zip": 2 MB
+2018-05-21 02:48:24,836 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-21 02:48:24,836 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1243/master.zip: true
+2018-05-21 02:48:24,836 DEBUG ZipUtil - Extracting '/tmp/rdisk/1243/master.zip' into '/tmp/rdisk/1243/src'.
+2018-05-21 02:48:24,890 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-05-21 02:48:24,890 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1243/src]
+2018-05-21 02:48:24,895 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1243/src/.git/
+
+2018-05-21 02:48:24,901 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1243/src/sprockets-android-master/gradlew
+2018-05-21 02:48:24,908 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1243/src/sprockets-android-master/samples/build.gradle /tmp/rdisk/1243/src/sprockets-android-master/sprockets-test/build.gradle /tmp/rdisk/1243/src/sprockets-android-master/sprockets/build.gradle /tmp/rdisk/1243/src/sprockets-android-master/build.gradle
+2018-05-21 02:48:24,914 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1243/src/sprockets-android-master/sprockets/build.gradle /tmp/rdisk/1243/src/sprockets-android-master/sprockets-test/build.gradle /tmp/rdisk/1243/src/sprockets-android-master/settings.gradle /tmp/rdisk/1243/src/sprockets-android-master/samples/build.gradle /tmp/rdisk/1243/src/sprockets-android-master/build.gradle
+2018-05-21 02:48:24,915 INFO  ProjectBuildService - Remote scripts: none
+2018-05-21 02:48:24,915 INFO  ProjectFixService - Fixing project...
+2018-05-21 02:48:24,930 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1243/src/sprockets-android-master/samples/local.properties
+2018-05-21 02:48:24,930 INFO  ProjectFixService - Build info for "/tmp/rdisk/1243/src/sprockets-android-master/samples/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-05-21 02:48:24,930 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1243/src/sprockets-android-master/sprockets-test/local.properties
+2018-05-21 02:48:24,931 INFO  ProjectFixService - Build info for "/tmp/rdisk/1243/src/sprockets-android-master/sprockets-test/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-05-21 02:48:24,931 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1243/src/sprockets-android-master/sprockets/local.properties
+2018-05-21 02:48:24,931 INFO  ProjectFixService - Build info for "/tmp/rdisk/1243/src/sprockets-android-master/sprockets/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-05-21 02:48:24,932 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1243/src/sprockets-android-master/local.properties
+2018-05-21 02:48:24,932 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
+2018-05-21 02:48:24,932 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
+2018-05-21 02:48:24,933 INFO  ProjectFixService - Build info for "/tmp/rdisk/1243/src/sprockets-android-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-05-21 02:48:24,933 INFO  ProjectFixService - Project was maybe fixed
+2018-05-21 02:48:24,933 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-21 02:48:24,934 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-21 02:48:42,139 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-05-21 02:48:42,139 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-21 02:48:42,139 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-21 02:49:11,766 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-21 02:49:11,766 INFO  SysUtils - Configuration on demand is an incubating feature.
+google-services plugin could not detect any version for com.google.android.gms or com.google.firebase, default version: 9.0.0 will be used.
+please apply google-services plugin at the bottom of the build file.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+:samples:preBuild UP-TO-DATE
+:samples:extractProguardFiles
+:samples:preDebugBuild
+:samples:checkDebugManifest
+:samples:preReleaseBuild
+:samples:prepareComAndroidDatabindingAdapters131Library
+:samples:prepareComAndroidDatabindingLibrary131Library
+:samples:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:samples:prepareComAndroidSupportAppcompatV72531Library
+:samples:prepareComAndroidSupportCardviewV72511Library
+:samples:prepareComAndroidSupportConstraintConstraintLayout102Library
+:samples:prepareComAndroidSupportCustomtabs2511Library
+:samples:prepareComAndroidSupportDesign2531Library
+:samples:prepareComAndroidSupportRecyclerviewV72531Library
+:samples:prepareComAndroidSupportSupportCompat2531Library
+:samples:prepareComAndroidSupportSupportCoreUi2531Library
+:samples:prepareComAndroidSupportSupportCoreUtils2531Library
+:samples:prepareComAndroidSupportSupportFragment2531Library
+:samples:prepareComAndroidSupportSupportMediaCompat2531Library
+:samples:prepareComAndroidSupportSupportV132531Library
+:samples:prepareComAndroidSupportSupportV42531Library
+:samples:prepareComAndroidSupportSupportVectorDrawable2531Library
+:samples:prepareComAndroidSupportTransition2531Library
+:samples:prepareComFacebookAndroidFacebookAndroidSdk4190Library
+:samples:prepareComFirebaseuiFirebaseUiAuth120Library
+:samples:prepareComGoogleAndroidGmsPlayServicesAuth1020Library
+:samples:prepareComGoogleAndroidGmsPlayServicesAuthBase1020Library
+:samples:prepareComGoogleAndroidGmsPlayServicesBase1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesBasement1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesClearcut1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesLocation1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesMaps1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesPlaces1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesTasks1026Library
+:samples:prepareComGoogleDaggerDaggerAndroid211Library
+:samples:prepareComGoogleFirebaseFirebaseAnalytics1026Library
+:samples:prepareComGoogleFirebaseFirebaseAnalyticsImpl1026Library
+:samples:prepareComGoogleFirebaseFirebaseAuth1026Library
+:samples:prepareComGoogleFirebaseFirebaseCommon1026Library
+:samples:prepareComGoogleFirebaseFirebaseConfig1026Library
+:samples:prepareComGoogleFirebaseFirebaseCore900Library
+:samples:prepareComGoogleFirebaseFirebaseCrash1026Library
+:samples:prepareComGoogleFirebaseFirebaseIid1026Library
+:samples:prepareComGoogleFirebaseFirebasePerf1026Library
+:samples:prepareComTwitterSdkAndroidTweetComposer230Library
+:samples:prepareComTwitterSdkAndroidTweetUi230Library
+:samples:prepareComTwitterSdkAndroidTwitter230Library
+:samples:prepareComTwitterSdkAndroidTwitterCore230Library
+:samples:prepareIoFabricSdkAndroidFabric1314Library
+:samples:prepareIoRealmAndroidAdapters210Library
+:samples:prepareJpWasabeefPicassoTransformations212Library
+:samples:preparePubDevrelEasypermissions040Library
+:sprockets:preBuild UP-TO-DATE
+:sprockets:preReleaseBuild UP-TO-DATE
+:sprockets:checkReleaseManifest
+:sprockets:preDebugAndroidTestBuild UP-TO-DATE
+:sprockets:preDebugBuild UP-TO-DATE
+:sprockets:preDebugUnitTestBuild UP-TO-DATE
+:sprockets:preReleaseUnitTestBuild UP-TO-DATE
+:sprockets:prepareComAndroidDatabindingAdapters131Library
+:sprockets:prepareComAndroidDatabindingLibrary131Library
+:sprockets:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sprockets:prepareComAndroidSupportAppcompatV72531Library
+:sprockets:prepareComAndroidSupportCardviewV72511Library
+:sprockets:prepareComAndroidSupportConstraintConstraintLayout102Library
+:sprockets:prepareComAndroidSupportCustomtabs2511Library
+:sprockets:prepareComAndroidSupportDesign2531Library
+:sprockets:prepareComAndroidSupportRecyclerviewV72531Library
+:sprockets:prepareComAndroidSupportSupportCompat2531Library
+:sprockets:prepareComAndroidSupportSupportCoreUi2531Library
+:sprockets:prepareComAndroidSupportSupportCoreUtils2531Library
+:sprockets:prepareComAndroidSupportSupportFragment2531Library
+:sprockets:prepareComAndroidSupportSupportMediaCompat2531Library
+:sprockets:prepareComAndroidSupportSupportV132531Library
+:sprockets:prepareComAndroidSupportSupportV42531Library
+:sprockets:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sprockets:prepareComAndroidSupportTransition2531Library
+:sprockets:prepareComFacebookAndroidFacebookAndroidSdk4190Library
+:sprockets:prepareComFirebaseuiFirebaseUiAuth120Library
+:sprockets:prepareComGetkeepsafeRelinkerRelinker122Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesAuth1020Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesAuthBase1020Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesBase1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesBasement1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesClearcut1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesLocation1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesMaps1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesPlaces1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesTasks1026Library
+:sprockets:prepareComGoogleDaggerDaggerAndroid211Library
+:sprockets:prepareComGoogleFirebaseFirebaseAnalytics1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseAnalyticsImpl1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseAuth1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseCommon1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseConfig1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseCrash1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseIid1026Library
+:sprockets:prepareComGoogleFirebaseFirebasePerf1026Library
+:sprockets:prepareComTwitterSdkAndroidTweetComposer230Library
+:sprockets:prepareComTwitterSdkAndroidTweetUi230Library
+:sprockets:prepareComTwitterSdkAndroidTwitter230Library
+:sprockets:prepareComTwitterSdkAndroidTwitterCore230Library
+:sprockets:prepareIoFabricSdkAndroidFabric1314Library
+:sprockets:prepareIoRealmAndroidAdapters210Library
+:sprockets:prepareIoRealmRealmAndroidLibrary331Library
+:sprockets:prepareJpWasabeefPicassoTransformations212Library
+:sprockets:preparePubDevrelEasypermissions040Library
+:sprockets:prepareReleaseDependencies
+:sprockets:compileReleaseAidl
+:sprockets:compileReleaseNdk NO-SOURCE
+:sprockets:compileLint
+:sprockets:copyReleaseLint NO-SOURCE
+:sprockets:compileReleaseRenderscript
+:sprockets:generateReleaseResValues
+:sprockets:generateReleaseResources
+:sprockets:mergeReleaseResources
+:sprockets:dataBindingProcessLayoutsRelease
+:sprockets:generateReleaseBuildConfig
+:sprockets:processReleaseManifest
+:sprockets:processReleaseResources
+:sprockets:generateReleaseSources
+:sprockets:dataBindingExportBuildInfoRelease
+:sprockets:incrementalReleaseJavaCompilationSafeguard
+:sprockets:javaPreCompileRelease
+:sprockets:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:sprockets:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sprockets:extractReleaseAnnotations
+:sprockets:mergeReleaseShaders
+:sprockets:compileReleaseShaders
+:sprockets:generateReleaseAssets
+:sprockets:mergeReleaseAssets
+:sprockets:mergeReleaseProguardFiles
+:sprockets:packageReleaseRenderscript NO-SOURCE
+:sprockets:packageReleaseResources
+:sprockets:transformClassesWithRetrolambdaForRelease
+:sprockets:processReleaseJavaRes NO-SOURCE
+:sprockets:transformResourcesWithMergeJavaResForRelease
+:sprockets:transformClassesAndResourcesWithSyncLibJarsForRelease
+:sprockets:mergeReleaseJniLibFolders
+:sprockets:transformNativeLibsWithMergeJniLibsForRelease
+:sprockets:transformNativeLibsWithStripDebugSymbolForRelease
+:sprockets:transformNativeLibsWithSyncJniLibsForRelease
+:sprockets:bundleRelease
+:samples:prepareDebugDependencies
+:samples:compileDebugRenderscript
+:samples:generateDebugResValues
+:samples:processDebugGoogleServices FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':samples:processDebugGoogleServices'.
+> File google-services.json is missing. The Google Services Plugin cannot function without it. 
+   Searched Location: 
+  /tmp/rdisk/1243/src/sprockets-android-master/samples/src/debug/google-services.json
+  /tmp/rdisk/1243/src/sprockets-android-master/samples/google-services.json
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':samples:processDebugGoogleServices'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:98)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:68)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$RunTasksAction.execute(DefaultGradleLauncher.java:230)
+	at org.gradle.initialization.DefaultGradleLauncher$RunTasksAction.execute(DefaultGradleLauncher.java:227)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:161)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:95)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:31)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:281)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:254)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:247)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
+ Searched Location: 
+/tmp/rdisk/1243/src/sprockets-android-master/samples/src/debug/google-services.json
+/tmp/rdisk/1243/src/sprockets-android-master/samples/google-services.json
+	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:90)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:692)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:675)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.execute(ExecuteActionsTaskExecuter.java:115)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.execute(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:90)
+	... 62 more
+
+
+BUILD FAILED
+
+Total time: 29.17 secs
+
+2018-05-21 02:49:11,836 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-21 02:49:11,836 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/sprockets-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-21 02:49:19,472 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-05-21 02:49:19,472 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-21 02:49:19,472 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/sprockets-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-21 02:49:53,843 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sprockets-test:preBuild UP-TO-DATE
+:sprockets-test:preDebugBuild UP-TO-DATE
+:sprockets-test:checkDebugManifest
+:sprockets-test:preDebugAndroidTestBuild UP-TO-DATE
+:sprockets-test:preDebugUnitTestBuild UP-TO-DATE
+:sprockets-test:preReleaseBuild UP-TO-DATE
+:sprockets-test:preReleaseUnitTestBuild UP-TO-DATE
+:sprockets-test:prepareComAndroidDatabindingAdapters131Library
+:sprockets-test:prepareComAndroidDatabindingLibrary131Library
+:sprockets-test:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sprockets-test:prepareComAndroidSupportAppcompatV72531Library
+:sprockets-test:prepareComAndroidSupportConstraintConstraintLayout102Library
+:sprockets-test:prepareComAndroidSupportDesign2531Library
+:sprockets-test:prepareComAndroidSupportRecyclerviewV72531Library
+:sprockets-test:prepareComAndroidSupportSupportCompat2531Library
+:sprockets-test:prepareComAndroidSupportSupportCoreUi2531Library
+:sprockets-test:prepareComAndroidSupportSupportCoreUtils2531Library
+:sprockets-test:prepareComAndroidSupportSupportFragment2531Library
+:sprockets-test:prepareComAndroidSupportSupportMediaCompat2531Library
+:sprockets-test:prepareComAndroidSupportSupportV132531Library
+:sprockets-test:prepareComAndroidSupportSupportV42531Library
+:sprockets-test:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sprockets-test:prepareComAndroidSupportTestEspressoEspressoCore222Library
+:sprockets-test:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library
+:sprockets-test:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library
+:sprockets-test:prepareComAndroidSupportTestRules05Library
+:sprockets-test:prepareComAndroidSupportTestRunner05Library
+:sprockets-test:prepareComAndroidSupportTransition2531Library
+:sprockets-test:prepareComGoogleAndroidGmsPlayServicesBase1026Library
+:sprockets-test:prepareComGoogleAndroidGmsPlayServicesBasement1026Library
+:sprockets-test:prepareComGoogleAndroidGmsPlayServicesClearcut1026Library
+:sprockets-test:prepareComGoogleAndroidGmsPlayServicesLocation1026Library
+:sprockets-test:prepareComGoogleAndroidGmsPlayServicesMaps1026Library
+:sprockets-test:prepareComGoogleAndroidGmsPlayServicesPlaces1026Library
+:sprockets-test:prepareComGoogleAndroidGmsPlayServicesTasks1026Library
+:sprockets-test:prepareComGoogleDaggerDaggerAndroid211Library
+:sprockets-test:prepareComGoogleFirebaseFirebaseAnalytics1026Library
+:sprockets-test:prepareComGoogleFirebaseFirebaseAnalyticsImpl1026Library
+:sprockets-test:prepareComGoogleFirebaseFirebaseAuth1026Library
+:sprockets-test:prepareComGoogleFirebaseFirebaseCommon1026Library
+:sprockets-test:prepareComGoogleFirebaseFirebaseConfig1026Library
+:sprockets-test:prepareComGoogleFirebaseFirebaseCrash1026Library
+:sprockets-test:prepareComGoogleFirebaseFirebaseIid1026Library
+:sprockets-test:prepareComGoogleFirebaseFirebasePerf1026Library
+:sprockets-test:prepareIoRealmAndroidAdapters210Library
+:sprockets-test:prepareJpWasabeefPicassoTransformations212Library
+:sprockets-test:prepareNetSfSprocketsSprocketsAndroid400Library
+:sprockets-test:preparePubDevrelEasypermissions040Library
+:sprockets-test:prepareDebugDependencies
+:sprockets-test:compileDebugAidl
+:sprockets-test:compileDebugNdk NO-SOURCE
+:sprockets-test:compileLint
+:sprockets-test:copyDebugLint NO-SOURCE
+:sprockets-test:compileDebugRenderscript
+:sprockets-test:generateDebugResValues
+:sprockets-test:generateDebugResources
+:sprockets-test:mergeDebugResources
+:sprockets-test:dataBindingProcessLayoutsDebug
+:sprockets-test:generateDebugBuildConfig
+:sprockets-test:processDebugManifest
+:sprockets-test:processDebugResources
+:sprockets-test:generateDebugSources
+:sprockets-test:dataBindingExportBuildInfoDebug
+:sprockets-test:incrementalDebugJavaCompilationSafeguard
+:sprockets-test:javaPreCompileDebug
+:sprockets-test:transformClassesAndDataBindingWithDataBindingMergeArtifactsForDebug
+:sprockets-test:compileDebugJavaWithJavac
+:sprockets-test:extractDebugAnnotations
+:sprockets-test:mergeDebugShaders
+:sprockets-test:compileDebugShaders
+:sprockets-test:generateDebugAssets
+:sprockets-test:mergeDebugAssets
+:sprockets-test:mergeDebugProguardFiles
+:sprockets-test:packageDebugRenderscript NO-SOURCE
+:sprockets-test:packageDebugResources
+:sprockets-test:transformClassesWithRetrolambdaForDebug
+:sprockets-test:processDebugJavaRes NO-SOURCE
+:sprockets-test:transformResourcesWithMergeJavaResForDebug
+:sprockets-test:transformClassesAndResourcesWithSyncLibJarsForDebug
+:sprockets-test:mergeDebugJniLibFolders
+:sprockets-test:transformNativeLibsWithMergeJniLibsForDebug
+:sprockets-test:transformNativeLibsWithStripDebugSymbolForDebug
+:sprockets-test:transformNativeLibsWithSyncJniLibsForDebug
+:sprockets-test:bundleDebug
+:sprockets-test:compileDebugSources
+:sprockets-test:assembleDebug
+:sprockets-test:checkReleaseManifest
+:sprockets-test:prepareReleaseDependencies
+:sprockets-test:compileReleaseAidl
+:sprockets-test:compileReleaseNdk NO-SOURCE
+:sprockets-test:copyReleaseLint NO-SOURCE
+:sprockets-test:compileReleaseRenderscript
+:sprockets-test:generateReleaseResValues
+:sprockets-test:generateReleaseResources
+:sprockets-test:mergeReleaseResources
+:sprockets-test:dataBindingProcessLayoutsRelease
+:sprockets-test:generateReleaseBuildConfig
+:sprockets-test:processReleaseManifest
+:sprockets-test:processReleaseResources
+:sprockets-test:generateReleaseSources
+:sprockets-test:dataBindingExportBuildInfoRelease
+:sprockets-test:incrementalReleaseJavaCompilationSafeguard
+:sprockets-test:javaPreCompileRelease
+:sprockets-test:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:sprockets-test:compileReleaseJavaWithJavac
+:sprockets-test:extractReleaseAnnotations
+:sprockets-test:mergeReleaseShaders
+:sprockets-test:compileReleaseShaders
+:sprockets-test:generateReleaseAssets
+:sprockets-test:mergeReleaseAssets
+:sprockets-test:mergeReleaseProguardFiles
+:sprockets-test:packageReleaseRenderscript NO-SOURCE
+:sprockets-test:packageReleaseResources
+:sprockets-test:transformClassesWithRetrolambdaForRelease
+:sprockets-test:processReleaseJavaRes NO-SOURCE
+:sprockets-test:transformResourcesWithMergeJavaResForRelease
+:sprockets-test:transformClassesAndResourcesWithSyncLibJarsForRelease
+:sprockets-test:mergeReleaseJniLibFolders
+:sprockets-test:transformNativeLibsWithMergeJniLibsForRelease
+:sprockets-test:transformNativeLibsWithStripDebugSymbolForRelease
+:sprockets-test:transformNativeLibsWithSyncJniLibsForRelease
+:sprockets-test:bundleRelease
+:sprockets-test:compileReleaseSources
+:sprockets-test:assembleRelease
+:sprockets-test:assemble
+:sprockets-test:build
+
+BUILD SUCCESSFUL
+
+Total time: 34.082 secs
+
+2018-05-21 02:49:54,008 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-21 02:49:54,008 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/sprockets/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-21 02:50:02,571 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-05-21 02:50:02,571 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-21 02:50:02,571 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/sprockets/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-21 02:50:35,004 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-21 02:50:35,004 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sprockets:preBuild UP-TO-DATE
+:sprockets:preReleaseBuild UP-TO-DATE
+:sprockets:checkReleaseManifest
+:sprockets:preDebugAndroidTestBuild UP-TO-DATE
+:sprockets:preDebugBuild UP-TO-DATE
+:sprockets:preDebugUnitTestBuild UP-TO-DATE
+:sprockets:preReleaseUnitTestBuild UP-TO-DATE
+:sprockets:prepareComAndroidDatabindingAdapters131Library
+:sprockets:prepareComAndroidDatabindingLibrary131Library
+:sprockets:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sprockets:prepareComAndroidSupportAppcompatV72531Library
+:sprockets:prepareComAndroidSupportCardviewV72511Library
+:sprockets:prepareComAndroidSupportConstraintConstraintLayout102Library
+:sprockets:prepareComAndroidSupportCustomtabs2511Library
+:sprockets:prepareComAndroidSupportDesign2531Library
+:sprockets:prepareComAndroidSupportRecyclerviewV72531Library
+:sprockets:prepareComAndroidSupportSupportCompat2531Library
+:sprockets:prepareComAndroidSupportSupportCoreUi2531Library
+:sprockets:prepareComAndroidSupportSupportCoreUtils2531Library
+:sprockets:prepareComAndroidSupportSupportFragment2531Library
+:sprockets:prepareComAndroidSupportSupportMediaCompat2531Library
+:sprockets:prepareComAndroidSupportSupportV132531Library
+:sprockets:prepareComAndroidSupportSupportV42531Library
+:sprockets:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sprockets:prepareComAndroidSupportTransition2531Library
+:sprockets:prepareComFacebookAndroidFacebookAndroidSdk4190Library
+:sprockets:prepareComFirebaseuiFirebaseUiAuth120Library
+:sprockets:prepareComGetkeepsafeRelinkerRelinker122Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesAuth1020Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesAuthBase1020Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesBase1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesBasement1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesClearcut1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesLocation1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesMaps1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesPlaces1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesTasks1026Library
+:sprockets:prepareComGoogleDaggerDaggerAndroid211Library
+:sprockets:prepareComGoogleFirebaseFirebaseAnalytics1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseAnalyticsImpl1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseAuth1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseCommon1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseConfig1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseCrash1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseIid1026Library
+:sprockets:prepareComGoogleFirebaseFirebasePerf1026Library
+:sprockets:prepareComTwitterSdkAndroidTweetComposer230Library
+:sprockets:prepareComTwitterSdkAndroidTweetUi230Library
+:sprockets:prepareComTwitterSdkAndroidTwitter230Library
+:sprockets:prepareComTwitterSdkAndroidTwitterCore230Library
+:sprockets:prepareIoFabricSdkAndroidFabric1314Library
+:sprockets:prepareIoRealmAndroidAdapters210Library
+:sprockets:prepareIoRealmRealmAndroidLibrary331Library
+:sprockets:prepareJpWasabeefPicassoTransformations212Library
+:sprockets:preparePubDevrelEasypermissions040Library
+:sprockets:prepareReleaseDependencies
+:sprockets:compileReleaseRenderscript UP-TO-DATE
+:sprockets:generateReleaseResValues UP-TO-DATE
+:sprockets:generateReleaseResources UP-TO-DATE
+:sprockets:mergeReleaseResources UP-TO-DATE
+:sprockets:dataBindingProcessLayoutsRelease UP-TO-DATE
+:sprockets:compileReleaseAidl UP-TO-DATE
+:sprockets:generateReleaseBuildConfig UP-TO-DATE
+:sprockets:processReleaseManifest UP-TO-DATE
+:sprockets:processReleaseResources UP-TO-DATE
+:sprockets:generateReleaseSources UP-TO-DATE
+:sprockets:dataBindingExportBuildInfoRelease
+:sprockets:incrementalReleaseJavaCompilationSafeguard
+:sprockets:javaPreCompileRelease
+:sprockets:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease UP-TO-DATE
+:sprockets:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sprockets:androidJavadocs/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/SprocketsRecyclerView.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/SprocketsRecyclerView.java:30: error: cannot find symbol
+public class SprocketsRecyclerView extends RecyclerView {
+                                           ^
+  symbol: class RecyclerView
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/ResourceAdapter.java:21: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.Adapter;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/ResourceAdapter.java:22: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.ViewHolder;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/ResourceAdapter.java:33: error: cannot find symbol
+public abstract class ResourceAdapter<VH extends ViewHolder> extends Adapter<VH> {
+                                                                     ^
+  symbol: class Adapter
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/ResourceAdapter.java:33: error: cannot find symbol
+public abstract class ResourceAdapter<VH extends ViewHolder> extends Adapter<VH> {
+                                                 ^
+  symbol: class ViewHolder
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:21: error: package android.support.v7.widget.GridLayoutManager does not exist
+import android.support.v7.widget.GridLayoutManager.DefaultSpanSizeLookup;
+                                                  ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:22: error: package android.support.v7.widget.GridLayoutManager does not exist
+import android.support.v7.widget.GridLayoutManager.SpanSizeLookup;
+                                                  ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:23: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:24: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:25: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.LayoutManager;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:26: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.StaggeredGridLayoutManager;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:44: error: cannot find symbol
+    public static int getOrientation(RecyclerView view) {
+                                     ^
+  symbol:   class RecyclerView
+  location: class LayoutManagers
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:59: error: cannot find symbol
+    public static int getSpanCount(RecyclerView view) {
+                                   ^
+  symbol:   class RecyclerView
+  location: class LayoutManagers
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:72: error: cannot find symbol
+    private static DefaultSpanSizeLookup sDefSpanSizeLookup;
+                   ^
+  symbol:   class DefaultSpanSizeLookup
+  location: class LayoutManagers
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:78: error: cannot find symbol
+    public static SpanSizeLookup getSpanSizeLookup(RecyclerView view) {
+                                                   ^
+  symbol:   class RecyclerView
+  location: class LayoutManagers
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:78: error: cannot find symbol
+    public static SpanSizeLookup getSpanSizeLookup(RecyclerView view) {
+                  ^
+  symbol:   class SpanSizeLookup
+  location: class LayoutManagers
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:23: error: package android.support.v7.widget.GridLayoutManager does not exist
+import android.support.v7.widget.GridLayoutManager.SpanSizeLookup;
+                                                  ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:24: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:25: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.ItemDecoration;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:26: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.State;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:29: error: cannot find symbol
+import net.sf.sprockets.R;
+                       ^
+  symbol:   class R
+  location: package net.sf.sprockets
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:31: error: package android.support.v7.widget does not exist
+import static android.support.v7.widget.RecyclerView.HORIZONTAL;
+                                       ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:31: error: static import only from classes and interfaces
+import static android.support.v7.widget.RecyclerView.HORIZONTAL;
+^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:32: error: package android.support.v7.widget does not exist
+import static android.support.v7.widget.RecyclerView.NO_POSITION;
+                                       ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:32: error: static import only from classes and interfaces
+import static android.support.v7.widget.RecyclerView.NO_POSITION;
+^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:39: error: cannot find symbol
+public class InsetDecoration extends ItemDecoration {
+                                     ^
+  symbol: class ItemDecoration
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:62: error: cannot find symbol
+    public void getItemOffsets(Rect rect, View view, RecyclerView parent, State state) {
+                                                     ^
+  symbol:   class RecyclerView
+  location: class InsetDecoration
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/InsetDecoration.java:62: error: cannot find symbol
+    public void getItemOffsets(Rect rect, View view, RecyclerView parent, State state) {
+                                                                          ^
+  symbol:   class State
+  location: class InsetDecoration
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/HeaderFooterSpanSizeLookup.java:20: error: package android.support.v7.widget.GridLayoutManager does not exist
+import android.support.v7.widget.GridLayoutManager.SpanSizeLookup;
+                                                  ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/HeaderFooterSpanSizeLookup.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/HeaderFooterSpanSizeLookup.java:22: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.Adapter;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/HeaderFooterSpanSizeLookup.java:29: error: cannot find symbol
+public class HeaderFooterSpanSizeLookup extends SpanSizeLookup {
+                                                ^
+  symbol: class SpanSizeLookup
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/HeaderFooterSpanSizeLookup.java:30: error: cannot find symbol
+    private final RecyclerView mList;
+                  ^
+  symbol:   class RecyclerView
+  location: class HeaderFooterSpanSizeLookup
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/HeaderFooterSpanSizeLookup.java:38: error: cannot find symbol
+    public HeaderFooterSpanSizeLookup(RecyclerView view, int headers, int footers) {
+                                      ^
+  symbol:   class RecyclerView
+  location: class HeaderFooterSpanSizeLookup
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/CursorAdapter.java:24: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.ViewHolder;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/CursorAdapter.java:36: error: cannot find symbol
+public abstract class CursorAdapter<VH extends ViewHolder> extends ResourceAdapter<VH> {
+                                               ^
+  symbol: class ViewHolder
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:20: error: cannot find symbol
+import android.databinding.DataBindingUtil;
+                          ^
+  symbol:   class DataBindingUtil
+  location: package android.databinding
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:21: error: cannot find symbol
+import android.databinding.ViewDataBinding;
+                          ^
+  symbol:   class ViewDataBinding
+  location: package android.databinding
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:23: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.Adapter;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:24: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.ViewHolder;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:37: error: cannot find symbol
+public class BindingHolder<B extends ViewDataBinding> extends ViewHolder {
+                                                              ^
+  symbol: class ViewHolder
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:37: error: cannot find symbol
+public class BindingHolder<B extends ViewDataBinding> extends ViewHolder {
+                                     ^
+  symbol: class ViewDataBinding
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingAdapter.java:20: error: cannot find symbol
+import android.databinding.ViewDataBinding;
+                          ^
+  symbol:   class ViewDataBinding
+  location: package android.databinding
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingAdapter.java:33: error: cannot find symbol
+public abstract class BindingAdapter<B extends ViewDataBinding>
+                                               ^
+  symbol: class ViewDataBinding
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AutoGridLayoutManager.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AutoGridLayoutManager.java:23: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.Recycler;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AutoGridLayoutManager.java:24: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.State;
+                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AutoGridLayoutManager.java:32: error: cannot find symbol
+public class AutoGridLayoutManager extends GridLayoutManager {
+                                           ^
+  symbol: class GridLayoutManager
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AutoGridLayoutManager.java:46: error: cannot find symbol
+    public void onLayoutChildren(Recycler recycler, State state) {
+                                 ^
+  symbol:   class Recycler
+  location: class AutoGridLayoutManager
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AutoGridLayoutManager.java:46: error: cannot find symbol
+    public void onLayoutChildren(Recycler recycler, State state) {
+                                                    ^
+  symbol:   class State
+  location: class AutoGridLayoutManager
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:21: error: package android.support.design.widget does not exist
+import android.support.design.widget.AppBarLayout;
+                                    ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:22: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:23: error: package android.support.design.widget does not exist
+import android.support.design.widget.FloatingActionButton;
+                                    ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:24: error: package android.support.design.widget.FloatingActionButton does not exist
+import android.support.design.widget.FloatingActionButton.Behavior;
+                                                         ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:45: error: cannot find symbol
+public class AppBarFloatingActionButtonBehavior extends Behavior {
+                                                        ^
+  symbol: class Behavior
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:54: error: cannot find symbol
+    public boolean layoutDependsOn(CoordinatorLayout parent, FloatingActionButton child,
+                                   ^
+  symbol:   class CoordinatorLayout
+  location: class AppBarFloatingActionButtonBehavior
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:54: error: cannot find symbol
+    public boolean layoutDependsOn(CoordinatorLayout parent, FloatingActionButton child,
+                                                             ^
+  symbol:   class FloatingActionButton
+  location: class AppBarFloatingActionButtonBehavior
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:61: error: cannot find symbol
+    public boolean onDependentViewChanged(CoordinatorLayout parent, FloatingActionButton child,
+                                          ^
+  symbol:   class CoordinatorLayout
+  location: class AppBarFloatingActionButtonBehavior
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:61: error: cannot find symbol
+    public boolean onDependentViewChanged(CoordinatorLayout parent, FloatingActionButton child,
+                                                                    ^
+  symbol:   class FloatingActionButton
+  location: class AppBarFloatingActionButtonBehavior
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:21: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.FastOutLinearInInterpolator;
+                                        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:22: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.FastOutSlowInInterpolator;
+                                        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:23: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.LinearOutSlowInInterpolator;
+                                        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:45: error: cannot find symbol
+    private static FastOutLinearInInterpolator sFastOutLinearIn;
+                   ^
+  symbol:   class FastOutLinearInInterpolator
+  location: class Interpolators
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:46: error: cannot find symbol
+    private static FastOutSlowInInterpolator sFastOutSlowIn;
+                   ^
+  symbol:   class FastOutSlowInInterpolator
+  location: class Interpolators
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:48: error: cannot find symbol
+    private static LinearOutSlowInInterpolator sLinearOutSlowIn;
+                   ^
+  symbol:   class LinearOutSlowInInterpolator
+  location: class Interpolators
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:117: error: cannot find symbol
+    public static FastOutLinearInInterpolator fastOutLinearIn() {
+                  ^
+  symbol:   class FastOutLinearInInterpolator
+  location: class Interpolators
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:127: error: cannot find symbol
+    public static FastOutSlowInInterpolator fastOutSlowIn() {
+                  ^
+  symbol:   class FastOutSlowInInterpolator
+  location: class Interpolators
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/animation/Interpolators.java:147: error: cannot find symbol
+    public static LinearOutSlowInInterpolator linearOutSlowIn() {
+                  ^
+  symbol:   class LinearOutSlowInInterpolator
+  location: class Interpolators
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/TranslateImagePageChangeListener.java:23: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/TranslateImagePageChangeListener.java:24: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/TranslateImagePageChangeListener.java:25: error: package android.support.v4.view.ViewPager does not exist
+import android.support.v4.view.ViewPager.SimpleOnPageChangeListener;
+                                        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/TranslateImagePageChangeListener.java:48: error: cannot find symbol
+public class TranslateImagePageChangeListener extends SimpleOnPageChangeListener {
+                                                      ^
+  symbol: class SimpleOnPageChangeListener
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/TranslateImagePageChangeListener.java:49: error: cannot find symbol
+    private final ViewPager mPager;
+                  ^
+  symbol:   class ViewPager
+  location: class TranslateImagePageChangeListener
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/TranslateImagePageChangeListener.java:50: error: cannot find symbol
+    private PagerAdapter mAdapter;
+            ^
+  symbol:   class PagerAdapter
+  location: class TranslateImagePageChangeListener
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/TranslateImagePageChangeListener.java:75: error: cannot find symbol
+    public TranslateImagePageChangeListener(ViewPager pager, ImageView view) {
+                                            ^
+  symbol:   class ViewPager
+  location: class TranslateImagePageChangeListener
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/Animators.java:33: error: cannot find symbol
+import net.sf.sprockets.R;
+                       ^
+  symbol:   class R
+  location: package net.sf.sprockets
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/crash/Crash.java:20: error: package com.google.firebase.crash does not exist
+import com.google.firebase.crash.FirebaseCrash;
+                                ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/transition/Transitions.java:28: error: cannot find symbol
+import net.sf.sprockets.R;
+                       ^
+  symbol:   class R
+  location: package net.sf.sprockets
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/remoteconfig/RemoteConfigModule.java:20: error: package com.google.firebase.remoteconfig does not exist
+import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
+                                       ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/remoteconfig/RemoteConfigModule.java:38: error: cannot find symbol
+    static FirebaseRemoteConfig firebaseRemoteConfig(@RemoteConfigDefaults int resourceId) {
+           ^
+  symbol:   class FirebaseRemoteConfig
+  location: class RemoteConfigModule
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:20: error: cannot find symbol
+import android.databinding.ViewDataBinding;
+                          ^
+  symbol:   class ViewDataBinding
+  location: package android.databinding
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:30: error: package io.realm does not exist
+import io.realm.OrderedRealmCollection;
+               ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:31: error: package io.realm does not exist
+import io.realm.RealmModel;
+               ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:32: error: package io.realm does not exist
+import io.realm.RealmRecyclerViewAdapter;
+               ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:41: error: cannot find symbol
+        extends RealmRecyclerViewAdapter<E, BindingHolder<B>> {
+                ^
+  symbol: class RealmRecyclerViewAdapter
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:40: error: cannot find symbol
+public abstract class RealmBindingAdapter<E extends RealmModel, B extends ViewDataBinding>
+                                                    ^
+  symbol: class RealmModel
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:40: error: cannot find symbol
+public abstract class RealmBindingAdapter<E extends RealmModel, B extends ViewDataBinding>
+                                                                          ^
+  symbol: class ViewDataBinding
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/realm/RealmBindingAdapter.java:45: error: cannot find symbol
+                                  @Nullable OrderedRealmCollection<E> data) {
+                                            ^
+  symbol:   class OrderedRealmCollection
+  location: class RealmBindingAdapter<E,B>
+  where E,B are type-variables:
+    E declared in class RealmBindingAdapter
+    B declared in class RealmBindingAdapter
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/picasso/Transformations.java:20: error: package jp.wasabeef.picasso.transformations does not exist
+import jp.wasabeef.picasso.transformations.CropCircleTransformation;
+                                          ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/picasso/Transformations.java:28: error: cannot find symbol
+    private static CropCircleTransformation sCircle;
+                   ^
+  symbol:   class CropCircleTransformation
+  location: class Transformations
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/picasso/Transformations.java:36: error: cannot find symbol
+    public static CropCircleTransformation circle() {
+                  ^
+  symbol:   class CropCircleTransformation
+  location: class Transformations
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/picasso/GradientTransformation.java:34: error: cannot find symbol
+import net.sf.sprockets.R;
+                       ^
+  symbol:   class R
+  location: package net.sf.sprockets
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/Performance.java:20: error: package com.google.firebase.perf does not exist
+import com.google.firebase.perf.FirebasePerformance;
+                               ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/Performance.java:21: error: package com.google.firebase.perf.metrics does not exist
+import com.google.firebase.perf.metrics.Trace;
+                                       ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/Performance.java:30: error: cannot find symbol
+    Trace newTrace(String traceName);
+    ^
+  symbol:   class Trace
+  location: interface Performance
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/Performance.java:32: error: cannot find symbol
+    Trace startTrace(String traceName);
+    ^
+  symbol:   class Trace
+  location: interface Performance
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/FirebasePerformanceProxy.java:20: error: package com.google.firebase.perf does not exist
+import com.google.firebase.perf.FirebasePerformance;
+                               ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/FirebasePerformanceProxy.java:21: error: package com.google.firebase.perf.metrics does not exist
+import com.google.firebase.perf.metrics.Trace;
+                                       ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/maps/GoogleMaps.java:61: error: reference not found
+     * @see CameraUpdateFactory#newLatLngZoom(LatLng, float)
+            ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/common/api/ConnectionListener.java:27: error: reference not found
+ * Listens for {@link GoogleApiClient} connection and suspension events and reports them to any
+                      ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/common/api/ConnectionListener.java:73: error: reference not found
+     * Notified about {@link GoogleApiClient} connection events.
+                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/common/api/ConnectionListener.java:80: error: reference not found
+     * Notified about {@link GoogleApiClient} connection suspension events.
+                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/crash/Crash.java:25: error: reference not found
+ * @see FirebaseCrash
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/crash/FirebaseCrashProxy.java:26: error: reference not found
+ * Forwards calls to {@link FirebaseCrash}.
+                            ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/app/ui/NavigationDrawerActivity.java:41: error: reference not found
+     * {@link #onCreate(Bundle) onCreate}. Must be called before
+              ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/app/ui/PanesActivity.java:39: error: reference not found
+ * {@link ViewPager}, depending on screen size. The fragment instance states are saved and restored
+          ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/app/ui/SprocketsActivity.java:34: error: reference not found
+ * {@link Presenter}s and forwarding permission request results to {@link EasyPermissions}.
+                                                                          ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/app/ui/SprocketsFragment.java:31: error: reference not found
+ * {@link Presenter}s and forwarding permission request results to {@link EasyPermissions}.
+                                                                          ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/Animators.java:137: error: self-closing element not allowed
+     * {@code <item name="android:windowBackground">@android:color/transparent</item>}<br/>
+                                                                                      ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/view/Animators.java:162: error: self-closing element not allowed
+     * {@code <item name="android:windowBackground">@android:color/transparent</item>}<br/>
+                                                                                      ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/FirebasePerformanceProxy.java:27: error: reference not found
+ * Forwards calls to {@link FirebasePerformance}.
+                            ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/perf/Performance.java:26: error: reference not found
+ * @see FirebasePerformance
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:30: error: reference not found
+ * Scrolls the {@link FloatingActionButton} that it is applied to off and on screen in sync with a
+                      ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AppBarFloatingActionButtonBehavior.java:31: error: reference not found
+ * sibling {@link AppBarLayout}.
+                  ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/AutoGridLayoutManager.java:27: error: reference not found
+ * Automatically sets {@link #setSpanCount(int) span count} according to the available space and the
+                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/ResourceAdapter.java:62: error: reference not found
+     * See {@link Adapter#onCreateViewHolder(ViewGroup, int)}.
+                  ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:31: error: reference not found
+ * {@link Adapter#onBindViewHolder(ViewHolder, int) onBindViewHolder}, be sure to call
+          ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/BindingHolder.java:32: error: reference not found
+ * {@link ViewDataBinding#executePendingBindings() binding.executePendingBindings()} to avoid jank
+          ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:41: error: reference not found
+     * @see RecyclerView#VERTICAL
+            ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:42: error: reference not found
+     * @see RecyclerView#HORIZONTAL
+            ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:75: error: reference not found
+     * If the RecyclerView uses a {@link GridLayoutManager}, get its SpanSizeLookup. Otherwise get a
+                                         ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/LayoutManagers.java:76: error: reference not found
+     * {@link DefaultSpanSizeLookup DefaultSpanSizeLookup}.
+              ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/ResourceAdapter.java:46: error: reference not found
+     * Inflate the layouts when creating ViewHolders. {@link #getItemViewType(int) getItemViewType}
+                                                             ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/widget/SprocketsRecyclerView.java:26: error: reference not found
+ * {@link RecyclerView#setHasFixedSize(boolean) Fixed size} RecyclerView.
+          ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/util/Log.java:33: error: cannot find symbol
+ * send the log messages to a variety of destinations.
+                                                     ^
+  symbol:   variable GEOFENCE_TRANSITION_ENTER
+  location: class Geofences
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/util/Log.java:37: error: cannot find symbol
+public abstract class Log {
+   ^
+  symbol:   variable GEOFENCE_TRANSITION_DWELL
+  location: class Geofences
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/util/Log.java:38: error: cannot find symbol
+    /**
+   ^
+  symbol:   variable GEOFENCE_TRANSITION_EXIT
+  location: class Geofences
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/location/LocationProvider.java:43: error: reference not found
+     * @param priority must be one of the {@link LocationRequest} PRIORITY constants
+                                                 ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/location/LocationProvider.java:56: error: reference not found
+     * @param priority must be one of the {@link LocationRequest} PRIORITY constants. Only used
+                                                 ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/location/LocationProvider.java:64: error: reference not found
+     * @param priority must be one of the {@link LocationRequest} PRIORITY constants
+                                                 ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/location/LocationProvider.java:35: error: reference not found
+ * @see FusedLocationProviderApi
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/gms/location/LocationProvider.java:36: error: reference not found
+ * @see SettingsApi
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/auth/Auth.java:54: error: reference not found
+     * @param providerId must be one of the {@link AuthUI} {@code *_PROVIDER} constants
+                                                   ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/auth/Auth.java:39: error: reference not found
+ * @see FirebaseAuth
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/auth/Auth.java:40: error: reference not found
+ * @see AuthUI
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/auth/FirebaseAuthProxy.java:43: error: reference not found
+ * Forwards calls to {@link FirebaseAuth} or {@link AuthUI}.
+                            ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/auth/FirebaseAuthProxy.java:43: error: reference not found
+ * Forwards calls to {@link FirebaseAuth} or {@link AuthUI}.
+                                                    ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/iid/FirebaseInstanceIdProxy.java:28: error: reference not found
+ * Forwards calls to {@link FirebaseInstanceId}.
+                            ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/iid/InstanceId.java:28: error: reference not found
+ * @see FirebaseInstanceId
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/content/Intents.java:74: error: reference not found
+     * Get an Activity Intent that launches a {@link PlacePicker}. If the required version of
+                                                     ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/content/LocationLoader.java:63: error: reference not found
+     * @param priority must be one of the {@link LocationRequest} PRIORITY constants
+                                                 ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/content/LocationLoader.java:75: error: reference not found
+     * @param priorities must be any of the {@link LocationRequest} PRIORITY constants
+                                                   ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/content/LocationLoader.java:45: error: reference not found
+     * {@link LocationRequest#PRIORITY_BALANCED_POWER_ACCURACY PRIORITY_BALANCED_POWER_ACCURACY}.
+              ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/util/Log.java:49: error: cannot find symbol
+        maybeLog(ERROR, src, msg, thrown);
+       ^
+  symbol:   variable PRIORITY_BALANCED_POWER_ACCURACY
+  location: class LocationLoader
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/analytics/Analytics.java:29: error: reference not found
+ * @see FirebaseAnalytics
+        ^
+/tmp/rdisk/1243/src/sprockets-android-master/sprockets/src/main/java/net/sf/sprockets/analytics/FirebaseAnalyticsProxy.java:36: error: reference not found
+ * Forwards calls to {@link FirebaseAnalytics}.
+                            ^
+
+48 errors
+100 warnings
+:sprockets:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sprockets:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1243/src/sprockets-android-master/sprockets/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sprockets:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:98)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:68)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$RunTasksAction.execute(DefaultGradleLauncher.java:230)
+	at org.gradle.initialization.DefaultGradleLauncher$RunTasksAction.execute(DefaultGradleLauncher.java:227)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:161)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:95)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:31)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:281)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:254)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:247)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1243/src/sprockets-android-master/sprockets/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:58)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:159)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:147)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:692)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:675)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.execute(ExecuteActionsTaskExecuter.java:115)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.execute(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:90)
+	... 62 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:369)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:53)
+	... 78 more
+
+
+BUILD FAILED
+
+Total time: 32.088 secs
+
+2018-05-21 02:50:35,175 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-21 02:50:35,176 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-21 02:50:44,049 INFO  ProjectTaskService - Detected possible tasks: 75
+2018-05-21 02:50:44,049 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-21 02:50:44,049 INFO  SysUtils - Execute command: [/tmp/rdisk/1243/src/sprockets-android-master/gradlew, -b, /tmp/rdisk/1243/src/sprockets-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-21 02:50:55,899 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-21 02:50:55,900 INFO  SysUtils - Configuration on demand is an incubating feature.
+google-services plugin could not detect any version for com.google.android.gms or com.google.firebase, default version: 9.0.0 will be used.
+please apply google-services plugin at the bottom of the build file.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+:samples:preBuild UP-TO-DATE
+:samples:extractProguardFiles
+:samples:preDebugBuild
+:samples:checkDebugManifest
+:samples:preReleaseBuild
+:samples:prepareComAndroidDatabindingAdapters131Library
+:samples:prepareComAndroidDatabindingLibrary131Library
+:samples:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:samples:prepareComAndroidSupportAppcompatV72531Library
+:samples:prepareComAndroidSupportCardviewV72511Library
+:samples:prepareComAndroidSupportConstraintConstraintLayout102Library
+:samples:prepareComAndroidSupportCustomtabs2511Library
+:samples:prepareComAndroidSupportDesign2531Library
+:samples:prepareComAndroidSupportRecyclerviewV72531Library
+:samples:prepareComAndroidSupportSupportCompat2531Library
+:samples:prepareComAndroidSupportSupportCoreUi2531Library
+:samples:prepareComAndroidSupportSupportCoreUtils2531Library
+:samples:prepareComAndroidSupportSupportFragment2531Library
+:samples:prepareComAndroidSupportSupportMediaCompat2531Library
+:samples:prepareComAndroidSupportSupportV132531Library
+:samples:prepareComAndroidSupportSupportV42531Library
+:samples:prepareComAndroidSupportSupportVectorDrawable2531Library
+:samples:prepareComAndroidSupportTransition2531Library
+:samples:prepareComFacebookAndroidFacebookAndroidSdk4190Library
+:samples:prepareComFirebaseuiFirebaseUiAuth120Library
+:samples:prepareComGoogleAndroidGmsPlayServicesAuth1020Library
+:samples:prepareComGoogleAndroidGmsPlayServicesAuthBase1020Library
+:samples:prepareComGoogleAndroidGmsPlayServicesBase1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesBasement1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesClearcut1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesLocation1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesMaps1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesPlaces1026Library
+:samples:prepareComGoogleAndroidGmsPlayServicesTasks1026Library
+:samples:prepareComGoogleDaggerDaggerAndroid211Library
+:samples:prepareComGoogleFirebaseFirebaseAnalytics1026Library
+:samples:prepareComGoogleFirebaseFirebaseAnalyticsImpl1026Library
+:samples:prepareComGoogleFirebaseFirebaseAuth1026Library
+:samples:prepareComGoogleFirebaseFirebaseCommon1026Library
+:samples:prepareComGoogleFirebaseFirebaseConfig1026Library
+:samples:prepareComGoogleFirebaseFirebaseCore900Library
+:samples:prepareComGoogleFirebaseFirebaseCrash1026Library
+:samples:prepareComGoogleFirebaseFirebaseIid1026Library
+:samples:prepareComGoogleFirebaseFirebasePerf1026Library
+:samples:prepareComTwitterSdkAndroidTweetComposer230Library
+:samples:prepareComTwitterSdkAndroidTweetUi230Library
+:samples:prepareComTwitterSdkAndroidTwitter230Library
+:samples:prepareComTwitterSdkAndroidTwitterCore230Library
+:samples:prepareIoFabricSdkAndroidFabric1314Library
+:samples:prepareIoRealmAndroidAdapters210Library
+:samples:prepareJpWasabeefPicassoTransformations212Library
+:samples:preparePubDevrelEasypermissions040Library
+:sprockets:preBuild UP-TO-DATE
+:sprockets:preReleaseBuild UP-TO-DATE
+:sprockets:checkReleaseManifest
+:sprockets:preDebugAndroidTestBuild UP-TO-DATE
+:sprockets:preDebugBuild UP-TO-DATE
+:sprockets:preDebugUnitTestBuild UP-TO-DATE
+:sprockets:preReleaseUnitTestBuild UP-TO-DATE
+:sprockets:prepareComAndroidDatabindingAdapters131Library
+:sprockets:prepareComAndroidDatabindingLibrary131Library
+:sprockets:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sprockets:prepareComAndroidSupportAppcompatV72531Library
+:sprockets:prepareComAndroidSupportCardviewV72511Library
+:sprockets:prepareComAndroidSupportConstraintConstraintLayout102Library
+:sprockets:prepareComAndroidSupportCustomtabs2511Library
+:sprockets:prepareComAndroidSupportDesign2531Library
+:sprockets:prepareComAndroidSupportRecyclerviewV72531Library
+:sprockets:prepareComAndroidSupportSupportCompat2531Library
+:sprockets:prepareComAndroidSupportSupportCoreUi2531Library
+:sprockets:prepareComAndroidSupportSupportCoreUtils2531Library
+:sprockets:prepareComAndroidSupportSupportFragment2531Library
+:sprockets:prepareComAndroidSupportSupportMediaCompat2531Library
+:sprockets:prepareComAndroidSupportSupportV132531Library
+:sprockets:prepareComAndroidSupportSupportV42531Library
+:sprockets:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sprockets:prepareComAndroidSupportTransition2531Library
+:sprockets:prepareComFacebookAndroidFacebookAndroidSdk4190Library
+:sprockets:prepareComFirebaseuiFirebaseUiAuth120Library
+:sprockets:prepareComGetkeepsafeRelinkerRelinker122Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesAuth1020Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesAuthBase1020Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesBase1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesBasement1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesClearcut1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesLocation1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesMaps1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesPlaces1026Library
+:sprockets:prepareComGoogleAndroidGmsPlayServicesTasks1026Library
+:sprockets:prepareComGoogleDaggerDaggerAndroid211Library
+:sprockets:prepareComGoogleFirebaseFirebaseAnalytics1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseAnalyticsImpl1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseAuth1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseCommon1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseConfig1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseCrash1026Library
+:sprockets:prepareComGoogleFirebaseFirebaseIid1026Library
+:sprockets:prepareComGoogleFirebaseFirebasePerf1026Library
+:sprockets:prepareComTwitterSdkAndroidTweetComposer230Library
+:sprockets:prepareComTwitterSdkAndroidTweetUi230Library
+:sprockets:prepareComTwitterSdkAndroidTwitter230Library
+:sprockets:prepareComTwitterSdkAndroidTwitterCore230Library
+:sprockets:prepareIoFabricSdkAndroidFabric1314Library
+:sprockets:prepareIoRealmAndroidAdapters210Library
+:sprockets:prepareIoRealmRealmAndroidLibrary331Library
+:sprockets:prepareJpWasabeefPicassoTransformations212Library
+:sprockets:preparePubDevrelEasypermissions040Library
+:sprockets:prepareReleaseDependencies
+:sprockets:compileReleaseAidl UP-TO-DATE
+:sprockets:compileReleaseNdk NO-SOURCE
+:sprockets:compileLint UP-TO-DATE
+:sprockets:copyReleaseLint NO-SOURCE
+:sprockets:compileReleaseRenderscript UP-TO-DATE
+:sprockets:generateReleaseResValues UP-TO-DATE
+:sprockets:generateReleaseResources UP-TO-DATE
+:sprockets:mergeReleaseResources UP-TO-DATE
+:sprockets:dataBindingProcessLayoutsRelease UP-TO-DATE
+:sprockets:generateReleaseBuildConfig UP-TO-DATE
+:sprockets:processReleaseManifest UP-TO-DATE
+:sprockets:processReleaseResources UP-TO-DATE
+:sprockets:generateReleaseSources UP-TO-DATE
+:sprockets:dataBindingExportBuildInfoRelease UP-TO-DATE
+:sprockets:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:sprockets:javaPreCompileRelease
+:sprockets:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease UP-TO-DATE
+:sprockets:compileReleaseJavaWithJavac UP-TO-DATE
+:sprockets:extractReleaseAnnotations
+:sprockets:mergeReleaseShaders UP-TO-DATE
+:sprockets:compileReleaseShaders UP-TO-DATE
+:sprockets:generateReleaseAssets UP-TO-DATE
+:sprockets:mergeReleaseAssets UP-TO-DATE
+:sprockets:mergeReleaseProguardFiles UP-TO-DATE
+:sprockets:packageReleaseRenderscript NO-SOURCE
+:sprockets:packageReleaseResources UP-TO-DATE
+:sprockets:transformClassesWithRetrolambdaForRelease UP-TO-DATE
+:sprockets:processReleaseJavaRes NO-SOURCE
+:sprockets:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:sprockets:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:sprockets:mergeReleaseJniLibFolders UP-TO-DATE
+:sprockets:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:sprockets:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:sprockets:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:sprockets:bundleRelease UP-TO-DATE
+:samples:prepareDebugDependencies
+:samples:compileDebugRenderscript UP-TO-DATE
+:samples:generateDebugResValues UP-TO-DATE
+:samples:processDebugGoogleServices FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':samples:processDebugGoogleServices'.
+> File google-services.json is missing. The Google Services Plugin cannot function without it. 
+   Searched Location: 
+  /tmp/rdisk/1243/src/sprockets-android-master/samples/src/debug/google-services.json
+  /tmp/rdisk/1243/src/sprockets-android-master/samples/google-services.json
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':samples:processDebugGoogleServices'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:98)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:68)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$RunTasksAction.execute(DefaultGradleLauncher.java:230)
+	at org.gradle.initialization.DefaultGradleLauncher$RunTasksAction.execute(DefaultGradleLauncher.java:227)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:161)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:95)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:31)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:281)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:254)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:247)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
+ Searched Location: 
+/tmp/rdisk/1243/src/sprockets-android-master/samples/src/debug/google-services.json
+/tmp/rdisk/1243/src/sprockets-android-master/samples/google-services.json
+	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:90)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:692)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:675)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.execute(ExecuteActionsTaskExecuter.java:115)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.execute(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:90)
+	... 62 more
+
+
+BUILD FAILED
+
+Total time: 11.539 secs
+
+2018-05-21 02:50:56,076 ERROR FullProcessService - Project build has not produced APK file
+2018-05-21 02:50:56,254 ERROR FullProcessService - Could not find generated or existed APK file

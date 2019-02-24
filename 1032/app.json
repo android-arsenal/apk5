@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.androidsx.rateme.demo",
+    "label" : "Sample Rate Me",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "4.0.3",
+    "versionCode" : 403,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1297,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"403\" android:versionName=\"4.0.3\" package=\"com.androidsx.rateme.demo\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f0c0004\" android:label=\"Sample Rate Me\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Sample Rate Me\" android:name=\"com.androidsx.rateme.demo1.SampleProjectMainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1058266,
+  "crc32" : 1443600422,
+  "sha256" : "111fddeb2d7ad9c5fbee6a332a62c237de59aa716b817319a6bfa4eba9b8a0f1",
+  "buildTime" : 1523171128000
+}

@@ -1,0 +1,101 @@
+2018-04-08 03:03:36,757 INFO  DownloadService - Downloading "https://github.com/kpbird/GooglePlusLoginUtil/archive/master.zip", attempt 3
+2018-04-08 03:04:37,220 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 03:04:37,916 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 03:04:37,916 INFO  DownloadService - Downloading "https://github.com/kpbird/GooglePlusLoginUtil/archive/master.zip", attempt 3
+2018-04-08 03:05:39,178 DEBUG FullProcessService - Repository https://github.com/kpbird/GooglePlusLoginUtil available: true
+2018-04-08 03:05:39,178 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 03:05:39,178 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kpbird/GooglePlusLoginUtil, /tmp/rdisk/1127/src]
+2018-04-08 03:05:40,660 INFO  SysUtils - 
+2018-04-08 03:05:40,672 INFO  GitService - Deleted "/tmp/rdisk/1127/src/.git": true
+2018-04-08 03:05:40,674 INFO  FullProcessService - Size of directory with sources: 130 KB
+2018-04-08 03:05:40,674 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1127/src]
+2018-04-08 03:05:40,684 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1127/src/.git/
+
+2018-04-08 03:05:40,685 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1127/src/gradlew
+2018-04-08 03:05:40,687 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1127/src/app/build.gradle /tmp/rdisk/1127/src/build.gradle
+2018-04-08 03:05:40,689 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1127/src/settings.gradle /tmp/rdisk/1127/src/build.gradle /tmp/rdisk/1127/src/app/build.gradle
+2018-04-08 03:05:40,689 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 03:05:40,689 INFO  ProjectFixService - Fixing project...
+2018-04-08 03:05:40,693 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1127/src/app/local.properties
+2018-04-08 03:05:40,694 INFO  ProjectFixService - Build info for "/tmp/rdisk/1127/src/app/build.gradle": [buildToolsVersion=21.1.0,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-08 03:05:40,694 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1127/src/app/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-08 03:05:40,694 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1127/src/local.properties
+2018-04-08 03:05:40,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.1-all.zip
+2018-04-08 03:05:40,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.1-bin.zip)
+2018-04-08 03:05:40,695 INFO  ProjectFixService - Build info for "/tmp/rdisk/1127/src/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-08 03:05:40,695 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 03:05:40,696 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 03:05:40,696 INFO  SysUtils - Execute command: [/tmp/rdisk/1127/src/gradlew, -b, /tmp/rdisk/1127/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 03:05:46,539 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-08 03:05:46,539 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 03:05:46,539 INFO  SysUtils - Execute command: [/tmp/rdisk/1127/src/gradlew, -b, /tmp/rdisk/1127/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 03:06:28,172 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:app:prepareComAndroidSupportAppcompatV72100Library
+:app:prepareComAndroidSupportSupportV42100Library
+:app:prepareComGoogleAndroidGmsPlayServices6111Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1127/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 41.143 secs
+
+2018-04-08 03:06:28,213 INFO  FullProcessService - Found APK file: /tmp/rdisk/1127/src/app/build/outputs/apk/app-debug.apk

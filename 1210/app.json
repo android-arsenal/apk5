@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.github.glomadrian.mpvcleanarchitecture",
+    "label" : "MVP Clean Architecture",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 3580,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.glomadrian.mpvcleanarchitecture\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"21\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"MVP Clean Architecture\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:name=\"com.github.glomadrian.mvpcleanarchitecture.app.MVPCleanArchitectureApplication\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"com.github.glomadrian.mvpcleanarchitecture.ui.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.glomadrian.mvpcleanarchitecture.ui.activity.ModelInfoActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2196876,
+  "crc32" : 3779732901,
+  "sha256" : "7e1092cd2bbffd50cfb84a9d106d76bb5ee7df7e7fa56468813cde8ca5d53225",
+  "buildTime" : 1526978280000
+}

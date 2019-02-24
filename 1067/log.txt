@@ -1,0 +1,14 @@
+2018-04-08 05:20:49,496 INFO  DownloadService - Downloading "https://github.com/klinker24/Talon-for-Twitter/archive/master.zip", attempt 3
+2018-04-08 05:21:49,956 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 05:21:50,603 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 05:21:50,603 INFO  DownloadService - Downloading "https://github.com/klinker24/Talon-for-Twitter/archive/master.zip", attempt 3
+2018-04-08 05:22:51,885 DEBUG FullProcessService - Repository https://github.com/klinker24/Talon-for-Twitter available: true
+2018-04-08 05:22:51,885 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 05:22:51,885 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/klinker24/Talon-for-Twitter, /tmp/rdisk/1067/src]
+2018-04-08 05:22:58,191 INFO  SysUtils - 
+2018-04-08 05:22:58,217 INFO  GitService - Deleted "/tmp/rdisk/1067/src/.git": true
+2018-04-08 05:22:58,260 INFO  FullProcessService - Size of directory with sources: 56 MB
+2018-04-08 05:22:58,260 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-04-08 05:22:58,260 ERROR FullProcessService - Project will not be processed
+2018-04-08 05:22:58,260 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 05:22:58,285 ERROR FullProcessService - Could not find generated or existed APK file

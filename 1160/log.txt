@@ -1,0 +1,215 @@
+2018-04-08 01:33:33,178 INFO  DownloadService - Downloading "https://github.com/nispok/snackbar/archive/master.zip", attempt 3
+2018-04-08 01:34:33,840 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:34:34,524 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:34:34,525 INFO  DownloadService - Downloading "https://github.com/nispok/snackbar/archive/master.zip", attempt 3
+2018-04-08 01:35:35,821 DEBUG FullProcessService - Repository https://github.com/nispok/snackbar available: true
+2018-04-08 01:35:35,822 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:35:35,822 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/nispok/snackbar, /tmp/rdisk/1160/src]
+2018-04-08 01:35:37,534 INFO  SysUtils - 
+2018-04-08 01:35:37,539 INFO  GitService - Deleted "/tmp/rdisk/1160/src/.git": true
+2018-04-08 01:35:37,542 INFO  FullProcessService - Size of directory with sources: 571 KB
+2018-04-08 01:35:37,542 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1160/src]
+2018-04-08 01:35:37,553 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1160/src/.git/
+
+2018-04-08 01:35:37,556 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1160/src/gradlew
+2018-04-08 01:35:37,559 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1160/src/lib/build.gradle /tmp/rdisk/1160/src/sample/build.gradle /tmp/rdisk/1160/src/build.gradle
+2018-04-08 01:35:37,562 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1160/src/settings.gradle /tmp/rdisk/1160/src/sample/build.gradle /tmp/rdisk/1160/src/lib/maven-push.gradle /tmp/rdisk/1160/src/lib/build.gradle /tmp/rdisk/1160/src/build.gradle
+2018-04-08 01:35:37,562 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:35:37,562 INFO  ProjectFixService - Fixing project...
+2018-04-08 01:35:37,570 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1160/src/lib/local.properties
+2018-04-08 01:35:37,571 INFO  ProjectFixService - Build info for "/tmp/rdisk/1160/src/lib/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-08 01:35:37,571 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1160/src/sample/local.properties
+2018-04-08 01:35:37,571 INFO  ProjectFixService - Build info for "/tmp/rdisk/1160/src/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-08 01:35:37,571 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1160/src/local.properties
+2018-04-08 01:35:37,572 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-all.zip
+2018-04-08 01:35:37,572 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.3-bin.zip)
+2018-04-08 01:35:37,573 INFO  ProjectFixService - Build info for "/tmp/rdisk/1160/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-08 01:35:37,573 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 01:35:37,573 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 01:35:37,573 INFO  SysUtils - Execute command: [/tmp/rdisk/1160/src/gradlew, -b, /tmp/rdisk/1160/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 01:35:52,221 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-04-08 01:35:52,221 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2018-04-08 01:35:52,221 INFO  SysUtils - Execute command: [/tmp/rdisk/1160/src/gradlew, -b, /tmp/rdisk/1160/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-04-08 01:36:01,310 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:androidSourcesJar
+:lib:compileLint
+:lib:copyDebugLint UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:prepareComAndroidSupportRecyclerviewV72200Library
+:lib:prepareComAndroidSupportSupportV42200Library
+:lib:prepareDebugDependencies
+:lib:compileDebugAidl
+:lib:compileDebugRenderscript
+:lib:generateDebugBuildConfig
+:lib:generateDebugAssets UP-TO-DATE
+:lib:mergeDebugAssets
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:mergeDebugResources
+:lib:processDebugManifest
+:lib:processDebugResources
+:lib:generateDebugSources
+:lib:compileDebugJavaNote: /tmp/rdisk/1160/src/lib/src/main/java/com/nispok/snackbar/Snackbar.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:lib:extractDebugAnnotations
+:lib:mergeDebugProguardFiles
+:lib:processDebugJavaRes UP-TO-DATE
+:lib:packageDebugJar
+:lib:compileDebugNdk UP-TO-DATE
+:lib:packageDebugJniLibs UP-TO-DATE
+:lib:packageDebugLocalJar UP-TO-DATE
+:lib:packageDebugRenderscript UP-TO-DATE
+:lib:packageDebugResources
+:lib:bundleDebug
+:lib:assembleDebug
+:lib:copyReleaseLint UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:mergeReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:compileReleaseJavaNote: /tmp/rdisk/1160/src/lib/src/main/java/com/nispok/snackbar/Snackbar.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:lib:extractReleaseAnnotations
+:lib:mergeReleaseProguardFiles
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources
+:lib:bundleRelease
+:lib:assembleRelease
+:lib:signArchives SKIPPED
+:lib:assemble
+:lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.65 secs
+
+2018-04-08 01:36:01,321 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 01:36:01,321 INFO  SysUtils - Execute command: [/tmp/rdisk/1160/src/gradlew, -b, /tmp/rdisk/1160/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 01:36:07,907 INFO  ProjectTaskService - Detected possible tasks: 61
+2018-04-08 01:36:07,907 INFO  ProjectTaskService - Excluded tasks (18): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-08 01:36:07,907 INFO  SysUtils - Execute command: [/tmp/rdisk/1160/src/gradlew, -b, /tmp/rdisk/1160/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-08 01:36:34,056 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debugUnitTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.3 is ignored for debugUnitTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for releaseUnitTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.3 is ignored for releaseUnitTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:compileDebugNdk UP-TO-DATE
+:lib:compileLint
+:lib:copyReleaseLint UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:prepareComAndroidSupportRecyclerviewV72200Library UP-TO-DATE
+:lib:prepareComAndroidSupportSupportV42200Library UP-TO-DATE
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl UP-TO-DATE
+:lib:compileReleaseRenderscript UP-TO-DATE
+:lib:generateReleaseBuildConfig UP-TO-DATE
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets UP-TO-DATE
+:lib:generateReleaseResValues UP-TO-DATE
+:lib:generateReleaseResources UP-TO-DATE
+:lib:mergeReleaseResources UP-TO-DATE
+:lib:processReleaseManifest UP-TO-DATE
+:lib:processReleaseResources UP-TO-DATE
+:lib:generateReleaseSources UP-TO-DATE
+:lib:compileReleaseJava UP-TO-DATE
+:lib:extractReleaseAnnotations UP-TO-DATE
+:lib:mergeReleaseProguardFiles UP-TO-DATE
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar UP-TO-DATE
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources UP-TO-DATE
+:lib:bundleRelease UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72200Library
+:sample:prepareComAndroidSupportRecyclerviewV72200Library
+:sample:prepareComAndroidSupportSupportV42200Library
+:sample:prepareSrcLibUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources/tmp/rdisk/1160/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJava
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources/tmp/rdisk/1160/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJava
+:sample:lintVitalRelease
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:validateReleaseSigning
+:sample:packageRelease
+:sample:zipalignRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.732 secs
+
+2018-04-08 01:36:34,096 INFO  FullProcessService - Found APK file: /tmp/rdisk/1160/src/sample/build/outputs/apk/sample-release.apk

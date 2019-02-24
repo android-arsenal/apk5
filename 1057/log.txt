@@ -1,0 +1,115 @@
+2018-04-08 05:57:21,702 INFO  DownloadService - Downloading "https://github.com/mikepenz/LollipopShowcase/archive/master.zip", attempt 3
+2018-04-08 05:58:22,159 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 05:58:22,844 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 05:58:22,844 INFO  DownloadService - Downloading "https://github.com/mikepenz/LollipopShowcase/archive/master.zip", attempt 3
+2018-04-08 05:59:24,074 DEBUG FullProcessService - Repository https://github.com/mikepenz/LollipopShowcase available: true
+2018-04-08 05:59:24,074 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 05:59:24,074 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mikepenz/LollipopShowcase, /tmp/rdisk/1057/src]
+2018-04-08 05:59:37,963 INFO  SysUtils - 
+2018-04-08 05:59:37,969 INFO  GitService - Deleted "/tmp/rdisk/1057/src/.git": true
+2018-04-08 05:59:37,972 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-04-08 05:59:37,972 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1057/src]
+2018-04-08 05:59:37,976 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1057/src/.git/
+
+2018-04-08 05:59:37,979 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1057/src/gradlew
+2018-04-08 05:59:37,982 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1057/src/app/build.gradle /tmp/rdisk/1057/src/build.gradle
+2018-04-08 05:59:37,985 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1057/src/settings.gradle /tmp/rdisk/1057/src/build.gradle /tmp/rdisk/1057/src/app/build.gradle
+2018-04-08 05:59:37,985 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 05:59:37,985 INFO  ProjectFixService - Fixing project...
+2018-04-08 05:59:37,991 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1057/src/app/local.properties
+2018-04-08 05:59:37,991 INFO  ProjectFixService - Build info for "/tmp/rdisk/1057/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 05:59:37,992 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1057/src/local.properties
+2018-04-08 05:59:37,992 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-08 05:59:37,992 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-08 05:59:37,993 INFO  ProjectFixService - Build info for "/tmp/rdisk/1057/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 05:59:37,993 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 05:59:37,993 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 05:59:37,993 INFO  SysUtils - Execute command: [/tmp/rdisk/1057/src/gradlew, -b, /tmp/rdisk/1057/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 05:59:50,513 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 05:59:50,514 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 05:59:50,514 INFO  SysUtils - Execute command: [/tmp/rdisk/1057/src/gradlew, -b, /tmp/rdisk/1057/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 06:00:26,313 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportCardviewV72311Library
+:app:prepareComAndroidSupportDesign2311Library
+:app:prepareComAndroidSupportRecyclerviewV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareComMikepenzAboutlibraries534Library
+:app:prepareComMikepenzFontawesomeTypeface4501Library
+:app:prepareComMikepenzGoogleMaterialTypeface2101OriginalLibrary
+:app:prepareComMikepenzIconicsCore251Library
+:app:prepareComMikepenzMaterialdrawer459Library
+:app:prepareComMikepenzMaterialize051Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-xhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-xxxhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-xxhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-mdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-hdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1057/src/app/src/main/java/com/mikepenz/lollipopshowcase/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-xhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-xxxhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-mdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-xxhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/1057/src/app/src/main/res/drawable-hdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1057/src/app/src/main/java/com/mikepenz/lollipopshowcase/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 35.363 secs
+
+2018-04-08 06:00:26,361 INFO  FullProcessService - Found APK file: /tmp/rdisk/1057/src/app/build/outputs/apk/app-release-unsigned-v2.4.1-c241.apk

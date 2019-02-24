@@ -1,0 +1,12 @@
+2018-05-22 07:57:08,123 INFO  DownloadService - Downloading "https://github.com/modern-java-graphics/modern-java6-android-glframework/archive/master.zip", attempt 3
+2018-05-22 07:57:13,987 INFO  DownloadService - Downloading "https://github.com/modern-java-graphics/modern-java6-android-glframework/archive/master.zip", attempt 2
+2018-05-22 07:57:19,695 INFO  DownloadService - Downloading "https://github.com/modern-java-graphics/modern-java6-android-glframework/archive/master.zip", attempt 1
+2018-05-22 07:58:19,697 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 07:58:20,592 ERROR GithubService - Can not fetch information about repository: [owner=modern-java-graphics,name=modern-java6-android-glframework]
+2018-05-22 07:58:20,593 INFO  GithubDownloadService - Default branch of this repository: null
+2018-05-22 07:58:20,593 ERROR GithubDownloadService - Could not detect default branch for Github repository
+2018-05-22 07:58:21,258 DEBUG FullProcessService - Repository https://github.com/modern-java-graphics/modern-java6-android-glframework available: false
+2018-05-22 07:58:21,258 ERROR FullProcessService - Could not find directory with sources
+2018-05-22 07:58:21,258 ERROR FullProcessService - Project will not be processed
+2018-05-22 07:58:21,258 ERROR FullProcessService - Project build has not produced APK file
+2018-05-22 07:58:21,258 ERROR FullProcessService - Could not find generated or existed APK file

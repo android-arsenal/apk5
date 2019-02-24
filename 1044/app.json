@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.cocosw.bottomsheet.example",
+    "label" : "BottomSheet Sample",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD/ElEQVRo3u2ZTYscRRjHf0+nI4lu3GzAGFTwkoP4DfYmCF685OZBIYIo6NEP4V0QgrCRJIcIG0T24PoSIdEgqwgBQVTMYiLmkCjR3Z3MzDqZ6sdDd8/U9NZ0V3X3wERS0EzXS1f9/89bVT0DD8qD0qhIseHc2trK1p2/XxPX4KxRVZGs4hpn97vqo3ZHvypTxy0eWVo5eeLE61MJfLGxcabb6ZwUETSbSUbgrTaR0UrjhdVfasVvCnPn71pYW0R4eGHh7AvLy6+6CESdRI1L4qUq8+wrStO3zyWXQ5HsAxKA2GqPd4tgdC8wqQAsoQDrvcfAACCyNVAl1Srpi4fD+WqwYq7IG3QTc6GlecqIRW1gkhJpy2zIS6kGmkpcWvy2qkRNJe4LVurbe/sE5qnMlMCXa3DtxzkkoCWxPa9v/gxXPoePzsLO9vRxVZtbCAGpu4MWS2cHLpyGoYHONqyuQJKECyc0CtX2JS1s/aunYWcLEpMC3/wJLn3SjsS9wqg2kNTldfjlBzBm8rn4MVz/tflaGuoDvraqwI1N+PTCXvDGwGAA596Dbrf5Wq1FIXuRXg/OvAuDf90EEgN3bsP5U9Y9oO0oFHoytOvnT8Fft1LHTQyY4fhJTNpuEri6AV+t+0elKq00DqMAX38G318ZSzsHmz/DgjZWP4Cb19tx6th1BRBrYte7Xe/ehavfwfFnIcrE8cdvsNufjEyHj8DRJ7JwqnBpHV55a2/s85S+uELnwp+JdkLPLa7Y+87bcOPaJIHnXoSX3yzXpHr2HY3kEHC3qIE90vXpUwcRk8BwOPmdvZFpYOhWTxMqnUAqCNqLGOMmoJ4AQ8jEdUFriQnl0cc2IZOE35F9HDxuCtppQgUNqKahNNSEfMiURqEycwkxIdUwE/IAL1MJhNq804SyvcAe7GtCnpKXWj5AheTFImAcGqiV2ArxAQJMRUoWW3oMHn+ykE1bDDMh3x3axvHo7US3QzMFTS7kdWK/AsciWQR2KqNQiNR9yWjLpGIfsB++n15GRLJkVXbmyevIZCLYlRS2k7Sq6UJqtWsyrqvC8WfgpTfCdmKZpo1vLsK3l9PDmkj2mxPIwcskeJvECKR1EVD7yXdqHf8uP58S0ArLjcssICehViSJovR3pA0tgJaSiKKTZGyJ2+DzjU89XM8GffhWov+4Rt/bTUOja5rGTjwFZbQPHjrg7jsWyRKw5X2Y238A9reXmG0ldRN0Gm0SdWYBeiqBe4PBfZcbnSDQ7/frZZfmRQO9sqRNC6R0xhqQfq93v1iO+zS6G2hCc8UEeAR4GngKOJj1zcsfIFkyhj5wE/gd6BYJxBnwgxlwYbZhP9TXNSPSz54h/4fyH4GYBi4fTZy9AAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1149,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.cocosw.bottomsheet.example\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"BottomSheet Sample\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.cocosw.bottomsheet.example.Main\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.cocosw.bottomsheet.example.ListAcitivty\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1190666,
+  "crc32" : 1354294098,
+  "sha256" : "bbc89d20e5a1b410738913b48b979912eb7852fd70ebd56ae926c90c372547b0",
+  "buildTime" : 1523169243000
+}

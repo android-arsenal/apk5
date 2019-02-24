@@ -1,0 +1,3 @@
+{
+  "info.guardianproject.urzip" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$drawable", "R$layout", "R$string", "UnZipper", "UnZipper$1", "UnZipper$UnZipTask" ]
+}

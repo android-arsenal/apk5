@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.example.android.wizardpager",
+    "label" : "Place Order",
+    "icon" : "res/drawable-xhdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.3",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-xhdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAABX1BMVEX///8AAAD/0GCqi0DswVnvw1r0x1z2yV34yl37zV79zl/+z2D/0GD5y16/nEjuwlr0x1z6zF7+z2C2lEXswVn2yV0AAADiuFX1yFz9zl/juVX2yV3+z2Dkulbbs1L/0GCOdDXyxVv+z2Dcs1P5y14AAADswVn+z2CAaDDyxVuVejj2yV2dgDv2yV1gTiT0x1wAAADuwlrgt1SykUP8zl8AAADxxVvxxVsAAADSq08AAAD0x1zHokvGoksAAADovVdANBj7zV7HokvetVTetVQAAADrwFjqv1gAAAAAAAD1yFwAAAD6zF4AAAD+z2AAAAD8zl8AAAAAAAAAAAAAAAAAAAD/REThPDz4QkL+RET/RETUOTn9Q0PxQEAAAAD8Q0P8Q0MAAAD7Q0P7Q0PhPDx1Hx/5QkIAAABnGxvaOjr6Q0MAAAAAAAD7zV77zV7huFV1Xyz5y15nVCfaslL6zF7NJGrQAAAAdXRSTlMAAAADKV+HqMTZ6PH/xQhJjMj0B1CsASOU6zet/Dgj/gmG9zPTAm75CJwMvQ2+CLkEk2Ih8Aa0swVQCM5JSAeoFO9XlZQNwcEMEuAV8hj+GfkTOEw5GgAqsvL/L/G3EPT2F/X3xFf1IGHK9wpH9ffEV/VhyvdyTzeyAAACJ0lEQVRo3u3Wh1LbQBCAYQgdNnQfEIppRzWdSwIEGwgpVCGDKAYESgDREur7D0MySJCsbcnaY2Dm/gfYb8bldrOyVCqVSvU6yn7SG+K8ATm5efkFhUXFJQBQUlz0tiA/LzeHCigtK6+ohP+rrCgvKw0MVFWHsOEOEqquCgCwmto6SFddbQ3LDGDv6hvASw31jcw/wJpCYfBaONTEfALNLa3gp9aWZj8Aa2sHv7W3Mc8A7+gE/3V2cI9AVzdkVneXJ6CnFzKtN+IBiPRB5vVF0gL9AxCkgf40wOAQBGtoMCXAh8MBgfAwTwWMjELQRkdSAOI9BO/Dx6QAHwOKxngyYHyCBJgYTwLwT0DTJMeBaIwIiEVxYGqaCJieQgE+A1TNcAyIfiYDZqMY8OUrGfDtOwbMzZMB83MYsLBIBiwuYMDSMhmwvIQB2godoGGAHl+lak3HAKFrBlG6SLGT1wP2743yF2Abm1sJ0rY2N5gLsO2dBHk728wBxG5CQrvCAcw9GcC+6QBWQkqWA2hyAM0BDDmA8XyA9kPG/J/uR2QdyAAO3C/ZPDyin3906P5MhX18cko7/vTk2Hb/aOzMjp+vknYet8/Yo8dOmBbZY32fZpni0WMnrycLB+gSGKATAujKNAgBQwEKeKWA9ots/m/0+LUuyIALCwPMyyui+VeXJnpd29c3twTjb2+ubfS6pto6f1YNer7TbJ2HVfOQ5IXzPIBKpVKpXn53yazUBAvrDX8AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1171,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0.3\" package=\"com.example.android.wizardpager\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"Place Order\" android:icon=\"res/drawable-xhdpi-v4/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"Place Order\" android:name=\"com.example.android.wizardpager.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 910657,
+  "crc32" : 1626587372,
+  "sha256" : "a11f820a06394959250c1439404ace2ee6e4ff5e20e3cb2f14ffc624084cbd9d",
+  "buildTime" : 1523137701000
+}

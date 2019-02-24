@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "uk.co.androidalliance.edgeeffectoverride.sample",
+    "label" : "Edge Effect Override Sample",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "16",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAByFBMVEUAAAA30f880v80z/82zf8uyP83zv85xv9A//82z/810P88z/810f8zzP831/840P84z/820P8/2f8zzP830f830f851f830P830P82z/83z/83z/840P83zv8x1v8wwf83z/83z/820P9D0/9K0v83z/850f83z/880f83z/83z/81zv880v81zv85z/9A0v83z/880v86zP84z/83z/85xv80z/83z/83z/810/83zv820f830/840P830P821/840v801P83zP830P830P800f83z/82z/8u0f81z/83z/830v9Av/82z/83z/850v9EzP830P83z/8k2/84z/83z/83zv9Vqv84z/83z/850P890f840P83z/83z/830P83z/82zf840P850f82zv830P830P84z/84z/840v880f83y/83z/83z/8zzP82z/87z/8A//8yzf830f830P86zv82z/840P+A//83z/82zv8y0/8zzP840P820P83z/83z/83z/830P84z/9Av/84z/840P820f860f83z/82z/85zv83z/810v89zv8xzv830P83z/860P82zP810v820P830f9J0//knA9RAAAAmHRSTlMAeVVAiRy2CQSuK3tqFEZthXFJGVSPEs+0+P/7vNIfJbD9vS4+5uxKN+70RBHS2CiGmSPK3huE2pkdzZYX7vcmW2yMn6wnaloLMEUzCFVrLTzttgeg6K0DpfJMuFavvkH+ztNvXudhw19J2F361grGcAFMoYwfpFcCqzlMMpy39sj8okAE3lJCFt1QP/AiFRqv9dRLPsy7I0qdqJkAAAF0SURBVEjHY2AY/ICRCZnHzEJQAysbO4LDwclF2ApuHgZePn4BAUEhYQYRUSLcJCYuISkFBtIysnKE1csrKEohgJIyIfUqqlIoQE0dv3oNTSkpJBuATC1tfOp1dKWk9PQNYOoNjYylpExM8WgwA6oyN4JrsLC0ApLWuNXb2ELdgeQkKSk7e5waHKSwAkecGpywa3DGqcEFuwYZbGpd3dw9GDy9sAJvBh9fP39U9QGBUlJBwSGhWEFYeISUVGQUioZokNUxsdidFBefACQTUTQkgSSScWlIAZGpJGhIG9UwbDSkg4QycGnIBJFZKBqyc6SkcnlxacjLB+bWAhQNhUXFJaUMuDQw2BiUlVdgyUU4NeAC1tg1VOLUUKWFTX1ONe6CqaY2qK4epMgqKKgBRDfKBDU14y9dW1pBCtsYGNpBdH0HweJ+WGjoBCnsYmDoBtE9OoQruTKQul4Ghj5Q5VVXSFhD/4SJkyaDGFOmSk6bPgSaIgwAFVKxNkIYBaAAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 482,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"uk.co.androidalliance.edgeeffectoverride.sample\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"16\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f070001\" android:label=\"Edge Effect Override Sample\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"Edge Effect Override Sample\" android:name=\"uk.co.androidalliance.edgeeffectoverride.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"ListView\" android:name=\"uk.co.androidalliance.edgeeffectoverride.sample.ListViewActivity\" />\n\t\t<activity android:label=\"GridView\" android:name=\"uk.co.androidalliance.edgeeffectoverride.sample.GridViewActivity\" />\n\t\t<activity android:label=\"ExpandableListView\" android:name=\"uk.co.androidalliance.edgeeffectoverride.sample.ExpandableListViewActivity\" />\n\t\t<activity android:label=\"ScrollView\" android:name=\"uk.co.androidalliance.edgeeffectoverride.sample.ScrollViewActivity\" />\n\t\t<activity android:label=\"ViewPager\" android:name=\"uk.co.androidalliance.edgeeffectoverride.sample.ViewPagerActivity\" />\n\t\t<activity android:label=\"WebView\" android:name=\"uk.co.androidalliance.edgeeffectoverride.sample.WebViewActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 590589,
+  "crc32" : 1595215673,
+  "sha256" : "c00e123a804260eccc50eba9c31b79ad5b9f585871c3bb530fa5be6fbc0ab88e",
+  "buildTime" : 1523159195000
+}

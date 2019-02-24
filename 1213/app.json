@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.fmsirvent.ParallaxEverywhereSample",
+    "label" : "ParallaxEverywhere",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.2",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 859,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0.2\" package=\"com.fmsirvent.ParallaxEverywhereSample\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f060000\" android:label=\"ParallaxEverywhere\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"ParallaxEverywhere\" android:name=\"com.fmsirvent.ParallaxEverywhereSample.ParallaxEverywhereSample\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f060001\" android:name=\"com.fmsirvent.ParallaxEverywhereSample.AboutActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 7945575,
+  "crc32" : 2119552390,
+  "sha256" : "9e6fdc01d15c11e9a813978e6a62a3b528be89514ccf62c8ece6587cf66f16ec",
+  "buildTime" : 1526977691000
+}

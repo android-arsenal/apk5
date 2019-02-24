@@ -1,0 +1,134 @@
+2018-04-08 04:36:57,869 INFO  DownloadService - Downloading "https://github.com/alexrs/RecyclerViewRenderers/archive/master.zip", attempt 3
+2018-04-08 04:37:58,475 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 04:37:59,150 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 04:37:59,150 INFO  DownloadService - Downloading "https://github.com/alexrs/RecyclerViewRenderers/archive/master.zip", attempt 3
+2018-04-08 04:39:00,546 DEBUG FullProcessService - Repository https://github.com/alexrs/RecyclerViewRenderers available: true
+2018-04-08 04:39:00,546 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 04:39:00,546 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/alexrs/RecyclerViewRenderers, /tmp/rdisk/1086/src]
+2018-04-08 04:39:07,382 INFO  SysUtils - 
+2018-04-08 04:39:07,386 INFO  GitService - Deleted "/tmp/rdisk/1086/src/.git": true
+2018-04-08 04:39:07,389 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-08 04:39:07,389 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1086/src]
+2018-04-08 04:39:07,394 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1086/src/.git/
+
+2018-04-08 04:39:07,396 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1086/src/gradlew
+2018-04-08 04:39:07,399 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1086/src/recyclerview-renderers-demo/build.gradle /tmp/rdisk/1086/src/recyclerview-renderers-lib/build.gradle /tmp/rdisk/1086/src/build.gradle
+2018-04-08 04:39:07,401 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1086/src/settings.gradle /tmp/rdisk/1086/src/recyclerview-renderers-lib/build.gradle /tmp/rdisk/1086/src/recyclerview-renderers-demo/build.gradle /tmp/rdisk/1086/src/build.gradle
+2018-04-08 04:39:07,402 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 04:39:07,402 INFO  ProjectFixService - Fixing project...
+2018-04-08 04:39:07,407 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1086/src/recyclerview-renderers-demo/local.properties
+2018-04-08 04:39:07,408 INFO  ProjectFixService - Build info for "/tmp/rdisk/1086/src/recyclerview-renderers-demo/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-08 04:39:07,408 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1086/src/recyclerview-renderers-lib/local.properties
+2018-04-08 04:39:07,408 INFO  ProjectFixService - Build info for "/tmp/rdisk/1086/src/recyclerview-renderers-lib/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-08 04:39:07,408 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1086/src/local.properties
+2018-04-08 04:39:07,409 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-08 04:39:07,409 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-08 04:39:07,409 INFO  ProjectFixService - Build info for "/tmp/rdisk/1086/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-08 04:39:07,410 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 04:39:07,410 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 04:39:07,410 INFO  SysUtils - Execute command: [/tmp/rdisk/1086/src/gradlew, -b, /tmp/rdisk/1086/src/recyclerview-renderers-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 04:39:15,958 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-04-08 04:39:15,958 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-04-08 04:39:15,958 INFO  SysUtils - Execute command: [/tmp/rdisk/1086/src/gradlew, -b, /tmp/rdisk/1086/src/recyclerview-renderers-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-04-08 04:39:37,034 INFO  SysUtils - Configuration on demand is an incubating feature.
+:recyclerview-renderers-demo:preBuild UP-TO-DATE
+:recyclerview-renderers-demo:preDebugBuild UP-TO-DATE
+:recyclerview-renderers-demo:checkDebugManifest
+:recyclerview-renderers-demo:preReleaseBuild UP-TO-DATE
+:recyclerview-renderers-lib:compileLint
+:recyclerview-renderers-lib:copyReleaseLint UP-TO-DATE
+:recyclerview-renderers-lib:preBuild UP-TO-DATE
+:recyclerview-renderers-lib:preReleaseBuild UP-TO-DATE
+:recyclerview-renderers-lib:checkReleaseManifest
+:recyclerview-renderers-lib:preDebugAndroidTestBuild UP-TO-DATE
+:recyclerview-renderers-lib:preDebugBuild UP-TO-DATE
+:recyclerview-renderers-lib:preDebugUnitTestBuild UP-TO-DATE
+:recyclerview-renderers-lib:preReleaseUnitTestBuild UP-TO-DATE
+:recyclerview-renderers-lib:prepareComAndroidSupportRecyclerviewV72220Library
+:recyclerview-renderers-lib:prepareComAndroidSupportSupportV42220Library
+:recyclerview-renderers-lib:prepareReleaseDependencies
+:recyclerview-renderers-lib:compileReleaseAidl
+:recyclerview-renderers-lib:compileReleaseRenderscript
+:recyclerview-renderers-lib:generateReleaseBuildConfig
+:recyclerview-renderers-lib:generateReleaseAssets UP-TO-DATE
+:recyclerview-renderers-lib:mergeReleaseAssets
+:recyclerview-renderers-lib:generateReleaseResValues
+:recyclerview-renderers-lib:generateReleaseResources
+:recyclerview-renderers-lib:mergeReleaseResources
+:recyclerview-renderers-lib:processReleaseManifest
+:recyclerview-renderers-lib:processReleaseResources
+:recyclerview-renderers-lib:generateReleaseSources
+:recyclerview-renderers-lib:processReleaseJavaRes UP-TO-DATE
+:recyclerview-renderers-lib:compileReleaseJavaNote: /tmp/rdisk/1086/src/recyclerview-renderers-lib/src/main/java/me/alexrs/recyclerviewrenderers/adapter/RendererAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:recyclerview-renderers-lib:extractReleaseAnnotations
+:recyclerview-renderers-lib:mergeReleaseProguardFiles
+:recyclerview-renderers-lib:packageReleaseJar
+:recyclerview-renderers-lib:compileReleaseNdk UP-TO-DATE
+:recyclerview-renderers-lib:packageReleaseJniLibs UP-TO-DATE
+:recyclerview-renderers-lib:packageReleaseLocalJar UP-TO-DATE
+:recyclerview-renderers-lib:packageReleaseRenderscript UP-TO-DATE
+:recyclerview-renderers-lib:packageReleaseResources
+:recyclerview-renderers-lib:bundleRelease
+:recyclerview-renderers-demo:prepareComAndroidSupportRecyclerviewV72220Library
+:recyclerview-renderers-demo:prepareComAndroidSupportSupportV42220Library
+:recyclerview-renderers-demo:prepareSrcRecyclerviewRenderersLibUnspecifiedLibrary
+:recyclerview-renderers-demo:prepareDebugDependencies
+:recyclerview-renderers-demo:compileDebugAidl
+:recyclerview-renderers-demo:compileDebugRenderscript
+:recyclerview-renderers-demo:generateDebugBuildConfig
+:recyclerview-renderers-demo:generateDebugAssets UP-TO-DATE
+:recyclerview-renderers-demo:mergeDebugAssets
+:recyclerview-renderers-demo:generateDebugResValues
+:recyclerview-renderers-demo:generateDebugResources
+:recyclerview-renderers-demo:mergeDebugResources
+AAPT: /tmp/rdisk/1086/src/recyclerview-renderers-demo/src/main/res/drawable/zoidberg.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:recyclerview-renderers-demo:processDebugManifest
+:recyclerview-renderers-demo:processDebugResources
+:recyclerview-renderers-demo:generateDebugSources
+:recyclerview-renderers-demo:processDebugJavaRes UP-TO-DATE
+:recyclerview-renderers-demo:compileDebugJavaNote: /tmp/rdisk/1086/src/recyclerview-renderers-demo/src/main/java/me/alexrs/recyclerviewrenderers/decorator/DividerItemDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:recyclerview-renderers-demo:compileDebugNdk UP-TO-DATE
+:recyclerview-renderers-demo:compileDebugSources
+:recyclerview-renderers-demo:preDexDebug
+:recyclerview-renderers-demo:dexDebug
+:recyclerview-renderers-demo:validateDebugSigning
+:recyclerview-renderers-demo:packageDebug
+:recyclerview-renderers-demo:zipalignDebug
+:recyclerview-renderers-demo:assembleDebug
+:recyclerview-renderers-demo:checkReleaseManifest
+:recyclerview-renderers-demo:prepareReleaseDependencies
+:recyclerview-renderers-demo:compileReleaseAidl
+:recyclerview-renderers-demo:compileReleaseRenderscript
+:recyclerview-renderers-demo:generateReleaseBuildConfig
+:recyclerview-renderers-demo:generateReleaseAssets UP-TO-DATE
+:recyclerview-renderers-demo:mergeReleaseAssets
+:recyclerview-renderers-demo:generateReleaseResValues
+:recyclerview-renderers-demo:generateReleaseResources
+:recyclerview-renderers-demo:mergeReleaseResources
+AAPT: /tmp/rdisk/1086/src/recyclerview-renderers-demo/src/main/res/drawable/zoidberg.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:recyclerview-renderers-demo:processReleaseManifest
+:recyclerview-renderers-demo:processReleaseResources
+:recyclerview-renderers-demo:generateReleaseSources
+:recyclerview-renderers-demo:processReleaseJavaRes UP-TO-DATE
+:recyclerview-renderers-demo:compileReleaseJavaNote: /tmp/rdisk/1086/src/recyclerview-renderers-demo/src/main/java/me/alexrs/recyclerviewrenderers/decorator/DividerItemDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:recyclerview-renderers-demo:compileReleaseNdk UP-TO-DATE
+:recyclerview-renderers-demo:compileReleaseSources
+:recyclerview-renderers-demo:lintVitalRelease
+:recyclerview-renderers-demo:preDexRelease
+:recyclerview-renderers-demo:dexRelease
+:recyclerview-renderers-demo:packageRelease
+:recyclerview-renderers-demo:assembleRelease
+:recyclerview-renderers-demo:assemble
+:recyclerview-renderers-demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.643 secs
+
+2018-04-08 04:39:37,048 INFO  FullProcessService - Found APK file: /tmp/rdisk/1086/src/recyclerview-renderers-demo/build/outputs/apk/recyclerview-renderers-demo-release-unsigned.apk

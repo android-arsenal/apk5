@@ -1,0 +1,138 @@
+2018-05-11 15:09:23,163 INFO  DownloadService - Downloading "https://github.com/lzyzsd/CircleProgress/archive/master.zip", attempt 3
+2018-05-11 15:10:23,883 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-11 15:10:24,781 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-11 15:10:24,781 INFO  DownloadService - Downloading "https://github.com/lzyzsd/CircleProgress/archive/master.zip", attempt 3
+2018-05-11 15:11:26,174 DEBUG FullProcessService - Repository https://github.com/lzyzsd/CircleProgress available: true
+2018-05-11 15:11:26,175 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-11 15:11:26,175 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lzyzsd/CircleProgress, /tmp/rdisk/1130/src]
+2018-05-11 15:11:28,525 INFO  SysUtils - 
+2018-05-11 15:11:28,529 INFO  GitService - Deleted "/tmp/rdisk/1130/src/.git": true
+2018-05-11 15:11:28,532 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-05-11 15:11:28,532 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1130/src]
+2018-05-11 15:11:28,537 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1130/src/.git/
+
+2018-05-11 15:11:28,539 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1130/src/gradlew
+2018-05-11 15:11:28,542 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1130/src/example/build.gradle /tmp/rdisk/1130/src/library/build.gradle /tmp/rdisk/1130/src/build.gradle
+2018-05-11 15:11:28,544 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1130/src/settings.gradle /tmp/rdisk/1130/src/library/maven-push.gradle /tmp/rdisk/1130/src/library/build.gradle /tmp/rdisk/1130/src/example/build.gradle /tmp/rdisk/1130/src/build.gradle
+2018-05-11 15:11:28,544 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 15:11:28,544 INFO  ProjectFixService - Fixing project...
+2018-05-11 15:11:28,557 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1130/src/example/local.properties
+2018-05-11 15:11:28,558 INFO  ProjectFixService - Build info for "/tmp/rdisk/1130/src/example/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-05-11 15:11:28,558 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1130/src/library/local.properties
+2018-05-11 15:11:28,558 INFO  ProjectFixService - Build info for "/tmp/rdisk/1130/src/library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-05-11 15:11:28,558 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1130/src/local.properties
+2018-05-11 15:11:28,559 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-05-11 15:11:28,559 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-05-11 15:11:28,561 INFO  ProjectFixService - Build info for "/tmp/rdisk/1130/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-05-11 15:11:28,561 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 15:11:28,561 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 15:11:28,561 INFO  SysUtils - Execute command: [/tmp/rdisk/1130/src/gradlew, -b, /tmp/rdisk/1130/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 15:11:36,906 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-05-11 15:11:36,906 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-11 15:11:36,906 INFO  SysUtils - Execute command: [/tmp/rdisk/1130/src/gradlew, -b, /tmp/rdisk/1130/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-11 15:12:03,014 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild UP-TO-DATE
+:example:checkDebugManifest
+:example:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:generateReleaseBuildConfig
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:example:prepareComAndroidSupportAppcompatV72103Library
+:example:prepareComAndroidSupportSupportV42103Library
+:example:prepareSrcLibrary120Library
+:example:prepareDebugDependencies
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:generateDebugBuildConfig
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:incrementalDebugJavaCompilationSafeguard
+:example:compileDebugJavaWithJavac
+:example:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:example:compileDebugNdk UP-TO-DATE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexForDebug
+Running dex in-process requires build tools 23.0.2.
+For faster builds update this project to use the latest build tools.
+:example:mergeDebugJniLibFolders
+:example:transformNative_libsWithMergeJniLibsForDebug
+:example:processDebugJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:generateReleaseBuildConfig
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:incrementalReleaseJavaCompilationSafeguard
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:example:compileReleaseNdk UP-TO-DATE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexForRelease
+:example:mergeReleaseJniLibFolders
+:example:transformNative_libsWithMergeJniLibsForRelease
+:example:processReleaseJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.552 secs
+
+2018-05-11 15:12:03,061 INFO  FullProcessService - Found APK file: /tmp/rdisk/1130/src/example/build/outputs/apk/example-release-unsigned.apk

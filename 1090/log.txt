@@ -1,0 +1,104 @@
+2018-04-08 04:25:50,289 INFO  DownloadService - Downloading "https://github.com/MPieter/Notification-Analyser/archive/master.zip", attempt 3
+2018-04-08 04:26:50,746 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 04:26:51,443 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 04:26:51,443 INFO  DownloadService - Downloading "https://github.com/MPieter/Notification-Analyser/archive/master.zip", attempt 3
+2018-04-08 04:27:52,660 DEBUG FullProcessService - Repository https://github.com/MPieter/Notification-Analyser available: true
+2018-04-08 04:27:52,660 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 04:27:52,661 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MPieter/Notification-Analyser, /tmp/rdisk/1090/src]
+2018-04-08 04:27:55,109 INFO  SysUtils - 
+2018-04-08 04:27:55,116 INFO  GitService - Deleted "/tmp/rdisk/1090/src/.git": true
+2018-04-08 04:27:55,122 INFO  FullProcessService - Size of directory with sources: 7 MB
+2018-04-08 04:27:55,122 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1090/src]
+2018-04-08 04:27:55,129 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1090/src/.git/
+
+2018-04-08 04:27:55,134 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1090/src/NotificationAnalyser/gradlew
+2018-04-08 04:27:55,139 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1090/src/NotificationAnalyser/MPChartLib/build.gradle /tmp/rdisk/1090/src/NotificationAnalyser/app/build.gradle /tmp/rdisk/1090/src/NotificationAnalyser/build.gradle /tmp/rdisk/1090/src/NotificationAnalyser/EnhancedListView/build.gradle
+2018-04-08 04:27:55,143 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1090/src/NotificationAnalyser/settings.gradle /tmp/rdisk/1090/src/NotificationAnalyser/build.gradle /tmp/rdisk/1090/src/NotificationAnalyser/app/build.gradle /tmp/rdisk/1090/src/NotificationAnalyser/MPChartLib/build.gradle /tmp/rdisk/1090/src/NotificationAnalyser/EnhancedListView/build.gradle
+2018-04-08 04:27:55,144 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 04:27:55,144 INFO  ProjectFixService - Fixing project...
+2018-04-08 04:27:55,154 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1090/src/NotificationAnalyser/MPChartLib/local.properties
+2018-04-08 04:27:55,154 INFO  ProjectFixService - Build info for "/tmp/rdisk/1090/src/NotificationAnalyser/MPChartLib/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-04-08 04:27:55,155 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1090/src/NotificationAnalyser/app/local.properties
+2018-04-08 04:27:55,155 INFO  ProjectFixService - Build info for "/tmp/rdisk/1090/src/NotificationAnalyser/app/build.gradle": [buildToolsVersion=21.1,compileSdkVersion=21,minSdkVersion=18,targetSdkVersion=21]
+2018-04-08 04:27:55,155 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1090/src/NotificationAnalyser/app/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=21,minSdkVersion=18,targetSdkVersion=21]
+2018-04-08 04:27:55,155 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1090/src/NotificationAnalyser/local.properties
+2018-04-08 04:27:55,156 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.1-all.zip
+2018-04-08 04:27:55,156 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.1-bin.zip)
+2018-04-08 04:27:55,157 INFO  ProjectFixService - Build info for "/tmp/rdisk/1090/src/NotificationAnalyser/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=21,minSdkVersion=18,targetSdkVersion=21]
+2018-04-08 04:27:55,157 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1090/src/NotificationAnalyser/EnhancedListView/local.properties
+2018-04-08 04:27:55,158 INFO  ProjectFixService - Build info for "/tmp/rdisk/1090/src/NotificationAnalyser/EnhancedListView/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=21,minSdkVersion=18,targetSdkVersion=21]
+2018-04-08 04:27:55,158 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 04:27:55,158 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 04:27:55,158 INFO  SysUtils - Execute command: [/tmp/rdisk/1090/src/NotificationAnalyser/gradlew, -b, /tmp/rdisk/1090/src/NotificationAnalyser/MPChartLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 04:28:09,257 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-08 04:28:09,257 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 04:28:09,257 INFO  SysUtils - Execute command: [/tmp/rdisk/1090/src/NotificationAnalyser/gradlew, -b, /tmp/rdisk/1090/src/NotificationAnalyser/MPChartLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 04:28:18,155 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING [Project: :MPChartLib] WARNING: runProguard is deprecated (and will soon stop working); change to "minifyEnabled" instead
+[]
+[]
+[]
+:MPChartLib:compileLint
+:MPChartLib:copyDebugLint UP-TO-DATE
+:MPChartLib:mergeDebugProguardFiles
+:MPChartLib:preBuild
+:MPChartLib:preDebugBuild
+:MPChartLib:checkDebugManifest
+:MPChartLib:prepareDebugDependencies
+:MPChartLib:compileDebugAidl
+:MPChartLib:compileDebugRenderscript
+:MPChartLib:generateDebugBuildConfig
+:MPChartLib:generateDebugAssets UP-TO-DATE
+:MPChartLib:mergeDebugAssets
+:MPChartLib:generateDebugResValues
+:MPChartLib:generateDebugResources
+:MPChartLib:packageDebugResources
+:MPChartLib:processDebugManifest
+:MPChartLib:processDebugResources
+:MPChartLib:generateDebugSources
+:MPChartLib:compileDebugJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:MPChartLib:processDebugJavaRes UP-TO-DATE
+:MPChartLib:packageDebugJar
+:MPChartLib:compileDebugNdk
+:MPChartLib:packageDebugJniLibs UP-TO-DATE
+:MPChartLib:packageDebugLocalJar UP-TO-DATE
+:MPChartLib:packageDebugRenderscript UP-TO-DATE
+:MPChartLib:bundleDebug
+:MPChartLib:assembleDebug
+:MPChartLib:copyReleaseLint UP-TO-DATE
+:MPChartLib:mergeReleaseProguardFiles
+:MPChartLib:preReleaseBuild
+:MPChartLib:checkReleaseManifest
+:MPChartLib:prepareReleaseDependencies
+:MPChartLib:compileReleaseAidl
+:MPChartLib:compileReleaseRenderscript
+:MPChartLib:generateReleaseBuildConfig
+:MPChartLib:generateReleaseAssets UP-TO-DATE
+:MPChartLib:mergeReleaseAssets
+:MPChartLib:generateReleaseResValues
+:MPChartLib:generateReleaseResources
+:MPChartLib:packageReleaseResources
+:MPChartLib:processReleaseManifest
+:MPChartLib:processReleaseResources
+:MPChartLib:generateReleaseSources
+:MPChartLib:compileReleaseJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:MPChartLib:processReleaseJavaRes UP-TO-DATE
+:MPChartLib:packageReleaseJar
+:MPChartLib:compileReleaseNdk
+:MPChartLib:packageReleaseJniLibs UP-TO-DATE
+:MPChartLib:packageReleaseLocalJar UP-TO-DATE
+:MPChartLib:packageReleaseRenderscript UP-TO-DATE
+:MPChartLib:bundleRelease
+:MPChartLib:assembleRelease
+:MPChartLib:assemble
+:MPChartLib:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.446 secs
+
+2018-04-08 04:28:18,167 INFO  FullProcessService - Found APK file: /tmp/rdisk/1090/src/NotificationAnalyser/app/app-release.apk

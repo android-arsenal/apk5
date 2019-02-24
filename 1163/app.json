@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.heinrichreimersoftware.singleinputform.example",
+    "label" : "material-singleinputform Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "3.0.3",
+    "versionCode" : 30300,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1782,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"30300\" android:versionName=\"3.0.3\" package=\"com.heinrichreimersoftware.singleinputform.example\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:label=\"material-singleinputform Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0800a4\" android:label=\"material-singleinputform Demo\" android:name=\"com.heinrichreimersoftware.singleinputform.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1469815,
+  "crc32" : 3287759555,
+  "sha256" : "c570c499c1aa47fd13587da4fdb5a75c02b8a1d3d97009e47d7715abe12331fa",
+  "buildTime" : 1523150836000
+}

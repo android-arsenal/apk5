@@ -1,0 +1,21 @@
+2018-04-08 05:55:17,248 INFO  DownloadService - Downloading "https://github.com/HiddenStage/divide/archive/master.zip", attempt 3
+2018-04-08 05:56:17,719 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 05:56:18,391 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 05:56:18,391 INFO  DownloadService - Downloading "https://github.com/HiddenStage/divide/archive/master.zip", attempt 3
+2018-04-08 05:57:19,651 DEBUG FullProcessService - Repository https://github.com/HiddenStage/divide available: true
+2018-04-08 05:57:19,651 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 05:57:19,651 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/HiddenStage/divide, /tmp/rdisk/1059/src]
+2018-04-08 05:57:21,613 INFO  SysUtils - 
+2018-04-08 05:57:21,623 INFO  GitService - Deleted "/tmp/rdisk/1059/src/.git": true
+2018-04-08 05:57:21,635 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-08 05:57:21,635 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1059/src]
+2018-04-08 05:57:21,638 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1059/src/.git/
+
+2018-04-08 05:57:21,648 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 05:57:21,648 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 05:57:21,657 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 05:57:21,665 INFO  ProjectBuildService - All script(s): none
+2018-04-08 05:57:21,665 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 05:57:21,665 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 05:57:21,666 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 05:57:21,674 ERROR FullProcessService - Could not find generated or existed APK file

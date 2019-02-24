@@ -1,0 +1,170 @@
+2018-04-08 12:52:08,273 INFO  DownloadService - Downloading "https://github.com/AndrewReitz/velcro/archive/master.zip", attempt 3
+2018-04-08 12:52:08,836 INFO  DownloadService - Downloaded https://github.com/AndrewReitz/velcro/archive/master.zip, attempt 3
+2018-04-08 12:52:08,836 INFO  DownloadService - Size of file "/tmp/rdisk/1027/master.zip": 601 KB
+2018-04-08 12:52:08,836 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-08 12:52:08,837 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1027/master.zip: true
+2018-04-08 12:52:08,837 DEBUG ZipUtil - Extracting '/tmp/rdisk/1027/master.zip' into '/tmp/rdisk/1027/src'.
+2018-04-08 12:52:08,868 INFO  FullProcessService - Size of directory with sources: 681 KB
+2018-04-08 12:52:08,868 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1027/src]
+2018-04-08 12:52:08,881 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1027/src/.git/
+
+2018-04-08 12:52:08,887 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1027/src/velcro-master/velcro-lazybones/src/templates/velcro/gradlew /tmp/rdisk/1027/src/velcro-master/velcro-app/gradlew /tmp/rdisk/1027/src/velcro-master/gradlew
+2018-04-08 12:52:08,894 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1027/src/velcro-master/velcro-app/build.gradle /tmp/rdisk/1027/src/velcro-master/velcro-lazybones/src/templates/velcro/build.gradle /tmp/rdisk/1027/src/velcro-master/buildSrc/build.gradle
+2018-04-08 12:52:08,901 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1027/src/velcro-master/velcro.gradle /tmp/rdisk/1027/src/velcro-master/velcro-lazybones/velcro-lazybones.gradle /tmp/rdisk/1027/src/velcro-master/velcro-lazybones/src/templates/velcro/gradle/signing.gradle /tmp/rdisk/1027/src/velcro-master/velcro-lazybones/src/templates/velcro/gradle/checkstyle.gradle /tmp/rdisk/1027/src/velcro-master/velcro-lazybones/src/templates/velcro/build.gradle /tmp/rdisk/1027/src/velcro-master/velcro-app/gradle/signing.gradle /tmp/rdisk/1027/src/velcro-master/velcro-app/gradle/checkstyle.gradle /tmp/rdisk/1027/src/velcro-master/velcro-app/build.gradle /tmp/rdisk/1027/src/velcro-master/settings.gradle /tmp/rdisk/1027/src/velcro-master/gradle/credentials.gradle /tmp/rdisk/1027/src/velcro-master/buildSrc/build.gradle
+2018-04-08 12:52:08,902 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 12:52:08,902 INFO  ProjectFixService - Fixing project...
+2018-04-08 12:52:08,917 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1027/src/velcro-master/velcro-app/local.properties
+2018-04-08 12:52:08,918 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-all.zip
+2018-04-08 12:52:08,918 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.3-bin.zip)
+2018-04-08 12:52:08,918 INFO  ProjectFixService - Build info for "/tmp/rdisk/1027/src/velcro-master/velcro-app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 12:52:08,919 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1027/src/velcro-master/velcro-lazybones/src/templates/velcro/local.properties
+2018-04-08 12:52:08,919 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-all.zip
+2018-04-08 12:52:08,919 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.3-bin.zip)
+2018-04-08 12:52:08,919 INFO  ProjectFixService - Build info for "/tmp/rdisk/1027/src/velcro-master/velcro-lazybones/src/templates/velcro/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 12:52:08,920 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1027/src/velcro-master/buildSrc/local.properties
+2018-04-08 12:52:08,923 INFO  ProjectFixService - Build info for "/tmp/rdisk/1027/src/velcro-master/buildSrc/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-08 12:52:08,923 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 12:52:08,923 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 12:52:08,923 INFO  SysUtils - Execute command: [/tmp/rdisk/1027/src/velcro-master/velcro-app/gradlew, -b, /tmp/rdisk/1027/src/velcro-master/velcro-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 12:52:25,421 INFO  ProjectTaskService - Detected possible tasks: 106
+2018-04-08 12:52:25,421 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-04-08 12:52:25,421 INFO  SysUtils - Execute command: [/tmp/rdisk/1027/src/velcro-master/velcro-app/gradlew, -b, /tmp/rdisk/1027/src/velcro-master/velcro-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-04-08 12:53:09,129 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:preBuild UP-TO-DATE
+:preInternalDebugBuild UP-TO-DATE
+:checkInternalDebugManifest
+:preInternalReleaseBuild UP-TO-DATE
+:preProductionDebugBuild UP-TO-DATE
+:preProductionReleaseBuild UP-TO-DATE
+:prepareComAndroidSupportAppcompatV72310Library
+:prepareComAndroidSupportDesign2310Library
+:prepareComAndroidSupportRecyclerviewV72310Library
+:prepareComAndroidSupportSupportV42310Library
+:prepareComInkapplicationsAndroidPreferences110Library
+:prepareComJakewhartonHugoHugoRuntime121Library
+:prepareComJakewhartonTimberTimber410Library
+:prepareInternalDebugDependencies
+:compileInternalDebugAidl
+:compileInternalDebugRenderscript
+:generateInternalDebugBuildConfig
+:generateInternalDebugAssets UP-TO-DATE
+:mergeInternalDebugAssets
+:generateInternalDebugResValues
+:generateInternalDebugResources
+:mergeInternalDebugResourcesUnknown source file : /tmp/rdisk/1027/src/velcro-master/velcro-app/src/internalDebug/res/drawable-xhdpi/debug_drawer_header_bg.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+Unknown source file : /tmp/rdisk/1027/src/velcro-master/velcro-app/src/internalDebug/res/drawable-hdpi/debug_drawer_header_bg.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+Unknown source file : /tmp/rdisk/1027/src/velcro-master/velcro-app/src/internalDebug/res/drawable-xhdpi/debug_drawer_shadow.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+Unknown source file : /tmp/rdisk/1027/src/velcro-master/velcro-app/src/internalDebug/res/drawable-mdpi/debug_drawer_header_bg.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+Unknown source file : /tmp/rdisk/1027/src/velcro-master/velcro-app/src/internalDebug/res/drawable-hdpi/debug_drawer_shadow.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+Unknown source file : /tmp/rdisk/1027/src/velcro-master/velcro-app/src/internalDebug/res/drawable-mdpi/debug_drawer_shadow.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:processInternalDebugManifest
+:processInternalDebugResources
+:generateInternalDebugSources
+:processInternalDebugJavaRes UP-TO-DATE
+:compileInternalDebugJavaWithJavacNote: /tmp/rdisk/1027/src/velcro-master/velcro-app/src/internalDebug/java/com/andrewreitz/velcro/ui/debug/ContextualDebugActions.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:compileInternalDebugNdk UP-TO-DATE
+:compileInternalDebugSources
+:preDexInternalDebug
+:dexInternalDebug
+:validateDebugSigning
+:packageInternalDebug
+:zipalignInternalDebug
+:assembleInternalDebug
+:checkProductionDebugManifest
+:prepareProductionDebugDependencies
+:compileProductionDebugAidl
+:compileProductionDebugRenderscript
+:generateProductionDebugBuildConfig
+:generateProductionDebugAssets UP-TO-DATE
+:mergeProductionDebugAssets
+:generateProductionDebugResValues
+:generateProductionDebugResources
+:mergeProductionDebugResources
+:processProductionDebugManifest
+:processProductionDebugResources
+:generateProductionDebugSources
+:processProductionDebugJavaRes UP-TO-DATE
+:compileProductionDebugJavaWithJavac
+:compileProductionDebugNdk UP-TO-DATE
+:compileProductionDebugSources
+:preDexProductionDebug
+:dexProductionDebug
+:packageProductionDebug
+:zipalignProductionDebug
+:assembleProductionDebug
+:assembleDebug
+:checkInternalReleaseManifest
+:prepareInternalReleaseDependencies
+:compileInternalReleaseAidl
+:compileInternalReleaseRenderscript
+:generateInternalReleaseBuildConfig
+:generateInternalReleaseAssets UP-TO-DATE
+:mergeInternalReleaseAssets
+:generateInternalReleaseResValues
+:generateInternalReleaseResources
+:mergeInternalReleaseResources
+:processInternalReleaseManifest
+:processInternalReleaseResources
+:generateInternalReleaseSources
+:processInternalReleaseJavaRes UP-TO-DATE
+:compileInternalReleaseJavaWithJavac
+:compileInternalReleaseNdk UP-TO-DATE
+:compileInternalReleaseSources
+:preDexInternalRelease
+:dexInternalRelease
+:packageInternalRelease
+:zipalignInternalRelease
+:assembleInternalRelease
+:checkProductionReleaseManifest
+:prepareProductionReleaseDependencies
+:compileProductionReleaseAidl
+:compileProductionReleaseRenderscript
+:generateProductionReleaseBuildConfig
+:generateProductionReleaseAssets UP-TO-DATE
+:mergeProductionReleaseAssets
+:generateProductionReleaseResValues
+:generateProductionReleaseResources
+:mergeProductionReleaseResources
+:processProductionReleaseManifest
+:processProductionReleaseResources
+:generateProductionReleaseSources
+:processProductionReleaseJavaRes UP-TO-DATE
+:compileProductionReleaseJavaWithJavac
+:compileProductionReleaseNdk UP-TO-DATE
+:compileProductionReleaseSources
+:preDexProductionRelease
+:dexProductionRelease
+:packageProductionRelease
+:zipalignProductionRelease
+:assembleProductionRelease
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 43.28 secs
+
+2018-04-08 12:53:09,203 INFO  FullProcessService - Found APK file: /tmp/rdisk/1027/src/velcro-master/velcro-app/build/outputs/apk/velcro-app-production-release.apk

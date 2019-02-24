@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "net.simonvt.schematic.sample",
+    "label" : null,
+    "icon" : null,
+    "versionName" : "0.7.1",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 3157,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.7.1\" package=\"net.simonvt.schematic.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"@android:style/Theme.Holo.Light.DarkActionBar\">\n\t\t<activity android:label=\"Schematic\" android:name=\"net.simonvt.schematic.sample.ui.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"net.simonvt.schematic.sample.provider.NotesProvider\" android:exported=\"false\" android:authorities=\"net.simonvt.schematic.sample.NotesProvider\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1345174,
+  "crc32" : 3998657009,
+  "sha256" : "bb9b00db51904edc18f29577f2bf315dc988d82465136030704aa210c78ab5e8",
+  "buildTime" : 1497730904000
+}

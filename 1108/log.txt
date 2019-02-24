@@ -1,0 +1,7 @@
+2016-07-19 01:12:12,831 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/BOINC/boinc/archive/master.zip", attempt 3
+2016-07-19 01:12:16,165 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/BOINC/boinc/archive/master.zip, attempt 3
+2016-07-19 01:12:28,654 INFO  c.g.v.a.s.FullProcessService - Archive with sources does not contain any build script
+2016-07-19 01:12:28,655 ERROR c.g.v.a.s.FullProcessService - Could not find directory with sources
+2016-07-19 01:12:28,657 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-07-19 01:12:28,657 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-19 01:12:28,688 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

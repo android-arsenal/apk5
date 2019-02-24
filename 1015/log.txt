@@ -1,0 +1,1577 @@
+2018-04-08 13:01:40,625 INFO  DownloadService - Downloading "https://github.com/psaravan/JamsMusicPlayer/archive/master.zip", attempt 3
+2018-04-08 13:01:44,946 INFO  DownloadService - Downloaded https://github.com/psaravan/JamsMusicPlayer/archive/master.zip, attempt 3
+2018-04-08 13:01:44,947 INFO  DownloadService - Size of file "/tmp/rdisk/1015/master.zip": 10 MB
+2018-04-08 13:01:44,947 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-08 13:01:44,950 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1015/master.zip: true
+2018-04-08 13:01:44,950 DEBUG ZipUtil - Extracting '/tmp/rdisk/1015/master.zip' into '/tmp/rdisk/1015/src'.
+2018-04-08 13:01:45,247 INFO  FullProcessService - Size of directory with sources: 14 MB
+2018-04-08 13:01:45,247 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1015/src]
+2018-04-08 13:01:45,254 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1015/src/.git/
+
+2018-04-08 13:01:45,281 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew
+2018-04-08 13:01:45,307 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1015/src/JamsMusicPlayer-master/circularImageView/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/dragsortlistviewlibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/licensesdialoglibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/quickScroll/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/viewpagerindicatorlibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/build.gradle
+2018-04-08 13:01:45,333 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1015/src/JamsMusicPlayer-master/viewpagerindicatorlibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/settings.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/quickScroll/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/licensesdialoglibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/dragsortlistviewlibrary/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/circularImageView/build.gradle /tmp/rdisk/1015/src/JamsMusicPlayer-master/build.gradle
+2018-04-08 13:01:45,333 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 13:01:45,333 INFO  ProjectFixService - Fixing project...
+2018-04-08 13:01:45,386 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/circularImageView/local.properties
+2018-04-08 13:01:45,387 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/circularImageView/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=11,targetSdkVersion=19]
+2018-04-08 13:01:45,387 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/dragsortlistviewlibrary/local.properties
+2018-04-08 13:01:45,387 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/dragsortlistviewlibrary/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=10,targetSdkVersion=19]
+2018-04-08 13:01:45,388 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/local.properties
+2018-04-08 13:01:45,388 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-08 13:01:45,388 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/licensesdialoglibrary/local.properties
+2018-04-08 13:01:45,389 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/licensesdialoglibrary/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=14,targetSdkVersion=19]
+2018-04-08 13:01:45,389 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/local.properties
+2018-04-08 13:01:45,389 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-08 13:01:45,392 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/quickScroll/local.properties
+2018-04-08 13:01:45,392 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/quickScroll/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=14,targetSdkVersion=19]
+2018-04-08 13:01:45,392 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/local.properties
+2018-04-08 13:01:45,393 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=14,targetSdkVersion=19]
+2018-04-08 13:01:45,393 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/viewpagerindicatorlibrary/local.properties
+2018-04-08 13:01:45,393 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/viewpagerindicatorlibrary/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=4,targetSdkVersion=4]
+2018-04-08 13:01:45,393 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/viewpagerindicatorlibrary/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=7,targetSdkVersion=7]
+2018-04-08 13:01:45,394 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1015/src/JamsMusicPlayer-master/local.properties
+2018-04-08 13:01:45,395 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2018-04-08 13:01:45,395 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2018-04-08 13:01:45,396 INFO  ProjectFixService - Build info for "/tmp/rdisk/1015/src/JamsMusicPlayer-master/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=7,targetSdkVersion=7]
+2018-04-08 13:01:45,396 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 13:01:45,396 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:01:45,396 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/circularImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:01:57,092 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-04-08 13:01:57,092 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 13:01:57,093 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/circularImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 13:02:06,068 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:circularImageView:compileLint
+:circularImageView:copyDebugLint UP-TO-DATE
+:circularImageView:preBuild
+:circularImageView:preDebugBuild
+:circularImageView:checkDebugManifest
+:circularImageView:preDebugTestBuild
+:circularImageView:preReleaseBuild
+:circularImageView:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:circularImageView:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:circularImageView:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:circularImageView:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:circularImageView:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:circularImageView:prepareComAndroidSupportSupportV42600Alpha1Library
+:circularImageView:prepareDebugDependencies
+:circularImageView:compileDebugAidl
+:circularImageView:compileDebugRenderscript
+:circularImageView:generateDebugBuildConfig
+:circularImageView:generateDebugAssets UP-TO-DATE
+:circularImageView:mergeDebugAssets
+:circularImageView:generateDebugResValues
+:circularImageView:generateDebugResources
+:circularImageView:mergeDebugResources
+:circularImageView:processDebugManifest
+:circularImageView:processDebugResources
+:circularImageView:generateDebugSources
+:circularImageView:compileDebugJava
+:circularImageView:extractDebugAnnotations
+:circularImageView:mergeDebugProguardFiles
+:circularImageView:processDebugJavaRes UP-TO-DATE
+:circularImageView:packageDebugJar
+:circularImageView:compileDebugNdk
+:circularImageView:packageDebugJniLibs UP-TO-DATE
+:circularImageView:packageDebugLocalJar UP-TO-DATE
+:circularImageView:packageDebugRenderscript UP-TO-DATE
+:circularImageView:packageDebugResources
+:circularImageView:bundleDebug
+:circularImageView:assembleDebug
+:circularImageView:copyReleaseLint UP-TO-DATE
+:circularImageView:checkReleaseManifest
+:circularImageView:prepareReleaseDependencies
+:circularImageView:compileReleaseAidl
+:circularImageView:compileReleaseRenderscript
+:circularImageView:generateReleaseBuildConfig
+:circularImageView:generateReleaseAssets UP-TO-DATE
+:circularImageView:mergeReleaseAssets
+:circularImageView:generateReleaseResValues
+:circularImageView:generateReleaseResources
+:circularImageView:mergeReleaseResources
+:circularImageView:processReleaseManifest
+:circularImageView:processReleaseResources
+:circularImageView:generateReleaseSources
+:circularImageView:compileReleaseJava
+:circularImageView:extractReleaseAnnotations
+:circularImageView:mergeReleaseProguardFiles
+:circularImageView:processReleaseJavaRes UP-TO-DATE
+:circularImageView:packageReleaseJar
+:circularImageView:compileReleaseNdk
+:circularImageView:packageReleaseJniLibs UP-TO-DATE
+:circularImageView:packageReleaseLocalJar UP-TO-DATE
+:circularImageView:packageReleaseRenderscript UP-TO-DATE
+:circularImageView:packageReleaseResources
+:circularImageView:bundleRelease
+:circularImageView:assembleRelease
+:circularImageView:assemble
+:circularImageView:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.309 secs
+
+2018-04-08 13:02:06,101 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:02:06,101 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/dragsortlistviewlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:02:12,747 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-04-08 13:02:12,748 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 13:02:12,748 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/dragsortlistviewlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 13:02:21,552 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:dragsortlistviewlibrary:compileLint
+:dragsortlistviewlibrary:copyDebugLint UP-TO-DATE
+:dragsortlistviewlibrary:preBuild
+:dragsortlistviewlibrary:preDebugBuild
+:dragsortlistviewlibrary:checkDebugManifest
+:dragsortlistviewlibrary:preDebugTestBuild
+:dragsortlistviewlibrary:preReleaseBuild
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportV42600Alpha1Library
+:dragsortlistviewlibrary:prepareDebugDependencies
+:dragsortlistviewlibrary:compileDebugAidl
+:dragsortlistviewlibrary:compileDebugRenderscript
+:dragsortlistviewlibrary:generateDebugBuildConfig
+:dragsortlistviewlibrary:generateDebugAssets UP-TO-DATE
+:dragsortlistviewlibrary:mergeDebugAssets
+:dragsortlistviewlibrary:generateDebugResValues
+:dragsortlistviewlibrary:generateDebugResources
+:dragsortlistviewlibrary:mergeDebugResources
+:dragsortlistviewlibrary:processDebugManifest
+:dragsortlistviewlibrary:processDebugResources
+:dragsortlistviewlibrary:generateDebugSources
+:dragsortlistviewlibrary:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:dragsortlistviewlibrary:extractDebugAnnotations
+:dragsortlistviewlibrary:mergeDebugProguardFiles
+:dragsortlistviewlibrary:processDebugJavaRes UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugJar
+:dragsortlistviewlibrary:compileDebugNdk
+:dragsortlistviewlibrary:packageDebugJniLibs UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugLocalJar UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugResources
+:dragsortlistviewlibrary:bundleDebug
+:dragsortlistviewlibrary:assembleDebug
+:dragsortlistviewlibrary:copyReleaseLint UP-TO-DATE
+:dragsortlistviewlibrary:checkReleaseManifest
+:dragsortlistviewlibrary:prepareReleaseDependencies
+:dragsortlistviewlibrary:compileReleaseAidl
+:dragsortlistviewlibrary:compileReleaseRenderscript
+:dragsortlistviewlibrary:generateReleaseBuildConfig
+:dragsortlistviewlibrary:generateReleaseAssets UP-TO-DATE
+:dragsortlistviewlibrary:mergeReleaseAssets
+:dragsortlistviewlibrary:generateReleaseResValues
+:dragsortlistviewlibrary:generateReleaseResources
+:dragsortlistviewlibrary:mergeReleaseResources
+:dragsortlistviewlibrary:processReleaseManifest
+:dragsortlistviewlibrary:processReleaseResources
+:dragsortlistviewlibrary:generateReleaseSources
+:dragsortlistviewlibrary:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:dragsortlistviewlibrary:extractReleaseAnnotations
+:dragsortlistviewlibrary:mergeReleaseProguardFiles
+:dragsortlistviewlibrary:processReleaseJavaRes UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseJar
+:dragsortlistviewlibrary:compileReleaseNdk
+:dragsortlistviewlibrary:packageReleaseJniLibs UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseLocalJar UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseResources
+:dragsortlistviewlibrary:bundleRelease
+:dragsortlistviewlibrary:assembleRelease
+:dragsortlistviewlibrary:assemble
+:dragsortlistviewlibrary:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.35 secs
+
+2018-04-08 13:02:21,594 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:02:21,594 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:03:13,905 INFO  ProjectTaskService - Detected possible tasks: 49
+2018-04-08 13:03:13,905 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 13:03:13,906 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 13:03:39,276 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 13:03:39,276 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:jamsMusicPlayer:preBuild
+:jamsMusicPlayer:compileDebugNdk
+:circularImageView:compileLint
+:circularImageView:copyReleaseLint UP-TO-DATE
+:circularImageView:preBuild
+:circularImageView:preReleaseBuild
+:circularImageView:checkReleaseManifest
+:circularImageView:preDebugBuild
+:circularImageView:preDebugTestBuild
+:circularImageView:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:circularImageView:prepareReleaseDependencies
+:circularImageView:compileReleaseAidl UP-TO-DATE
+:circularImageView:compileReleaseRenderscript UP-TO-DATE
+:circularImageView:generateReleaseBuildConfig UP-TO-DATE
+:circularImageView:generateReleaseAssets UP-TO-DATE
+:circularImageView:mergeReleaseAssets UP-TO-DATE
+:circularImageView:generateReleaseResValues UP-TO-DATE
+:circularImageView:generateReleaseResources UP-TO-DATE
+:circularImageView:mergeReleaseResources UP-TO-DATE
+:circularImageView:processReleaseManifest UP-TO-DATE
+:circularImageView:processReleaseResources UP-TO-DATE
+:circularImageView:generateReleaseSources UP-TO-DATE
+:circularImageView:compileReleaseJava UP-TO-DATE
+:circularImageView:extractReleaseAnnotations UP-TO-DATE
+:circularImageView:mergeReleaseProguardFiles UP-TO-DATE
+:circularImageView:processReleaseJavaRes UP-TO-DATE
+:circularImageView:packageReleaseJar UP-TO-DATE
+:circularImageView:compileReleaseNdk UP-TO-DATE
+:circularImageView:packageReleaseJniLibs UP-TO-DATE
+:circularImageView:packageReleaseLocalJar UP-TO-DATE
+:circularImageView:packageReleaseRenderscript UP-TO-DATE
+:circularImageView:packageReleaseResources UP-TO-DATE
+:circularImageView:bundleRelease UP-TO-DATE
+:dragsortlistviewlibrary:compileLint
+:dragsortlistviewlibrary:copyReleaseLint UP-TO-DATE
+:dragsortlistviewlibrary:preBuild
+:dragsortlistviewlibrary:preReleaseBuild
+:dragsortlistviewlibrary:checkReleaseManifest
+:dragsortlistviewlibrary:preDebugBuild
+:dragsortlistviewlibrary:preDebugTestBuild
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareReleaseDependencies
+:dragsortlistviewlibrary:compileReleaseAidl UP-TO-DATE
+:dragsortlistviewlibrary:compileReleaseRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseBuildConfig UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseAssets UP-TO-DATE
+:dragsortlistviewlibrary:mergeReleaseAssets UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseResValues UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:mergeReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:processReleaseManifest UP-TO-DATE
+:dragsortlistviewlibrary:processReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseSources UP-TO-DATE
+:dragsortlistviewlibrary:compileReleaseJava UP-TO-DATE
+:dragsortlistviewlibrary:extractReleaseAnnotations UP-TO-DATE
+:dragsortlistviewlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:dragsortlistviewlibrary:processReleaseJavaRes UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseJar UP-TO-DATE
+:dragsortlistviewlibrary:compileReleaseNdk UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseJniLibs UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseLocalJar UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:bundleRelease UP-TO-DATE
+:jamsMusicPlayer:preDebugBuild
+:jamsMusicPlayer:checkDebugManifest
+:jamsMusicPlayer:preReleaseBuild
+:licensesdialoglibrary:compileLint
+:licensesdialoglibrary:copyReleaseLint UP-TO-DATE
+:licensesdialoglibrary:mergeReleaseProguardFiles
+:licensesdialoglibrary:preBuild
+:licensesdialoglibrary:preReleaseBuild
+:licensesdialoglibrary:checkReleaseManifest
+:licensesdialoglibrary:prepareReleaseDependencies
+:licensesdialoglibrary:compileReleaseAidl
+:licensesdialoglibrary:compileReleaseRenderscript
+:licensesdialoglibrary:generateReleaseBuildConfig
+:licensesdialoglibrary:generateReleaseAssets UP-TO-DATE
+:licensesdialoglibrary:mergeReleaseAssets
+:licensesdialoglibrary:generateReleaseResValues
+:licensesdialoglibrary:generateReleaseResources
+:licensesdialoglibrary:packageReleaseResources
+:licensesdialoglibrary:processReleaseManifest
+:licensesdialoglibrary:processReleaseResources
+:licensesdialoglibrary:generateReleaseSources
+:licensesdialoglibrary:compileReleaseJava
+:licensesdialoglibrary:processReleaseJavaRes UP-TO-DATE
+:licensesdialoglibrary:packageReleaseJar
+:licensesdialoglibrary:compileReleaseNdk
+:licensesdialoglibrary:packageReleaseJniLibs UP-TO-DATE
+:licensesdialoglibrary:packageReleaseLocalJar UP-TO-DATE
+:licensesdialoglibrary:packageReleaseRenderscript UP-TO-DATE
+:licensesdialoglibrary:bundleRelease
+:picasso:compileLint
+:picasso:copyReleaseLint UP-TO-DATE
+:picasso:mergeReleaseProguardFiles
+:picasso:preBuild
+:picasso:preReleaseBuild
+:picasso:checkReleaseManifest
+:picasso:prepareReleaseDependencies
+:picasso:compileReleaseAidl
+:picasso:compileReleaseRenderscript
+:picasso:generateReleaseBuildConfig
+:picasso:generateReleaseAssets UP-TO-DATE
+:picasso:mergeReleaseAssets
+:picasso:generateReleaseResValues
+:picasso:generateReleaseResources
+:picasso:packageReleaseResources
+:picasso:processReleaseManifest
+Warning: /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/src/main/AndroidManifest.xml:7:5 Warning:
+	uses-sdk was tagged at AndroidManifest.xml:7 to replace another declaration but no other declaration present
+/tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/src/main/AndroidManifest.xml:7:5 Warning:
+	uses-sdk was tagged at AndroidManifest.xml:7 to replace another declaration but no other declaration present
+:picasso:processReleaseResources
+:picasso:generateReleaseSources
+:picasso:compileReleaseJavaNote: /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/src/main/java/com/squareup/picasso/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:picasso:processReleaseJavaRes UP-TO-DATE
+:picasso:packageReleaseJar
+:picasso:compileReleaseNdk
+:picasso:packageReleaseJniLibs UP-TO-DATE
+:picasso:packageReleaseLocalJar
+:picasso:packageReleaseRenderscript UP-TO-DATE
+:picasso:bundleRelease
+:quickScroll:compileLint
+:quickScroll:copyReleaseLint UP-TO-DATE
+:quickScroll:mergeReleaseProguardFiles
+:quickScroll:preBuild
+:quickScroll:preReleaseBuild
+:quickScroll:checkReleaseManifest
+:quickScroll:preDebugBuild
+:quickScroll:preDebugTestBuild
+:quickScroll:prepareJamsMusicPlayerMasterPicassoUnspecifiedLibrary
+:quickScroll:prepareReleaseDependencies
+:quickScroll:compileReleaseAidl
+:quickScroll:compileReleaseRenderscript
+:quickScroll:generateReleaseBuildConfig
+:quickScroll:generateReleaseAssets UP-TO-DATE
+:quickScroll:mergeReleaseAssets
+:quickScroll:generateReleaseResValues
+:quickScroll:generateReleaseResources
+:quickScroll:mergeReleaseResources
+:quickScroll:processReleaseManifest
+:quickScroll:processReleaseResources
+:quickScroll:generateReleaseSources
+:quickScroll:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:quickScroll:processReleaseJavaRes UP-TO-DATE
+:quickScroll:packageReleaseJar
+:quickScroll:compileReleaseNdk
+:quickScroll:packageReleaseJniLibs UP-TO-DATE
+:quickScroll:packageReleaseLocalJar UP-TO-DATE
+:quickScroll:packageReleaseRenderscript UP-TO-DATE
+:quickScroll:packageReleaseResources
+:quickScroll:bundleRelease
+:velocityviewpagerlibrary:compileLint
+:velocityviewpagerlibrary:copyReleaseLint UP-TO-DATE
+:velocityviewpagerlibrary:preBuild
+:velocityviewpagerlibrary:preReleaseBuild
+:velocityviewpagerlibrary:checkReleaseManifest
+:velocityviewpagerlibrary:preDebugBuild
+:velocityviewpagerlibrary:preDebugTestBuild
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportV42600Alpha1Library
+:velocityviewpagerlibrary:prepareReleaseDependencies
+:velocityviewpagerlibrary:compileReleaseAidl
+:velocityviewpagerlibrary:compileReleaseRenderscript
+:velocityviewpagerlibrary:generateReleaseBuildConfig
+:velocityviewpagerlibrary:generateReleaseAssets UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseAssets
+:velocityviewpagerlibrary:generateReleaseResValues
+:velocityviewpagerlibrary:generateReleaseResources
+:velocityviewpagerlibrary:mergeReleaseResources
+:velocityviewpagerlibrary:processReleaseManifest
+:velocityviewpagerlibrary:processReleaseResources
+:velocityviewpagerlibrary:generateReleaseSources
+:velocityviewpagerlibrary:compileReleaseJavaNote: /tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/src/main/java/com/velocity/view/pager/library/VelocityViewPager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:velocityviewpagerlibrary:extractReleaseAnnotations
+:velocityviewpagerlibrary:mergeReleaseProguardFiles
+:velocityviewpagerlibrary:processReleaseJavaRes UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseJar
+:velocityviewpagerlibrary:compileReleaseNdk
+:velocityviewpagerlibrary:packageReleaseJniLibs UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseLocalJar UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseResources
+:velocityviewpagerlibrary:bundleRelease
+:viewpagerindicatorlibrary:compileLint
+:viewpagerindicatorlibrary:copyReleaseLint UP-TO-DATE
+:viewpagerindicatorlibrary:preBuild
+:viewpagerindicatorlibrary:preReleaseBuild
+:viewpagerindicatorlibrary:checkReleaseManifest
+:viewpagerindicatorlibrary:preDebugBuild
+:viewpagerindicatorlibrary:preDebugTestBuild
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportV42600Alpha1Library
+:viewpagerindicatorlibrary:prepareJamsMusicPlayerMasterVelocityviewpagerlibraryUnspecifiedLibrary
+:viewpagerindicatorlibrary:prepareReleaseDependencies
+:viewpagerindicatorlibrary:compileReleaseAidl
+:viewpagerindicatorlibrary:compileReleaseRenderscript
+:viewpagerindicatorlibrary:generateReleaseBuildConfig
+:viewpagerindicatorlibrary:generateReleaseAssets UP-TO-DATE
+:viewpagerindicatorlibrary:mergeReleaseAssets
+:viewpagerindicatorlibrary:generateReleaseResValues
+:viewpagerindicatorlibrary:generateReleaseResources
+:viewpagerindicatorlibrary:mergeReleaseResources
+:viewpagerindicatorlibrary:processReleaseManifest
+:viewpagerindicatorlibrary:processReleaseResources
+:viewpagerindicatorlibrary:generateReleaseSources
+:viewpagerindicatorlibrary:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:viewpagerindicatorlibrary:extractReleaseAnnotations
+:viewpagerindicatorlibrary:mergeReleaseProguardFiles
+:viewpagerindicatorlibrary:processReleaseJavaRes UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseJar
+:viewpagerindicatorlibrary:compileReleaseNdk
+:viewpagerindicatorlibrary:packageReleaseJniLibs UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseLocalJar UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseRenderscript UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseResources
+:viewpagerindicatorlibrary:bundleRelease
+:jamsMusicPlayer:prepareComAndroidSupportAnimatedVectorDrawable2520Library
+:jamsMusicPlayer:prepareComAndroidSupportAppcompatV72520Library
+:jamsMusicPlayer:prepareComAndroidSupportMediarouterV72520Library
+:jamsMusicPlayer:prepareComAndroidSupportPaletteV72520Library
+:jamsMusicPlayer:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:jamsMusicPlayer:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:jamsMusicPlayer:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:jamsMusicPlayer:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:jamsMusicPlayer:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:jamsMusicPlayer:prepareComAndroidSupportSupportV42600Alpha1Library
+:jamsMusicPlayer:prepareComAndroidSupportSupportVectorDrawable2520Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServices1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAds1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAdsLite1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAnalytics1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAppinvite1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAuth1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAuthApiPhone1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAuthBase1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAwareness1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesBase1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesBasement1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesCast1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesCastFramework1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesClearcut1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesDrive1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesFitness1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesGames1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesGass1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesGcm1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesIdentity1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesIid1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesInstantapps1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesLocation1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesMaps1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesNearby1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesPanorama1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesPlaces1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesPlus1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesSafetynet1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTagmanager1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTagmanagerV4Impl1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTasks1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesVision1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesVisionCommon1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesWallet1104Library
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesWearable1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAnalytics1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAnalyticsImpl1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAppindexing1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAuth1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseCommon1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseConfig1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseCrash1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseDatabase1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseDatabaseConnection1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseDynamicLinks1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseIid1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseMessaging1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseStorage1104Library
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseStorageCommon1104Library
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterCircularImageViewUnspecifiedLibrary
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterDragsortlistviewlibraryUnspecifiedLibrary
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterLicensesdialoglibraryUnspecifiedLibrary
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterPicassoUnspecifiedLibrary
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterQuickScrollUnspecifiedLibrary
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterVelocityviewpagerlibraryUnspecifiedLibrary
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterViewpagerindicatorlibraryUnspecifiedLibrary
+:jamsMusicPlayer:prepareDebugDependencies
+:jamsMusicPlayer:compileDebugAidl
+:jamsMusicPlayer:compileDebugRenderscript
+:jamsMusicPlayer:generateDebugBuildConfig
+:jamsMusicPlayer:generateDebugAssets UP-TO-DATE
+:jamsMusicPlayer:mergeDebugAssets
+:jamsMusicPlayer:generateDebugResValues
+:jamsMusicPlayer:generateDebugResources
+:jamsMusicPlayer:mergeDebugResourceslibpng warning: Incorrect sBIT chunk length
+libpng warning: Incorrect sBIT chunk length
+
+:jamsMusicPlayer:processDebugManifest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':jamsMusicPlayer:processDebugManifest'.
+> Error: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':jamsMusicPlayer:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:289)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:86)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:67)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:54)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:166)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: Error: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:116)
+	at com.android.manifmerger.XmlElement.initMergeableChildren(XmlElement.java:807)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:144)
+	at com.android.manifmerger.XmlDocument.getRootNode(XmlDocument.java:240)
+	at com.android.manifmerger.ManifestMerger2.loadLibraries(ManifestMerger2.java:337)
+	at com.android.manifmerger.ManifestMerger2.merge(ManifestMerger2.java:100)
+	at com.android.manifmerger.ManifestMerger2.access$1000(ManifestMerger2.java:49)
+	at com.android.manifmerger.ManifestMerger2$Invoker.merge(ManifestMerger2.java:764)
+	at com.android.builder.core.AndroidBuilder.mergeManifests(AndroidBuilder.java:411)
+	at com.android.builder.core.AndroidBuilder$mergeManifests.call(Unknown Source)
+	at com.android.build.gradle.tasks.MergeManifests.doFullTaskAction(MergeManifests.groovy:111)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:64)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:236)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:212)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:223)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:201)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:533)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:516)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 46 more
+Caused by: Error: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	... 67 more
+Caused by: java.lang.IllegalArgumentException: No enum constant com.android.manifmerger.AttributeOperationType.OVERRIDELIBRARY
+	at com.android.manifmerger.AttributeOperationType.valueOf(AttributeOperationType.java:54)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:99)
+	... 66 more
+
+
+BUILD FAILED
+
+Total time: 24.898 secs
+
+2018-04-08 13:03:39,435 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:03:39,436 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/licensesdialoglibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:03:44,636 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-04-08 13:03:44,636 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 13:03:44,636 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/licensesdialoglibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 13:03:51,405 INFO  SysUtils - Configuration on demand is an incubating feature.
+:licensesdialoglibrary:compileLint
+:licensesdialoglibrary:copyDebugLint UP-TO-DATE
+:licensesdialoglibrary:mergeDebugProguardFiles
+:licensesdialoglibrary:preBuild
+:licensesdialoglibrary:preDebugBuild
+:licensesdialoglibrary:checkDebugManifest
+:licensesdialoglibrary:prepareDebugDependencies
+:licensesdialoglibrary:compileDebugAidl
+:licensesdialoglibrary:compileDebugRenderscript
+:licensesdialoglibrary:generateDebugBuildConfig
+:licensesdialoglibrary:generateDebugAssets UP-TO-DATE
+:licensesdialoglibrary:mergeDebugAssets
+:licensesdialoglibrary:generateDebugResValues
+:licensesdialoglibrary:generateDebugResources
+:licensesdialoglibrary:packageDebugResources
+:licensesdialoglibrary:processDebugManifest
+:licensesdialoglibrary:processDebugResources
+:licensesdialoglibrary:generateDebugSources
+:licensesdialoglibrary:compileDebugJava
+:licensesdialoglibrary:processDebugJavaRes UP-TO-DATE
+:licensesdialoglibrary:packageDebugJar
+:licensesdialoglibrary:compileDebugNdk
+:licensesdialoglibrary:packageDebugJniLibs UP-TO-DATE
+:licensesdialoglibrary:packageDebugLocalJar UP-TO-DATE
+:licensesdialoglibrary:packageDebugRenderscript UP-TO-DATE
+:licensesdialoglibrary:bundleDebug
+:licensesdialoglibrary:assembleDebug
+:licensesdialoglibrary:copyReleaseLint UP-TO-DATE
+:licensesdialoglibrary:mergeReleaseProguardFiles UP-TO-DATE
+:licensesdialoglibrary:preReleaseBuild
+:licensesdialoglibrary:checkReleaseManifest
+:licensesdialoglibrary:prepareReleaseDependencies
+:licensesdialoglibrary:compileReleaseAidl UP-TO-DATE
+:licensesdialoglibrary:compileReleaseRenderscript UP-TO-DATE
+:licensesdialoglibrary:generateReleaseBuildConfig UP-TO-DATE
+:licensesdialoglibrary:generateReleaseAssets UP-TO-DATE
+:licensesdialoglibrary:mergeReleaseAssets UP-TO-DATE
+:licensesdialoglibrary:generateReleaseResValues UP-TO-DATE
+:licensesdialoglibrary:generateReleaseResources UP-TO-DATE
+:licensesdialoglibrary:packageReleaseResources UP-TO-DATE
+:licensesdialoglibrary:processReleaseManifest UP-TO-DATE
+:licensesdialoglibrary:processReleaseResources UP-TO-DATE
+:licensesdialoglibrary:generateReleaseSources UP-TO-DATE
+:licensesdialoglibrary:compileReleaseJava UP-TO-DATE
+:licensesdialoglibrary:processReleaseJavaRes UP-TO-DATE
+:licensesdialoglibrary:packageReleaseJar UP-TO-DATE
+:licensesdialoglibrary:compileReleaseNdk UP-TO-DATE
+:licensesdialoglibrary:packageReleaseJniLibs UP-TO-DATE
+:licensesdialoglibrary:packageReleaseLocalJar UP-TO-DATE
+:licensesdialoglibrary:packageReleaseRenderscript UP-TO-DATE
+:licensesdialoglibrary:bundleRelease
+:licensesdialoglibrary:assembleRelease
+:licensesdialoglibrary:assemble
+:licensesdialoglibrary:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.299 secs
+
+2018-04-08 13:03:51,568 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:03:51,568 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:03:56,792 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-04-08 13:03:56,793 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 13:03:56,793 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 13:04:04,230 INFO  SysUtils - Configuration on demand is an incubating feature.
+:picasso:compileLint
+:picasso:copyDebugLint UP-TO-DATE
+:picasso:mergeDebugProguardFiles
+:picasso:preBuild
+:picasso:preDebugBuild
+:picasso:checkDebugManifest
+:picasso:prepareDebugDependencies
+:picasso:compileDebugAidl
+:picasso:compileDebugRenderscript
+:picasso:generateDebugBuildConfig
+:picasso:generateDebugAssets UP-TO-DATE
+:picasso:mergeDebugAssets
+:picasso:generateDebugResValues
+:picasso:generateDebugResources
+:picasso:packageDebugResources
+:picasso:processDebugManifest
+Warning: /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/src/main/AndroidManifest.xml:7:5 Warning:
+	uses-sdk was tagged at AndroidManifest.xml:7 to replace another declaration but no other declaration present
+/tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/src/main/AndroidManifest.xml:7:5 Warning:
+	uses-sdk was tagged at AndroidManifest.xml:7 to replace another declaration but no other declaration present
+:picasso:processDebugResources
+:picasso:generateDebugSources
+:picasso:compileDebugJavaNote: /tmp/rdisk/1015/src/JamsMusicPlayer-master/picasso/src/main/java/com/squareup/picasso/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:picasso:processDebugJavaRes UP-TO-DATE
+:picasso:packageDebugJar
+:picasso:compileDebugNdk
+:picasso:packageDebugJniLibs UP-TO-DATE
+:picasso:packageDebugLocalJar
+:picasso:packageDebugRenderscript UP-TO-DATE
+:picasso:bundleDebug
+:picasso:assembleDebug
+:picasso:copyReleaseLint UP-TO-DATE
+:picasso:mergeReleaseProguardFiles UP-TO-DATE
+:picasso:preReleaseBuild
+:picasso:checkReleaseManifest
+:picasso:prepareReleaseDependencies
+:picasso:compileReleaseAidl UP-TO-DATE
+:picasso:compileReleaseRenderscript UP-TO-DATE
+:picasso:generateReleaseBuildConfig UP-TO-DATE
+:picasso:generateReleaseAssets UP-TO-DATE
+:picasso:mergeReleaseAssets UP-TO-DATE
+:picasso:generateReleaseResValues UP-TO-DATE
+:picasso:generateReleaseResources UP-TO-DATE
+:picasso:packageReleaseResources UP-TO-DATE
+:picasso:processReleaseManifest UP-TO-DATE
+:picasso:processReleaseResources UP-TO-DATE
+:picasso:generateReleaseSources UP-TO-DATE
+:picasso:compileReleaseJava UP-TO-DATE
+:picasso:processReleaseJavaRes UP-TO-DATE
+:picasso:packageReleaseJar UP-TO-DATE
+:picasso:compileReleaseNdk UP-TO-DATE
+:picasso:packageReleaseJniLibs UP-TO-DATE
+:picasso:packageReleaseLocalJar UP-TO-DATE
+:picasso:packageReleaseRenderscript UP-TO-DATE
+:picasso:bundleRelease
+:picasso:assembleRelease
+:picasso:assemble
+:picasso:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.002 secs
+
+2018-04-08 13:04:04,397 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:04:04,398 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/quickScroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:04:09,961 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-04-08 13:04:09,961 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 13:04:09,962 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/quickScroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 13:04:17,232 INFO  SysUtils - Configuration on demand is an incubating feature.
+:quickScroll:compileLint
+:quickScroll:copyDebugLint UP-TO-DATE
+:quickScroll:mergeDebugProguardFiles
+:picasso:compileLint
+:picasso:copyReleaseLint UP-TO-DATE
+:picasso:mergeReleaseProguardFiles UP-TO-DATE
+:picasso:preBuild
+:picasso:preReleaseBuild
+:picasso:checkReleaseManifest
+:picasso:prepareReleaseDependencies
+:picasso:compileReleaseAidl UP-TO-DATE
+:picasso:compileReleaseRenderscript UP-TO-DATE
+:picasso:generateReleaseBuildConfig UP-TO-DATE
+:picasso:generateReleaseAssets UP-TO-DATE
+:picasso:mergeReleaseAssets UP-TO-DATE
+:picasso:generateReleaseResValues UP-TO-DATE
+:picasso:generateReleaseResources UP-TO-DATE
+:picasso:packageReleaseResources UP-TO-DATE
+:picasso:processReleaseManifest UP-TO-DATE
+:picasso:processReleaseResources UP-TO-DATE
+:picasso:generateReleaseSources UP-TO-DATE
+:picasso:compileReleaseJava UP-TO-DATE
+:picasso:processReleaseJavaRes UP-TO-DATE
+:picasso:packageReleaseJar UP-TO-DATE
+:picasso:compileReleaseNdk UP-TO-DATE
+:picasso:packageReleaseJniLibs UP-TO-DATE
+:picasso:packageReleaseLocalJar UP-TO-DATE
+:picasso:packageReleaseRenderscript UP-TO-DATE
+:picasso:bundleRelease UP-TO-DATE
+:quickScroll:preBuild
+:quickScroll:preDebugBuild
+:quickScroll:checkDebugManifest
+:quickScroll:preDebugTestBuild
+:quickScroll:preReleaseBuild
+:quickScroll:prepareJamsMusicPlayerMasterPicassoUnspecifiedLibrary UP-TO-DATE
+:quickScroll:prepareDebugDependencies
+:quickScroll:compileDebugAidl
+:quickScroll:compileDebugRenderscript
+:quickScroll:generateDebugBuildConfig
+:quickScroll:generateDebugAssets UP-TO-DATE
+:quickScroll:mergeDebugAssets
+:quickScroll:generateDebugResValues
+:quickScroll:generateDebugResources
+:quickScroll:mergeDebugResources
+:quickScroll:processDebugManifest
+:quickScroll:processDebugResources
+:quickScroll:generateDebugSources
+:quickScroll:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:quickScroll:processDebugJavaRes UP-TO-DATE
+:quickScroll:packageDebugJar
+:quickScroll:compileDebugNdk
+:quickScroll:packageDebugJniLibs UP-TO-DATE
+:quickScroll:packageDebugLocalJar UP-TO-DATE
+:quickScroll:packageDebugRenderscript UP-TO-DATE
+:quickScroll:packageDebugResources
+:quickScroll:bundleDebug
+:quickScroll:assembleDebug
+:quickScroll:copyReleaseLint UP-TO-DATE
+:quickScroll:mergeReleaseProguardFiles UP-TO-DATE
+:quickScroll:checkReleaseManifest
+:quickScroll:prepareReleaseDependencies
+:quickScroll:compileReleaseAidl UP-TO-DATE
+:quickScroll:compileReleaseRenderscript UP-TO-DATE
+:quickScroll:generateReleaseBuildConfig UP-TO-DATE
+:quickScroll:generateReleaseAssets UP-TO-DATE
+:quickScroll:mergeReleaseAssets UP-TO-DATE
+:quickScroll:generateReleaseResValues UP-TO-DATE
+:quickScroll:generateReleaseResources UP-TO-DATE
+:quickScroll:mergeReleaseResources UP-TO-DATE
+:quickScroll:processReleaseManifest UP-TO-DATE
+:quickScroll:processReleaseResources UP-TO-DATE
+:quickScroll:generateReleaseSources UP-TO-DATE
+:quickScroll:compileReleaseJava UP-TO-DATE
+:quickScroll:processReleaseJavaRes UP-TO-DATE
+:quickScroll:packageReleaseJar UP-TO-DATE
+:quickScroll:compileReleaseNdk UP-TO-DATE
+:quickScroll:packageReleaseJniLibs UP-TO-DATE
+:quickScroll:packageReleaseLocalJar UP-TO-DATE
+:quickScroll:packageReleaseRenderscript UP-TO-DATE
+:quickScroll:packageReleaseResources UP-TO-DATE
+:quickScroll:bundleRelease
+:quickScroll:assembleRelease
+:quickScroll:assemble
+:quickScroll:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.808 secs
+
+2018-04-08 13:04:17,396 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:04:17,396 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:04:22,953 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-04-08 13:04:22,953 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 13:04:22,953 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 13:04:30,963 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:velocityviewpagerlibrary:compileLint
+:velocityviewpagerlibrary:copyDebugLint UP-TO-DATE
+:velocityviewpagerlibrary:preBuild
+:velocityviewpagerlibrary:preDebugBuild
+:velocityviewpagerlibrary:checkDebugManifest
+:velocityviewpagerlibrary:preDebugTestBuild
+:velocityviewpagerlibrary:preReleaseBuild
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareDebugDependencies
+:velocityviewpagerlibrary:compileDebugAidl
+:velocityviewpagerlibrary:compileDebugRenderscript
+:velocityviewpagerlibrary:generateDebugBuildConfig
+:velocityviewpagerlibrary:generateDebugAssets UP-TO-DATE
+:velocityviewpagerlibrary:mergeDebugAssets
+:velocityviewpagerlibrary:generateDebugResValues
+:velocityviewpagerlibrary:generateDebugResources
+:velocityviewpagerlibrary:mergeDebugResources
+:velocityviewpagerlibrary:processDebugManifest
+:velocityviewpagerlibrary:processDebugResources
+:velocityviewpagerlibrary:generateDebugSources
+:velocityviewpagerlibrary:compileDebugJavaNote: /tmp/rdisk/1015/src/JamsMusicPlayer-master/velocityviewpagerlibrary/src/main/java/com/velocity/view/pager/library/VelocityViewPager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:velocityviewpagerlibrary:extractDebugAnnotations
+:velocityviewpagerlibrary:mergeDebugProguardFiles
+:velocityviewpagerlibrary:processDebugJavaRes UP-TO-DATE
+:velocityviewpagerlibrary:packageDebugJar
+:velocityviewpagerlibrary:compileDebugNdk
+:velocityviewpagerlibrary:packageDebugJniLibs UP-TO-DATE
+:velocityviewpagerlibrary:packageDebugLocalJar UP-TO-DATE
+:velocityviewpagerlibrary:packageDebugRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:packageDebugResources
+:velocityviewpagerlibrary:bundleDebug
+:velocityviewpagerlibrary:assembleDebug
+:velocityviewpagerlibrary:copyReleaseLint UP-TO-DATE
+:velocityviewpagerlibrary:checkReleaseManifest
+:velocityviewpagerlibrary:prepareReleaseDependencies
+:velocityviewpagerlibrary:compileReleaseAidl UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseBuildConfig UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseAssets UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseAssets UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseResValues UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseManifest UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseSources UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseJava UP-TO-DATE
+:velocityviewpagerlibrary:extractReleaseAnnotations UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseJavaRes UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseJar UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseNdk UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseJniLibs UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseLocalJar UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:bundleRelease
+:velocityviewpagerlibrary:assembleRelease
+:velocityviewpagerlibrary:assemble
+:velocityviewpagerlibrary:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.541 secs
+
+2018-04-08 13:04:31,133 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:04:31,134 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/viewpagerindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:04:37,299 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-04-08 13:04:37,299 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-08 13:04:37,299 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/viewpagerindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 13:04:46,409 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:viewpagerindicatorlibrary:compileLint
+:viewpagerindicatorlibrary:copyDebugLint UP-TO-DATE
+:velocityviewpagerlibrary:compileLint
+:velocityviewpagerlibrary:copyReleaseLint UP-TO-DATE
+:velocityviewpagerlibrary:preBuild
+:velocityviewpagerlibrary:preReleaseBuild
+:velocityviewpagerlibrary:checkReleaseManifest
+:velocityviewpagerlibrary:preDebugBuild
+:velocityviewpagerlibrary:preDebugTestBuild
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareReleaseDependencies
+:velocityviewpagerlibrary:compileReleaseAidl UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseBuildConfig UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseAssets UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseAssets UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseResValues UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseManifest UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseSources UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseJava UP-TO-DATE
+:velocityviewpagerlibrary:extractReleaseAnnotations UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseJavaRes UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseJar UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseNdk UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseJniLibs UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseLocalJar UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:bundleRelease UP-TO-DATE
+:viewpagerindicatorlibrary:preBuild
+:viewpagerindicatorlibrary:preDebugBuild
+:viewpagerindicatorlibrary:checkDebugManifest
+:viewpagerindicatorlibrary:preDebugTestBuild
+:viewpagerindicatorlibrary:preReleaseBuild
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareJamsMusicPlayerMasterVelocityviewpagerlibraryUnspecifiedLibrary UP-TO-DATE
+:viewpagerindicatorlibrary:prepareDebugDependencies
+:viewpagerindicatorlibrary:compileDebugAidl
+:viewpagerindicatorlibrary:compileDebugRenderscript
+:viewpagerindicatorlibrary:generateDebugBuildConfig
+:viewpagerindicatorlibrary:generateDebugAssets UP-TO-DATE
+:viewpagerindicatorlibrary:mergeDebugAssets
+:viewpagerindicatorlibrary:generateDebugResValues
+:viewpagerindicatorlibrary:generateDebugResources
+:viewpagerindicatorlibrary:mergeDebugResources
+:viewpagerindicatorlibrary:processDebugManifest
+:viewpagerindicatorlibrary:processDebugResources
+:viewpagerindicatorlibrary:generateDebugSources
+:viewpagerindicatorlibrary:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:viewpagerindicatorlibrary:extractDebugAnnotations
+:viewpagerindicatorlibrary:mergeDebugProguardFiles
+:viewpagerindicatorlibrary:processDebugJavaRes UP-TO-DATE
+:viewpagerindicatorlibrary:packageDebugJar
+:viewpagerindicatorlibrary:compileDebugNdk
+:viewpagerindicatorlibrary:packageDebugJniLibs UP-TO-DATE
+:viewpagerindicatorlibrary:packageDebugLocalJar UP-TO-DATE
+:viewpagerindicatorlibrary:packageDebugRenderscript UP-TO-DATE
+:viewpagerindicatorlibrary:packageDebugResources
+:viewpagerindicatorlibrary:bundleDebug
+:viewpagerindicatorlibrary:assembleDebug
+:viewpagerindicatorlibrary:copyReleaseLint UP-TO-DATE
+:viewpagerindicatorlibrary:checkReleaseManifest
+:viewpagerindicatorlibrary:prepareReleaseDependencies
+:viewpagerindicatorlibrary:compileReleaseAidl UP-TO-DATE
+:viewpagerindicatorlibrary:compileReleaseRenderscript UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseBuildConfig UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseAssets UP-TO-DATE
+:viewpagerindicatorlibrary:mergeReleaseAssets UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseResValues UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:mergeReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:processReleaseManifest UP-TO-DATE
+:viewpagerindicatorlibrary:processReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseSources UP-TO-DATE
+:viewpagerindicatorlibrary:compileReleaseJava UP-TO-DATE
+:viewpagerindicatorlibrary:extractReleaseAnnotations UP-TO-DATE
+:viewpagerindicatorlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:viewpagerindicatorlibrary:processReleaseJavaRes UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseJar UP-TO-DATE
+:viewpagerindicatorlibrary:compileReleaseNdk UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseJniLibs UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseLocalJar UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseRenderscript UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:bundleRelease
+:viewpagerindicatorlibrary:assembleRelease
+:viewpagerindicatorlibrary:assemble
+:viewpagerindicatorlibrary:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.615 secs
+
+2018-04-08 13:04:46,587 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 13:04:46,587 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 13:04:56,122 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-08 13:04:56,122 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 13:04:56,122 INFO  SysUtils - Execute command: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/gradlew, -b, /tmp/rdisk/1015/src/JamsMusicPlayer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 13:05:06,320 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 13:05:06,320 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:circularImageView:compileLint
+:circularImageView:copyDebugLint UP-TO-DATE
+:circularImageView:preBuild
+:circularImageView:preDebugBuild
+:circularImageView:checkDebugManifest
+:circularImageView:preDebugTestBuild
+:circularImageView:preReleaseBuild
+:circularImageView:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:circularImageView:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:circularImageView:prepareDebugDependencies
+:circularImageView:compileDebugAidl UP-TO-DATE
+:circularImageView:compileDebugRenderscript UP-TO-DATE
+:circularImageView:generateDebugBuildConfig UP-TO-DATE
+:circularImageView:generateDebugAssets UP-TO-DATE
+:circularImageView:mergeDebugAssets UP-TO-DATE
+:circularImageView:generateDebugResValues UP-TO-DATE
+:circularImageView:generateDebugResources UP-TO-DATE
+:circularImageView:mergeDebugResources UP-TO-DATE
+:circularImageView:processDebugManifest UP-TO-DATE
+:circularImageView:processDebugResources UP-TO-DATE
+:circularImageView:generateDebugSources UP-TO-DATE
+:circularImageView:compileDebugJava UP-TO-DATE
+:circularImageView:extractDebugAnnotations UP-TO-DATE
+:circularImageView:mergeDebugProguardFiles UP-TO-DATE
+:circularImageView:processDebugJavaRes UP-TO-DATE
+:circularImageView:packageDebugJar UP-TO-DATE
+:circularImageView:compileDebugNdk UP-TO-DATE
+:circularImageView:packageDebugJniLibs UP-TO-DATE
+:circularImageView:packageDebugLocalJar UP-TO-DATE
+:circularImageView:packageDebugRenderscript UP-TO-DATE
+:circularImageView:packageDebugResources UP-TO-DATE
+:circularImageView:bundleDebug
+:circularImageView:assembleDebug
+:circularImageView:copyReleaseLint UP-TO-DATE
+:circularImageView:checkReleaseManifest
+:circularImageView:prepareReleaseDependencies
+:circularImageView:compileReleaseAidl UP-TO-DATE
+:circularImageView:compileReleaseRenderscript UP-TO-DATE
+:circularImageView:generateReleaseBuildConfig UP-TO-DATE
+:circularImageView:generateReleaseAssets UP-TO-DATE
+:circularImageView:mergeReleaseAssets UP-TO-DATE
+:circularImageView:generateReleaseResValues UP-TO-DATE
+:circularImageView:generateReleaseResources UP-TO-DATE
+:circularImageView:mergeReleaseResources UP-TO-DATE
+:circularImageView:processReleaseManifest UP-TO-DATE
+:circularImageView:processReleaseResources UP-TO-DATE
+:circularImageView:generateReleaseSources UP-TO-DATE
+:circularImageView:compileReleaseJava UP-TO-DATE
+:circularImageView:extractReleaseAnnotations UP-TO-DATE
+:circularImageView:mergeReleaseProguardFiles UP-TO-DATE
+:circularImageView:processReleaseJavaRes UP-TO-DATE
+:circularImageView:packageReleaseJar UP-TO-DATE
+:circularImageView:compileReleaseNdk UP-TO-DATE
+:circularImageView:packageReleaseJniLibs UP-TO-DATE
+:circularImageView:packageReleaseLocalJar UP-TO-DATE
+:circularImageView:packageReleaseRenderscript UP-TO-DATE
+:circularImageView:packageReleaseResources UP-TO-DATE
+:circularImageView:bundleRelease
+:circularImageView:assembleRelease
+:circularImageView:assemble
+:circularImageView:build
+:dragsortlistviewlibrary:compileLint
+:dragsortlistviewlibrary:copyDebugLint UP-TO-DATE
+:dragsortlistviewlibrary:preBuild
+:dragsortlistviewlibrary:preDebugBuild
+:dragsortlistviewlibrary:checkDebugManifest
+:dragsortlistviewlibrary:preDebugTestBuild
+:dragsortlistviewlibrary:preReleaseBuild
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:dragsortlistviewlibrary:prepareDebugDependencies
+:dragsortlistviewlibrary:compileDebugAidl UP-TO-DATE
+:dragsortlistviewlibrary:compileDebugRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:generateDebugBuildConfig UP-TO-DATE
+:dragsortlistviewlibrary:generateDebugAssets UP-TO-DATE
+:dragsortlistviewlibrary:mergeDebugAssets UP-TO-DATE
+:dragsortlistviewlibrary:generateDebugResValues UP-TO-DATE
+:dragsortlistviewlibrary:generateDebugResources UP-TO-DATE
+:dragsortlistviewlibrary:mergeDebugResources UP-TO-DATE
+:dragsortlistviewlibrary:processDebugManifest UP-TO-DATE
+:dragsortlistviewlibrary:processDebugResources UP-TO-DATE
+:dragsortlistviewlibrary:generateDebugSources UP-TO-DATE
+:dragsortlistviewlibrary:compileDebugJava UP-TO-DATE
+:dragsortlistviewlibrary:extractDebugAnnotations UP-TO-DATE
+:dragsortlistviewlibrary:mergeDebugProguardFiles UP-TO-DATE
+:dragsortlistviewlibrary:processDebugJavaRes UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugJar UP-TO-DATE
+:dragsortlistviewlibrary:compileDebugNdk UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugJniLibs UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugLocalJar UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:packageDebugResources UP-TO-DATE
+:dragsortlistviewlibrary:bundleDebug
+:dragsortlistviewlibrary:assembleDebug
+:dragsortlistviewlibrary:copyReleaseLint UP-TO-DATE
+:dragsortlistviewlibrary:checkReleaseManifest
+:dragsortlistviewlibrary:prepareReleaseDependencies
+:dragsortlistviewlibrary:compileReleaseAidl UP-TO-DATE
+:dragsortlistviewlibrary:compileReleaseRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseBuildConfig UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseAssets UP-TO-DATE
+:dragsortlistviewlibrary:mergeReleaseAssets UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseResValues UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:mergeReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:processReleaseManifest UP-TO-DATE
+:dragsortlistviewlibrary:processReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:generateReleaseSources UP-TO-DATE
+:dragsortlistviewlibrary:compileReleaseJava UP-TO-DATE
+:dragsortlistviewlibrary:extractReleaseAnnotations UP-TO-DATE
+:dragsortlistviewlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:dragsortlistviewlibrary:processReleaseJavaRes UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseJar UP-TO-DATE
+:dragsortlistviewlibrary:compileReleaseNdk UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseJniLibs UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseLocalJar UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseRenderscript UP-TO-DATE
+:dragsortlistviewlibrary:packageReleaseResources UP-TO-DATE
+:dragsortlistviewlibrary:bundleRelease
+:dragsortlistviewlibrary:assembleRelease
+:dragsortlistviewlibrary:assemble
+:dragsortlistviewlibrary:build
+:jamsMusicPlayer:preBuild
+:jamsMusicPlayer:compileDebugNdk UP-TO-DATE
+:jamsMusicPlayer:preDebugBuild
+:jamsMusicPlayer:checkDebugManifest
+:jamsMusicPlayer:preReleaseBuild
+:licensesdialoglibrary:compileLint
+:licensesdialoglibrary:copyReleaseLint UP-TO-DATE
+:licensesdialoglibrary:mergeReleaseProguardFiles UP-TO-DATE
+:licensesdialoglibrary:preBuild
+:licensesdialoglibrary:preReleaseBuild
+:licensesdialoglibrary:checkReleaseManifest
+:licensesdialoglibrary:prepareReleaseDependencies
+:licensesdialoglibrary:compileReleaseAidl UP-TO-DATE
+:licensesdialoglibrary:compileReleaseRenderscript UP-TO-DATE
+:licensesdialoglibrary:generateReleaseBuildConfig UP-TO-DATE
+:licensesdialoglibrary:generateReleaseAssets UP-TO-DATE
+:licensesdialoglibrary:mergeReleaseAssets UP-TO-DATE
+:licensesdialoglibrary:generateReleaseResValues UP-TO-DATE
+:licensesdialoglibrary:generateReleaseResources UP-TO-DATE
+:licensesdialoglibrary:packageReleaseResources UP-TO-DATE
+:licensesdialoglibrary:processReleaseManifest UP-TO-DATE
+:licensesdialoglibrary:processReleaseResources UP-TO-DATE
+:licensesdialoglibrary:generateReleaseSources UP-TO-DATE
+:licensesdialoglibrary:compileReleaseJava UP-TO-DATE
+:licensesdialoglibrary:processReleaseJavaRes UP-TO-DATE
+:licensesdialoglibrary:packageReleaseJar UP-TO-DATE
+:licensesdialoglibrary:compileReleaseNdk UP-TO-DATE
+:licensesdialoglibrary:packageReleaseJniLibs UP-TO-DATE
+:licensesdialoglibrary:packageReleaseLocalJar UP-TO-DATE
+:licensesdialoglibrary:packageReleaseRenderscript UP-TO-DATE
+:licensesdialoglibrary:bundleRelease UP-TO-DATE
+:picasso:compileLint
+:picasso:copyReleaseLint UP-TO-DATE
+:picasso:mergeReleaseProguardFiles UP-TO-DATE
+:picasso:preBuild
+:picasso:preReleaseBuild
+:picasso:checkReleaseManifest
+:picasso:prepareReleaseDependencies
+:picasso:compileReleaseAidl UP-TO-DATE
+:picasso:compileReleaseRenderscript UP-TO-DATE
+:picasso:generateReleaseBuildConfig UP-TO-DATE
+:picasso:generateReleaseAssets UP-TO-DATE
+:picasso:mergeReleaseAssets UP-TO-DATE
+:picasso:generateReleaseResValues UP-TO-DATE
+:picasso:generateReleaseResources UP-TO-DATE
+:picasso:packageReleaseResources UP-TO-DATE
+:picasso:processReleaseManifest UP-TO-DATE
+:picasso:processReleaseResources UP-TO-DATE
+:picasso:generateReleaseSources UP-TO-DATE
+:picasso:compileReleaseJava UP-TO-DATE
+:picasso:processReleaseJavaRes UP-TO-DATE
+:picasso:packageReleaseJar UP-TO-DATE
+:picasso:compileReleaseNdk UP-TO-DATE
+:picasso:packageReleaseJniLibs UP-TO-DATE
+:picasso:packageReleaseLocalJar UP-TO-DATE
+:picasso:packageReleaseRenderscript UP-TO-DATE
+:picasso:bundleRelease UP-TO-DATE
+:quickScroll:compileLint
+:quickScroll:copyReleaseLint UP-TO-DATE
+:quickScroll:mergeReleaseProguardFiles UP-TO-DATE
+:quickScroll:preBuild
+:quickScroll:preReleaseBuild
+:quickScroll:checkReleaseManifest
+:quickScroll:preDebugBuild
+:quickScroll:preDebugTestBuild
+:quickScroll:prepareJamsMusicPlayerMasterPicassoUnspecifiedLibrary UP-TO-DATE
+:quickScroll:prepareReleaseDependencies
+:quickScroll:compileReleaseAidl UP-TO-DATE
+:quickScroll:compileReleaseRenderscript UP-TO-DATE
+:quickScroll:generateReleaseBuildConfig UP-TO-DATE
+:quickScroll:generateReleaseAssets UP-TO-DATE
+:quickScroll:mergeReleaseAssets UP-TO-DATE
+:quickScroll:generateReleaseResValues UP-TO-DATE
+:quickScroll:generateReleaseResources UP-TO-DATE
+:quickScroll:mergeReleaseResources UP-TO-DATE
+:quickScroll:processReleaseManifest UP-TO-DATE
+:quickScroll:processReleaseResources UP-TO-DATE
+:quickScroll:generateReleaseSources UP-TO-DATE
+:quickScroll:compileReleaseJava UP-TO-DATE
+:quickScroll:processReleaseJavaRes UP-TO-DATE
+:quickScroll:packageReleaseJar UP-TO-DATE
+:quickScroll:compileReleaseNdk UP-TO-DATE
+:quickScroll:packageReleaseJniLibs UP-TO-DATE
+:quickScroll:packageReleaseLocalJar UP-TO-DATE
+:quickScroll:packageReleaseRenderscript UP-TO-DATE
+:quickScroll:packageReleaseResources UP-TO-DATE
+:quickScroll:bundleRelease UP-TO-DATE
+:velocityviewpagerlibrary:compileLint
+:velocityviewpagerlibrary:copyReleaseLint UP-TO-DATE
+:velocityviewpagerlibrary:preBuild
+:velocityviewpagerlibrary:preReleaseBuild
+:velocityviewpagerlibrary:checkReleaseManifest
+:velocityviewpagerlibrary:preDebugBuild
+:velocityviewpagerlibrary:preDebugTestBuild
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:velocityviewpagerlibrary:prepareReleaseDependencies
+:velocityviewpagerlibrary:compileReleaseAidl UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseBuildConfig UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseAssets UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseAssets UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseResValues UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseManifest UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:generateReleaseSources UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseJava UP-TO-DATE
+:velocityviewpagerlibrary:extractReleaseAnnotations UP-TO-DATE
+:velocityviewpagerlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:velocityviewpagerlibrary:processReleaseJavaRes UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseJar UP-TO-DATE
+:velocityviewpagerlibrary:compileReleaseNdk UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseJniLibs UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseLocalJar UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseRenderscript UP-TO-DATE
+:velocityviewpagerlibrary:packageReleaseResources UP-TO-DATE
+:velocityviewpagerlibrary:bundleRelease UP-TO-DATE
+:viewpagerindicatorlibrary:compileLint
+:viewpagerindicatorlibrary:copyReleaseLint UP-TO-DATE
+:viewpagerindicatorlibrary:preBuild
+:viewpagerindicatorlibrary:preReleaseBuild
+:viewpagerindicatorlibrary:checkReleaseManifest
+:viewpagerindicatorlibrary:preDebugBuild
+:viewpagerindicatorlibrary:preDebugTestBuild
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:viewpagerindicatorlibrary:prepareJamsMusicPlayerMasterVelocityviewpagerlibraryUnspecifiedLibrary UP-TO-DATE
+:viewpagerindicatorlibrary:prepareReleaseDependencies
+:viewpagerindicatorlibrary:compileReleaseAidl UP-TO-DATE
+:viewpagerindicatorlibrary:compileReleaseRenderscript UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseBuildConfig UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseAssets UP-TO-DATE
+:viewpagerindicatorlibrary:mergeReleaseAssets UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseResValues UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:mergeReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:processReleaseManifest UP-TO-DATE
+:viewpagerindicatorlibrary:processReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:generateReleaseSources UP-TO-DATE
+:viewpagerindicatorlibrary:compileReleaseJava UP-TO-DATE
+:viewpagerindicatorlibrary:extractReleaseAnnotations UP-TO-DATE
+:viewpagerindicatorlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:viewpagerindicatorlibrary:processReleaseJavaRes UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseJar UP-TO-DATE
+:viewpagerindicatorlibrary:compileReleaseNdk UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseJniLibs UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseLocalJar UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseRenderscript UP-TO-DATE
+:viewpagerindicatorlibrary:packageReleaseResources UP-TO-DATE
+:viewpagerindicatorlibrary:bundleRelease UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportAnimatedVectorDrawable2520Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportAppcompatV72520Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportMediarouterV72520Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportPaletteV72520Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportSupportCompat2600Alpha1Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportSupportCoreUi2600Alpha1Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportSupportFragment2600Alpha1Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportSupportV42600Alpha1Library UP-TO-DATE
+:jamsMusicPlayer:prepareComAndroidSupportSupportVectorDrawable2520Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServices1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAds1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAdsLite1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAnalytics1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAppinvite1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAuth1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAuthApiPhone1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAuthBase1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesAwareness1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesBase1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesBasement1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesCast1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesCastFramework1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesClearcut1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesDrive1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesFitness1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesGames1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesGass1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesGcm1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesIdentity1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesIid1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesInstantapps1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesLocation1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesMaps1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesNearby1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesPanorama1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesPlaces1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesPlus1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesSafetynet1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTagmanager1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTagmanagerV4Impl1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesTasks1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesVision1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesVisionCommon1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesWallet1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleAndroidGmsPlayServicesWearable1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAnalytics1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAnalyticsImpl1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAppindexing1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseAuth1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseCommon1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseConfig1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseCrash1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseDatabase1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseDatabaseConnection1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseDynamicLinks1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseIid1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseMessaging1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseStorage1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareComGoogleFirebaseFirebaseStorageCommon1104Library UP-TO-DATE
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterCircularImageViewUnspecifiedLibrary UP-TO-DATE
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterDragsortlistviewlibraryUnspecifiedLibrary UP-TO-DATE
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterLicensesdialoglibraryUnspecifiedLibrary UP-TO-DATE
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterPicassoUnspecifiedLibrary UP-TO-DATE
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterQuickScrollUnspecifiedLibrary UP-TO-DATE
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterVelocityviewpagerlibraryUnspecifiedLibrary UP-TO-DATE
+:jamsMusicPlayer:prepareJamsMusicPlayerMasterViewpagerindicatorlibraryUnspecifiedLibrary UP-TO-DATE
+:jamsMusicPlayer:prepareDebugDependencies
+:jamsMusicPlayer:compileDebugAidl UP-TO-DATE
+:jamsMusicPlayer:compileDebugRenderscript UP-TO-DATE
+:jamsMusicPlayer:generateDebugBuildConfig UP-TO-DATE
+:jamsMusicPlayer:generateDebugAssets UP-TO-DATE
+:jamsMusicPlayer:mergeDebugAssets UP-TO-DATE
+:jamsMusicPlayer:generateDebugResValues UP-TO-DATE
+:jamsMusicPlayer:generateDebugResources UP-TO-DATE
+:jamsMusicPlayer:mergeDebugResources UP-TO-DATE
+:jamsMusicPlayer:processDebugManifest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':jamsMusicPlayer:processDebugManifest'.
+> Error: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':jamsMusicPlayer:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:289)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:86)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:67)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:54)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:166)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: Error: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:116)
+	at com.android.manifmerger.XmlElement.initMergeableChildren(XmlElement.java:807)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:144)
+	at com.android.manifmerger.XmlDocument.getRootNode(XmlDocument.java:240)
+	at com.android.manifmerger.ManifestMerger2.loadLibraries(ManifestMerger2.java:337)
+	at com.android.manifmerger.ManifestMerger2.merge(ManifestMerger2.java:100)
+	at com.android.manifmerger.ManifestMerger2.access$1000(ManifestMerger2.java:49)
+	at com.android.manifmerger.ManifestMerger2$Invoker.merge(ManifestMerger2.java:764)
+	at com.android.builder.core.AndroidBuilder.mergeManifests(AndroidBuilder.java:411)
+	at com.android.builder.core.AndroidBuilder$mergeManifests.call(Unknown Source)
+	at com.android.build.gradle.tasks.MergeManifests.doFullTaskAction(MergeManifests.groovy:111)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:64)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:236)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:212)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:223)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:201)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:533)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:516)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 46 more
+Caused by: Error: [/tmp/rdisk/1015/src/JamsMusicPlayer-master/jamsMusicPlayer/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:21] Invalid instruction 'overrideLibrary', valid instructions are : REMOVE,REPLACE,STRICT
+	... 67 more
+Caused by: java.lang.IllegalArgumentException: No enum constant com.android.manifmerger.AttributeOperationType.OVERRIDELIBRARY
+	at com.android.manifmerger.AttributeOperationType.valueOf(AttributeOperationType.java:54)
+	at com.android.manifmerger.XmlElement.<init>(XmlElement.java:99)
+	... 66 more
+
+
+BUILD FAILED
+
+Total time: 9.726 secs
+
+2018-04-08 13:05:06,491 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 13:05:06,660 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,5 @@
+{
+  "com.commonsware.cwac.merge" : [ "BuildConfig", "MergeAdapter", "MergeAdapter$1", "MergeAdapter$CascadeDataSetObserver", "MergeAdapter$EnabledSackAdapter", "MergeAdapter$PieceState", "MergeAdapter$PieceStateRoster", "MergeSpinnerAdapter" ],
+  "com.commonsware.cwac.merge.demo" : [ "BuildConfig", "MergeAdapterDemo", "MergeAdapterDemo$1", "R", "R$attr", "R$id", "R$layout", "R$string" ],
+  "com.commonsware.cwac.sacklist" : [ "BuildConfig", "SackOfViewsAdapter" ]
+}

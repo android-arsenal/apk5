@@ -1,0 +1,5 @@
+{
+  "com.github.premnirmal.textcounter" : [ "BuildConfig", "Counter", "CounterType", "CounterView", "CounterView$1", "Formatter", "R", "R$attr", "R$id", "R$styleable" ],
+  "com.github.premnirmal.textcounter.formatters" : [ "CommaSeparatedDecimalFormatter", "DecimalFormatter", "IntegerFormatter", "NoFormatter" ],
+  "com.github.premnirmal.textcounterdemo" : [ "BuildConfig", "ParanormalActivity", "ParanormalActivity$1", "R", "R$attr", "R$color", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style", "R$styleable" ]
+}

@@ -1,0 +1,4 @@
+{
+  "com.blundell.example" : [ "BuildConfig", "DemoActivity", "DemoActivity$1", "DemoActivity$2", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style" ],
+  "com.blundell.logger.arrow" : [ "AlertPrinter", "ArrowLog", "ArrowMessageWrapper", "BuildConfig", "Level", "LogCatPrinter", "LogCatPrinter$1", "MessageWrapper", "Printer", "ProArrowLog" ]
+}

@@ -1,0 +1,6 @@
+{
+  "com.wefika.flowlayout" : [ "BuildConfig", "FlowLayout", "FlowLayout$LayoutParams", "R", "R$styleable" ],
+  "com.wefika.flowlayout.example" : [ "AllInOneActivity", "BasicActivity", "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$ExamplesAdapter", "MainActivity$ExamplesAdapter$Item", "R", "R$attr", "R$color", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "R$styleable", "ScrollActivity", "VisibilityActivity" ],
+  "org.intellij.lang.annotations" : [ "Identifier", "JdkConstants", "JdkConstants$AdjustableOrientation", "JdkConstants$BoxLayoutAxis", "JdkConstants$CalendarMonth", "JdkConstants$CursorType", "JdkConstants$FlowLayoutAlignment", "JdkConstants$FontStyle", "JdkConstants$HorizontalAlignment", "JdkConstants$InputEventMask", "JdkConstants$ListSelectionMode", "JdkConstants$PatternFlags", "JdkConstants$TabLayoutPolicy", "JdkConstants$TabPlacement", "JdkConstants$TitledBorderJustification", "JdkConstants$TitledBorderTitlePosition", "JdkConstants$TreeSelectionMode", "Language", "MagicConstant", "Pattern", "PrintFormat", "PrintFormatPattern", "RegExp", "Subst" ],
+  "org.jetbrains.annotations" : [ "Nls", "NonNls", "NotNull", "Nullable", "PropertyKey", "TestOnly" ]
+}

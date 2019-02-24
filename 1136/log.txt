@@ -1,0 +1,492 @@
+2018-04-08 02:35:34,020 INFO  DownloadService - Downloading "https://github.com/ksoichiro/Android-ObservableScrollView/archive/master.zip", attempt 3
+2018-04-08 02:36:34,601 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 02:36:35,268 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 02:36:35,268 INFO  DownloadService - Downloading "https://github.com/ksoichiro/Android-ObservableScrollView/archive/master.zip", attempt 3
+2018-04-08 02:37:36,458 DEBUG FullProcessService - Repository https://github.com/ksoichiro/Android-ObservableScrollView available: true
+2018-04-08 02:37:36,458 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 02:37:36,458 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ksoichiro/Android-ObservableScrollView, /tmp/rdisk/1136/src]
+2018-04-08 02:37:45,199 INFO  SysUtils - 
+2018-04-08 02:37:45,207 INFO  GitService - Deleted "/tmp/rdisk/1136/src/.git": true
+2018-04-08 02:37:45,219 INFO  FullProcessService - Size of directory with sources: 7 MB
+2018-04-08 02:37:45,219 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1136/src]
+2018-04-08 02:37:45,223 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1136/src/.git/
+
+2018-04-08 02:37:45,231 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1136/src/gradlew
+2018-04-08 02:37:45,239 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1136/src/library/build.gradle /tmp/rdisk/1136/src/samples/build.gradle /tmp/rdisk/1136/src/build.gradle
+2018-04-08 02:37:45,246 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1136/src/settings.gradle /tmp/rdisk/1136/src/samples/build.gradle /tmp/rdisk/1136/src/library/build.gradle /tmp/rdisk/1136/src/gradle/version.gradle /tmp/rdisk/1136/src/gradle/gradle-mvn-push.gradle /tmp/rdisk/1136/src/build.gradle
+2018-04-08 02:37:45,247 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 02:37:45,247 INFO  ProjectFixService - Fixing project...
+2018-04-08 02:37:45,265 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1136/src/library/local.properties
+2018-04-08 02:37:45,267 INFO  ProjectFixService - Build info for "/tmp/rdisk/1136/src/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2018-04-08 02:37:45,267 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1136/src/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=27]
+2018-04-08 02:37:45,267 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1136/src/samples/local.properties
+2018-04-08 02:37:45,269 INFO  ProjectFixService - Build info for "/tmp/rdisk/1136/src/samples/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2018-04-08 02:37:45,269 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1136/src/samples/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=27]
+2018-04-08 02:37:45,269 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1136/src/local.properties
+2018-04-08 02:37:45,269 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-08 02:37:45,270 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-08 02:37:45,271 INFO  ProjectFixService - Build info for "/tmp/rdisk/1136/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2018-04-08 02:37:45,272 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1136/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=27]
+2018-04-08 02:37:45,272 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 02:37:45,272 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:37:45,272 INFO  SysUtils - Execute command: [/tmp/rdisk/1136/src/gradlew, -b, /tmp/rdisk/1136/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:38:06,543 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-08 02:38:06,543 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-08 02:38:06,543 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-08 02:38:06,543 INFO  SysUtils - Execute command: [/tmp/rdisk/1136/src/gradlew, -b, /tmp/rdisk/1136/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-08 02:38:16,569 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:38:16,570 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidJavadocs/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:23: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:38: error: cannot find symbol
+public class ObservableRecyclerView extends RecyclerView implements Scrollable {
+                                            ^
+  symbol: class RecyclerView
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:21: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:22: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:23: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentStatePagerAdapter;
+                             ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:34: error: cannot find symbol
+public abstract class CacheFragmentStatePagerAdapter extends FragmentStatePagerAdapter {
+                                                             ^
+  symbol: class FragmentStatePagerAdapter
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:41: error: cannot find symbol
+    private FragmentManager mFm;
+            ^
+  symbol:   class FragmentManager
+  location: class CacheFragmentStatePagerAdapter
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:42: error: cannot find symbol
+    private SparseArray<Fragment> mPages;
+                        ^
+  symbol:   class Fragment
+  location: class CacheFragmentStatePagerAdapter
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:44: error: cannot find symbol
+    public CacheFragmentStatePagerAdapter(FragmentManager fm) {
+                                          ^
+  symbol:   class FragmentManager
+  location: class CacheFragmentStatePagerAdapter
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:97: error: cannot find symbol
+    public Fragment getItem(int position) {
+           ^
+  symbol:   class Fragment
+  location: class CacheFragmentStatePagerAdapter
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:118: error: cannot find symbol
+    public Fragment getItemAt(int position) {
+           ^
+  symbol:   class Fragment
+  location: class CacheFragmentStatePagerAdapter
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:129: error: cannot find symbol
+    protected abstract Fragment createItem(int position);
+                       ^
+  symbol:   class Fragment
+  location: class CacheFragmentStatePagerAdapter
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/CacheFragmentStatePagerAdapter.java:90: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:321: error: reference not found
+     * <p>Same as {@linkplain #scrollToPosition(int)} but it scrolls to the position not only make
+                              ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:323: error: reference not found
+     * <p>It depends on {@code LayoutManager} how {@linkplain #scrollToPosition(int)} works,
+                                                              ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:324: error: reference not found
+     * and currently we know that {@linkplain LinearLayoutManager#scrollToPosition(int)} just
+                                              ^
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:333: warning - Tag @linkplain: can't find scrollToPosition(int) in com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+/tmp/rdisk/1136/src/library/src/main/java/com/github/ksoichiro/android/observablescrollview/ObservableRecyclerView.java:333: warning - Tag @linkplain: can't find scrollToPosition(int) in com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+
+4 errors
+15 warnings
+:library:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1136/src/library/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1136/src/library/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:57)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:143)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:131)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:226)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:589)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:572)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 9.557 secs
+
+2018-04-08 02:38:16,579 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 02:38:16,579 INFO  SysUtils - Execute command: [/tmp/rdisk/1136/src/gradlew, -b, /tmp/rdisk/1136/src/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 02:38:23,757 INFO  ProjectTaskService - Detected possible tasks: 88
+2018-04-08 02:38:23,757 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-04-08 02:38:23,757 INFO  SysUtils - Execute command: [/tmp/rdisk/1136/src/gradlew, -b, /tmp/rdisk/1136/src/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-04-08 02:38:56,876 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 02:38:56,877 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportRecyclerviewV72311Library
+:library:prepareComAndroidSupportSupportV42311Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:samples:preBuild UP-TO-DATE
+:samples:preDevDebugBuild UP-TO-DATE
+:samples:checkDevDebugManifest
+:samples:preDevReleaseBuild UP-TO-DATE
+:samples:prePlayDebugBuild UP-TO-DATE
+:samples:prePlayReleaseBuild UP-TO-DATE
+:samples:prepareComAndroidSupportAppcompatV72311Library
+:samples:prepareComAndroidSupportRecyclerviewV72311Library
+:samples:prepareComAndroidSupportSupportV42311Library
+:samples:prepareComGithubKsoichiroLibrary170SNAPSHOTLibrary
+:samples:prepareComMelnykovFloatingactionbutton107Library
+:samples:prepareDevDebugDependencies
+:samples:compileDevDebugAidl
+:samples:compileDevDebugRenderscript
+:samples:generateDevDebugBuildConfig
+:samples:generateVersionInfoDebug
+:samples:generateDevDebugAssets UP-TO-DATE
+:samples:mergeDevDebugAssets
+:samples:generateDevDebugResValues
+:samples:generateDevDebugResources
+:samples:mergeDevDebugResources
+:samples:processDevDebugManifest
+:samples:processDevDebugResources
+:samples:generateDevDebugSources
+:samples:compileDevDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1136/src/samples/src/main/java/com/github/ksoichiro/android/observablescrollview/samples/FlexibleSpaceWithImageBaseFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:samples:compileDevDebugNdk UP-TO-DATE
+:samples:compileDevDebugSources
+:samples:transformClassesWithDexForDevDebug
+:samples:mergeDevDebugJniLibFolders
+:samples:transformNative_libsWithMergeJniLibsForDevDebug
+:samples:processDevDebugJavaRes UP-TO-DATE
+:samples:transformResourcesWithMergeJavaResForDevDebug
+:samples:validateDebugSigning
+:samples:packageDevDebug
+:samples:zipalignDevDebug
+:samples:assembleDevDebug
+:samples:checkPlayDebugManifest
+:samples:preparePlayDebugDependencies
+:samples:compilePlayDebugAidl
+:samples:compilePlayDebugRenderscript
+:samples:generatePlayDebugBuildConfig
+:samples:generatePlayDebugAssets UP-TO-DATE
+:samples:mergePlayDebugAssets
+:samples:generatePlayDebugResValues
+:samples:generatePlayDebugResources
+:samples:mergePlayDebugResources
+:samples:processPlayDebugManifest
+:samples:processPlayDebugResources
+:samples:generatePlayDebugSources
+:samples:compilePlayDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1136/src/samples/src/main/java/com/github/ksoichiro/android/observablescrollview/samples/FlexibleSpaceWithImageBaseFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:samples:compilePlayDebugNdk UP-TO-DATE
+:samples:compilePlayDebugSources
+:samples:transformClassesWithDexForPlayDebug
+:samples:mergePlayDebugJniLibFolders
+:samples:transformNative_libsWithMergeJniLibsForPlayDebug
+:samples:processPlayDebugJavaRes UP-TO-DATE
+:samples:transformResourcesWithMergeJavaResForPlayDebug
+:samples:packagePlayDebug
+:samples:zipalignPlayDebug
+:samples:assemblePlayDebug
+:samples:assembleDebug
+:samples:checkDevReleaseManifest
+:samples:prepareComAndroidSupportRecyclerviewV72100Library
+:samples:prepareComGithubKsoichiroAndroidObservablescrollview152Library
+:samples:prepareDevReleaseDependencies
+:samples:compileDevReleaseAidl
+:samples:compileDevReleaseRenderscript
+:samples:generateDevReleaseBuildConfig
+:samples:generateVersionInfoRelease
+:samples:generateDevReleaseAssets UP-TO-DATE
+:samples:mergeDevReleaseAssets
+:samples:generateDevReleaseResValues
+:samples:generateDevReleaseResources
+:samples:mergeDevReleaseResources
+:samples:processDevReleaseManifest
+:samples:processDevReleaseResources
+:samples:generateDevReleaseSources
+:samples:compileDevReleaseJavaWithJavac/tmp/rdisk/1136/src/samples/src/main/java/com/github/ksoichiro/android/observablescrollview/samples/BaseFragment.java:74: error: cannot find symbol
+        gridView.addHeaderView(headerView);
+                ^
+  symbol:   method addHeaderView(View)
+  location: variable gridView of type ObservableGridView
+/tmp/rdisk/1136/src/samples/src/main/java/com/github/ksoichiro/android/observablescrollview/samples/ParallaxToolbarGridViewActivity.java:65: error: cannot find symbol
+        mGridView.addHeaderView(paddingView);
+                 ^
+  symbol:   method addHeaderView(View)
+  location: variable mGridView of type ObservableGridView
+/tmp/rdisk/1136/src/samples/src/main/java/com/github/ksoichiro/android/observablescrollview/samples/FlexibleSpaceWithImageGridViewFragment.java:49: error: cannot find symbol
+        gridView.addHeaderView(paddingView);
+                ^
+  symbol:   method addHeaderView(View)
+  location: variable gridView of type ObservableGridView
+/tmp/rdisk/1136/src/samples/src/main/java/com/github/ksoichiro/android/observablescrollview/samples/FlexibleSpaceWithImageGridViewActivity.java:76: error: cannot find symbol
+        gridView.addHeaderView(paddingView);
+                ^
+  symbol:   method addHeaderView(View)
+  location: variable gridView of type ObservableGridView
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1136/src/samples/src/main/java/com/github/ksoichiro/android/observablescrollview/samples/FlexibleSpaceWithImageBaseFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':samples:compileDevReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':samples:compileDevReleaseJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:47)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:101)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:157)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:137)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:91)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:243)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:230)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+
+
+BUILD FAILED
+
+Total time: 32.642 secs
+
+2018-04-08 02:38:56,962 INFO  FullProcessService - Found APK file: /tmp/rdisk/1136/src/samples/build/outputs/apk/samples-play-debug-5-1.3.0-7beac65.apk

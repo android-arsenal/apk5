@@ -1,0 +1,6 @@
+{
+  "com.irdeto.omp" : [ "ErrorCode", "OmpClient", "OmpException", "chargeRecord" ],
+  "com.irdeto.security" : [ "CryptoManager", "StubInterface" ],
+  "com.irdeto.security.common" : [ "HexUtils", "IOUtils" ],
+  "com.omp.test" : [ "OmpLog", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "omptest", "omptest$1", "omptest$2", "omptest$3", "omptest$4", "omptest$5" ]
+}

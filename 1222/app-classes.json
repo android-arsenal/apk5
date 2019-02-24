@@ -1,0 +1,4 @@
+{
+  "com.wroclawstudio.example" : [ "BuildConfig", "ExampleKioskActivity", "ExampleKioskActivity$1", "ExampleKioskActivity$2", "MainActivity", "MainActivity$1", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SecondActivity", "SecondActivity$1" ],
+  "com.wroclawstudio.kioskmode" : [ "BuildConfig", "KioskActivity", "R", "R$string", "RootKioskActivity" ]
+}

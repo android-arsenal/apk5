@@ -1,0 +1,36 @@
+{
+  "meta" : {
+    "packageName" : "eu.inloop.easygcm.sample",
+    "label" : null,
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : 9,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WAKE_LOCK", "eu.inloop.easygcm.sample.permission.C2D_MESSAGE", "com.google.android.c2dm.permission.RECEIVE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ {
+      "name" : "eu.inloop.easygcm.sample.permission.C2D_MESSAGE",
+      "label" : null,
+      "icon" : null,
+      "description" : null,
+      "group" : null,
+      "protectionLevel" : null
+    } ]
+  },
+  "icon" : null,
+  "dexClasses" : 2131,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "th", "bn", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "no", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "es_US", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"9\" package=\"eu.inloop.easygcm.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<permission android:name=\"eu.inloop.easygcm.sample.permission.C2D_MESSAGE\" android:protectionLevel=\"0x2\" />\n\t<uses-permission android:name=\"eu.inloop.easygcm.sample.permission.C2D_MESSAGE\" />\n\t<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />\n\t<application android:name=\"eu.inloop.easygcm.sample.App\">\n\t\t<activity android:label=\"EasyGCMSample\" android:name=\"eu.inloop.easygcm.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"com.google.android.gms.gcm.GcmReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.RECEIVE\" />\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" />\n\t\t\t\t<category android:name=\"eu.inloop.easygcm.sample\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"eu.inloop.easygcm.GcmPackageReplacedReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MY_PACKAGE_REPLACED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"eu.inloop.easygcm.NetworkStateReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.net.conn.CONNECTIVITY_CHANGE\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"eu.inloop.easygcm.EasyGcmListenerService\" android:exported=\"false\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.RECEIVE\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<service android:name=\"eu.inloop.easygcm.EasyInstanceIDListenerService\" android:exported=\"false\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.gms.iid.InstanceID\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<service android:name=\"eu.inloop.easygcm.GcmRegistrationService\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"9080000\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<provider android:name=\"com.google.firebase.provider.FirebaseInitProvider\" android:exported=\"false\" android:authorities=\"eu.inloop.easygcm.sample.firebaseinitprovider\" android:initOrder=\"100\" />\n\t\t<receiver android:name=\"com.google.android.gms.measurement.AppMeasurementReceiver\" android:enabled=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.gms.measurement.UPLOAD\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.google.android.gms.measurement.AppMeasurementService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.RECEIVE\" />\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" />\n\t\t\t\t<category android:name=\"eu.inloop.easygcm.sample\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdInternalReceiver\" android:exported=\"false\" />\n\t\t<service android:name=\"com.google.firebase.iid.FirebaseInstanceIdService\" android:exported=\"true\">\n\t\t\t<intent-filter android:priority=\"-500\">\n\t\t\t\t<action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1464623,
+  "crc32" : 2039924492,
+  "sha256" : "4a78c11c34d2dda5c9ce2471df29cf3047d7833f354d851807ca593bf011affb",
+  "buildTime" : 1523133023000
+}

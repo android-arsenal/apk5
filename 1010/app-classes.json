@@ -1,0 +1,3 @@
+{
+  "com.androwarn.sampleapplication" : [ "BusterReceiver", "NativeCode", "R", "R$attr", "R$layout", "R$string", "SampleApplication" ]
+}

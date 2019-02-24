@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.tekinarslan.material.sample",
+    "label" : "Material Toolbar",
+    "icon" : "res/drawable-hdpi-v4/ic_launcher.png",
+    "versionName" : "1.2",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-hdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAABF1BMVEUo1OEp1OEn1OEo1OEo0+En0+Eo0+An0+An0+Am0+An0uAm0uBJ2eR/5OxB1+N74+z///9n3+l44uv3/f1k3ujN9PjO9PhY3OdN2eWK5u6L5u5E1+Q01OFK2ORL2eQx0+En0t8m0t8n0d8r0d8z0+Ay0+Aq0d8m0d9A1uJn3uhm3ug61OEm0d9b3Oav7vOu7fOv7fNO2eQl0d9w4Onk+fvj+fte3Of6/v5v4Olb2+Y/1uI51OEp0d800+BK2ONJ2OMw0+Am0N9N2OSK5e2J5e1D1uMl0N/M9PdX2uZ34er2/f1k3ed64utm3egm0N564upm3ecl0N4l0N5I1+N/4+s/1eEk0N4lz94kz94kz90jz90kzt0jzt1aC22MAAAAXXRSTlP+//7///7//v/+//7////////////////////////////+///////+//////////////7//////////////////////////v/////////////+//////7//v/+//5iSDe7AAABR0lEQVRo3u3WV1PCQBDA8bV36SpWxIAearDEXhBi72Iv3/9zOBefd2YX2IHI/l7ycDf7n+SSmQB0BEDsKq6zS5YGNKABG+iWBT0a0ED9gV5Z8oE+DTQ/0C8LBsIfGJQFQ/83MDzCMcoPRKIcsXYMxBMcSX4glrLGCOy+cX5gIm1N0qSn+IHpGWuWwO6ba8cvOTyBjCyYzyIWHMfJkeWxMbCIrSwZYwpUZhkPrCBWXdctUq2tY2NgA1vZ9Dxvi2ybH4jvcCRbMLAb3LpHU8sj2gtOz6Up1nDI+3/vH03hgB/I5zgO+YEG0UArB46OSwwneKCMqPi+f0p2ho2Bc2zFpC4YLvmBq8Q1ww0/cMv6+b1rYuAe8cAKPGJj4KmKeH7heMXGwFtVlgY00IjAuyz40IAGNKABQuBTFnyFP/AtC340oIH6A8J+AWbr++YRAX18AAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1258,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.2\" package=\"com.tekinarslan.material.sample\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f0b0004\" android:label=\"Material Toolbar\" android:icon=\"res/drawable-hdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Material Toolbar\" android:name=\"com.tekinarslan.material.sample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1036748,
+  "crc32" : 3195336179,
+  "sha256" : "6f0e38dd3de8ef2cabb84aa32dcc7fe9034d7837697ec618b7e9bdfb7174190d",
+  "buildTime" : 1523157070000
+}

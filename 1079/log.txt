@@ -1,0 +1,1655 @@
+2018-04-08 04:55:31,630 INFO  DownloadService - Downloading "https://github.com/liaohuqiu/cube-sdk/archive/master.zip", attempt 3
+2018-04-08 04:56:32,231 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 04:56:32,896 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 04:56:32,896 INFO  DownloadService - Downloading "https://github.com/liaohuqiu/cube-sdk/archive/master.zip", attempt 3
+2018-04-08 04:57:34,100 DEBUG FullProcessService - Repository https://github.com/liaohuqiu/cube-sdk available: true
+2018-04-08 04:57:34,100 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 04:57:34,100 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/liaohuqiu/cube-sdk, /tmp/rdisk/1079/src]
+2018-04-08 04:57:36,171 INFO  SysUtils - 
+2018-04-08 04:57:36,177 INFO  GitService - Deleted "/tmp/rdisk/1079/src/.git": true
+2018-04-08 04:57:36,183 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-04-08 04:57:36,183 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1079/src]
+2018-04-08 04:57:36,187 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1079/src/.git/
+
+2018-04-08 04:57:36,192 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1079/src/gradlew
+2018-04-08 04:57:36,196 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1079/src/core/build.gradle /tmp/rdisk/1079/src/build.gradle
+2018-04-08 04:57:36,200 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1079/src/settings.gradle /tmp/rdisk/1079/src/core/gradle-mvn-push.gradle /tmp/rdisk/1079/src/core/build.gradle /tmp/rdisk/1079/src/build.gradle
+2018-04-08 04:57:36,200 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 04:57:36,200 INFO  ProjectFixService - Fixing project...
+2018-04-08 04:57:36,214 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1079/src/core/local.properties
+2018-04-08 04:57:36,216 INFO  ProjectFixService - Build info for "/tmp/rdisk/1079/src/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=8,targetSdkVersion=<null>]
+2018-04-08 04:57:36,217 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1079/src/core/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-04-08 04:57:36,217 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1079/src/local.properties
+2018-04-08 04:57:36,218 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-08 04:57:36,218 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-08 04:57:36,220 INFO  ProjectFixService - Build info for "/tmp/rdisk/1079/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=8,targetSdkVersion=<null>]
+2018-04-08 04:57:36,220 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1079/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-04-08 04:57:36,221 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 04:57:36,221 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 04:57:36,221 INFO  SysUtils - Execute command: [/tmp/rdisk/1079/src/gradlew, -b, /tmp/rdisk/1079/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 04:57:52,275 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 04:57:52,275 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 04:57:52,275 INFO  SysUtils - Execute command: [/tmp/rdisk/1079/src/gradlew, -b, /tmp/rdisk/1079/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 04:58:04,512 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 04:58:04,512 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:androidJavadocs/tmp/rdisk/1079/src/core/src/in/srain/cube/views/ScrollHeaderFrame.java:12: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/ScrollHeaderFrame.java:13: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/MoreActionView.java:11: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/DotView.java:11: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:20: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:21: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:22: error: package android.support.v4.view.ViewPager does not exist
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+                                        ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:29: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:20: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:26: error: package ViewPager does not exist
+public interface PageIndicator extends ViewPager.OnPageChangeListener {
+                                                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:99: error: cannot find symbol
+    private ViewPager mViewPager;
+            ^
+  symbol:   class ViewPager
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:100: error: cannot find symbol
+    private OnPageChangeListener mListener;
+            ^
+  symbol:   class OnPageChangeListener
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:205: error: cannot find symbol
+    public void setViewPager(ViewPager view) {
+                             ^
+  symbol:   class ViewPager
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:246: error: cannot find symbol
+    public void setViewPager(ViewPager view, int initialPosition) {
+                             ^
+  symbol:   class ViewPager
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:289: error: cannot find symbol
+    public void setOnPageChangeListener(OnPageChangeListener listener) {
+                                        ^
+  symbol:   class OnPageChangeListener
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:32: error: cannot find symbol
+    void setViewPager(ViewPager view);
+                      ^
+  symbol:   class ViewPager
+  location: interface PageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:40: error: cannot find symbol
+    void setViewPager(ViewPager view, int initialPosition);
+                      ^
+  symbol:   class ViewPager
+  location: interface PageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:47: error: package ViewPager does not exist
+    void setOnPageChangeListener(ViewPager.OnPageChangeListener listener);
+                                          ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/loadmore/LoadMoreDefaultFooterView.java:8: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ListViewDataAdapterBase.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:5: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:9: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:18: error: cannot find symbol
+    private ViewPager mViewPager;
+            ^
+  symbol:   class ViewPager
+  location: class SliderBanner
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/BannerAdapter.java:3: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/BannerAdapter.java:8: error: cannot find symbol
+public abstract class BannerAdapter extends PagerAdapter {
+                                            ^
+  symbol: class PagerAdapter
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:20: error: package ViewPager does not exist
+    private ViewPager.OnPageChangeListener mOnPageChangeListener;
+                     ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:150: error: package ViewPager does not exist
+    public void setOnPageChangeListener(ViewPager.OnPageChangeListener listener) {
+                                                 ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/update/UpdateController.java:16: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/update/DownloadTask.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/CacheManager.java:4: error: package android.support.v4.util does not exist
+import android.support.v4.util.LruCache;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/CacheManager.java:9: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/CacheManager.java:35: error: cannot find symbol
+    private LruCache<String, CacheMetaData> mMemoryCache;
+            ^
+  symbol:   class LruCache
+  location: class CacheManager
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/DiskCacheProvider.java:9: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/DefaultRequestProxy.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/CacheAbleRequestDefaultHandler.java:3: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/CacheAbleRequest.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/photos/SelectPhotoManager.java:10: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/photos/PhotoUtils.java:16: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/TitleHeaderBar.java:11: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/TitleBaseFragment.java:9: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragment.java:5: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragment.java:12: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragment.java:20: error: cannot find symbol
+public abstract class CubeFragment extends Fragment implements ICubeFragment, IComponentContainer {
+                                           ^
+  symbol: class Fragment
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:4: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:5: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentActivity;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:6: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:7: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentTransaction;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:13: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:15: error: cannot find symbol
+public abstract class CubeFragmentActivity extends FragmentActivity {
+                                                   ^
+  symbol: class FragmentActivity
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/TitleBaseActivity.java:9: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/MintsBaseActivity.java:3: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/BlockMenuFragment.java:7: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageTask.java:6: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageLoader.java:12: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageProvider.java:14: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageDiskCacheProvider.java:11: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/SimpleDownloader.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultMemoryCache.java:4: error: package android.support.v4.util does not exist
+import android.support.v4.util.LruCache;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultMemoryCache.java:15: error: cannot find symbol
+    private LruCache<String, BitmapDrawable> mMemoryCache;
+            ^
+  symbol:   class LruCache
+  location: class DefaultMemoryCache
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultImageLoadHandler.java:16: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/drawable/CircleProgress.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/lru/SimpleDiskLruCache.java:21: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/lru/LruActionTracer.java:24: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/DiskFileUtils.java:10: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:62: warning: no @return
+    public InputStream getInputStream() throws IOException {
+                       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:62: warning: no @throws for java.io.IOException
+    public InputStream getInputStream() throws IOException {
+                       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:75: warning: no @return
+    public String getString() throws IOException {
+                  ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:75: warning: no @throws for java.io.IOException
+    public String getString() throws IOException {
+                  ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:83: warning: no @param for value
+    public CacheEntry setString(String value) throws IOException {
+                      ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:83: warning: no @return
+    public CacheEntry setString(String value) throws IOException {
+                      ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:83: warning: no @throws for java.io.IOException
+    public CacheEntry setString(String value) throws IOException {
+                      ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:101: warning: no @return
+    public OutputStream newOutputStream() throws IOException {
+                        ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:101: warning: no @throws for java.io.IOException
+    public OutputStream newOutputStream() throws IOException {
+                        ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:119: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:121: warning: no @throws for java.io.IOException
+    public boolean delete() throws IOException {
+                   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:134: warning: no @throws for java.io.IOException
+    public void commit() throws IOException {
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:11: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:12: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:19: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:26: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:33: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:40: warning: no @throws for java.io.IOException
+    public void flush() throws IOException;
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:43: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:44: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:45: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:50: error: unknown tag: CacheEntry
+     * begin edit an {@CacheEntry }
+                     ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:52: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:53: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:54: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:61: warning: no description for @param
+     * @param cacheEntry
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:68: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:75: warning: no @param for cacheEntry
+    public void commitEdit(CacheEntry cacheEntry) throws IOException;
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:75: warning: no @throws for java.io.IOException
+    public void commitEdit(CacheEntry cacheEntry) throws IOException;
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:80: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:81: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:83: warning: no @throws for java.io.IOException
+    public boolean delete(String key) throws IOException;
+                   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:12: warning: no @param for reader
+    public static String readFully(Reader reader) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:12: warning: no @return
+    public static String readFully(Reader reader) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:12: warning: no @throws for java.io.IOException
+    public static String readFully(Reader reader) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:33: warning: no @param for in
+    public static String readAsciiLine(InputStream in) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:33: warning: no @return
+    public static String readAsciiLine(InputStream in) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:409: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:430: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:446: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:463: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:485: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:497: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:508: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:520: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:536: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:548: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:562: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:608: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:187: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:276: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:357: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:381: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:401: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:413: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:426: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:438: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:455: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:473: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:493: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:18: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:27: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:28: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:92: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:93: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:97: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:102: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:103: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:158: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:159: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:166: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:18: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:28: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:31: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:32: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:67: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:68: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:74: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:75: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:105: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:106: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:112: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:113: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:131: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:132: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:136: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:140: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:143: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:151: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:607: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:647: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:673: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:692: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:769: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:861: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:865: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:891: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:896: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:901: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:905: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:990: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:1008: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:20: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:26: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:33: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:37: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/SimpleTask.java:12: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/GridViewWithHeaderAndFooter.java:121: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/GridViewWithHeaderAndFooter.java:135: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/ICacheAble.java:56: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultImageLoadHandler.java:22: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultImageReSizer.java:36: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/iface/ImageReSizer.java:13: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/sender/BaseRequestSender.java:46: error: invalid use of @return
+     * @return a list of Strings as response in case the server returned
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/sender/MultiPartRequestSender.java:96: error: unknown tag: input
+     * @param fieldName  name attribute in <input type="file" name="..." />
+                                           ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/util/HandlerHolder.java:4: error: unknown tag: T
+ * A single linked list to wrap <T>
+                                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/util/NetworkStatusManager.java:29: error: unknown tag: hide
+ * A wrapper for a broadcast receiver that provides network connectivity state information, independent of network type (mobile, Wi-Fi, etc.). {@hide}
+                                                                                                                                               ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/util/NetworkStatusManager.java:248: error: element not closed: ul
+         * <ul>
+           ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/mix/AutoPlayer.java:8: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/mix/AutoPlayer.java:10: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/CubeImageView.java:21: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/CubeImageView.java:23: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageDiskCacheProvider.java:18: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageLoader.java:227: error: syntax error in reference
+     * set task executed order: {@link @TASK_ORDER_LAST_IN_FIRST_OUT} or {@link #TASK_ORDER_FIRST_IN_FIRST_OUT}
+                                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageLoader.java:265: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageProvider.java:160: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageProvider.java:25: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageTask.java:191: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageTask.java:409: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/QueryHandler.java:9: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/drawable/RecyclingBitmapDrawable.java:11: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/drawable/RecyclingBitmapDrawable.java:13: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:42: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:44: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:46: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:8: error: self-closing element not allowed
+ * <p/>
+   ^
+
+100 errors
+100 warnings
+:core:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':core:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1079/src/core/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':core:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:55)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1079/src/core/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:55)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:140)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:128)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 11.815 secs
+
+2018-04-08 04:58:04,522 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 04:58:04,522 INFO  SysUtils - Execute command: [/tmp/rdisk/1079/src/gradlew, -b, /tmp/rdisk/1079/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 04:58:11,015 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 04:58:11,016 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-08 04:58:11,016 INFO  SysUtils - Execute command: [/tmp/rdisk/1079/src/gradlew, -b, /tmp/rdisk/1079/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-08 04:58:23,162 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 04:58:23,163 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:androidJavadocs/tmp/rdisk/1079/src/core/src/in/srain/cube/views/ScrollHeaderFrame.java:12: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/ScrollHeaderFrame.java:13: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/MoreActionView.java:11: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/DotView.java:11: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:20: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:21: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:22: error: package android.support.v4.view.ViewPager does not exist
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+                                        ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:29: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:20: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:26: error: package ViewPager does not exist
+public interface PageIndicator extends ViewPager.OnPageChangeListener {
+                                                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:99: error: cannot find symbol
+    private ViewPager mViewPager;
+            ^
+  symbol:   class ViewPager
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:100: error: cannot find symbol
+    private OnPageChangeListener mListener;
+            ^
+  symbol:   class OnPageChangeListener
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:205: error: cannot find symbol
+    public void setViewPager(ViewPager view) {
+                             ^
+  symbol:   class ViewPager
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:246: error: cannot find symbol
+    public void setViewPager(ViewPager view, int initialPosition) {
+                             ^
+  symbol:   class ViewPager
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/TabPageIndicator.java:289: error: cannot find symbol
+    public void setOnPageChangeListener(OnPageChangeListener listener) {
+                                        ^
+  symbol:   class OnPageChangeListener
+  location: class TabPageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:32: error: cannot find symbol
+    void setViewPager(ViewPager view);
+                      ^
+  symbol:   class ViewPager
+  location: interface PageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:40: error: cannot find symbol
+    void setViewPager(ViewPager view, int initialPosition);
+                      ^
+  symbol:   class ViewPager
+  location: interface PageIndicator
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/pager/PageIndicator.java:47: error: package ViewPager does not exist
+    void setOnPageChangeListener(ViewPager.OnPageChangeListener listener);
+                                          ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/loadmore/LoadMoreDefaultFooterView.java:8: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ListViewDataAdapterBase.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:5: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:9: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:18: error: cannot find symbol
+    private ViewPager mViewPager;
+            ^
+  symbol:   class ViewPager
+  location: class SliderBanner
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/BannerAdapter.java:3: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/BannerAdapter.java:8: error: cannot find symbol
+public abstract class BannerAdapter extends PagerAdapter {
+                                            ^
+  symbol: class PagerAdapter
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:20: error: package ViewPager does not exist
+    private ViewPager.OnPageChangeListener mOnPageChangeListener;
+                     ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/banner/SliderBanner.java:150: error: package ViewPager does not exist
+    public void setOnPageChangeListener(ViewPager.OnPageChangeListener listener) {
+                                                 ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/update/UpdateController.java:16: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/update/DownloadTask.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/CacheManager.java:4: error: package android.support.v4.util does not exist
+import android.support.v4.util.LruCache;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/CacheManager.java:9: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/CacheManager.java:35: error: cannot find symbol
+    private LruCache<String, CacheMetaData> mMemoryCache;
+            ^
+  symbol:   class LruCache
+  location: class CacheManager
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/DiskCacheProvider.java:9: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/DefaultRequestProxy.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/CacheAbleRequestDefaultHandler.java:3: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/CacheAbleRequest.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/photos/SelectPhotoManager.java:10: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/photos/PhotoUtils.java:16: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/TitleHeaderBar.java:11: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/TitleBaseFragment.java:9: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragment.java:5: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragment.java:12: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragment.java:20: error: cannot find symbol
+public abstract class CubeFragment extends Fragment implements ICubeFragment, IComponentContainer {
+                                           ^
+  symbol: class Fragment
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:4: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:5: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentActivity;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:6: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:7: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentTransaction;
+                             ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:13: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/app/CubeFragmentActivity.java:15: error: cannot find symbol
+public abstract class CubeFragmentActivity extends FragmentActivity {
+                                                   ^
+  symbol: class FragmentActivity
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/TitleBaseActivity.java:9: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/MintsBaseActivity.java:3: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/mints/base/BlockMenuFragment.java:7: error: cannot find symbol
+import in.srain.cube.R;
+                    ^
+  symbol:   class R
+  location: package in.srain.cube
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageTask.java:6: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageLoader.java:12: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageProvider.java:14: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageDiskCacheProvider.java:11: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/SimpleDownloader.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultMemoryCache.java:4: error: package android.support.v4.util does not exist
+import android.support.v4.util.LruCache;
+                              ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultMemoryCache.java:15: error: cannot find symbol
+    private LruCache<String, BitmapDrawable> mMemoryCache;
+            ^
+  symbol:   class LruCache
+  location: class DefaultMemoryCache
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultImageLoadHandler.java:16: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/drawable/CircleProgress.java:7: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/lru/SimpleDiskLruCache.java:21: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/lru/LruActionTracer.java:24: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/DiskFileUtils.java:10: error: cannot find symbol
+import in.srain.cube.util.CLog;
+                         ^
+  symbol:   class CLog
+  location: package in.srain.cube.util
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:62: warning: no @return
+    public InputStream getInputStream() throws IOException {
+                       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:62: warning: no @throws for java.io.IOException
+    public InputStream getInputStream() throws IOException {
+                       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:75: warning: no @return
+    public String getString() throws IOException {
+                  ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:75: warning: no @throws for java.io.IOException
+    public String getString() throws IOException {
+                  ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:83: warning: no @param for value
+    public CacheEntry setString(String value) throws IOException {
+                      ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:83: warning: no @return
+    public CacheEntry setString(String value) throws IOException {
+                      ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:83: warning: no @throws for java.io.IOException
+    public CacheEntry setString(String value) throws IOException {
+                      ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:101: warning: no @return
+    public OutputStream newOutputStream() throws IOException {
+                        ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:101: warning: no @throws for java.io.IOException
+    public OutputStream newOutputStream() throws IOException {
+                        ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:119: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:121: warning: no @throws for java.io.IOException
+    public boolean delete() throws IOException {
+                   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/CacheEntry.java:134: warning: no @throws for java.io.IOException
+    public void commit() throws IOException {
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:11: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:12: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:19: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:26: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:33: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:40: warning: no @throws for java.io.IOException
+    public void flush() throws IOException;
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:43: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:44: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:45: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:50: error: unknown tag: CacheEntry
+     * begin edit an {@CacheEntry }
+                     ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:52: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:53: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:54: warning: no description for @throws
+     * @throws java.io.IOException
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:61: warning: no description for @param
+     * @param cacheEntry
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:68: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:75: warning: no @param for cacheEntry
+    public void commitEdit(CacheEntry cacheEntry) throws IOException;
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:75: warning: no @throws for java.io.IOException
+    public void commitEdit(CacheEntry cacheEntry) throws IOException;
+                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:80: warning: no description for @param
+     * @param key
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:81: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/DiskCache.java:83: warning: no @throws for java.io.IOException
+    public boolean delete(String key) throws IOException;
+                   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:12: warning: no @param for reader
+    public static String readFully(Reader reader) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:12: warning: no @return
+    public static String readFully(Reader reader) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:12: warning: no @throws for java.io.IOException
+    public static String readFully(Reader reader) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:33: warning: no @param for in
+    public static String readAsciiLine(InputStream in) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/diskcache/FileUtils.java:33: warning: no @return
+    public static String readAsciiLine(InputStream in) throws IOException {
+                         ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:409: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:430: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:446: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:463: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:485: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:497: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:508: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:520: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:536: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:548: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:562: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:608: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:187: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:276: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:357: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:381: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:401: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:413: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:426: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:438: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:455: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:473: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:493: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:18: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:27: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:28: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:92: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:93: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:97: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:102: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:103: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:158: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:159: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/BlockingDeque.java:166: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:18: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:28: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:31: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:32: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:67: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:68: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:74: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:75: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:105: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:106: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:112: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:113: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:131: error: no summary or caption for table
+ * </table>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:132: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:136: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:140: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:143: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/Deque.java:151: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:607: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:647: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:673: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:692: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:769: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:861: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:865: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:891: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:896: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:901: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:905: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:990: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:1008: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:20: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:26: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:33: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/LinkedBlockingDeque.java:37: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/concurrent/SimpleTask.java:12: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/GridViewWithHeaderAndFooter.java:121: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/GridViewWithHeaderAndFooter.java:135: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/ICacheAble.java:56: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultImageLoadHandler.java:22: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/impl/DefaultImageReSizer.java:36: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/iface/ImageReSizer.java:13: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/sender/BaseRequestSender.java:46: error: invalid use of @return
+     * @return a list of Strings as response in case the server returned
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/request/sender/MultiPartRequestSender.java:96: error: unknown tag: input
+     * @param fieldName  name attribute in <input type="file" name="..." />
+                                           ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/util/HandlerHolder.java:4: error: unknown tag: T
+ * A single linked list to wrap <T>
+                                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/util/NetworkStatusManager.java:29: error: unknown tag: hide
+ * A wrapper for a broadcast receiver that provides network connectivity state information, independent of network type (mobile, Wi-Fi, etc.). {@hide}
+                                                                                                                                               ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/util/NetworkStatusManager.java:248: error: element not closed: ul
+         * <ul>
+           ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/mix/AutoPlayer.java:8: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/mix/AutoPlayer.java:10: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/CubeImageView.java:21: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/CubeImageView.java:23: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageDiskCacheProvider.java:18: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageLoader.java:227: error: syntax error in reference
+     * set task executed order: {@link @TASK_ORDER_LAST_IN_FIRST_OUT} or {@link #TASK_ORDER_FIRST_IN_FIRST_OUT}
+                                ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageLoader.java:265: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageProvider.java:160: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageProvider.java:25: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageTask.java:191: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/ImageTask.java:409: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/cache/QueryHandler.java:9: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/drawable/RecyclingBitmapDrawable.java:11: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/image/drawable/RecyclingBitmapDrawable.java:13: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:42: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:44: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:46: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1079/src/core/src/in/srain/cube/views/list/ViewHolderBase.java:8: error: self-closing element not allowed
+ * <p/>
+   ^
+
+100 errors
+100 warnings
+:core:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':core:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1079/src/core/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':core:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:55)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1079/src/core/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:55)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:140)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:128)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 11.72 secs
+
+2018-04-08 04:58:23,173 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 04:58:23,180 ERROR FullProcessService - Could not find generated or existed APK file

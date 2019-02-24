@@ -1,0 +1,626 @@
+2018-04-07 21:15:23,069 INFO  DownloadService - Downloading "https://github.com/Gridstone/RxStore/archive/master.zip", attempt 3
+2018-04-07 21:16:23,070 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-07 21:16:23,783 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-07 21:16:23,784 INFO  DownloadService - Downloading "https://github.com/Gridstone/RxStore/archive/master.zip", attempt 3
+2018-04-07 21:17:24,545 DEBUG FullProcessService - Repository https://github.com/Gridstone/RxStore available: true
+2018-04-07 21:17:24,545 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-07 21:17:24,545 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Gridstone/RxStore, /tmp/rdisk/1187/src]
+2018-04-07 21:17:26,090 INFO  SysUtils - 
+2018-04-07 21:17:26,096 INFO  GitService - Deleted "/tmp/rdisk/1187/src/.git": true
+2018-04-07 21:17:26,100 INFO  FullProcessService - Size of directory with sources: 161 KB
+2018-04-07 21:17:26,100 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1187/src]
+2018-04-07 21:17:26,104 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1187/src/.git/
+
+2018-04-07 21:17:26,108 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1187/src/gradlew
+2018-04-07 21:17:26,112 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1187/src/build.gradle /tmp/rdisk/1187/src/converters/gson-converter/build.gradle /tmp/rdisk/1187/src/converters/jackson-converter/build.gradle /tmp/rdisk/1187/src/converters/moshi-converter/build.gradle /tmp/rdisk/1187/src/rxstore-kotlin/build.gradle /tmp/rdisk/1187/src/rxstore/build.gradle /tmp/rdisk/1187/src/sample/build.gradle
+2018-04-07 21:17:26,116 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1187/src/settings.gradle /tmp/rdisk/1187/src/sample/build.gradle /tmp/rdisk/1187/src/rxstore/build.gradle /tmp/rdisk/1187/src/rxstore-kotlin/build.gradle /tmp/rdisk/1187/src/converters/moshi-converter/build.gradle /tmp/rdisk/1187/src/converters/jackson-converter/build.gradle /tmp/rdisk/1187/src/converters/gson-converter/build.gradle /tmp/rdisk/1187/src/build.gradle
+2018-04-07 21:17:26,116 INFO  ProjectBuildService - Remote scripts: none
+2018-04-07 21:17:26,116 INFO  ProjectFixService - Fixing project...
+2018-04-07 21:17:26,126 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1187/src/local.properties
+2018-04-07 21:17:26,127 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-07 21:17:26,127 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-07 21:17:26,132 INFO  ProjectFixService - Build info for "/tmp/rdisk/1187/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-07 21:17:26,132 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1187/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-07 21:17:26,133 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1187/src/converters/gson-converter/local.properties
+2018-04-07 21:17:26,138 INFO  ProjectFixService - Build info for "/tmp/rdisk/1187/src/converters/gson-converter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-07 21:17:26,138 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1187/src/converters/gson-converter/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-07 21:17:26,139 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1187/src/converters/jackson-converter/local.properties
+2018-04-07 21:17:26,145 INFO  ProjectFixService - Build info for "/tmp/rdisk/1187/src/converters/jackson-converter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-07 21:17:26,145 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1187/src/converters/jackson-converter/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-07 21:17:26,145 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1187/src/converters/moshi-converter/local.properties
+2018-04-07 21:17:26,151 INFO  ProjectFixService - Build info for "/tmp/rdisk/1187/src/converters/moshi-converter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-07 21:17:26,151 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1187/src/converters/moshi-converter/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-07 21:17:26,152 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1187/src/rxstore-kotlin/local.properties
+2018-04-07 21:17:26,157 INFO  ProjectFixService - Build info for "/tmp/rdisk/1187/src/rxstore-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-07 21:17:26,157 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1187/src/rxstore-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-07 21:17:26,158 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1187/src/rxstore/local.properties
+2018-04-07 21:17:26,163 INFO  ProjectFixService - Build info for "/tmp/rdisk/1187/src/rxstore/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-07 21:17:26,163 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1187/src/rxstore/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-07 21:17:26,164 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1187/src/sample/local.properties
+2018-04-07 21:17:26,170 INFO  ProjectFixService - Build info for "/tmp/rdisk/1187/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-07 21:17:26,170 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1187/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-07 21:17:26,170 INFO  ProjectFixService - Project was maybe fixed
+2018-04-07 21:17:26,170 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:17:26,170 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:17:41,535 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:17:41,535 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:17:41,535 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:17:41,535 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:17:48,241 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-07 21:17:48,242 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':rxstore-kotlin'.
+> Could not resolve all dependencies for configuration ':rxstore-kotlin:classpath'.
+   > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+     Required by:
+         au.com.gridstone.rxstore:rxstore-kotlin:6.0.1-SNAPSHOT
+      > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+         > inconsistent module metadata found. Descriptor: gradle.plugin.org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1 Errors: bad group: expected='org.jetbrains.kotlin' found='gradle.plugin.org.jetbrains.kotlin'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':rxstore-kotlin'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:57)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all dependencies for configuration ':rxstore-kotlin:classpath'.
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.rethrowFailure(DefaultLenientConfiguration.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.rethrowFailure(DefaultResolvedConfiguration.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver$FilesAggregatingResolvedConfiguration.rethrowFailure(SelfResolvingDependencyConfigurationResolver.java:112)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver$ErrorHandlingResolvedConfiguration.rethrowFailure(ErrorHandlingConfigurationResolver.java:189)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:663)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:288)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:67)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:148)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:122)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:126)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	... 56 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+Required by:
+    au.com.gridstone.rxstore:rxstore-kotlin:6.0.1-SNAPSHOT
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:83)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:44)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.resolve(DependencyGraphBuilder.java:560)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.getMetaData(DependencyGraphBuilder.java:570)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.calculateTargetConfigurations(DependencyGraphBuilder.java:256)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.attachToTargetConfigurations(DependencyGraphBuilder.java:230)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:88)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolve(DefaultConfigurationResolver.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver.resolve(SelfResolvingDependencyConfigurationResolver.java:40)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolve(ShortCircuitEmptyConfigurationResolver.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolve(ErrorHandlingConfigurationResolver.java:43)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:367)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveNow(DefaultConfiguration.java:342)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:335)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:661)
+	... 66 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.process(ComponentMetaDataResolveState.java:66)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.resolve(ComponentMetaDataResolveState.java:58)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:99)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:72)
+	... 98 more
+Caused by: org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.MetaDataParseException: inconsistent module metadata found. Descriptor: gradle.plugin.org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1 Errors: bad group: expected='org.jetbrains.kotlin' found='gradle.plugin.org.jetbrains.kotlin'
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.checkMetadataConsistency(ExternalResourceResolver.java:210)
+	at org.gradle.api.internal.artifacts.repositories.resolver.MavenResolver.parseMetaDataFromResource(MavenResolver.java:210)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.parseMetaDataFromArtifact(ExternalResourceResolver.java:170)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveStaticDependency(ExternalResourceResolver.java:143)
+	at org.gradle.api.internal.artifacts.repositories.resolver.MavenResolver.doResolveComponentMetaData(MavenResolver.java:93)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveComponentMetaData(ExternalResourceResolver.java:409)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess$2.run(CacheLockReleasingModuleComponentsRepository.java:71)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:242)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:313)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:114)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.longRunningOperation(DefaultCacheFactory.java:179)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.longRunningOperation(DefaultCacheLockingManager.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess.resolveComponentMetaData(CacheLockReleasingModuleComponentsRepository.java:69)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveComponentMetaData(CachingModuleComponentRepository.java:297)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveComponentMetaData(BaseModuleComponentRepositoryAccess.java:42)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveComponentMetaData(InMemoryCachedModuleComponentRepository.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:89)
+	... 103 more
+
+
+BUILD FAILED
+
+Total time: 6.287 secs
+
+2018-04-07 21:17:48,246 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:17:48,246 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/converters/gson-converter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:17:58,263 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:17:58,263 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:17:58,263 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:17:58,264 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/converters/gson-converter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:18:15,673 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxstore:compileKotlin
+:rxstore:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:rxstore:copyMainKotlinClasses
+:rxstore:processResources UP-TO-DATE
+:rxstore:classes
+:rxstore:jar
+:converters:gson-converter:compileKotlin
+:converters:gson-converter:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:converters:gson-converter:copyMainKotlinClasses
+:converters:gson-converter:processResources UP-TO-DATE
+:converters:gson-converter:classes
+:converters:gson-converter:jar
+:rxstore:javadoc
+:converters:gson-converter:javadoc
+:converters:gson-converter:javadocJar
+:converters:gson-converter:sourcesJar
+:converters:gson-converter:assemble
+:converters:gson-converter:compileTestKotlin
+Using kotlin incremental compilation
+w: The '-d' option with a directory destination is ignored because '-module' is specified
+:converters:gson-converter:compileTestJava UP-TO-DATE
+:converters:gson-converter:copyTestKotlinClasses
+:converters:gson-converter:processTestResources UP-TO-DATE
+:converters:gson-converter:testClasses UP-TO-DATE
+:converters:gson-converter:test
+:converters:gson-converter:check
+:converters:gson-converter:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.997 secs
+
+2018-04-07 21:18:15,682 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:18:15,682 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/converters/jackson-converter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:18:25,884 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:18:25,884 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:18:25,884 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:18:25,884 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/converters/jackson-converter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:18:36,639 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxstore:compileKotlin
+:rxstore:compileJava UP-TO-DATE
+:rxstore:copyMainKotlinClasses UP-TO-DATE
+:rxstore:processResources UP-TO-DATE
+:rxstore:classes UP-TO-DATE
+:rxstore:jar UP-TO-DATE
+:converters:jackson-converter:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:converters:jackson-converter:processResources UP-TO-DATE
+:converters:jackson-converter:classes
+:converters:jackson-converter:jar
+:rxstore:javadoc UP-TO-DATE
+:converters:jackson-converter:javadoc
+:converters:jackson-converter:javadocJar
+:converters:jackson-converter:sourcesJar
+:converters:jackson-converter:assemble
+:converters:jackson-converter:compileTestJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:converters:jackson-converter:processTestResources UP-TO-DATE
+:converters:jackson-converter:testClasses
+:converters:jackson-converter:test
+:converters:jackson-converter:check
+:converters:jackson-converter:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.337 secs
+
+2018-04-07 21:18:36,650 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:18:36,650 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/converters/moshi-converter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:18:46,682 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:18:46,683 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:18:46,683 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:18:46,683 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/converters/moshi-converter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:19:02,967 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxstore:compileKotlin
+:rxstore:compileJava UP-TO-DATE
+:rxstore:copyMainKotlinClasses UP-TO-DATE
+:rxstore:processResources UP-TO-DATE
+:rxstore:classes UP-TO-DATE
+:rxstore:jar UP-TO-DATE
+:converters:moshi-converter:compileKotlin
+:converters:moshi-converter:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:converters:moshi-converter:copyMainKotlinClasses
+:converters:moshi-converter:processResources UP-TO-DATE
+:converters:moshi-converter:classes
+:converters:moshi-converter:jar
+:rxstore:javadoc UP-TO-DATE
+:converters:moshi-converter:javadoc
+:converters:moshi-converter:javadocJar
+:converters:moshi-converter:sourcesJar
+:converters:moshi-converter:assemble
+:converters:moshi-converter:compileTestKotlin
+Using kotlin incremental compilation
+w: The '-d' option with a directory destination is ignored because '-module' is specified
+:converters:moshi-converter:compileTestJava UP-TO-DATE
+:converters:moshi-converter:copyTestKotlinClasses
+:converters:moshi-converter:processTestResources UP-TO-DATE
+:converters:moshi-converter:testClasses UP-TO-DATE
+:converters:moshi-converter:test
+:converters:moshi-converter:check
+:converters:moshi-converter:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.833 secs
+
+2018-04-07 21:19:02,980 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:19:02,980 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/rxstore-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:19:09,040 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:19:09,040 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:19:09,040 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:19:09,040 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/rxstore-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:19:14,106 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-07 21:19:14,106 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':rxstore-kotlin'.
+> Could not resolve all dependencies for configuration ':rxstore-kotlin:classpath'.
+   > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+     Required by:
+         au.com.gridstone.rxstore:rxstore-kotlin:6.0.1-SNAPSHOT
+      > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+         > inconsistent module metadata found. Descriptor: gradle.plugin.org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1 Errors: bad group: expected='org.jetbrains.kotlin' found='gradle.plugin.org.jetbrains.kotlin'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':rxstore-kotlin'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:57)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all dependencies for configuration ':rxstore-kotlin:classpath'.
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.rethrowFailure(DefaultLenientConfiguration.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.rethrowFailure(DefaultResolvedConfiguration.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver$FilesAggregatingResolvedConfiguration.rethrowFailure(SelfResolvingDependencyConfigurationResolver.java:112)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver$ErrorHandlingResolvedConfiguration.rethrowFailure(ErrorHandlingConfigurationResolver.java:189)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:663)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:288)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:67)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:148)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:122)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:126)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	... 56 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+Required by:
+    au.com.gridstone.rxstore:rxstore-kotlin:6.0.1-SNAPSHOT
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:83)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:44)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.resolve(DependencyGraphBuilder.java:560)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.getMetaData(DependencyGraphBuilder.java:570)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.calculateTargetConfigurations(DependencyGraphBuilder.java:256)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.attachToTargetConfigurations(DependencyGraphBuilder.java:230)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:88)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolve(DefaultConfigurationResolver.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver.resolve(SelfResolvingDependencyConfigurationResolver.java:40)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolve(ShortCircuitEmptyConfigurationResolver.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolve(ErrorHandlingConfigurationResolver.java:43)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:367)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveNow(DefaultConfiguration.java:342)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:335)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:661)
+	... 66 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1.
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.process(ComponentMetaDataResolveState.java:66)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.resolve(ComponentMetaDataResolveState.java:58)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:99)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:72)
+	... 98 more
+Caused by: org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.MetaDataParseException: inconsistent module metadata found. Descriptor: gradle.plugin.org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.1 Errors: bad group: expected='org.jetbrains.kotlin' found='gradle.plugin.org.jetbrains.kotlin'
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.checkMetadataConsistency(ExternalResourceResolver.java:210)
+	at org.gradle.api.internal.artifacts.repositories.resolver.MavenResolver.parseMetaDataFromResource(MavenResolver.java:210)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.parseMetaDataFromArtifact(ExternalResourceResolver.java:170)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveStaticDependency(ExternalResourceResolver.java:143)
+	at org.gradle.api.internal.artifacts.repositories.resolver.MavenResolver.doResolveComponentMetaData(MavenResolver.java:93)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveComponentMetaData(ExternalResourceResolver.java:409)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess$2.run(CacheLockReleasingModuleComponentsRepository.java:71)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:242)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:313)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:114)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.longRunningOperation(DefaultCacheFactory.java:179)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.longRunningOperation(DefaultCacheLockingManager.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess.resolveComponentMetaData(CacheLockReleasingModuleComponentsRepository.java:69)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveComponentMetaData(CachingModuleComponentRepository.java:297)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveComponentMetaData(BaseModuleComponentRepositoryAccess.java:42)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveComponentMetaData(InMemoryCachedModuleComponentRepository.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:89)
+	... 103 more
+
+
+BUILD FAILED
+
+Total time: 4.646 secs
+
+2018-04-07 21:19:14,120 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:19:14,120 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/rxstore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:19:20,859 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:19:20,859 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:19:20,859 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:19:20,859 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/rxstore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:19:36,164 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxstore:compileKotlin
+:rxstore:compileJava UP-TO-DATE
+:rxstore:copyMainKotlinClasses UP-TO-DATE
+:rxstore:processResources UP-TO-DATE
+:rxstore:classes UP-TO-DATE
+:rxstore:jar UP-TO-DATE
+:rxstore:javadoc UP-TO-DATE
+:rxstore:javadocJar
+:rxstore:sourcesJar
+:rxstore:assemble
+:rxstore:compileTestKotlin
+Using kotlin incremental compilation
+w: The '-d' option with a directory destination is ignored because '-module' is specified
+:rxstore:compileTestJava UP-TO-DATE
+:rxstore:copyTestKotlinClasses
+:rxstore:processTestResources UP-TO-DATE
+:rxstore:testClasses UP-TO-DATE
+:rxstore:test
+:rxstore:check
+:rxstore:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.892 secs
+
+2018-04-07 21:19:36,180 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-07 21:19:36,180 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-07 21:19:44,607 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-07 21:19:44,607 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-07 21:19:44,607 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-07 21:19:44,608 INFO  SysUtils - Execute command: [/tmp/rdisk/1187/src/gradlew, -b, /tmp/rdisk/1187/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-07 21:19:50,730 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxstore:compileKotlin
+:rxstore:compileJava UP-TO-DATE
+:rxstore:copyMainKotlinClasses UP-TO-DATE
+:rxstore:processResources UP-TO-DATE
+:rxstore:classes UP-TO-DATE
+:rxstore:jar UP-TO-DATE
+:converters:moshi-converter:compileKotlin
+:converters:moshi-converter:compileJava UP-TO-DATE
+:converters:moshi-converter:copyMainKotlinClasses UP-TO-DATE
+:converters:moshi-converter:processResources UP-TO-DATE
+:converters:moshi-converter:classes UP-TO-DATE
+:converters:moshi-converter:jar UP-TO-DATE
+:sample:compileJava
+:sample:processResources UP-TO-DATE
+:sample:classes
+:sample:jar
+:sample:assemble
+:sample:compileTestJava UP-TO-DATE
+:sample:processTestResources UP-TO-DATE
+:sample:testClasses UP-TO-DATE
+:sample:test UP-TO-DATE
+:sample:check UP-TO-DATE
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.695 secs
+
+2018-04-07 21:19:50,746 ERROR FullProcessService - Project build has not produced APK file
+2018-04-07 21:19:50,762 ERROR FullProcessService - Could not find generated or existed APK file

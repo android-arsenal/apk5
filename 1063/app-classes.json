@@ -1,0 +1,4 @@
+{
+  "com.redinput.compassview" : [ "BuildConfig", "CompassView", "CompassView$1", "CompassView$OnCompassDragListener", "CompassView$mGestureListener", "R", "R$attr", "R$string", "R$styleable" ],
+  "com.redinput.compassview.sample" : [ "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$attr", "R$id", "R$layout", "R$mipmap", "R$string", "R$styleable" ]
+}

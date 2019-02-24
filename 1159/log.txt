@@ -1,0 +1,170 @@
+2018-04-08 01:36:39,446 INFO  DownloadService - Downloading "https://github.com/alirezaafkar/SunDate_Picker/archive/master.zip", attempt 3
+2018-04-08 01:37:40,258 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:37:41,282 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:37:41,282 INFO  DownloadService - Downloading "https://github.com/alirezaafkar/SunDate_Picker/archive/master.zip", attempt 3
+2018-04-08 01:38:43,047 DEBUG FullProcessService - Repository https://github.com/alirezaafkar/SunDate_Picker available: true
+2018-04-08 01:38:43,047 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:38:43,047 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/alirezaafkar/SunDate_Picker, /tmp/rdisk/1159/src]
+2018-04-08 01:38:44,609 INFO  SysUtils - 
+2018-04-08 01:38:44,614 INFO  GitService - Deleted "/tmp/rdisk/1159/src/.git": true
+2018-04-08 01:38:44,618 INFO  FullProcessService - Size of directory with sources: 301 KB
+2018-04-08 01:38:44,618 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1159/src]
+2018-04-08 01:38:44,623 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1159/src/.git/
+
+2018-04-08 01:38:44,626 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1159/src/gradlew
+2018-04-08 01:38:44,629 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1159/src/app/build.gradle /tmp/rdisk/1159/src/sundatepicker/build.gradle /tmp/rdisk/1159/src/build.gradle
+2018-04-08 01:38:44,632 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1159/src/sundatepicker/build.gradle /tmp/rdisk/1159/src/settings.gradle /tmp/rdisk/1159/src/build.gradle /tmp/rdisk/1159/src/app/build.gradle
+2018-04-08 01:38:44,632 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:38:44,632 INFO  ProjectFixService - Fixing project...
+2018-04-08 01:38:44,640 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1159/src/app/local.properties
+2018-04-08 01:38:44,640 INFO  ProjectFixService - Build info for "/tmp/rdisk/1159/src/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-04-08 01:38:44,641 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1159/src/sundatepicker/local.properties
+2018-04-08 01:38:44,641 INFO  ProjectFixService - Build info for "/tmp/rdisk/1159/src/sundatepicker/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-04-08 01:38:44,641 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1159/src/local.properties
+2018-04-08 01:38:44,641 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-08 01:38:44,642 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-08 01:38:44,642 INFO  ProjectFixService - Build info for "/tmp/rdisk/1159/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-04-08 01:38:44,642 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 01:38:44,642 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 01:38:44,642 INFO  SysUtils - Execute command: [/tmp/rdisk/1159/src/gradlew, -b, /tmp/rdisk/1159/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 01:38:54,778 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 01:38:54,778 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 01:38:54,778 INFO  SysUtils - Execute command: [/tmp/rdisk/1159/src/gradlew, -b, /tmp/rdisk/1159/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 01:39:19,761 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportRecyclerviewV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareUkCoChrisjenxCalligraphy220Library
+:sundatepicker:preBuild UP-TO-DATE
+:sundatepicker:preReleaseBuild UP-TO-DATE
+:sundatepicker:checkReleaseManifest
+:sundatepicker:preDebugAndroidTestBuild UP-TO-DATE
+:sundatepicker:preDebugBuild UP-TO-DATE
+:sundatepicker:preDebugUnitTestBuild UP-TO-DATE
+:sundatepicker:preReleaseUnitTestBuild UP-TO-DATE
+:sundatepicker:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sundatepicker:prepareComAndroidSupportAppcompatV72531Library
+:sundatepicker:prepareComAndroidSupportRecyclerviewV72531Library
+:sundatepicker:prepareComAndroidSupportSupportCompat2531Library
+:sundatepicker:prepareComAndroidSupportSupportCoreUi2531Library
+:sundatepicker:prepareComAndroidSupportSupportCoreUtils2531Library
+:sundatepicker:prepareComAndroidSupportSupportFragment2531Library
+:sundatepicker:prepareComAndroidSupportSupportMediaCompat2531Library
+:sundatepicker:prepareComAndroidSupportSupportV42531Library
+:sundatepicker:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sundatepicker:prepareReleaseDependencies
+:sundatepicker:compileReleaseAidl
+:sundatepicker:compileReleaseNdk UP-TO-DATE
+:sundatepicker:compileLint
+:sundatepicker:copyReleaseLint UP-TO-DATE
+:sundatepicker:compileReleaseRenderscript
+:sundatepicker:generateReleaseBuildConfig
+:sundatepicker:generateReleaseResValues
+:sundatepicker:generateReleaseResources
+:sundatepicker:mergeReleaseResources
+:sundatepicker:processReleaseManifest
+:sundatepicker:processReleaseResources
+:sundatepicker:generateReleaseSources
+:sundatepicker:incrementalReleaseJavaCompilationSafeguard
+:sundatepicker:javaPreCompileRelease
+:sundatepicker:compileReleaseJavaWithJavac
+:sundatepicker:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sundatepicker:extractReleaseAnnotations
+:sundatepicker:mergeReleaseShaders
+:sundatepicker:compileReleaseShaders
+:sundatepicker:generateReleaseAssets
+:sundatepicker:mergeReleaseAssets
+:sundatepicker:mergeReleaseProguardFiles
+:sundatepicker:packageReleaseRenderscript UP-TO-DATE
+:sundatepicker:packageReleaseResources
+:sundatepicker:processReleaseJavaRes UP-TO-DATE
+:sundatepicker:transformResourcesWithMergeJavaResForRelease
+:sundatepicker:transformClassesAndResourcesWithSyncLibJarsForRelease
+:sundatepicker:mergeReleaseJniLibFolders
+:sundatepicker:transformNativeLibsWithMergeJniLibsForRelease
+:sundatepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:sundatepicker:transformNativeLibsWithSyncJniLibsForRelease
+:sundatepicker:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1159/src/app/src/main/java/com/afkar/sundatepicker/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1159/src/app/src/main/java/com/afkar/sundatepicker/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.756 secs
+
+2018-04-08 01:39:19,833 INFO  FullProcessService - Found APK file: /tmp/rdisk/1159/src/app/build/outputs/apk/app-debug.apk

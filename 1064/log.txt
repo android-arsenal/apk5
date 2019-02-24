@@ -1,0 +1,438 @@
+2018-04-08 05:29:50,034 INFO  DownloadService - Downloading "https://github.com/tvbarthel/BlurDialogFragment/archive/master.zip", attempt 3
+2018-04-08 05:30:50,705 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 05:30:51,364 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 05:30:51,364 INFO  DownloadService - Downloading "https://github.com/tvbarthel/BlurDialogFragment/archive/master.zip", attempt 3
+2018-04-08 05:31:52,672 DEBUG FullProcessService - Repository https://github.com/tvbarthel/BlurDialogFragment available: true
+2018-04-08 05:31:52,672 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 05:31:52,672 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tvbarthel/BlurDialogFragment, /tmp/rdisk/1064/src]
+2018-04-08 05:31:55,834 INFO  SysUtils - 
+2018-04-08 05:31:55,841 INFO  GitService - Deleted "/tmp/rdisk/1064/src/.git": true
+2018-04-08 05:31:55,846 INFO  FullProcessService - Size of directory with sources: 19 MB
+2018-04-08 05:31:55,846 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1064/src]
+2018-04-08 05:31:55,850 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1064/src/.git/
+
+2018-04-08 05:31:55,854 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1064/src/gradlew
+2018-04-08 05:31:55,858 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1064/src/lib/build.gradle /tmp/rdisk/1064/src/sample/build.gradle /tmp/rdisk/1064/src/build.gradle
+2018-04-08 05:31:55,862 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1064/src/settings.gradle /tmp/rdisk/1064/src/sample/build.gradle /tmp/rdisk/1064/src/lib/build.gradle /tmp/rdisk/1064/src/config/quality.gradle /tmp/rdisk/1064/src/build.gradle
+2018-04-08 05:31:55,862 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 05:31:55,862 INFO  ProjectFixService - Fixing project...
+2018-04-08 05:31:55,871 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1064/src/lib/local.properties
+2018-04-08 05:31:55,871 INFO  ProjectFixService - Build info for "/tmp/rdisk/1064/src/lib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-04-08 05:31:55,871 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1064/src/sample/local.properties
+2018-04-08 05:31:55,871 INFO  ProjectFixService - Build info for "/tmp/rdisk/1064/src/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-04-08 05:31:55,872 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1064/src/local.properties
+2018-04-08 05:31:55,872 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-08 05:31:55,872 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-08 05:31:55,873 INFO  ProjectFixService - Build info for "/tmp/rdisk/1064/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-04-08 05:31:55,873 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 05:31:55,873 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 05:31:55,873 INFO  SysUtils - Execute command: [/tmp/rdisk/1064/src/gradlew, -b, /tmp/rdisk/1064/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 05:32:12,080 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-08 05:32:12,080 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-08 05:32:12,080 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-08 05:32:12,080 INFO  SysUtils - Execute command: [/tmp/rdisk/1064/src/gradlew, -b, /tmp/rdisk/1064/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-08 05:32:55,074 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:compileLint
+:lib:copyDebugLint UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugUnitTestBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:preReleaseUnitTestBuild UP-TO-DATE
+:lib:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:lib:prepareComAndroidSupportAppcompatV72340Library
+:lib:prepareComAndroidSupportSupportV42340Library
+:lib:prepareComAndroidSupportSupportVectorDrawable2340Library
+:lib:prepareDebugDependencies
+:lib:compileDebugAidl
+:lib:compileDebugRenderscript
+:lib:generateDebugBuildConfig
+:lib:generateDebugAssets UP-TO-DATE
+:lib:mergeDebugAssets
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:mergeDebugResources
+:lib:processDebugManifest
+:lib:processDebugResources
+:lib:generateDebugSources
+:lib:processDebugJavaRes UP-TO-DATE
+:lib:compileDebugJavaWithJavacNote: /tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:lib:extractDebugAnnotations
+:lib:mergeDebugProguardFiles
+:lib:packageDebugJar
+:lib:compileDebugNdk UP-TO-DATE
+:lib:packageDebugJniLibs UP-TO-DATE
+:lib:packageDebugLocalJar UP-TO-DATE
+:lib:packageDebugRenderscript UP-TO-DATE
+:lib:packageDebugResources
+:lib:bundleDebug
+:lib:compileDebugSources
+:lib:assembleDebug
+:lib:copyReleaseLint UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:mergeReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:compileReleaseJavaWithJavacNote: /tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:lib:extractReleaseAnnotations
+:lib:mergeReleaseProguardFiles
+:lib:packageReleaseJar
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources
+:lib:bundleRelease
+:lib:compileReleaseSources
+:lib:assembleRelease
+:lib:javadoc/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:7: error: package android.support.v4.app does not exist
+import android.support.v4.app.DialogFragment;
+                             ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:8: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.Toolbar;
+                                ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:17: error: cannot find symbol
+public abstract class SupportBlurDialogFragment extends DialogFragment {
+                                                        ^
+  symbol: class DialogFragment
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:19: error: package android.support.v7.app does not exist
+import android.support.v7.app.ActionBar;
+                             ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:20: error: package android.support.v7.app does not exist
+import android.support.v7.app.ActionBarActivity;
+                             ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:21: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.Toolbar;
+                                ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:27: error: cannot find symbol
+    private Toolbar mToolbar;
+            ^
+  symbol:   class Toolbar
+  location: class SupportBlurDialogFragment
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:126: error: cannot find symbol
+    public void setToolbar(Toolbar toolBar) {
+                           ^
+  symbol:   class Toolbar
+  location: class SupportBlurDialogFragment
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:119: error: cannot find symbol
+    private Toolbar mToolbar;
+            ^
+  symbol:   class Toolbar
+  location: class BlurDialogEngine
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:318: error: cannot find symbol
+    public void setToolbar(Toolbar toolbar) {
+                           ^
+  symbol:   class Toolbar
+  location: class BlurDialogEngine
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/RenderScriptBlurHelper.java:5: error: package android.support.v8.renderscript does not exist
+import android.support.v8.renderscript.Allocation;
+                                      ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/RenderScriptBlurHelper.java:6: error: package android.support.v8.renderscript does not exist
+import android.support.v8.renderscript.Element;
+                                      ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/RenderScriptBlurHelper.java:7: error: package android.support.v8.renderscript does not exist
+import android.support.v8.renderscript.RSRuntimeException;
+                                      ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/RenderScriptBlurHelper.java:8: error: package android.support.v8.renderscript does not exist
+import android.support.v8.renderscript.RenderScript;
+                                      ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/RenderScriptBlurHelper.java:9: error: package android.support.v8.renderscript does not exist
+import android.support.v8.renderscript.ScriptIntrinsicBlur;
+                                      ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:10: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.Toolbar;
+                                ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:29: error: cannot find symbol
+    private Toolbar mToolbar;
+            ^
+  symbol:   class Toolbar
+  location: class BlurDialogFragment
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:128: error: cannot find symbol
+    public void setToolbar(Toolbar toolBar) {
+                           ^
+  symbol:   class Toolbar
+  location: class BlurDialogFragment
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:237: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:248: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:251: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:266: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:282: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:285: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:304: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:37: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogEngine.java:39: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:123: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:137: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:148: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:150: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:162: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:164: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:176: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:178: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:189: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:191: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:202: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:204: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:206: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/BlurDialogFragment.java:15: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:121: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:135: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:146: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:148: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:160: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:162: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:174: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:176: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:187: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:189: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:200: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:202: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:204: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:13: error: reference not found
+ * app using {@link android.support.v4.app.DialogFragment}.
+                    ^
+/tmp/rdisk/1064/src/lib/src/main/java/fr/tvbarthel/lib/blurdialogfragment/SupportBlurDialogFragment.java:14: error: self-closing element not allowed
+ * <p/>
+   ^
+
+38 errors
+19 warnings
+:lib:javadocJar
+:lib:sourcesJar
+:lib:assemble
+:lib:checkstyle
+:lib:findbugs
+Download https://jcenter.bintray.com/com/google/code/findbugs/findbugs/3.0.0/findbugs-3.0.0.pom
+Download https://jcenter.bintray.com/com/google/code/findbugs/findbugs/3.0.0/findbugs-3.0.0.jar
+:lib:lint
+Ran lint on variant release: 3 issues found
+Ran lint on variant debug: 3 issues found
+Wrote HTML report to file:/tmp/rdisk/1064/src/lib/build/reports/lint/lint.html
+Wrote XML report to /tmp/rdisk/1064/src/lib/build/outputs/lint-results.xml
+:lib:pmd
+Download https://jcenter.bintray.com/net/sourceforge/pmd/pmd/5.1.1/pmd-5.1.1.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant-testutil/1.7.1/ant-testutil-1.7.1.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant-parent/1.7.1/ant-parent-1.7.1.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.0_BETA/asm-5.0_BETA.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.0_BETA/asm-parent-5.0_BETA.pom
+Download https://jcenter.bintray.com/junit/junit/4.4/junit-4.4.pom
+Download https://jcenter.bintray.com/net/sourceforge/pmd/pmd/5.1.1/pmd-5.1.1.jar
+Download https://jcenter.bintray.com/org/apache/ant/ant-testutil/1.7.1/ant-testutil-1.7.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.0_BETA/asm-5.0_BETA.jar
+Download https://jcenter.bintray.com/junit/junit/4.4/junit-4.4.jar
+:lib:prepareDebugUnitTestDependencies
+:lib:processDebugUnitTestJavaRes UP-TO-DATE
+:lib:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:lib:compileDebugUnitTestSources UP-TO-DATE
+:lib:mockableAndroidJar
+:lib:assembleDebugUnitTest
+:lib:testDebugUnitTest
+:lib:prepareReleaseUnitTestDependencies
+:lib:processReleaseUnitTestJavaRes UP-TO-DATE
+:lib:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:lib:compileReleaseUnitTestSources UP-TO-DATE
+:lib:assembleReleaseUnitTest
+:lib:testReleaseUnitTest
+:lib:test
+:lib:check
+:lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 42.539 secs
+
+2018-04-08 05:32:55,113 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 05:32:55,113 INFO  SysUtils - Execute command: [/tmp/rdisk/1064/src/gradlew, -b, /tmp/rdisk/1064/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 05:33:02,256 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-04-08 05:33:02,256 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 05:33:02,256 INFO  SysUtils - Execute command: [/tmp/rdisk/1064/src/gradlew, -b, /tmp/rdisk/1064/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 05:33:34,093 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:compileLint
+:lib:copyReleaseLint UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:preDebugUnitTestBuild UP-TO-DATE
+:lib:preReleaseUnitTestBuild UP-TO-DATE
+:lib:prepareComAndroidSupportAnimatedVectorDrawable2340Library UP-TO-DATE
+:lib:prepareComAndroidSupportAppcompatV72340Library UP-TO-DATE
+:lib:prepareComAndroidSupportSupportV42340Library UP-TO-DATE
+:lib:prepareComAndroidSupportSupportVectorDrawable2340Library UP-TO-DATE
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl UP-TO-DATE
+:lib:compileReleaseRenderscript UP-TO-DATE
+:lib:generateReleaseBuildConfig UP-TO-DATE
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets UP-TO-DATE
+:lib:generateReleaseResValues UP-TO-DATE
+:lib:generateReleaseResources UP-TO-DATE
+:lib:mergeReleaseResources UP-TO-DATE
+:lib:processReleaseManifest UP-TO-DATE
+:lib:processReleaseResources UP-TO-DATE
+:lib:generateReleaseSources UP-TO-DATE
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:compileReleaseJavaWithJavac UP-TO-DATE
+:lib:extractReleaseAnnotations UP-TO-DATE
+:lib:mergeReleaseProguardFiles UP-TO-DATE
+:lib:packageReleaseJar UP-TO-DATE
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources UP-TO-DATE
+:lib:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:sample:prepareComAndroidSupportAppcompatV72340Library
+:sample:prepareComAndroidSupportCardviewV72340Library
+:sample:prepareComAndroidSupportSupportV42340Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2340Library
+:sample:prepareFrTvbarthelBlurdialogfragmentLib220Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:preDexDebug
+:sample:dexDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:preDexRelease
+:sample:dexRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 31.407 secs
+
+2018-04-08 05:33:34,171 INFO  FullProcessService - Found APK file: /tmp/rdisk/1064/src/sample/build/outputs/apk/sample-release-unsigned.apk

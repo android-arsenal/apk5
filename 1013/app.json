@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "info.guardianproject.urzip",
+    "label" : "urzip-πÇÇπÇÇ现代汉语通用字-български-عربي1234",
+    "icon" : "res/drawable/ic_launcher.png",
+    "versionName" : "0.1",
+    "versionCode" : 100,
+    "installLocation" : null,
+    "minSdkVersion" : "4",
+    "targetSdkVersion" : "18",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAFTElEQVRIx6WUeVDUdRjGnx97sMDCsssuu8uyywILOMThgoioIASCFzYy4DgCoqUOeRRyhpAg5vhPQ001llZemMqhiGKTxhFZGdbkmNoB6yIwgqgILCyoe7z94USSUFjPn+/3nefzPt+LwTTU1noAodGZcJcJl90dYTIUoYsy7Hjc0dbT+6HR+EAtF3EMJjYneG7s2NiokaI09oDVjKpzLTz2v5mToQMhYZGYE6yRXr6uz3pEXFc2PeZZTdZRANDp2sEyyZd33R3cfO3a1Z8tZvPlGobMthx2oNlKQf8I2Jy2FLhzhTFZbcKutvdunxU+L7Zdp+/t69K5cjjsBwDgrZRAKLC/cuf+AMvG1vb1iOgF1jHjCC5932rlOgiOT2metz4JRARvd8lKJ75Dt5OTgFJSVpJKqbQKZepNAFD0yXl8e3w3lK7OCPFzD1K4ydtO1tZR0Rt55CiUnAiNSxZObr7hibnaTZQcFBTUe+hwBdXVnabSkh0UHjaL+AJRqzponrvMKxAdFiveLUwHAHjIhNkBAYHkofbsc/PVhklUfpNNvuKJuVyUHBwc3HuhoYmeVv/9e1RUWEASmaLaf3asTKEJwigRorQaxIb5efHtuJ32AnFdeslBbkJG3tTmWm1Ib2NzCxERDQwM0NjDh2Q2m2loaIgMQ0P0ZlEhyRSqau38xTJP/1C8U5CKG9WlbJmLoM7ZVVkKAEe+0z8xHjV0ItBHhVXLonkqmShNq9X2NrdcJCIii9lEu8tKaXVqGuVkb6PU9DXU09tHY6NG2l6QRyKJ/LhAGSBWePmDiBiVXHxUJFNnj0/toXSLEAmdFzo62GXa2XJPS1xdh8+e+2LCttzS62jTq5m0bu1aqqw+NV43jgxTfs42q6OzuEKoDhIDwDMAsdCphcViGcMj5lLYrBBKW/sKPTaZ6e/a/+EHtDTxJRoxjk6ojwwbKCfrNSvf2aVidlS8RCUXVzwNYPt5Klbqbt3eShZLNpvNtVu8aBE4bNYzh69QuEEkEoHH402oO/AdUVq2izFbLKmHj1UzfC7LBQD9uW6jkrv0lWxJ2dl185cDv7W1w0ejmfTqMgwDBgAzyRrf0Qllu95iMlYnrxowjMQSYBkH/KrrxJnGHwQms1XB4dqCZ8fDf5GTwBkJ8fEsLofNIRoPAPYDw+iSjp7+rVExC+MNgwPo6upGoP+M5wZ8/VUTSna+ddOGYUzEMDbjCfoHjcVjj0z+HXr9mE7Xjvr6elit9NzmWdm5+vbuvky+HedHAH8BhELBcpmrOLKnuyPRMPig/ExtTU/VyVPTN29uRFZ2rv7GzZ6Ng33dDUTETNqYkhABoi7G10Ma4+fr+3tl9ckJ1/Hzs7W0JmMdWSzW8VpLUwNptVo910kaB2DShzYepfr8JezbXU5tnX3NLNPwxh3Fhe1VNbVTTt7S3IhtuQXdt+8btzw29DXsfe/t6UXetycHADDDQ7rA19enrbLm1IQEZouFmhou0MyZMztFbp5LAODl/D3ouPjZ5F/FZCov3gAA8HITLvD10bSdqKqhI4c+peiYFyk/L5fUnp4DAqnHCgBIXJ8PAM8HAICyrckAAG83YYLUVdIlk8kofM4c8vbyJHuB+Ghq8cec+UkbxvunAthMBdjxfg3SE+djU+rSL/m2TNKY0VCvULiTWCIxcx0EZ6rLc0yVB/fif+vhwHWEzlAhISJAJhI4NNnaOfSrA+cGqF4In9DX8c0xEBG8lPJ8qdIniQEzfciVcx/Bls3AXy1d7ugk+EmtjVb5hMVN6DHd0wMsFyyOi+FExi1hhUVEAgD+AEHMpKzbAnLDAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 10,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"100\" android:versionName=\"0.1\" package=\"info.guardianproject.urzip\" platformBuildVersionCode=\"18\" platformBuildVersionName=\"4.3.1-1425645\">\n\t<uses-sdk android:minSdkVersion=\"4\" android:targetSdkVersion=\"18\" />\n\t<application android:label=\"urzip-πÇÇπÇÇ现代汉语通用字-български-عربي1234\" android:icon=\"res/drawable/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"urzip-πÇÇπÇÇ现代汉语通用字-български-عربي1234\" android:name=\"info.guardianproject.urzip.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEND\" />\n\t\t\t\t<action android:name=\"android.intent.action.SENDTO\" />\n\t\t\t\t<action android:name=\"android.intent.action.SEND_MULTIPLE\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<data android:mimeType=\"*/*\" android:scheme=\"file\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:host=\"*\" />\n\t\t\t\t<data android:scheme=\"file\" />\n\t\t\t\t<data android:mimeType=\"*/*\" />\n\t\t\t\t<data android:pathPattern=\".*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\..*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\..*\\..*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\..*\\..*\\..*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.zip\" />\n\t\t\t\t<data android:pathPattern=\".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.zip\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 11471,
+  "crc32" : 3031535971,
+  "sha256" : "15c0ec72c74a3791f42cdb43c57df0fb11a4dbb656851bbb8cf05b26a8372789",
+  "buildTime" : 1526979506000
+}

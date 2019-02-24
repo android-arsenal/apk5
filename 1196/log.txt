@@ -1,0 +1,21 @@
+2018-04-07 20:50:24,621 INFO  DownloadService - Downloading "https://github.com/clemp6r/futuroid/archive/master.zip", attempt 3
+2018-04-07 20:51:24,622 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-07 20:51:25,393 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-07 20:51:25,394 INFO  DownloadService - Downloading "https://github.com/clemp6r/futuroid/archive/master.zip", attempt 3
+2018-04-07 20:52:26,147 DEBUG FullProcessService - Repository https://github.com/clemp6r/futuroid available: true
+2018-04-07 20:52:26,147 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-07 20:52:26,147 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/clemp6r/futuroid, /tmp/rdisk/1196/src]
+2018-04-07 20:52:27,486 INFO  SysUtils - 
+2018-04-07 20:52:27,493 INFO  GitService - Deleted "/tmp/rdisk/1196/src/.git": true
+2018-04-07 20:52:27,494 INFO  FullProcessService - Size of directory with sources: 24 KB
+2018-04-07 20:52:27,494 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1196/src]
+2018-04-07 20:52:27,498 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1196/src/.git/
+
+2018-04-07 20:52:27,500 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-07 20:52:27,500 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-07 20:52:27,501 INFO  ProjectBuildService - Build script(s): none
+2018-04-07 20:52:27,502 INFO  ProjectBuildService - All script(s): none
+2018-04-07 20:52:27,502 INFO  ProjectBuildService - Remote scripts: none
+2018-04-07 20:52:27,502 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-07 20:52:27,502 ERROR FullProcessService - Project build has not produced APK file
+2018-04-07 20:52:27,503 ERROR FullProcessService - Could not find generated or existed APK file

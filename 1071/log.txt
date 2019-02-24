@@ -1,0 +1,21 @@
+2018-04-08 05:10:33,760 INFO  DownloadService - Downloading "https://github.com/Sefford/CircularProgressDrawable/archive/master.zip", attempt 3
+2018-04-08 05:11:34,354 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 05:11:35,047 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 05:11:35,047 INFO  DownloadService - Downloading "https://github.com/Sefford/CircularProgressDrawable/archive/master.zip", attempt 3
+2018-04-08 05:12:36,361 DEBUG FullProcessService - Repository https://github.com/Sefford/CircularProgressDrawable available: true
+2018-04-08 05:12:36,361 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 05:12:36,361 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Sefford/CircularProgressDrawable, /tmp/rdisk/1071/src]
+2018-04-08 05:12:40,324 INFO  SysUtils - 
+2018-04-08 05:12:40,337 INFO  GitService - Deleted "/tmp/rdisk/1071/src/.git": true
+2018-04-08 05:12:40,339 INFO  FullProcessService - Size of directory with sources: 14 MB
+2018-04-08 05:12:40,339 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1071/src]
+2018-04-08 05:12:40,343 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1071/src/.git/
+
+2018-04-08 05:12:40,346 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-08 05:12:40,346 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-08 05:12:40,347 INFO  ProjectBuildService - Build script(s): none
+2018-04-08 05:12:40,349 INFO  ProjectBuildService - All script(s): none
+2018-04-08 05:12:40,349 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 05:12:40,349 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-08 05:12:40,349 ERROR FullProcessService - Project build has not produced APK file
+2018-04-08 05:12:40,351 ERROR FullProcessService - Could not find generated or existed APK file

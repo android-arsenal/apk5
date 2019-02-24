@@ -1,0 +1,21 @@
+2018-04-07 21:13:19,817 INFO  DownloadService - Downloading "https://github.com/inloop/shadow4android/archive/master.zip", attempt 3
+2018-04-07 21:14:19,818 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-07 21:14:20,463 INFO  GithubDownloadService - Default branch of this repository: gh-pages
+2018-04-07 21:14:20,463 INFO  DownloadService - Downloading "https://github.com/inloop/shadow4android/archive/gh-pages.zip", attempt 3
+2018-04-07 21:15:21,303 DEBUG FullProcessService - Repository https://github.com/inloop/shadow4android available: true
+2018-04-07 21:15:21,303 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-07 21:15:21,303 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/inloop/shadow4android, /tmp/rdisk/1188/src]
+2018-04-07 21:15:23,030 INFO  SysUtils - 
+2018-04-07 21:15:23,040 INFO  GitService - Deleted "/tmp/rdisk/1188/src/.git": true
+2018-04-07 21:15:23,041 INFO  FullProcessService - Size of directory with sources: 757 KB
+2018-04-07 21:15:23,041 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1188/src]
+2018-04-07 21:15:23,049 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1188/src/.git/
+
+2018-04-07 21:15:23,053 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-07 21:15:23,053 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-07 21:15:23,054 INFO  ProjectBuildService - Build script(s): none
+2018-04-07 21:15:23,055 INFO  ProjectBuildService - All script(s): none
+2018-04-07 21:15:23,055 INFO  ProjectBuildService - Remote scripts: none
+2018-04-07 21:15:23,055 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-07 21:15:23,055 ERROR FullProcessService - Project build has not produced APK file
+2018-04-07 21:15:23,057 ERROR FullProcessService - Could not find generated or existed APK file

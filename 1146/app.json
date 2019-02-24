@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.sqisland.android.advanced_textview",
+    "label" : "Advanced TextView",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "7",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB41BMVEUAAAAAAACnzDqy2D8AAACRwAmazASZywMAAACPvgSZzACXyQCJtwB+qAB1nABukwBpjABlhgBigwBggQBggABffwBffgB9pwB4oABkhQBjhQBmiABnigBqjQBtkgBymQB/qgCKuACXygAAAACAqgBEWwBIXgBIYQBIYABIYABHYABHXgBGXQBGXABFXABFXABoigCYywBdfABGXgBGXgBHXwBIYABJYQBIYABIYABHXgBFWwCCrQBvlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABqigxfeQoAAAAAAAAAAAAAAABymQBrjQoAAAAAAAAAAAAAAAAAAAAAAABwjxJphhUAAAAAAABvkQpohw1qhxZqiA1ifQ9xkBJjgA5eeBJeeRGPvQRYbRMAAAAAAABZbxF6owSBrABIVQ0AAABOYA9/qQBJYQJGXgBIXwAADQAAAAAUHQBHXwAAAAAAAAB0lRNuixh7lyaVwBqVuiBzmSZvkRqqzjWt0zmv1Tqw1z2x1z6x2Tyj0Rqm0iKx2D2x1z6v1jyu1Tqs0ziq0DVVjgBrhR2gyiOeyRubyBWYxg2VxQWTxACVxQaZxw6cyBafyhyhyiRadRVbcxVAVQBNXxIAAAAAAAAAAAAAAAATm9dQAAAAoXRSTlMAAuLyCu3//w3t/////////////////////////////////w788ODSxLmwqaWjo6DS/8yus7e8w83X4/H91TgxLCgmIyIhICWwlCQqLjnZwxULCQgHBq2PDBbHro60mayff4fuYAQFavD/OQNF/9rl3hMBGuEwJ6uLG66QFB5+nLjS6/z///vnz7SXeAlY//////////////8lX/srEzI7PIBF9G8AAAGCSURBVEjHY2AYjICRiZk4wMQI0cDCygYF7GDAhgCoPFYWiAYOTi4ubh5ePn4BQSFhEVExcS4YkJCUEpSWkZWTl1BQVOLi4uSAaFAGalBRVVPX0NTS1tHV0zeAqTc0MjbWMjE1M7ewtLK2AWpQRmiwtbN3cHRydnF1dXP3gGvwdHJ29nJ3cvT2sff1Q9XgHxAYFBwSEgoEHGFwDeERoSFAEBzEEhgZhaLBMJoFHmjBCA0xoXBRllhDFA1xwQgN8dg0BCegakgMJaAhJAlJQzKXYUoqAQ1p6YZcyTANGZniWdkENGTn5GZmQDVw5OUXFBYR0MBYXJKfB424IPfSMkQg4dDAEOho7x4E1RwcGMRIUANjUGAwI9bEi0MDbjCqYVTDqIZRDSRqKIdXWRVEaaisgmuorsGvtLauvqGxqbkFrqG1rb2js6u7B4f6ot6+/gkTJ01GBlOmTps+YyYODdmzZmMHc4pwtAjmzps/f/4CVAAUKVXGoYEhNUIZGwjMpqhlAgBl3Ksy2TeCqwAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 122,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.2.0\" package=\"com.sqisland.android.advanced_textview\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f090001\" android:label=\"Advanced TextView\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Advanced TextView\" android:name=\"com.sqisland.android.advanced_textview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Animated CompoundDrawable\" android:name=\"com.sqisland.android.advanced_textview.AnimatedCompoundDrawableActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Text with shadow\" android:name=\"com.sqisland.android.advanced_textview.ShadowTextActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Custom font\" android:name=\"com.sqisland.android.advanced_textview.CustomFontActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Non-breaking space\" android:name=\"com.sqisland.android.advanced_textview.NonBreakingSpaceActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Gradient text\" android:name=\"com.sqisland.android.advanced_textview.GradientTextActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Patterned text\" android:name=\"com.sqisland.android.advanced_textview.PatternedTextActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"From HTML\" android:name=\"com.sqisland.android.advanced_textview.FromHtmlActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Fraction\" android:name=\"com.sqisland.android.advanced_textview.FractionActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Styled string\" android:name=\"com.sqisland.android.advanced_textview.StyledStringActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"AlignmentSpan\" android:name=\"com.sqisland.android.advanced_textview.AlignmentSpanActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Rainbow span\" android:name=\"com.sqisland.android.advanced_textview.RainbowSpanActivity\" android:windowSoftInputMode=\"0x10\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Animated rainbow span\" android:name=\"com.sqisland.android.advanced_textview.AnimatedRainbowSpanActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"ClickableSpan\" android:name=\"com.sqisland.android.advanced_textview.ClickableSpanActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Lined paper\" android:name=\"com.sqisland.android.advanced_textview.LinedPaperActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"Emoji\" android:name=\"com.sqisland.android.advanced_textview.EmojiActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t\t<activity android:label=\"About\" android:name=\"com.sqisland.android.advanced_textview.AboutActivity\" android:parentActivityName=\"com.sqisland.android.advanced_textview.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 306213,
+  "crc32" : 3780138708,
+  "sha256" : "1c9bc1a8b17e8acf81aa8818a094128eeed2d5372a6820c01b378b5f49651aad",
+  "buildTime" : 1523153573000
+}

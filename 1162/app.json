@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.heinrichreimersoftware.materialdrawerdemo",
+    "label" : "material-drawer",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.3.3",
+    "versionCode" : 23300,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABqlBMVEUAAAAAAAAAAACWhoC2o5zn5+e/v7+3pZ4AAADIyMgAAABUVFQAAAAAAAAGBgYAAADT09O/v78AAABJSUnNzc25ubk+Pj4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0oJmwm5Swm5OvmpOvmZKumZGtmJCtl5Cslo+slo6rlY2qlIyqk4upkoqpkomokYmokYinkIinj4fT09Pf39/i4uLj4+Pm5uawmpOumJCtl4+rlIypk4uokIimjoaljoWljYWkjISkjIOki4Oji4KjioKiioHBwcHPz8/e3t7g4ODh4eGzn5iumJGmj4aljYS7u7vGxsbU1NTk5OSvmZG5ubnX19e6urrS0tLY2NjQ0NDHx8ewkojqdE7+elHqc06vkYf/aDn37er/Zzjqckz5ybr/Zzf/ZjbR0dH7pYr40sb7rpa0jH/IyMjqcUv429L29vbqcEq8vLyuj4X9iWWuj4TV1dXd19Xd19Tc1tTv7++jo6O2trbAwMC/v7/u7u6ioqK1tbW9vb3W1tahoaHJycmgoKC0tLTo6Oi+vr7t7e3n5+fp6enFxcUkzhI9AAAAIHRSTlMAAgUTwcEUwQglDhMQDxIMyckLMM3OMgQBJjc5NigHEo3ssKAAAAJVSURBVEjHzdbrX9JQHAZwtSwz7GI3umdFwNha29LiJmBWi0Jk5hxdtCSVLFLKKGcxc2Zp9T93ztkGc2dnH+hVz+vnu9+zz3hBR8c/p7PLI514f8/eSwOXr1wNXAuGwhQVoWnmOnuD43jh5uDQ0K3ufdjz998ORGNhKk4nGDbJ88OpdGbkzujde/fFB9ls9mG380bPo0AuCh9uibFUOp8BYrwgAZCdOOAAvY9zuWjMWMMwLNe4MVkQZXjioAP4YsFgEAHjBMePDafyQEwVRKUIRJ8ThGIx0LcAPIFGjQAgCED4nCAcCoG+CawTaQieCFBggAqHjX7EDvKZqacQSEUcGIk3gbFpHAJJkjAQj1PPnk9Pz7xAfQPATRBIboCOxGdezs6WXiV2gTwAkitI0HSpNDc3v4D6dlB2B0wiMf96cfHNwtvGAQNUSIBh3i0tLy9VUd88AMB7EmBZ5kN1ZaX6kTUHoUUeIMk2Ap7fWJQhAi6Z3NU3F5EBzwGCwpl9tMgCNQx8csvn1VUD1HCgEoJArU1QaxPUSGBt7YuqFpuRZQQUb/C1mXpdVTUvsL7+zXZBBlE1bQMCvdV30AygE0ClomB9OAn2caBp6uYmmFS3BwEBAt0FaO7guwD7rqBSKWu2MUYAgH1X4BoIdALY2vqhabIZ/WcD6J7AXL+9Pdgi0K20cIH0Du2Bjf8PmO8gtwlkHOx4AfAdnaDvlwcAH758yAEOH9khAvhDOdrvAF3Hjk/8dsvkH1FRxBMnTzmAv//0mbPEnDvfi/058V/wXSTG1+O3en8BRXkhPDIvVx8AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1770,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"23300\" android:versionName=\"2.3.3\" package=\"com.heinrichreimersoftware.materialdrawerdemo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:theme=\"resourceId:0x7f08003f\" android:label=\"material-drawer\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:name=\"com.heinrichreimersoftware.materialdrawerdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.heinrichreimersoftware.materialdrawerdemo.MainActivity2\" android:parentActivityName=\"com.heinrichreimersoftware.materialdrawerdemo.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.heinrichreimersoftware.materialdrawerdemo.MainActivity\" />\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0800a9\" android:name=\"com.heinrichreimersoftware.materialdrawerdemo.MainActivity3\" android:parentActivityName=\"com.heinrichreimersoftware.materialdrawerdemo.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.heinrichreimersoftware.materialdrawerdemo.MainActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1608872,
+  "crc32" : 1997918760,
+  "sha256" : "ca25b8294ac5668166c657ceec5507e6b49a55188260ec898160bc10fd8eee56",
+  "buildTime" : 1523150988000
+}

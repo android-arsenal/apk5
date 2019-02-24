@@ -1,0 +1,5 @@
+{
+  "com.skyfishjy.library" : [ "BuildConfig", "R", "R$attr", "R$color", "R$dimen", "R$id", "R$styleable", "RippleBackground", "RippleBackground$RippleView" ],
+  "com.skyfishjy.library.ripplebackground.sample" : [ "BuildConfig", "R", "R$attr", "R$color", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$styleable" ],
+  "com.skyfishjy.ripplebackground.sample" : [ "MainActivity", "MainActivity$1", "MainActivity$1$1" ]
+}

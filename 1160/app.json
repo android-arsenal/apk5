@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.nispok.samples.snackbar",
+    "label" : "Snackbar Demo",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.3.9",
+    "versionCode" : 18,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1333,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"18\" android:versionName=\"1.3.9\" package=\"com.nispok.samples.snackbar\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f0c0001\" android:label=\"Snackbar Demo\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"com.nispok.samples.snackbar.SnackbarSampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.nispok.samples.snackbar.SnackbarListViewSampleActivity\" />\n\t\t<activity android:name=\"com.nispok.samples.snackbar.SnackbarRecyclerViewSampleActivity\" />\n\t\t<activity android:name=\"com.nispok.samples.snackbar.SnackbarNavigationBarTranslucentSampleActivity\" />\n\t\t<activity android:name=\"com.nispok.samples.snackbar.SnackbarImmersiveModeSampleActivity\" />\n\t\t<activity android:name=\"com.nispok.samples.snackbar.SnackbarShowInDialogSampleActivity\" />\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1177460,
+  "crc32" : 1607674492,
+  "sha256" : "d0ec1c266725f02ede3190a4e2ce78a1edff80e1173499c8db4cc54728186e2a",
+  "buildTime" : 1523151393000
+}

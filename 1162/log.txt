@@ -1,0 +1,213 @@
+2018-04-08 01:27:43,681 INFO  DownloadService - Downloading "https://github.com/heinrichreimer/material-drawer/archive/master.zip", attempt 3
+2018-04-08 01:28:44,149 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 01:28:44,814 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 01:28:44,814 INFO  DownloadService - Downloading "https://github.com/heinrichreimer/material-drawer/archive/master.zip", attempt 3
+2018-04-08 01:29:46,170 DEBUG FullProcessService - Repository https://github.com/heinrichreimer/material-drawer available: true
+2018-04-08 01:29:46,170 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 01:29:46,170 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/heinrichreimer/material-drawer, /tmp/rdisk/1162/src]
+2018-04-08 01:29:48,340 INFO  SysUtils - 
+2018-04-08 01:29:48,345 INFO  GitService - Deleted "/tmp/rdisk/1162/src/.git": true
+2018-04-08 01:29:48,350 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-04-08 01:29:48,350 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1162/src]
+2018-04-08 01:29:48,354 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1162/src/.git/
+
+2018-04-08 01:29:48,358 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1162/src/gradlew
+2018-04-08 01:29:48,364 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1162/src/demo/build.gradle /tmp/rdisk/1162/src/library/build.gradle /tmp/rdisk/1162/src/build.gradle
+2018-04-08 01:29:48,368 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1162/src/settings.gradle /tmp/rdisk/1162/src/library/build.gradle /tmp/rdisk/1162/src/demo/build.gradle /tmp/rdisk/1162/src/build.gradle
+2018-04-08 01:29:48,368 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 01:29:48,368 INFO  ProjectFixService - Fixing project...
+2018-04-08 01:29:48,376 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1162/src/demo/local.properties
+2018-04-08 01:29:48,376 INFO  ProjectFixService - Build info for "/tmp/rdisk/1162/src/demo/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 01:29:48,376 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1162/src/library/local.properties
+2018-04-08 01:29:48,377 INFO  ProjectFixService - Build info for "/tmp/rdisk/1162/src/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 01:29:48,377 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1162/src/local.properties
+2018-04-08 01:29:48,379 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-08 01:29:48,379 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-08 01:29:48,380 INFO  ProjectFixService - Build info for "/tmp/rdisk/1162/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-08 01:29:48,380 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 01:29:48,380 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 01:29:48,380 INFO  SysUtils - Execute command: [/tmp/rdisk/1162/src/gradlew, -b, /tmp/rdisk/1162/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 01:29:57,643 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-08 01:29:57,643 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 01:29:57,643 INFO  SysUtils - Execute command: [/tmp/rdisk/1162/src/gradlew, -b, /tmp/rdisk/1162/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 01:30:05,984 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-08 01:30:05,984 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:checkDebugManifest
+:demo:preReleaseBuild UP-TO-DATE
+:demo:prepareComAndroidSupportAnimatedVectorDrawable2530Library
+:demo:prepareComAndroidSupportAppcompatV72530Library
+:demo:prepareComAndroidSupportPaletteV72530Library
+:demo:prepareComAndroidSupportSupportCompat2530Library
+:demo:prepareComAndroidSupportSupportCoreUi2530Library
+:demo:prepareComAndroidSupportSupportCoreUtils2530Library
+:demo:prepareComAndroidSupportSupportFragment2530Library
+:demo:prepareComAndroidSupportSupportMediaCompat2530Library
+:demo:prepareComAndroidSupportSupportV42530Library
+:demo:prepareComAndroidSupportSupportVectorDrawable2530Library
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2530Library
+:library:prepareComAndroidSupportAppcompatV72530Library
+:library:prepareComAndroidSupportPaletteV72530Library
+:library:prepareComAndroidSupportSupportCompat2530Library
+:library:prepareComAndroidSupportSupportCoreUi2530Library
+:library:prepareComAndroidSupportSupportCoreUtils2530Library
+:library:prepareComAndroidSupportSupportFragment2530Library
+:library:prepareComAndroidSupportSupportMediaCompat2530Library
+:library:prepareComAndroidSupportSupportV42530Library
+:library:prepareComAndroidSupportSupportVectorDrawable2530Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+java.lang.NoClassDefFoundError: Could not initialize class sun.awt.X11GraphicsEnvironment
+:library:mergeReleaseResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:mergeReleaseResources'.
+> java.lang.NoClassDefFoundError: Could not initialize class sun.awt.X11GraphicsEnvironment
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:mergeReleaseResources'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:84)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
+	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: com.android.build.gradle.tasks.ResourceException: java.lang.NoClassDefFoundError: Could not initialize class sun.awt.X11GraphicsEnvironment
+	at com.android.build.gradle.tasks.MergeResources.doFullTaskAction(MergeResources.java:166)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:88)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:163)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
+	... 62 more
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class sun.awt.X11GraphicsEnvironment
+	at com.android.ide.common.res2.MergeWriter.end(MergeWriter.java:54)
+	at com.android.ide.common.res2.MergedResourceWriter.end(MergedResourceWriter.java:220)
+	at com.android.ide.common.res2.DataMerger.mergeData(DataMerger.java:301)
+	at com.android.ide.common.res2.ResourceMerger.mergeData(ResourceMerger.java:410)
+	at com.android.build.gradle.tasks.MergeResources.doFullTaskAction(MergeResources.java:159)
+	... 69 more
+Caused by: java.lang.RuntimeException: java.lang.NoClassDefFoundError: Could not initialize class sun.awt.X11GraphicsEnvironment
+	at com.android.ide.common.internal.WaitableExecutor.waitForTasksWithQuickFail(WaitableExecutor.java:147)
+	at com.android.ide.common.res2.MergeWriter.end(MergeWriter.java:50)
+	... 73 more
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class sun.awt.X11GraphicsEnvironment
+	at com.android.ide.common.vectordrawable.VdTree.drawIntoImage(VdTree.java:87)
+	at com.android.ide.common.vectordrawable.VdPreview.getPreviewFromVectorTree(VdPreview.java:349)
+	at com.android.ide.common.vectordrawable.VdPreview.getPreviewFromVectorXml(VdPreview.java:285)
+	at com.android.builder.png.VectorDrawableRenderer.generateFile(VectorDrawableRenderer.java:152)
+	at com.android.ide.common.res2.MergedResourceWriter.lambda$addItem$1(MergedResourceWriter.java:333)
+
+
+BUILD FAILED
+
+Total time: 8.106 secs
+
+2018-04-08 01:30:06,000 INFO  FullProcessService - Found APK file: /tmp/rdisk/1162/src/demo/demo-release.apk

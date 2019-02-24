@@ -1,0 +1,88 @@
+2018-04-08 05:00:50,209 INFO  DownloadService - Downloading "https://github.com/MarinX/godroid/archive/master.zip", attempt 3
+2018-04-08 05:01:50,683 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-08 05:01:51,351 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-08 05:01:51,351 INFO  DownloadService - Downloading "https://github.com/MarinX/godroid/archive/master.zip", attempt 3
+2018-04-08 05:02:52,576 DEBUG FullProcessService - Repository https://github.com/MarinX/godroid available: true
+2018-04-08 05:02:52,576 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-08 05:02:52,576 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MarinX/godroid, /tmp/rdisk/1075/src]
+2018-04-08 05:02:59,222 INFO  SysUtils - 
+2018-04-08 05:02:59,236 INFO  GitService - Deleted "/tmp/rdisk/1075/src/.git": true
+2018-04-08 05:02:59,238 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-04-08 05:02:59,238 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1075/src]
+2018-04-08 05:02:59,243 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1075/src/.git/
+
+2018-04-08 05:02:59,245 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1075/src/android_studio_app/GoDroid/gradlew
+2018-04-08 05:02:59,247 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1075/src/android_studio_app/GoDroid/app/build.gradle /tmp/rdisk/1075/src/android_studio_app/GoDroid/build.gradle
+2018-04-08 05:02:59,249 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1075/src/android_studio_app/GoDroid/settings.gradle /tmp/rdisk/1075/src/android_studio_app/GoDroid/build.gradle /tmp/rdisk/1075/src/android_studio_app/GoDroid/app/build.gradle
+2018-04-08 05:02:59,250 INFO  ProjectBuildService - Remote scripts: none
+2018-04-08 05:02:59,250 INFO  ProjectFixService - Fixing project...
+2018-04-08 05:02:59,255 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1075/src/android_studio_app/GoDroid/app/local.properties
+2018-04-08 05:02:59,255 INFO  ProjectFixService - Build info for "/tmp/rdisk/1075/src/android_studio_app/GoDroid/app/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-08 05:02:59,255 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1075/src/android_studio_app/GoDroid/local.properties
+2018-04-08 05:02:59,255 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2018-04-08 05:02:59,255 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2018-04-08 05:02:59,256 INFO  ProjectFixService - Build info for "/tmp/rdisk/1075/src/android_studio_app/GoDroid/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-08 05:02:59,256 INFO  ProjectFixService - Project was maybe fixed
+2018-04-08 05:02:59,256 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-08 05:02:59,256 INFO  SysUtils - Execute command: [/tmp/rdisk/1075/src/android_studio_app/GoDroid/gradlew, -b, /tmp/rdisk/1075/src/android_studio_app/GoDroid/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-08 05:03:06,646 INFO  ProjectTaskService - Detected possible tasks: 49
+2018-04-08 05:03:06,646 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-08 05:03:06,647 INFO  SysUtils - Execute command: [/tmp/rdisk/1075/src/android_studio_app/GoDroid/gradlew, -b, /tmp/rdisk/1075/src/android_studio_app/GoDroid/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-08 05:03:29,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:app:prepareComAndroidSupportAppcompatV72000Library
+:app:prepareComAndroidSupportSupportV42000Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.599 secs
+
+2018-04-08 05:03:29,714 INFO  FullProcessService - Found APK file: /tmp/rdisk/1075/src/android_studio_app/GoDroid/app/build/outputs/apk/app-debug.apk

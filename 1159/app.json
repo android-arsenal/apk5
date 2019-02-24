@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.afkar.sundatepicker",
+    "label" : "SunDatePicker",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0.8",
+    "versionCode" : 208,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACr1BMVEUAAABVVaqAgICAgIBRa3lVd3dYcntmgIBXcn5WcHxWcH1VcHxWcHxRbHYAAABVb3tVcXxWcH1WcHxSa3c3TllMYGdVb3xTbHc3T09FWmBVbns3SU9MYG5ee4lffIlbdoQ9T1tdeohOYm87U1lAUltdeodefIhffIlZdYItPEQAAFUAAABRa3dLZG8AAAASGBhLZG5Xc39adoNZdIJYc4BJYmwRFxcAAAAAAAAXHyMkLjUiLDMiLDIzMzMAAAAAAABAQEBWcH1bdYBXcX5/kZq5wcXa3N3l5eXg4OHEy82RoKdac3+0vcHAx8qLnKSyu8DIzc9lfYhZc3/h4uKdq7HKz9Fnfol/kpvk5OSgrbN3ipOKm6PX2dqZp653ipTDycyos7mAkpu7w8ajr7V1iZPW2NpYcn+Gl6CImaHg4OBlfYfCyMx2ipOWpat4i5Vpf4qmsbiQn6ZsgIvU19ieq7GdqrC2v8Pj4+OElZ6wur7Fy87GzM60vcKMnaVadIBgeIPk5OVfd4LN0tRsgYzR1ddYcn69xMjS1tehrrPg4eGTo6m5wcRXcX3Y2tyZpq57jpfj4+RffIlrhZLs7/H9/f2is7tgfYl4j5txipaktbzn6+1ffIp/lqHu8fL3+Pnk6euNoatmgY74+flshpNth5Oyv8be5Ofw8vPo7O7CzdJ6kZ3V3OD8/Px0jJj6+vvY3uJ2jppqhJHr7vB5kJxjf4zR2d2XqrOqucC6xsxviJX7+/xogo+Fm6XZ4OPb4eRhfouInafy9PV1jZm7x83Z3+NthpPH0dbt8PHx8/R3jpphforg5ei4xcvQ2NyVqLHp7e5+lJ99k5/z9fbJ0tf09ve2w8l8k57e5OZkf43K09ivvcSPo61ngo9gfYqKn6nX3uHM1dmtvMNgfYteeohdeod4XY3AAAAAQXRSTlMAAwQCEx4dCpbo7JaYmgHq+f386hcl7+8qJe4qJe/87yruJysc7Pn97CIDCKmtAyqw7fDv7bEsCSBCTUtMBQsOBDsjvXEAAAKCSURBVEjHY2CgF2BkIgAYUZQzMxM2ElkNkMnCyoYXsLKAlcHUs3NwchEAnNzscB3MDDyORABePqgGRgYWfkcBQSG8QFDAUViEAeJzJgZRMUchQuYLOYpLAJVCNEhKEaVBGqFBjI4anJxJ0eDi6ubu4enlDVXj4wsHftg0OPm7Q0BAIFh9ULA7HIRg0+APlw51AmkIc8evIRwoHhEZFR0DpGNBGuKAjPgECEjEoiEJKJ8MVJcS4e6emgZkpAMFMnB72jsTaEEWSCobqDAHSOcC6TzcGvKB0qlgqQIgqxBK5+PWUASULgZLlQBZpUC6zN29vKKyqrqmtg6bhvoGoHwjSEMIUEMkkK6Gh1FTM7aIawHK5ALVtbZBNaQiQrW9EYuGDqBEZ1dzVLc7xEk9Nb3ubn39LgkTgPwSVA0yshPlJk6aPAUBpk4EgmnTZ4ComUD+rIlys+UVUDVMnDMXrHbefCCxYCICLFwEFFiMRcPEJUuXLV+xctXqKVPWLEHSMHEWUMMqbBogYO26KVPWA+lJGzZs2AgW2QTUsBmnhi1bgdLbgIztQHoHSGTnmilTdu3GoWHanr1Adfv2A5kHgIyDh4CMw0DGEWyennj02NbjIG+fOAnSe+o0iHlm+1mQ0DmsGtZCgvT8BYhtFy/BQ/nyNNwarlzdCPPOtesQ5WsO35iIVcOSmytv3b6DFJ53753Zev/Bw80gNu5gxQEGvQZFEjUoEWeDMlQDI4OK6mw1dTm8QF3tkYYmgxa0ytLWefxo9iO8YPajJ7ra8DpOT9/A0MjYCA8wNjIxNdNDVKPmFpZW1tbWNjgAUMrK0sIcuaK2tbMnAOxsUSt/LQcCQIturRgA2aBN2SwOYPcAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1912,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"208\" android:versionName=\"2.0.8\" package=\"com.afkar.sundatepicker\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f080108\" android:label=\"SunDatePicker\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.afkar.sundatepicker.Application\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.afkar.sundatepicker.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1709885,
+  "crc32" : 260463523,
+  "sha256" : "62aacc4295445bc42641efab671f9d8669c24282cebc20fdb81c1fe0fab1e702",
+  "buildTime" : 1523151554000
+}
